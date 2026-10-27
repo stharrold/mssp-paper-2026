@@ -37,14 +37,16 @@ preregistered equivalence condition on pre-trends.
 their current benchmarks, early renewers' case-mix-adjusted regional spending was 3.4 percentage points higher than
 stayers' (95% credible interval [CrI], 1.7 to 5.4; *P* < .001). Early renewers were also beating their benchmarks by
 more (own-spending component, −2.1 points; 95% CrI, −3.8 to −0.5), and by the approximation the total expected
-gain from a reset did not differ (−0.5 points; 95% CrI, −2.0 to 0.8). Among 206 BASIC-track ACOs, early renewal was
+gain from a reset did not differ (−0.5 points; 95% CrI, −2.0 to 0.8). In a post hoc check, CMS's published 2022
+benchmarks for early renewers averaged 1.3% below their 2021 benchmarks. Among 206 BASIC-track ACOs, early renewal was
 associated with a higher regional pull (log-odds difference per 2 SD, 1.34; 95% CrI, 0.44 to 2.30) and a higher,
 two-sided BASIC level (1.34; 95% CrI, 0.38 to 2.31). Spending growth did not differ detectably (−0.4%; 95% CrI,
 −4.0% to 2.5%; *P* = .78); the equivalence condition did not hold, so this is not read as an effect.
 
 **Conclusions and Relevance:** ACOs that renewed early more often had regions that spent more relative to their
 benchmarks and were more often at higher BASIC levels, for which renewal opened a 75% sharing rate. By the study's
-approximation, a reset would not on average have raised their benchmarks. These are associations under the 2022
+approximation, and in CMS's published benchmarks examined post hoc, the reset did not on average raise their
+benchmarks. These are associations under the 2022
 rules; benchmarks set from 2024 credit prior savings.
 
 # Introduction
@@ -259,6 +261,16 @@ lockfile took security updates to 2 packages (filelock and virtualenv); no resul
 logged as the one deviation. One sentence of the plan's background is imprecise: it describes ENHANCED as sharing 75%
 of savings and losses, whereas it shares 75% of savings and up to 75% of losses.
 
+## Post hoc checks (not registered)
+
+After all registered results had been read, and in response to critical review of the draft, two checks of the
+expected gain were added (eTable 12 in Supplement 1). They reuse the registered pipeline's tables and estimator,
+change no registered file, and decide nothing. First, the validation was repeated on the change scale, the rebuilt
+against the actual change from the PY2021 benchmark, for the same 101 regular renewers. Second, early renewers'
+realized reset, their 2022 historical benchmark as CMS published it relative to their PY2021 benchmark, was compared
+with the rebuilt gain, and their PY2021-to-PY2022 change in updated benchmark was compared with stayers' with the
+group-comparison estimator above.
+
 ## Ethics
 
 The study used only publicly available, aggregate data on organizations and counties published by CMS. It involved
@@ -317,7 +329,11 @@ renewers also had higher savings rates in PY2020 (1.9 points; 95% CrI, 0.7 to 3.
 95% CrI, 0.9 to 2.2), the own-spending component smaller, and the total expected gain did not differ (−0.5 points;
 95% CrI, −2.0 to 0.8; *P* = .33). In unweighted means the own-spending and regional parts summed to −5.3 + 3.7 = −1.6
 points for early renewers and −3.2 + 2.2 = −1.0 for stayers: by the approximation, a reset would on average have
-lowered both groups' benchmarks.
+lowered both groups' benchmarks. Post hoc, CMS's published 2022 benchmarks bear this out for early renewers: their
+reset historical benchmarks averaged 1.3% below their PY2021 benchmarks (median −1.5%; 66% of the 29 were lower), the
+rebuilt gain had predicted −1.6 points on average against −1.4 realized for the 26 with both values, and their
+updated benchmarks rose from PY2021 to PY2022 no more than stayers' (difference 0.0 points; 95% CrI, −2.0 to 2.2)
+(eTable 12 in Supplement 1).
 
 {{include tables/table2.md}}
 
@@ -392,7 +408,7 @@ In this preregistered study of the 2019 and 2020 MSSP cohorts, ACOs that ended t
 ones on average had regions that spent more relative to their current benchmarks, and, among BASIC-track ACOs, were
 more often already at the higher, two-sided levels. They were also beating their benchmarks by more than ACOs that
 stayed, so by the study's approximation a reset would not on average have raised their benchmarks: the regional gain
-and the own-spending loss roughly offset. Spending growth in the 3 years after renewal did not differ detectably from
+and the own-spending loss roughly offset. CMS's published 2022 benchmarks, examined post hoc, agree. Spending growth in the 3 years after renewal did not differ detectably from
 that of ACOs not yet renewed, a result the design could not separate from a continuation of a pre-period difference in
 trends.
 
@@ -446,7 +462,9 @@ been relative to its region and may carry differences in coding intensity. The c
 counterpart to validate it. Second, the expected gain is an approximation built from final PY2021 data that ACOs did
 not have when they decided. Validation was on benchmark levels, which vary widely across ACOs, while the hypotheses
 concern differences of a few points of the benchmark, so it says less about the accuracy of the gain than its
-correlation suggests; the own-spending component's estimated error exceeds its spread, so H2a and the total gain are weak evidence for any single ACO, and the regional
+correlation suggests: repeated post hoc on the change scale, it gave a Spearman correlation of 0.61 and a median
+absolute error of 1.7 points with little mean bias (−0.3), so group means are better supported than any one ACO's
+value; the own-spending component's estimated error exceeds its spread, so H2a and the total gain are weak evidence for any single ACO, and the regional
 part could not be checked. Third, with 29 early renewers, 24 in the decision model, H3 was underpowered and its
 supported coefficients are probably overestimates. ACOs under common ownership may decide together, and ACOs in the
 same market share regional spending, so the effective sample is smaller than the ACO count, and the permutation tests,
@@ -468,7 +486,8 @@ but resampled and simulated values only within simulation error (for example, H1
 
 ACOs that renewed early into 2022 MSSP agreements more often had regions that spent more relative to their benchmarks
 and were more often at higher BASIC levels, for which renewal opened the ENHANCED track. By the study's
-approximation, a reset would not on average have raised their benchmarks, and spending growth afterward showed no
+approximation, and in CMS's published 2022 benchmarks examined post hoc, the reset did not on average raise their
+benchmarks, and spending growth afterward showed no
 detectable difference. These are associations under the 2022 rules, measured with public data under a preregistered
 plan.
 

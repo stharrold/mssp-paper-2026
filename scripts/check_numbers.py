@@ -55,7 +55,7 @@ def leaves(x):
 
 def candidates() -> list[float]:
     values = set()
-    sources = [*sorted((DATA / "results").glob("*.json")), DATA / "dashboard-data.json"]
+    sources = [*sorted((DATA / "results").glob("*.json")), *sorted((DATA / "posthoc").glob("*.json")), DATA / "dashboard-data.json"]
     for path in sources:
         for v in leaves(json.loads(path.read_text())):
             values.update({v, 100 * v})
@@ -95,7 +95,7 @@ def records() -> list[list[float]]:
             for v in x:
                 walk(v)
 
-    for path in [*sorted((DATA / "results").glob("*.json")), DATA / "dashboard-data.json"]:
+    for path in [*sorted((DATA / "results").glob("*.json")), *sorted((DATA / "posthoc").glob("*.json")), DATA / "dashboard-data.json"]:
         walk(json.loads(path.read_text()))
     return out
 

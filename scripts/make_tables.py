@@ -6,6 +6,7 @@ include filter (scripts/include.lua). Nothing is typed by hand: rerun this after
 Usage: python3 scripts/make_tables.py
 """
 
+import json
 import math
 from collections import Counter
 
@@ -13,6 +14,7 @@ from results import ROOT, dashboard, interval, load, num, pval
 
 OUT = ROOT / "tables"
 D = dashboard()
+POSTHOC = json.loads((ROOT / "data" / "posthoc" / "validation_change.json").read_text())
 VALIDATION, POWER, CONFIRM, ROBUST, DID, CONV, EXPL = (load(n) for n in ("validation", "power", "confirm", "robustness", "did", "conventional", "exploratory"))
 GROUPS = ("early", "stayer", "leaver")
 HEAD = ("Early renewers", "Stayers", "Left after PY2021")
@@ -571,6 +573,47 @@ def etable_spending() -> str:
     )
 
 
+def etable_posthoc() -> str:
+    reg, er = POSTHOC["regular_renewers_change"], POSTHOC["early_renewers_realized"]
+    rv, upd = er["rebuilt_vs_realized"], POSTHOC["benchmark_update_2021_2022"]
+
+    def check(label: str, a: dict) -> list[str]:
+        return [
+            label,
+            str(a["n"]),
+            num(a["spearman"], 2),
+            num(a["median_abs_error"], 1),
+            num(a["mean_error"], 1, sign=True),
+            f"{num(100 * a['same_sign_share'], 0)}%",
+            f"{num(a['rebuilt']['mean'], 1, sign=True)} / {num(a['actual']['mean'], 1, sign=True)}",
+        ]
+
+    rows = [
+        check("Regular renewers: rebuilt vs actual change", reg),
+        check("Early renewers: rebuilt gain vs realized reset", rv),
+    ]
+    a = er["all_with_hist_2022"]
+    notes = (
+        "Post hoc and exploratory; not registered (stharrold.github.io, analysis/mssp-benchmark-ratchet/posthoc/). "
+        "Changes are 100 x (2022 historical benchmark - PY2021 updated benchmark) / PY2021 updated benchmark, in "
+        "percentage points of the PY2021 benchmark, both in 2021 dollars: rebuilt from public files, or actual as CMS "
+        "published it in the PY2022 results file. Error = rebuilt - actual. Realized reset, all "
+        f"{er['n_with_hist_2022']} early renewers: mean {num(a['mean'], 1, sign=True)}, median {num(a['median'], 1, sign=True)}, "
+        f"{num(100 * a['share_negative'], 0)}% below the PY2021 benchmark. Updated benchmark PY2021 to PY2022 (includes the "
+        f"annual update for both groups): early renewers {num(upd['group_means']['early'], 1, sign=True)}% and stayers "
+        f"{num(upd['group_means']['stayer'], 1, sign=True)}% on average; within-cohort difference "
+        f"{num(upd['posterior_mean'], 1, sign=True)} points (95% CrI, {interval(*upd['eti95'])}; *P* = {pval(upd['p_value'])})."
+    )
+    return table(
+        ["Check", "ACOs, No.", "Spearman $\\rho$", "Median absolute error", "Mean error", "Same sign", "Mean rebuilt / actual"],
+        rows,
+        "eTable 12. Post hoc checks of the expected gain against CMS's published 2022 benchmarks",
+        notes,
+        align="lrrrrrr",
+        widths=[10, 3, 3, 3, 3, 3, 4],
+    )
+
+
 TABLES = {
     "table1": table1,
     "table2": table2,
@@ -587,6 +630,7 @@ TABLES = {
     "etable9-exploratory": etable_exploratory,
     "etable10-enhanced": etable_enhanced,
     "etable11-spending": etable_spending,
+    "etable12-posthoc": etable_posthoc,
 }
 
 

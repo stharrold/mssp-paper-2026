@@ -15,7 +15,8 @@ title: "Supplement 1. Why did Medicare ACOs reset their benchmarks early? A pre-
 - eTable 9. Exploratory analyses
 - eTable 10. The 2 early renewers already in ENHANCED
 - eTable 11. Per-capita spending by agreement year
-- eMethods. Registration record (eTable 12) and deviations
+- eTable 12. Post hoc checks against CMS's published 2022 benchmarks (not registered)
+- eMethods. Registration record (eTable 13) and deviations
 - STROBE checklist
 
 All tables are generated from the committed results files by `scripts/make_tables.py` in the manuscript repository.
@@ -43,6 +44,8 @@ Item and section numbers refer to the registered analysis plan (`PREREGISTRATION
 
 {{include tables/etable11-spending.md}}
 
+{{include tables/etable12-posthoc.md}}
+
 # eMethods. Registration record and deviations
 
 | Item | Value |
@@ -53,7 +56,7 @@ Item and section numbers refer to the registered analysis plan (`PREREGISTRATION
 | Code | commit `a4064f5`, archive SHA-256 `4c98d76a586151ab608851c69217a5ddb6b394201643a3de89a839bb1f659cd4` |
 | Data | 40 CMS public use files downloaded October 22, 2026, each with its SHA-256 hash in `data-snapshot.tsv`; archived on OSF[@osfproject] |
 
-: eTable 12. Registration record
+: eTable 13. Registration record
 
 **Outcome lock.** Every data file is hashed before it is read. A file whose hash matches a performance-year results
 file, a county spending file or the county assignment file could not be opened until the registration record existed, and the code had no
@@ -95,7 +98,7 @@ to this document.
 | Setting | 5 | Setting, locations, dates of recruitment, exposure, follow-up, data collection | Methods, Data sources; Population and groups |
 | Participants | 6 | Eligibility criteria, sources and methods of selection; follow-up | Methods, Population and groups; Figure 1 |
 | Variables | 7 | Define outcomes, exposures, predictors, confounders, effect modifiers | Methods, Variables; Hypotheses |
-| Data sources/measurement | 8 | Sources and methods of measurement; comparability | Methods, Data sources; Variables (validation); eTable 1 |
+| Data sources/measurement | 8 | Sources and methods of measurement; comparability | Methods, Data sources; Variables (validation); eTable 1; eTable 12 (post hoc, change scale) |
 | Bias | 9 | Efforts to address potential sources of bias | Methods, Study design (preregistration, outcome lock), Statistical analysis (equivalence condition); Discussion, Limitations |
 | Study size | 10 | How the study size was arrived at | Methods, Population and groups (all eligible ACOs); Power; eTable 2 |
 | Quantitative variables | 11 | How quantitative variables were handled; groupings | Methods, Variables; Statistical analysis (scaling by 2 SD) |

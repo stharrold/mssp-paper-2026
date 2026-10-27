@@ -13,6 +13,7 @@ is recomputed. Every table and figure in the manuscript is generated from these 
 | `results/conventional.json` | same | `3508370b700d1d005b228d943bd25d79b10578acc8aa9781e47b6570be347e1d` |
 | `results/exploratory.json` | same | `280bbe10b738a284a3eefb47e6e69fe2a035a8ecc26f5eddf005de535f51efb5` |
 | `dashboard-data.json` | `content/static/20261027-preregistered-mssp-early-renewal/data.json` at commit [`a226a7f`](https://github.com/stharrold/stharrold.github.io/blob/a226a7f71cf96bee8f3479111dd96a89744e6fc3/content/static/20261027-preregistered-mssp-early-renewal/data.json) | `894953791e3396125530892ac222aae02e92135fa1758ac838b00733ebd6583e` |
+| `posthoc/validation_change.json` | `analysis/mssp-benchmark-ratchet/posthoc/` at commit [`bf91e5c`](https://github.com/stharrold/stharrold.github.io/blob/bf91e5c/analysis/mssp-benchmark-ratchet/posthoc/validation_change.json) (**post hoc, not registered**) | `2a60479cd18f9761b7a86472dfb2eb436f8f84d0f3bee59e267555acc3128318` |
 
 Each results file records the commit of the registered code it ran at (`git_commit`). `dashboard-data.json` is built
 from the results files by `analysis/mssp-benchmark-ratchet/report/dashboard_data.py`; it puts the comparisons,

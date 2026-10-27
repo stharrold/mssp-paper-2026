@@ -23,10 +23,17 @@ on 2022-01-01 confirms that ACOs experienced with performance-based risk could e
   computed with reduced sampler settings (it is a different fit from Table 3's, not a rounding difference).
 - Author's employment disclosed under Competing interests, with a views disclaimer (author-approved wording).
 
-## Not applied: new analyses (author's decision pending)
+## Applied: post hoc validation checks (issue 2; author's choice)
 
-All would be post hoc, outside the registered pipeline, and labeled exploratory: change-scale validation and early
-renewers' realized PY2022 benchmarks (issue 2); a stay/renew/leave model across 2022-2024 and the 2024 renewals
+`analysis/mssp-benchmark-ratchet/posthoc/validation_change.py` (study repository, commit bf91e5c), reported in the
+Methods, Results, Limitations and eTable 12 as post hoc. Change scale, 101 regular renewers: Spearman 0.61, median
+absolute error 1.7 points, mean error -0.3. Early renewers' realized 2022 reset from CMS's published benchmarks: mean
+-1.3%, median -1.5%, 66% below the PY2021 benchmark; rebuilt -1.6 vs realized -1.4 (26 ACOs). Updated benchmark
+PY2021 to PY2022, early renewers minus stayers: 0.0 points (95% CrI, -2.0 to 2.2).
+
+## Not applied: other new analyses (author's decision: not before posting)
+
+All would be post hoc, outside the registered pipeline, and labeled exploratory: a stay/renew/leave model across 2022-2024 and the 2024 renewals
 (issue 3); non-ESRD pull recovering the 39 excluded ACOs (issue 7); H3 with the CMS savings rate as control (issue 6);
 cluster permutation by parent organization (issue 5); a beneficiary-weighted check; Table 1 adjustment factors;
 GPDC/REACH destinations of leavers.
