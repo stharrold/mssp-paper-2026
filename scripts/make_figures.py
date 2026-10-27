@@ -111,8 +111,8 @@ def figure1() -> None:
             [
                 f"{gain['n_early']} vs {gain['n_stayer']}",
                 f"excluded {gain['excluded']['early']} and {gain['excluded']['stayer']}:",
-                "ESRD county counts",
-                "all suppressed",
+                "ESRD county counts all",
+                "suppressed (post hoc query)",
             ],
         ),
         (
@@ -209,7 +209,7 @@ def figure4() -> None:
     a.set_xticks(years)
     a.set_xticklabels([str(y) if y != 2021 else "2021\n(ref.)" for y in years], fontsize=7.5)
     a.set_xlabel("Performance year", fontsize=8, color=MUTED)
-    a.set_ylabel("Early renewers minus comparison,\nlog points x 100", fontsize=8, color=MUTED)
+    a.set_ylabel("Early renewers minus comparison,\nlog points", fontsize=8, color=MUTED)
     a.tick_params(colors=MUTED, labelsize=7.5, length=0)
     a.grid(axis="y", color=GRID, lw=0.6)
     a.set_axisbelow(True)
@@ -232,7 +232,7 @@ def figure4() -> None:
     rows = [(labels[e["label"]][0], e["mean"], e["lo"], e["hi"], labels[e["label"]][1]) for e in D["h4"]["estimates"]]
     forest(b, rows, "Difference in spending growth, %")
     b.set_xlim(-13, 6)
-    panel_label(b, "B", f"Estimates ({D['h4']['sample']['early']} vs {D['h4']['sample']['comparison']} ACOs)")
+    panel_label(b, "B", "Registered, robustness and conventional estimates")
     save(fig, "figure4-spending")
 
 

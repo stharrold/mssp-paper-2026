@@ -4,6 +4,21 @@ author: "Samuel Thomas Harrold"
 date: "October 2026"
 lang: en-US
 
+# Latin Modern by file name (tectonic does not look fonts up by family name). Eisvogel's default, Source Sans Pro,
+# maps the hyphen to U+2011 in the PDF's text layer, so DOIs and URLs copied from the PDF would not resolve. Latin
+# Modern has no Greek text glyphs: write Greek letters as math.
+mainfont: lmroman10-regular.otf
+mainfontoptions:
+  - BoldFont=lmroman10-bold.otf
+  - ItalicFont=lmroman10-italic.otf
+  - BoldItalicFont=lmroman10-bolditalic.otf
+sansfont: lmsans10-regular.otf
+sansfontoptions:
+  - BoldFont=lmsans10-bold.otf
+  - ItalicFont=lmsans10-oblique.otf
+  - BoldItalicFont=lmsans10-boldoblique.otf
+monofont: lmmono10-regular.otf
+
 documentclass: article
 papersize: letter
 geometry:

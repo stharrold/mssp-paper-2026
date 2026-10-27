@@ -17,5 +17,5 @@
 : eTable 6. Conventional (frequentist) counterparts
 
 ::: {.table-notes}
-Reported only; not used for any decision. Differences are early renewers minus stayers (pp; H1 in pp of savings rate). Adjusted OLS adds track, level and size to cohort. Event-study coefficients are log points x 100 relative to PY2021, from two-way fixed effects with errors clustered by ACO. TWFE, two-way fixed effects.
+Reported only; not used for any decision. Differences are early renewers minus stayers (pp; H1 in pp of savings rate). Adjusted OLS adds track, level and size to cohort. Event-study coefficients are log points (0.01 in log spending) relative to PY2021, from two-way fixed effects with errors clustered by ACO. TWFE, two-way fixed effects.
 :::

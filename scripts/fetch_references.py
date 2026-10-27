@@ -71,6 +71,9 @@ TITLE_OVERRIDES = {
 # The CSL fields the AMA style uses; Crossref's other fields (some arrays pandoc cannot read) are dropped.
 KEEP = {"type", "title", "subtitle", "author", "editor", "container-title", "volume", "issue", "page", "issued", "published-print", "DOI", "URL", "publisher"}
 
+# Health Affairs registers its online teaser as a subtitle; it is not part of the title.
+TEASERS = {"lyu2023", "trombley2022"}
+
 # Fields Crossref lacks, from the article itself (Bond: the PubMed record; the others: the article's e-locator).
 FIELD_OVERRIDES = {
     "bond2025": {"page": "1897-1905"},
@@ -106,7 +109,7 @@ def main() -> None:
             if isinstance(v, list) and k not in ("author", "editor") and v and isinstance(v[0], str):
                 item[k] = v[0]
         item["id"] = key
-        if item.get("subtitle") and ":" not in item.get("title", ""):
+        if item.get("subtitle") and ":" not in item.get("title", "") and key not in TEASERS:
             item["title"] = f"{item['title']}: {item['subtitle']}"
         for a in item.get("author", []):
             for part in ("family", "given"):

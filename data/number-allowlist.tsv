@@ -10,3 +10,7 @@
 11,312	median PY2021 per-capita updated benchmark (UpdatedBnchmk) of the 332 of 334 base-population ACOs with a value (11,312.5), from the PY2021 results file in the snapshot, as in the post
 385	3.4% of 11,312 (384.6); a translation of the H2b estimate into dollars
 0.9 to 1.1	registered calibration range for the validation slope (plan section 4.4)
+379	3.3505 (confirm.json groups.H2b_pull.posterior_mean) x 11,312 / 100 = 379.0: the H2b difference in dollars of regional spending relative to the benchmark
+176	1.5568 (confirm.json groups.regional_comp.posterior_mean) x 11,312 / 100 = 176.1: the regional-component difference in dollars
+14	stayers whose assignment method changed at PY2022, from the enrollment files (plan section 1.4)
+15	excluded ACOs whose aged/dual county counts were also hidden: diagnostic query after the results (as in the post's Limitations)

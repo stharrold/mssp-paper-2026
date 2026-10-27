@@ -17,5 +17,5 @@
 : eTable 9. Exploratory analyses
 
 ::: {.table-notes}
-Labeled exploratory in the registered plan (section 5.6): no predictions and no verdicts. Two ACOs without a census region (2) are excluded from the region model.
+Labeled exploratory in the registered plan (section 5.6): no predictions and no verdicts. 2 of the 334 ACOs have no census region; the region model's sample is 206 ACOs (24 early renewers), as in H3.
 :::

@@ -11,8 +11,8 @@
 |     Confirmatory | −2.1 | −3.8 to −0.5 | .003 |
 |     Regression, cohort only (5.3) | −1.5 | −2.8 to −0.3 |  |
 |     Regression + track, level and size (item 1) | −1.3 | −2.6 to 0.0 |  |
-|     Difference in medians (item 2) | −1.4 | −3.2 to 0.0 | .09 |
-|     2020-01-01 cohort only (item 3) | −1.8 | −4.2 to 0.5 | .04 |
+|     Difference in medians (item 2)^a^ | −1.4 | −3.2 to 0.0 | .09 |
+|     2020-01-01 cohort only (item 3)^a^ | −1.8 | −4.2 to 0.5 | .04 |
 |     BY2-BY3 only in step 1 (item 6) | −1.9 | −3.7 to −0.2 | .01 |
 |     Complete cases (item 8) | −2.1 | −3.9 to −0.5 | .005 |
 | **H1 savings rate, PY2020** |  |  |  |
@@ -31,5 +31,5 @@
 : eTable 3. Robustness of the group comparisons
 
 ::: {.table-notes}
-Early renewers minus stayers, in the units of Table 2. Item numbers refer to the registered plan's robustness list (section 5.5); '5.3' is the registered regression with cohort only. Regression rows are Bayesian regressions with 95% credible intervals and no permutation P value.
+Early renewers minus stayers, in the units of Table 2. Item numbers refer to the registered plan's robustness list (section 5.5); '5.3' is the registered covariate-adjusted estimate with cohort only. Regression rows are robust Bayesian linear regressions (Student-t errors on the standardized variable, Normal(0, 1) priors) of the variable on early renewal and cohort (5.3) or cohort, track, level and size (item 1), with 95% credible intervals and no P value; the robust likelihood downweights a few large values. Median rows give the bootstrap posterior mean of the difference in medians; their P value tests the observed difference. ^a^The P value and the 95% interval disagree about zero; the plan requires reporting both and noting the disagreement.
 :::

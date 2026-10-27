@@ -82,8 +82,9 @@ def table1() -> str:
         "Early renewers ended their agreements and began new ones on January 1, 2022; stayers remained in their "
         "agreements; leavers left the program after PY2021. The savings rate is CMS's reported savings as a share of "
         "the benchmark (positive when spending was below the benchmark). The expected-gain variables could not be "
-        "built for ACOs whose county counts of assigned beneficiaries with end-stage renal disease were all suppressed "
-        "(Methods). Leavers were not compared in any registered test."
+        "built for every ACO; a diagnostic query run after the results, outside the registered pipeline, traced each "
+        "exclusion to county counts of assigned beneficiaries with end-stage renal disease that were all suppressed "
+        "(Results). Leavers were not compared in any registered test."
     )
     return table(
         ["Characteristic", *HEAD],
@@ -104,14 +105,19 @@ def table2() -> str:
             r["label"].replace("H1 ", "H1, ").replace("H2b ", "H2b, ").replace("H2a ", "H2a, ") + f" ({roles[r['role']].lower()})",
             f"{r['n_early']} / {r['n_stayer']}",
             f"{num(r['mean'], 1, sign=True)} ({interval(r['lo'], r['hi'])})",
+            num(r["p_positive"], 3),
             pval(r["p"]),
             num(r["mde"]) if r["mde"] else "",
             verdicts[r["verdict"]],
         ]
         rows.append([f"**{c}**" if bold and c else c for c in cells])
+    g = CONFIRM["groups"]["H2b_pull"]
+    analyzed = {k: 2.80 * POWER["h2"][k]["sd_stayers"] * math.sqrt(1 / g["n_early"] + 1 / g["n_stayer"]) for k in ("pull", "own")}
     notes = (
-        "Abbreviations: CrI, credible interval; MDE, minimum detectable effect at 80% power, two-sided α = .05, "
-        "computed for 29 vs 277 ACOs; pp, percentage points; PY, performance year. Differences are early renewers "
+        "Abbreviations: CrI, credible interval; MDE, minimum detectable effect at 80% power, two-sided $\\alpha$ = .05, "
+        f"computed before the tests for 29 vs 277 ACOs (for the {g['n_early']} vs {g['n_stayer']} compared on the expected-gain variables "
+        f"it is {num(analyzed['pull'])} for H2b and {num(analyzed['own'])} for H2a); Pr(>0), posterior probability that the "
+        "difference is positive; pp, percentage points; PY, performance year. Differences are early renewers "
         "minus stayers within agreement cohort, averaged with weights proportional to early renewers per cohort. "
         "Posterior means and 95% equal-tailed CrIs are from a Bayesian bootstrap (10,000 draws); P values are from "
         "stratified permutation (10,000 shuffles within cohort). Expected-gain variables are in percentage points of "
@@ -119,12 +125,12 @@ def table2() -> str:
         "and the two descriptive rows carry none."
     )
     return table(
-        ["Measure (role)", "Early / stayers, No.", "Difference (95% CrI)", "*P*", "MDE", "Verdict"],
+        ["Measure (role)", "Early / stayers, No.", "Difference (95% CrI)", "Pr(>0)", "*P*", "MDE", "Verdict"],
         rows,
         "Table 2. Early renewers compared with stayers: regional pull (H2b), own-spending component (H2a), savings rates (H1) and the expected gain",
         notes,
-        align="lrrrrl",
-        widths=[10, 4, 6, 2, 2, 4],
+        align="lrrrrrl",
+        widths=[10, 4, 6, 2, 2, 2, 4],
     )
 
 
@@ -141,6 +147,7 @@ def table3() -> str:
             [
                 ("**" + r["label"] + "**") if r["core"] else r["label"],
                 f"{num(r['mean'], 2)} ({interval(r['lo'], r['hi'], 2)})",
+                num(r["p_positive"], 3),
                 pval(test.get("p")),
                 (test.get("decision") or "adjustment").capitalize(),
                 f"{num(t['mean'], 2)} ({interval(t['lo'], t['hi'], 2)})",
@@ -149,22 +156,24 @@ def table3() -> str:
         )
     s = D["h3"]["sample"]
     notes = (
-        f"Abbreviations: CrI, credible interval; OR, odds ratio. Bayesian logistic regression of early renewal among "
+        "Abbreviations: CrI, credible interval; OR, odds ratio; Pr(>0), posterior probability that the coefficient is "
+        f"positive. Bayesian logistic regression of early renewal among "
         f"{s['n']} BASIC-track ACOs ({s['early']} early renewers; {s['excluded']['early']} early renewers and "
-        f"{s['excluded']['stayer']} stayers excluded for a missing predictor). Continuous predictors are scaled by 2 SD, "
-        "so coefficients are log-odds differences per 2 SD; the BASIC level compares levels C-E with A-B. Core "
+        f"{s['excluded']['stayer']} stayers excluded for a missing predictor). Continuous predictors are centered and divided by "
+        "2 SD, so their coefficients are log-odds differences per 2 SD; binary predictors are centered, so theirs are "
+        "per category (the BASIC level compares levels C-E with A-B). Core "
         "predictors (bold) are tested by direct simulation under the reduced model (10,000 simulated datasets); "
         "adjustment factors are estimates only. The own-spending component enters with a measurement-error model "
-        f"(σ = {num(VALIDATION['sigma_v_model'], 2)} pp). The Student-t column is the registered prior "
+        f"($\\sigma_v$ = {num(VALIDATION['sigma_v_model'], 2)} pp). The Student-t column is the registered prior "
         "sensitivity analysis; the maximum-likelihood ORs are the conventional counterpart, reported only."
     )
     return table(
-        ["Predictor", "Posterior mean (95% CrI)", "*P*", "Verdict", "Student-t prior (95% CrI)", "Conventional OR (95% CI)"],
+        ["Predictor", "Posterior mean (95% CrI)", "Pr(>0)", "*P*", "Verdict", "Student-t prior (95% CrI)", "Conventional OR (95% CI)"],
         rows,
         "Table 3. Decision model of early renewal among BASIC-track ACOs (H3)",
         notes,
-        align="lrrlrr",
-        widths=[7, 6, 2, 4, 6, 6],
+        align="lrrrlrr",
+        widths=[7, 6, 2, 2, 4, 6, 6],
     )
 
 
@@ -232,12 +241,15 @@ def table4() -> str:
     eq = pre["equivalence"]
     notes = (
         "Abbreviations: CrI, credible interval; NA, not available (the propensity-weighted estimate has a permutation "
-        "P value but no interval); PY, performance year. The outcome is the change in log per-capita spending from "
+        f"P value but no interval; its largest weight is {num(rob['3_propensity_weighted']['max_weight'], 2)}); PY, "
+        "performance year. The outcome is the change in log per-capita spending from "
         "PY2020-PY2021 to PY2022-PY2024, shown as a percent difference in spending growth, early renewers minus ACOs "
         "not yet renewed. A stayer's years after it renewed into a 2023 or 2024 agreement are excluded. Equivalence "
         f"condition: the pre-trend bound scaled to the distance between period midpoints ({num(eq['c_bar'], 2)} years) "
-        f"is {num(eq['scaled_bound'], 3)} log points, above the absolute H4 estimate of {num(eq['abs_h4'], 3)}, so the "
-        "condition does not hold and H4 is not read as an effect."
+        f"is {num(100 * eq['scaled_bound'], 1)} log points, above the absolute H4 estimate of {num(100 * eq['abs_h4'], 1)} log "
+        "points (1 log point = 0.01 in log spending, about 1%), so the condition does not hold and H4 is not read as an effect. "
+        "The two-way fixed-effects model has one more ACO: the stayer with no post-period spending value keeps its "
+        "pre-period years."
     )
     return table(
         ["Estimate", "Early / comparison, No.", "Difference, %", "95% CrI", "*P*"],
@@ -280,10 +292,10 @@ def etable_validation() -> str:
         "sample, and the 2022 results file was filtered as it was loaded. Registered pass rule: Spearman correlation "
         "at least 0.80 and median absolute percentage error at most 5%; calibration only if the slope of actual on "
         "rebuilt fell outside 0.9 to 1.1. Result: passed, no calibration. The error SD of the step-1 check sets the "
-        f"measurement-error SD of the own-spending component, σ = {num(VALIDATION['sigma_v_model'], 2)} pp."
+        f"measurement-error SD of the own-spending component, $\\sigma_v$ = {num(VALIDATION['sigma_v_model'], 2)} pp."
     )
     return table(
-        ["Check", "ACOs, No.", "Spearman ρ", "Median absolute error, %", "Slope", "Intercept, $"],
+        ["Check", "ACOs, No.", "Spearman $\\rho$", "Median absolute error, %", "Slope", "Intercept, $"],
         rows,
         "eTable 1. Validation of the rebuilt benchmark against benchmarks CMS published for regular renewers",
         notes,
@@ -315,7 +327,7 @@ def etable_power() -> str:
         ],
         [
             "H4, spending change",
-            f"SD {num(p['h4']['sd_delta_pre'], 3)} log points (pre-period change)",
+            f"SD {num(100 * p['h4']['sd_delta_pre'], 1)} log points (pre-period change)",
             f"{num(100 * p['h4']['mde_log'], 1)} log points",
             f"{num(100 * (math.exp(p['h4']['mde_log']) - 1), 1, sign=True)}% or {num(100 * (math.exp(-p['h4']['mde_log']) - 1), 1)}%",
         ],
@@ -331,11 +343,18 @@ def etable_power() -> str:
             ]
         )
     notes = (
-        "Minimum detectable effects at 80% power, two-sided α = .05, for 29 early renewers vs 277 stayers, computed after "
-        "registration and committed before any confirmatory estimate. For H3, power was simulated only at a log-odds "
+        "Minimum detectable effects at 80% power, two-sided $\\alpha$ = .05, for 29 early renewers vs 277 stayers, computed after "
+        "registration and committed before any confirmatory estimate; 1 log point = 0.01 in log spending. For H3, power was simulated only at a log-odds "
         "difference of 0.5; a predictor counts as detected when its 95% credible interval excludes zero."
     )
     return table(["Test", "Spread used", "Minimum detectable effect", "Note"], rows, "eTable 2. Power analysis", notes, align="llrl", widths=[5, 7, 4, 5])
+
+
+def disagrees(r: dict) -> bool:
+    """A row whose P value (< .05 or not) and 95% interval (excluding zero or not) disagree, which the plan says to note."""
+    if r.get("p") is None or r.get("lo") is None:
+        return False
+    return (r["p"] < 0.05) != (r["lo"] > 0 or r["hi"] < 0)
 
 
 def etable_robust_groups() -> str:
@@ -343,11 +362,17 @@ def etable_robust_groups() -> str:
     for g in D["robustness"]["groups"]:
         rows.append([f"**{g['label']}**", "", "", ""])
         for r in g["rows"]:
-            rows.append([f"\u00a0\u00a0\u00a0\u00a0{r['label']}", num(r["mean"], 1, sign=True), interval(r["lo"], r["hi"]), pval(r["p"])])
+            flag = disagrees(r)
+            rows.append([f"\u00a0\u00a0\u00a0\u00a0{r['label']}" + ("^a^" if flag else ""), num(r["mean"], 1, sign=True), interval(r["lo"], r["hi"]), pval(r["p"])])
     notes = (
         "Early renewers minus stayers, in the units of Table 2. Item numbers refer to the registered plan's robustness "
-        "list (section 5.5); '5.3' is the registered regression with cohort only. Regression rows are Bayesian "
-        "regressions with 95% credible intervals and no permutation P value."
+        "list (section 5.5); '5.3' is the registered covariate-adjusted estimate with cohort only. Regression rows are "
+        "robust Bayesian linear regressions (Student-t errors on the standardized variable, Normal(0, 1) priors) of the "
+        "variable on early renewal and cohort (5.3) or cohort, track, level and size (item 1), with 95% credible "
+        "intervals and no P value; the robust likelihood downweights a few large values. Median rows give the "
+        "bootstrap posterior mean of the difference in medians; their P value tests the observed difference. "
+        "^a^The P value and the 95% interval disagree about zero; the plan requires reporting both and noting the "
+        "disagreement."
     )
     return table(["Analysis", "Difference", "95% interval", "*P*"], rows, "eTable 3. Robustness of the group comparisons", notes, align="lrrr")
 
@@ -357,7 +382,8 @@ def etable_robust_h3() -> str:
     for g in D["robustness"]["h3"]:
         rows.append([f"**{g['label']}**", "", "", ""])
         for r in g["rows"]:
-            rows.append([f"\u00a0\u00a0\u00a0\u00a0{r['label']}", num(r["mean"], 2), interval(r["lo"], r["hi"], 2), pval(r["p"])])
+            label = f"\u00a0\u00a0\u00a0\u00a0{r['label']}" + ("^a^" if disagrees(r) else "")
+            rows.append([label, num(r["mean"], 2), interval(r["lo"], r["hi"], 2), pval(r["p"])])
     notes = (
         "Log-odds differences per 2 SD (BASIC level: C-E vs A-B). The Firth regression includes the core predictors and "
         "cohort, with profile-likelihood intervals and a direct-simulation P value; it would have decided H3 only if the "
@@ -423,8 +449,8 @@ def etable_conventional() -> str:
         )
     notes = (
         "Reported only; not used for any decision. Differences are early renewers minus stayers (pp; H1 in pp of "
-        "savings rate). Adjusted OLS adds track, level and size to cohort. Event-study coefficients are log points x 100 "
-        "relative to PY2021, from two-way fixed effects with errors clustered by ACO. TWFE, two-way fixed effects."
+        "savings rate). Adjusted OLS adds track, level and size to cohort. Event-study coefficients are log points "
+        "(0.01 in log spending) relative to PY2021, from two-way fixed effects with errors clustered by ACO. TWFE, two-way fixed effects."
     )
     return table(["Hypothesis", "Method", "Estimate", "95% CI", "*P*"], rows, "eTable 6. Conventional (frequentist) counterparts", notes, align="llrrr")
 
@@ -454,9 +480,13 @@ def etable_attrition() -> str:
             if grp == "early" and status == "no spending value":
                 continue
             rows.append([f"{label}: {slabel}", *(str(counts.get((grp, y, status), 0)) for y in years)])
+    post = {g: sum(counts.get((g, y, "included"), 0) for y in years) for g in ("early", "stayer")}
+    n_h4 = {"early": DID["sample"]["early"], "stayer": DID["sample"]["comparison"]}
     notes = (
         f"Required by the registered plan (section 4.5). PY2020 and PY2021 include all {counts[('early', 2021, 'included')]} "
-        f"early renewers and {counts[('stayer', 2021, 'included')]} stayers."
+        f"early renewers and {counts[('stayer', 2021, 'included')]} stayers. Follow-up: a mean of "
+        f"{num(post['early'] / n_h4['early'], 2)} included post-period years per early renewer and "
+        f"{num(post['stayer'] / n_h4['stayer'], 2)} per comparison ACO (of 3)."
     )
     return table(["Group and status", "PY2022", "PY2023", "PY2024"], rows, "eTable 8. Attrition from the H4 spending panel, by group and year", notes, align="lrrr")
 
@@ -476,11 +506,61 @@ def etable_exploratory() -> str:
     rows.append(["**Census region in H3** (log-odds vs Northeast)", "", ""])
     for r in D["exploratory"]["region"]["rows"]:
         rows.append([f"\u00a0\u00a0\u00a0\u00a0{r['label']}", num(r["mean"], 2, sign=True), interval(r["lo"], r["hi"], 2)])
+    region = EXPL["census_region_in_h3"]
     notes = (
-        "Labeled exploratory in the registered plan (section 5.6): no predictions and no verdicts. Two ACOs without a "
-        f"census region ({D['exploratory']['region']['excluded_no_region']}) are excluded from the region model."
+        "Labeled exploratory in the registered plan (section 5.6): no predictions and no verdicts. "
+        f"{region['excluded_no_region']} of the 334 ACOs have no census region; the region model's sample is "
+        f"{region['sample']['n']} ACOs ({region['sample']['early']} early renewers), as in H3."
     )
     return table(["Analysis", "Estimate", "95% CrI"], rows, "eTable 9. Exploratory analyses", notes, align="lrr")
+
+
+def etable_enhanced() -> str:
+    labels = (
+        ("sav_rate_2020", "Savings rate, PY2020, pp", 100),
+        ("pull", "Regional pull, pp", 1),
+        ("own", "Own-spending component, pp", 1),
+        ("regional_comp", "Regional component, pp", 1),
+    )
+    acos = EXPL["enhanced_early_renewers"]
+    rows = [
+        [label] + [f"{num(a[key]['value'] * scale, 1, sign=key != 'sav_rate_2020')} ({num(a[key]['stayer_percentile'], 0)})" for a in acos]
+        for key, label, scale in labels
+    ]
+    notes = (
+        "The 2 early renewers already in ENHANCED in PY2021, for whom renewal could not raise the sharing rate, reported "
+        "individually against the stayer distribution as the plan requires (section 5.6). Values with the stayers' "
+        "percentile in parentheses. Exploratory; no test."
+    )
+    header = ["Variable"] + [f"ACO {i + 1} ({a['cohort']} cohort)" for i, a in enumerate(acos)]
+    return table(header, rows, "eTable 10. The 2 early renewers already in ENHANCED", notes, align="lrr")
+
+
+def etable_spending() -> str:
+    rows = [
+        [
+            str(r["start_year"]),
+            str(r["agreement_year"]),
+            "Yes" if r["scheduled_benchmark_year"] else "No",
+            "Early renewers" if r["early_renewer_from_2020"] else "Other ACOs",
+            str(r["n_acos"]),
+            f"{r['mean_pc']:,.0f}",
+        ]
+        for r in EXPL["spending_by_agreement_year"]
+    ]
+    notes = (
+        "Mean per-capita spending (US dollars) of assigned beneficiaries by agreement start year and agreement year "
+        "(performance year - start year + 1), PY2020-PY2024 (plan section 5.6). Agreement years 3-5 are the scheduled "
+        "benchmark years of the next agreement; early renewers out of a 2020 agreement are shown separately. Benchmark-year "
+        "status cannot be separated from tenure here, so this is description only."
+    )
+    return table(
+        ["Agreement start", "Agreement year", "Scheduled benchmark year", "Group", "ACOs, No.", "Mean spending, $"],
+        rows,
+        "eTable 11. Per-capita spending by agreement year",
+        notes,
+        align="rrllrr",
+    )
 
 
 TABLES = {
@@ -497,6 +577,8 @@ TABLES = {
     "etable7-agreement": etable_agreement,
     "etable8-attrition": etable_attrition,
     "etable9-exploratory": etable_exploratory,
+    "etable10-enhanced": etable_enhanced,
+    "etable11-spending": etable_spending,
 }
 
 
