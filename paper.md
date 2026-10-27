@@ -503,8 +503,7 @@ online.[@post]
 
 **Competing interests:** The author is employed as a data scientist at Indiana University Health. This study was
 conducted independently of that employment, using only public data, and Indiana University Health had no role in its
-design, analysis, interpretation or reporting. Indiana University Health's ACO participated in the Shared Savings
-Program only in 2014-2016 and is not in the study cohorts. The author declares no other competing interests.
+design, analysis, interpretation or reporting. The author declares no other competing interests.
 
 **Disclaimer:** The views expressed are the author's own and do not represent the official positions of Indiana
 University Health.
