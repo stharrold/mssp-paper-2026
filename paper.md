@@ -12,42 +12,37 @@ Correspondence: Samuel Thomas Harrold, [samuel.harrold@gmail.com](mailto:samuel.
 
 **Importance:** Medicare Shared Savings Program (MSSP) benchmarks are reset at each new agreement from an
 accountable care organization's (ACO's) recent spending, adjusted toward its region. ACOs could end an agreement
-early to reset sooner; industry reports have described these ACOs' savings, but which ACOs did so has not been
-studied in the peer-reviewed literature.
+early to reset sooner; which ACOs did so has not been studied in the peer-reviewed literature.
 
-**Objective:** To test, under a preregistered plan, whether ACOs that renewed early stood to gain more than others
-from the regional part of a benchmark reset, and whether their spending growth differed afterward.
+**Objective:** To test whether ACOs that renewed early stood to gain more from the regional part of a reset, and
+whether their spending growth differed afterward.
 
 **Design, Setting, and Participants:** Preregistered retrospective cohort study of the 334 MSSP ACOs whose agreements
-began July 1, 2019 or January 1, 2020, using CMS public use files (2016-2024). The plan, decision rules and code were
-registered on OSF before any outcome data were read, with a code-level lock on the outcome files. The benchmark a
-reset would produce was rebuilt from the regulation (42 CFR 425.601) and validated against benchmarks CMS published
-for 101 other ACOs before use.
+began July 1, 2019 or January 1, 2020, using CMS public use files (2016-2024). Plan, decision rules and code were
+registered on OSF before any outcome data were read. The reset benchmark was rebuilt from 42 CFR 425.601 and
+validated against CMS's published benchmarks for 101 other ACOs before use.
 
-**Exposures:** For the choice analyses, pre-decision characteristics: the regional pull (case-mix-adjusted regional
-spending relative to the ACO's current benchmark; primary), the own-spending component of a reset and the BASIC
-risk level. For the spending analysis, early renewal into a January 1, 2022 agreement.
+**Exposures:** For the choice of early renewal into a January 1, 2022 agreement (29 ACOs vs 277 that stayed):
+the regional pull (case-mix-adjusted regional spending relative to the current benchmark; primary), the own-spending
+component of a reset and the BASIC risk level. For spending, early renewal itself.
 
-**Main Outcomes and Measures:** Early renewal (29 ACOs, compared with 277 that stayed), analyzed by group comparisons
-with Bayesian bootstrap intervals and permutation tests and by a Bayesian logistic model with measurement error
-tested by direct simulation; and per-capita spending growth in 2022-2024, by difference-in-differences with a
-preregistered equivalence condition on pre-trends.
+**Main Outcomes and Measures:** Early renewal, by group comparisons (Bayesian bootstrap, permutation tests) and a
+Bayesian logistic model with measurement error tested by direct simulation; per-capita spending growth in 2022-2024,
+by difference-in-differences with a preregistered equivalence condition on pre-trends.
 
-**Results:** The rebuilt benchmark tracked CMS's (Spearman $\rho$ = 0.94; median absolute error 1.6%). Relative to
-their current benchmarks, early renewers' case-mix-adjusted regional spending was 3.4 percentage points higher than
-stayers' (95% credible interval [CrI], 1.7 to 5.4; *P* < .001). Early renewers were also beating their benchmarks by
-more (own-spending component, −2.1 points; 95% CrI, −3.8 to −0.5), and by the approximation the total expected
-gain from a reset did not differ (−0.5 points; 95% CrI, −2.0 to 0.8). In a post hoc check, CMS's published 2022
-benchmarks for early renewers averaged 1.3% below their 2021 benchmarks. Among 206 BASIC-track ACOs, early renewal was
-associated with a higher regional pull (log-odds difference per 2 SD, 1.34; 95% CrI, 0.44 to 2.30) and a higher,
-two-sided BASIC level (1.34; 95% CrI, 0.38 to 2.31). Spending growth did not differ detectably (−0.4%; 95% CrI,
-−4.0% to 2.5%; *P* = .78); the equivalence condition did not hold, so this is not read as an effect.
+**Results:** The rebuilt benchmark tracked CMS's (Spearman $\rho$ = 0.94). Relative to their current benchmarks,
+early renewers' regional spending was 3.4 percentage points higher than stayers' (95% credible interval [CrI], 1.7
+to 5.4; *P* < .001), but they were also beating their benchmarks by more (own-spending component, −2.1 points; 95%
+CrI, −3.8 to −0.5), and the total expected gain did not differ (−0.5 points; 95% CrI, −2.0 to 0.8). Post hoc, CMS's
+published 2022 benchmarks for early renewers averaged 1.3% below their 2021 benchmarks. Among 206 BASIC-track ACOs,
+early renewal was associated with a higher regional pull (log-odds difference per 2 SD, 1.34; 95% CrI, 0.44 to 2.30)
+and a higher, two-sided BASIC level (1.34; 95% CrI, 0.38 to 2.31). Spending growth did not differ detectably
+(−0.4%; 95% CrI, −4.0% to 2.5%); the equivalence condition did not hold, so this is not read as an effect.
 
 **Conclusions and Relevance:** ACOs that renewed early more often had regions that spent more relative to their
-benchmarks and were more often at higher BASIC levels, for which renewal opened a 75% sharing rate. By the study's
-approximation, and in CMS's published benchmarks examined post hoc, the reset did not on average raise their
-benchmarks. These are associations under the 2022
-rules; benchmarks set from 2024 credit prior savings.
+benchmarks and were more often at higher BASIC levels, for which renewal opened a 75% sharing rate; the reset did
+not on average raise their benchmarks. These are associations under the 2022 rules; benchmarks set from 2024 credit
+prior savings.
 
 # Introduction
 
