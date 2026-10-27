@@ -8,6 +8,15 @@ prepared for medRxiv (journal-agnostic: IMRaD, structured abstract, AMA referenc
   and the OSF project [doi:10.17605/OSF.IO/Z4AN5](https://doi.org/10.17605/OSF.IO/Z4AN5)
 - **Post for a general audience:** [stharrold.github.io](https://stharrold.github.io/20261027-preregistered-mssp-early-renewal.html)
 
+## Status
+
+| Version | Submitted | medRxiv ID | Files (sha256) | Commit |
+|---|---|---|---|---|
+| 1 | 2026-10-27 | MEDRXIV/2026/366643 (in screening) | `paper.pdf` 7d111cbdef3672f2..., `supplement.pdf` d65212577e6d9809... | `dcbad91` |
+
+A version 2 is planned after an outside reviewer reads version 1; medRxiv keeps earlier versions visible. The
+submission form's text fields (abstract, declarations) were entered as plain ASCII.
+
 ## Files
 
 | Path | What it is |
