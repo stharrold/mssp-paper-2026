@@ -21,7 +21,7 @@ QUERIES = [
 
 
 def get(endpoint: str, **params) -> dict:
-    url = BASE + endpoint + "?" + urllib.parse.urlencode({**params, "retmode": "json", "tool": "mssp-preprint"})
+    url = BASE + endpoint + "?" + urllib.parse.urlencode({**params, "retmode": "json", "tool": "mssp-paper"})
     with urllib.request.urlopen(url, timeout=60) as r:
         return json.load(r)
 

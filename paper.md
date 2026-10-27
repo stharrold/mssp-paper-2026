@@ -457,10 +457,10 @@ plan.
 the 40 files downloaded, with sizes, SHA-256 hashes and URLs, and a script that downloads and verifies them are in the
 study repository;[@code] an archived copy of the snapshot and the results notebook exports are in the OSF
 project.[@osfproject] The committed results files, from which every table and figure here is generated, are in the
-study repository and in this manuscript's repository (https://github.com/stharrold/mssp-preprint-2026).
+study repository and in this manuscript's repository (<https://github.com/stharrold/mssp-paper-2026>).
 
 **Code availability:** The registered analysis code (commit a4064f5), its tests and step-by-step instructions to
-rerun and adapt the analysis are at https://github.com/stharrold/stharrold.github.io (directory
+rerun and adapt the analysis are at <https://github.com/stharrold/stharrold.github.io> (directory
 analysis/mssp-benchmark-ratchet).[@code] A longer account of the study for a general audience was published
 online.[@post]
 

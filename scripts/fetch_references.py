@@ -94,7 +94,7 @@ def fix_name(name: str) -> str:
 def fetch(doi: str) -> dict:
     req = urllib.request.Request(
         "https://doi.org/" + doi,
-        headers={"Accept": "application/vnd.citationstyles.csl+json", "User-Agent": "mssp-preprint-2026 (mailto:samuel.harrold@gmail.com)"},
+        headers={"Accept": "application/vnd.citationstyles.csl+json", "User-Agent": "mssp-paper-2026 (mailto:samuel.harrold@gmail.com)"},
     )
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.load(r)

@@ -344,7 +344,7 @@ wheels = [
 ]
 
 [[package]]
-name = "mssp-preprint-2026"
+name = "mssp-paper-2026"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
