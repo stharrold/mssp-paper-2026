@@ -14,3 +14,7 @@
 176	1.5568 (confirm.json groups.regional_comp.posterior_mean) x 11,312 / 100 = 176.1: the regional-component difference in dollars
 14	stayers whose assignment method changed at PY2022, from the enrollment files (plan section 1.4)
 15	excluded ACOs whose aged/dual county counts were also hidden: diagnostic query after the results (as in the post's Limitations)
+356	ACOs in the 2019-07-01 and 2020-01-01 cohorts in the PY2020 enrollment file (SSP_ACOs_2020_01_07.csv); counted 2026-10-27, enrollment data only
+22	of those 356, ACOs absent from the PY2021 enrollment file (none renewed into a 2021 agreement); same count
+34	stayers renewed early into 2024 agreements: 42 later renewals by PY2024 minus 8 by PY2023 (did.json attrition)
+1.4826	the normal-consistency constant that turns a median absolute deviation into an SD

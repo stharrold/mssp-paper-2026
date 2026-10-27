@@ -8,6 +8,6 @@
 | Observed early renewers (posterior predictive 95% range) | 24 (14 to 37) |
 | Top predicted decile: observed vs predicted share | 57% vs 45% |
 | Direct-simulation refits not converged (pull / own / BASIC level) | 0.34% / 0.38% / 0.43% |
-| Overall test: largest absolute core coefficient | 1.35, *P* = .004 |
+| Overall test: largest absolute core coefficient (reduced sampler settings) | 1.35, *P* = .004 |
 
 : eTable 5. Convergence and predictive checks of the decision model (H3)

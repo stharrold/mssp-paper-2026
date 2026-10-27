@@ -35,6 +35,11 @@ def table(header: list[str], rows: list[list[str]], caption: str, notes: str = "
     return text
 
 
+def prob(p: float) -> str:
+    """A posterior probability to 3 decimals, never shown as exactly 0 or 1 (10,000 draws cannot establish that)."""
+    return ">0.999" if p > 0.9995 else "<0.001" if p < 0.0005 else num(p, 3)
+
+
 def mean_sd(stat: dict, scale: float = 1.0, digits: int = 1) -> str:
     return f"{num(stat['mean'] * scale, digits)} ({num(stat['sd'] * scale, digits)})"
 
@@ -105,7 +110,7 @@ def table2() -> str:
             r["label"].replace("H1 ", "H1, ").replace("H2b ", "H2b, ").replace("H2a ", "H2a, ") + f" ({roles[r['role']].lower()})",
             f"{r['n_early']} / {r['n_stayer']}",
             f"{num(r['mean'], 1, sign=True)} ({interval(r['lo'], r['hi'])})",
-            num(r["p_positive"], 3),
+            prob(r["p_positive"]),
             pval(r["p"]),
             num(r["mde"]) if r["mde"] else "",
             verdicts[r["verdict"]],
@@ -147,7 +152,7 @@ def table3() -> str:
             [
                 ("**" + r["label"] + "**") if r["core"] else r["label"],
                 f"{num(r['mean'], 2)} ({interval(r['lo'], r['hi'], 2)})",
-                num(r["p_positive"], 3),
+                prob(r["p_positive"]),
                 pval(test.get("p")),
                 (test.get("decision") or "adjustment").capitalize(),
                 f"{num(t['mean'], 2)} ({interval(t['lo'], t['hi'], 2)})",
@@ -416,7 +421,10 @@ def etable_h3_checks() -> str:
             "Direct-simulation refits not converged (pull / own / BASIC level)",
             " / ".join(f"{num(100 * tests[k]['share_refits_not_converged'], 2)}%" for k in ("pull", "own", "basic_high")),
         ],
-        ["Overall test: largest absolute core coefficient", f"{num(c['overall_test']['observed'], 2)}, *P* = {pval(c['overall_test']['p_value'])}"],
+        [
+            "Overall test: largest absolute core coefficient (reduced sampler settings)",
+            f"{num(c['overall_test']['observed'], 2)}, *P* = {pval(c['overall_test']['p_value'])}",
+        ],
     ]
     return table(["Check", "Result"], rows, "eTable 5. Convergence and predictive checks of the decision model (H3)", align="lr")
 

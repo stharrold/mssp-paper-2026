@@ -1,11 +1,11 @@
 | Measure (role) | Early / stayers, No. | Difference (95% CrI) | Pr(>0) | *P* | MDE | Verdict |
 |:----------------------------------------|----------------:|------------------------:|--------:|--------:|--------:|:----------------|
-| **H2b, regional pull (primary)** | **26 / 241** | **+3.4 (1.7 to 5.4)** | **1.000** | **<.001** | **2.5** | **Supported** |
+| **H2b, regional pull (primary)** | **26 / 241** | **+3.4 (1.7 to 5.4)** | **>0.999** | **<.001** | **2.5** | **Supported** |
 | H2a, own-spending component (secondary) | 26 / 241 | −2.1 (−3.8 to −0.5) | 0.006 | .003 | 1.8 | Contradicted |
-| H1, savings rate, PY2020 (descriptive) | 29 / 277 | +1.9 (0.7 to 3.3) | 1.000 | .01 | 2.7 |  |
+| H1, savings rate, PY2020 (descriptive) | 29 / 277 | +1.9 (0.7 to 3.3) | >0.999 | .01 | 2.7 |  |
 | H1, savings rate, PY2021 (descriptive) | 29 / 277 | +1.6 (0.2 to 3.1) | 0.988 | .03 | 2.7 |  |
 | Total expected gain (descriptive) | 26 / 241 | −0.5 (−2.0 to 0.8) | 0.233 | .33 |  |  |
-| Regional component (descriptive) | 26 / 241 | +1.6 (0.9 to 2.2) | 1.000 | <.001 |  |  |
+| Regional component (descriptive) | 26 / 241 | +1.6 (0.9 to 2.2) | >0.999 | <.001 |  |  |
 
 : Table 2. Early renewers compared with stayers: regional pull (H2b), own-spending component (H2a), savings rates (H1) and the expected gain
 
