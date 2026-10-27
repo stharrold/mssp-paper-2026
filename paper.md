@@ -50,9 +50,11 @@ In the Medicare Shared Savings Program (MSSP), an accountable care organization 
 spending of its assigned beneficiaries falls below a benchmark.[@cfr425] At the start of each agreement period the
 benchmark is reset from the ACO's own spending in the 3 preceding years and adjusted part of the way toward the
 spending of its region.[@cfr425601] Evaluations have found modest savings from the program, growing with tenure and
-larger in physician-group ACOs,[@mcwilliams2016; @mcwilliams2018; @bond2025] alongside concern that selection, of
-clinicians, beneficiaries or whole ACOs, shapes both the estimates and who participates.[@markovitz2019exit;
-@mcwilliams2020; @markovitz2019risk]
+larger in physician-group ACOs.[@mcwilliams2016; @mcwilliams2018; @bond2025] Whether selection, of clinicians,
+beneficiaries or whole ACOs, shapes those estimates has been examined with differing results: one analysis found no
+evidence of favorable risk selection in the original program,[@mcwilliams2020] while another found that accounting
+for the nonrandom exit of high-cost clinicians removed the estimated savings,[@markovitz2019exit] and risk-adjustment
+rules may lead ACOs to drop high-risk beneficiaries.[@markovitz2019risk]
 
 Benchmarks are central to that selection. Rebasing to an ACO's own recent spending weakens its incentive to save,
 and under earlier weights it rewarded higher spending just before a new agreement.[@douven2015] ACOs' spending
@@ -60,7 +62,9 @@ varies widely relative to their regions even after risk adjustment, so moving be
 shifts them unevenly.[@rose2016] After regional spending entered benchmarks in 2017, participation shifted toward
 providers whose spending was low relative to their region,[@lyu2023] ACOs whose effective benchmarks fell became
 more likely to leave,[@chen2025] and bonuses rose for ACOs across the efficiency spectrum.[@srivastava2026] Survival in
-the program has been associated with earning bonuses, higher benchmarks and one-sided risk.[@bleser2019; @zhu2023]
+the program has been associated with earning bonuses, higher benchmarks and one-sided risk,[@bleser2019] and larger
+ACOs, those with supporting organizations and better performers were more likely to switch to two-sided
+risk.[@zhu2023]
 The 2019 Pathways to Success rules, which shortened the time ACOs could stay in one-sided risk, were followed by more
 exits than entries,[@ying2023] by ACO leaders reassessing potential savings against losses,[@ying2024] and by
 departures with projected costs to Medicare.[@moloci2021; @trombley2022]
@@ -70,7 +74,7 @@ early.[@cfr425] For an ACO in the BASIC track, renewal was also the only way int
 agreement ended, because the 2018 rule bars moving from BASIC to ENHANCED within an agreement period;[@frpathways]
 ENHANCED shares 75% of savings, against at most 50% in BASIC.[@cfr425] Of the 334 ACOs whose agreements began July 1,
 2019 or January 1, 2020, 29 ended them early and began new agreements on January 1, 2022.[@dataacos] Who used the
-option, and why, bears on how benchmark rules sort ACOs, but to our knowledge it has not been studied.
+option, and why, bears on how benchmark rules sort ACOs, but to the author's knowledge it has not been studied.
 
 Two motives predict early renewal. Under a **reset motive**, an ACO renews because its new benchmark would be
 higher. Under a **sharing-rate motive**, a BASIC-track ACO renews to reach ENHANCED. The savings rate cannot separate
@@ -222,7 +226,7 @@ the environment was locked with uv;[@uv] MCMC diagnostics used ArviZ;[@arviz2019
 a fixed NumPy seed sequence.[@numpy2020]
 
 **Deviations.** All 7 analysis stages ran with code identical to the registered commit. After the last stage the
-lockfile took security updates to 2 development dependencies; no result was produced with it, and it is logged as
+lockfile took security updates to 2 packages (filelock and virtualenv); no result was produced with it, and it is logged as
 the one deviation. One sentence of the plan's background is imprecise: it describes ENHANCED as sharing 75% of
 savings and losses, whereas it shares 75% of savings and up to 75% of losses.
 
@@ -348,7 +352,8 @@ formula. Participation shifted toward providers whose spending was low relative 
 spending entered benchmarks,[@lyu2023] and ACOs whose effective benchmarks fell were more likely to leave.[@chen2025]
 Here the choice is when to reset rather than whether to join or leave, and the ACOs that reset early were those with
 the most room under their regions' spending. The finding that early renewers were savers fits reports that ACOs
-earning bonuses were more likely to stay in the program,[@bleser2019; @ying2023] but the same success meant that the
+earning bonuses survived longer in the program[@bleser2019] and, with borderline precision, that ACOs that had
+achieved savings were more likely to stay after the 2019 rules,[@ying2023] but the same success meant that the
 own-spending part of a reset would have cut their benchmarks, so the simple account that ACOs reset to get a higher
 benchmark does not describe them on average. That the size of the regional difference doubled without case-mix
 adjustment is consistent with evidence that comparisons of ACOs with their regions depend heavily on risk

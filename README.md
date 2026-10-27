@@ -41,7 +41,7 @@ the AMA CSL style and `reference.docx`).
 
 1. `uv run pytest` and `python3 scripts/check_numbers.py` pass; `scripts/build.sh` rebuilt the PDFs.
 2. Read the PDF in full, including the supplement.
-3. On medRxiv: subject area Health Policy; article type New Results; license CC BY 4.0; upload `paper.pdf` and
+3. On medRxiv: subject area Health Policy; license CC BY 4.0; upload `paper.pdf` and
    `supplement.pdf`; complete the declarations (ethics, funding, competing interests, data availability,
    preregistration DOI) to match the manuscript.
 

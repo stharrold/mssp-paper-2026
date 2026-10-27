@@ -62,8 +62,8 @@ only together with them, primary test first.
 
 **Deviations.** All 7 stages ran with code identical to the registered commit. Two files changed after the last
 stage and produced no result: a reporting script for the online dashboard, which had shown PY2021 savings rates 100
-times too large, and the lockfile `uv.lock`, which took security updates to 2 development dependencies (filelock and
-virtualenv). The lockfile is a registered file, so its change is logged as the one deviation; rerunning the analysis
+times too large, and the lockfile `uv.lock`, which took security updates to 2 packages (filelock and
+virtualenv), neither of which enters an estimate. The lockfile is a registered file, so its change is logged as the one deviation; rerunning the analysis
 as registered uses the lockfile at the registered commit. One sentence in the plan's background (section 1.1) is
 imprecise: ENHANCED shares 75% of savings but up to 75% of losses, and the bar on moving from BASIC to ENHANCED
 within an agreement period is in the 2018 rule's preamble,[@frpathways] not in the regulation's text. Nothing in the
