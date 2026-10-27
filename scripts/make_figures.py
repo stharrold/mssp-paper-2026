@@ -96,7 +96,7 @@ def figure1() -> None:
             "(MSSP enrollment files, PY2021 record required)",
         ],
     )
-    arrow(50, 84.6, 50, 80)
+    ax.plot([50, 50], [84.6, 80], color=MUTED, lw=0.7)  # trunk of the 3-way branch: a plain line, no arrowhead
     ax.plot([16, 84], [80, 80], color=MUTED, lw=0.7)
     for x in (16, 50, 84):
         arrow(x, 80, x, 75.5)
