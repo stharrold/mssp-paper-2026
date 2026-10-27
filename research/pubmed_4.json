@@ -1,0 +1,51 @@
+{
+ "query": "\"accountable care organization*\"[tiab] AND \"Pathways to Success\"[tiab]",
+ "searched": "2026-10-27T17:58:17Z",
+ "count": 4,
+ "records": [
+  {
+   "pmid": "30596411",
+   "year": "2018",
+   "first_author": "Centers for Medicare & Medicaid Services (CMS), HHS",
+   "title": "Medicare Program; Medicare Shared Savings Program; Accountable Care Organizations--Pathways to Success and Extreme and Uncontrollable Circumstances Policies for Performance Year 2017. Final rules.",
+   "journal": "Fed Regist",
+   "doi": null,
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "38313161",
+   "year": "2024",
+   "first_author": "Ying M",
+   "title": "Factors affecting Accountable Care Organizations' decisions to remain in or exit the Medicare Shared Savings Program following Pathways to Success.",
+   "journal": "Health Aff Sch",
+   "doi": "10.1093/haschl/qxad093",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "40083132",
+   "year": "2025",
+   "first_author": "Ying M",
+   "title": "Early Effects of Pathways to Success on Utilization in Traditional Medicare.",
+   "journal": "Health Serv Res",
+   "doi": "10.1111/1475-6773.14597",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "40746042",
+   "year": "2026",
+   "first_author": "Ying M",
+   "title": "Association of Pathways to Success Launch With Quality inBeneficiaries With Traditional Medicare.",
+   "journal": "Health Serv Res",
+   "doi": "10.1111/1475-6773.70024",
+   "pubtype": [
+    "Journal Article"
+   ]
+  }
+ ]
+}

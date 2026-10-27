@@ -1,0 +1,3560 @@
+[
+ {
+  "publisher": "Massachusetts Medical Society",
+  "issue": "24",
+  "DOI": "10.1056/nejmsa1600142",
+  "type": "journal-article",
+  "page": "2357-2366",
+  "title": "Early Performance of Accountable Care Organizations in Medicare",
+  "volume": "374",
+  "author": [
+   {
+    "given": "J. Michael",
+    "family": "McWilliams",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Laura A.",
+    "family": "Hatfield",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael E.",
+    "family": "Chernew",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Bruce E.",
+    "family": "Landon",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Aaron L.",
+    "family": "Schwartz",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "New England Journal of Medicine",
+  "issued": {
+   "date-parts": [
+    [
+     2016,
+     6,
+     16
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1056/NEJMsa1600142",
+  "id": "mcwilliams2016"
+ },
+ {
+  "publisher": "Massachusetts Medical Society",
+  "issue": "12",
+  "DOI": "10.1056/nejmsa1803388",
+  "type": "journal-article",
+  "page": "1139-1149",
+  "title": "Medicare Spending after 3 Years of the Medicare Shared Savings Program",
+  "volume": "379",
+  "author": [
+   {
+    "given": "J. Michael",
+    "family": "McWilliams",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "From the Department of Health Care Policy, Harvard Medical School (J.M.M., L.A.H., B.E.L., P.H., M.E.C.), the Division of General Internal Medicine and Primary Care, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School (J.M.M.), and the Division of General Internal Medicine and Primary Care, Department of Medicine, Beth Israel Deaconess Medical Center (B.E.L.) — all in Boston."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Laura A.",
+    "family": "Hatfield",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "From the Department of Health Care Policy, Harvard Medical School (J.M.M., L.A.H., B.E.L., P.H., M.E.C.), the Division of General Internal Medicine and Primary Care, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School (J.M.M.), and the Division of General Internal Medicine and Primary Care, Department of Medicine, Beth Israel Deaconess Medical Center (B.E.L.) — all in Boston."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Bruce E.",
+    "family": "Landon",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "From the Department of Health Care Policy, Harvard Medical School (J.M.M., L.A.H., B.E.L., P.H., M.E.C.), the Division of General Internal Medicine and Primary Care, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School (J.M.M.), and the Division of General Internal Medicine and Primary Care, Department of Medicine, Beth Israel Deaconess Medical Center (B.E.L.) — all in Boston."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Pasha",
+    "family": "Hamed",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "From the Department of Health Care Policy, Harvard Medical School (J.M.M., L.A.H., B.E.L., P.H., M.E.C.), the Division of General Internal Medicine and Primary Care, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School (J.M.M.), and the Division of General Internal Medicine and Primary Care, Department of Medicine, Beth Israel Deaconess Medical Center (B.E.L.) — all in Boston."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael E.",
+    "family": "Chernew",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "From the Department of Health Care Policy, Harvard Medical School (J.M.M., L.A.H., B.E.L., P.H., M.E.C.), the Division of General Internal Medicine and Primary Care, Department of Medicine, Brigham and Women’s Hospital and Harvard Medical School (J.M.M.), and the Division of General Internal Medicine and Primary Care, Department of Medicine, Beth Israel Deaconess Medical Center (B.E.L.) — all in Boston."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "New England Journal of Medicine",
+  "issued": {
+   "date-parts": [
+    [
+     2018,
+     9,
+     20
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1056/NEJMsa1803388",
+  "id": "mcwilliams2018"
+ },
+ {
+  "publisher": "Wiley",
+  "issue": "3",
+  "DOI": "10.1111/1468-0009.12468",
+  "type": "journal-article",
+  "page": "847-907",
+  "title": "Savings or Selection? Initial Spending Reductions in the Medicare Shared Savings Program and Considerations for Reform",
+  "volume": "98",
+  "author": [
+   {
+    "given": "J. Michael",
+    "family": "McWilliams",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Harvard Medical School"
+     },
+     {
+      "name": "Brigham and Women's Hospital"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Laura A.",
+    "family": "Hatfield",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Harvard Medical School"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Bruce E.",
+    "family": "Landon",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Harvard Medical School"
+     },
+     {
+      "name": "Beth Israel Deaconess Medical Center"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Michael E.",
+    "family": "Chernew",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Harvard Medical School"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": "The Milbank Quarterly",
+  "issued": {
+   "date-parts": [
+    [
+     2020,
+     9
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1111/1468-0009.12468",
+  "id": "mcwilliams2020"
+ },
+ {
+  "publisher": "American College of Physicians",
+  "issue": "1",
+  "DOI": "10.7326/m18-2539",
+  "type": "journal-article",
+  "page": "27-36",
+  "title": "Performance in the Medicare Shared Savings Program After Accounting for Nonrandom Exit: An Instrumental Variable Analysis",
+  "volume": "171",
+  "author": [
+   {
+    "given": "Adam A.",
+    "family": "Markovitz",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "University of Michigan Medical School and School of Public Health, Ann Arbor, Michigan (A.A.M.)"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John M.",
+    "family": "Hollingsworth",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Michigan Medical School and Institute for Healthcare Policy and Innovation, Ann Arbor, Michigan (J.M.H.)"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John Z.",
+    "family": "Ayanian",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Michigan Medical School, School of Public Health, Gerald R. Ford School of Public Policy, and Institute for Healthcare Policy and Innovation, Ann Arbor, Michigan (J.Z.A.)"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Edward C.",
+    "family": "Norton",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Michigan School of Public Health, and Institute for Healthcare Policy and Innovation, Ann Arbor, Michigan, and National Bureau of Economic Research, Cambridge, Massachusetts (E.C.N.)"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Phyllis L.",
+    "family": "Yan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Michigan Medical School, Ann Arbor, Michigan (P.L.Y.)"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andrew M.",
+    "family": "Ryan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Michigan School of Public Health, Center for Evaluating Health Reform, Institute for Healthcare Policy and Innovation, Ann Arbor, Michigan (A.M.R.)"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Annals of Internal Medicine",
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     7,
+     2
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.7326/M18-2539",
+  "id": "markovitz2019exit"
+ },
+ {
+  "publisher": "Health Affairs Publishing, LLC",
+  "issue": "2",
+  "DOI": "10.1377/hlthaff.2018.05407",
+  "type": "journal-article",
+  "page": "253-261",
+  "title": "Risk Adjustment In Medicare ACO Program Deters Coding Increases But May Lead ACOs To Drop High-Risk Beneficiaries",
+  "volume": "38",
+  "author": [
+   {
+    "given": "Adam A.",
+    "family": "Markovitz",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Adam A. Markovitz is an MD-PhD candidate in the Department of Health Management and Policy, University of Michigan School of Public Health, and the University of Michigan Medical School, in Ann Arbor."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John M.",
+    "family": "Hollingsworth",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "John M. Hollingsworth is an associate professor in the Dow Division of Health Services Research, Department of Urology, University of Michigan Medical School, in Ann Arbor."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John Z.",
+    "family": "Ayanian",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "John Z. Ayanian is the Alice Hamilton Collegiate Professor of Medicine in the Department of Internal Medicine, University of Michigan Medical School."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Edward C.",
+    "family": "Norton",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Edward C. Norton is a professor in the Department of Health Management and Policy in the University of Michigan School of Public Health, in Ann Arbor."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nicholas M.",
+    "family": "Moloci",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Nicholas M. Moloci is a senior statistician in the Dow Division of Health Services Research, Department of Urology, University of Michigan Medical School."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Phyllis L.",
+    "family": "Yan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Phyllis L. Yan is a statistician in the Dow Division of Health Services Research, Department of Urology, University of Michigan Medical School."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andrew M.",
+    "family": "Ryan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Andrew M. Ryan () is the UnitedHealthcare Professor of Health Care Management in the Department of Health Management and Policy, University of Michigan School of Public Health."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Health Affairs",
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     2
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1377/hlthaff.2018.05407",
+  "id": "markovitz2019risk"
+ },
+ {
+  "publisher": "American Medical Association (AMA)",
+  "issue": "21",
+  "DOI": "10.1001/jama.2025.3870",
+  "type": "journal-article",
+  "page": "1897-1905",
+  "title": "Long-Term Spending of Accountable Care Organizations in the Medicare Shared Savings Program",
+  "volume": "333",
+  "author": [
+   {
+    "given": "Amelia M.",
+    "family": "Bond",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Division of Health Policy & Economics, Weill Cornell Medical College, New York, New York"
+     },
+     {
+      "name": "Cornell Health Policy Center, New York, New York"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yasin",
+    "family": "Civelek",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Division of Health Policy & Economics, Weill Cornell Medical College, New York, New York"
+     },
+     {
+      "name": "Cornell Health Policy Center, New York, New York"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "William L.",
+    "family": "Schpero",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Division of Health Policy & Economics, Weill Cornell Medical College, New York, New York"
+     },
+     {
+      "name": "Cornell Health Policy Center, New York, New York"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Lawrence P.",
+    "family": "Casalino",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Division of Health Policy & Economics, Weill Cornell Medical College, New York, New York"
+     },
+     {
+      "name": "Physicians Foundation Center for the Study of Physician Practice & Leadership, New York, New York"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Manyao",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Division of Health Policy & Economics, Weill Cornell Medical College, New York, New York"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Reekarl",
+    "family": "Pierre",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Division of Health Policy & Economics, Weill Cornell Medical College, New York, New York"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dhruv",
+    "family": "Khullar",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Division of Health Policy & Economics, Weill Cornell Medical College, New York, New York"
+     },
+     {
+      "name": "Cornell Health Policy Center, New York, New York"
+     },
+     {
+      "name": "Physicians Foundation Center for the Study of Physician Practice & Leadership, New York, New York"
+     },
+     {
+      "name": "Division of General Internal Medicine, Weill Cornell Medical College, New York, New York"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "JAMA",
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     6,
+     3
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1001/jama.2025.3870",
+  "id": "bond2025"
+ },
+ {
+  "publisher": "Health Affairs Publishing, LLC",
+  "issue": "1",
+  "DOI": "10.1377/hlthaff.2014.0444",
+  "type": "journal-article",
+  "page": "143-149",
+  "title": "Avoiding Unintended Incentives In ACO Payment Models",
+  "volume": "34",
+  "author": [
+   {
+    "given": "Rudy",
+    "family": "Douven",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Rudy Douven (         ) is a health economist at the CPB Netherlands Bureau for Economic Policy Analysis, in The Hague, and at Erasmus University Rotterdam, both in the Netherlands."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Thomas G.",
+    "family": "McGuire",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Thomas G. McGuire is a professor of health economics at Harvard Medical School, in Boston, Massachusetts."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "J. Michael",
+    "family": "McWilliams",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "J. Michael McWilliams is an associate professor of health care policy and medicine at Harvard Medical School and Brigham and Women’s Hospital, in Boston."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Health Affairs",
+  "issued": {
+   "date-parts": [
+    [
+     2015,
+     1
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1377/hlthaff.2014.0444",
+  "id": "douven2015"
+ },
+ {
+  "publisher": "Health Affairs Publishing, LLC",
+  "issue": "3",
+  "DOI": "10.1377/hlthaff.2015.1026",
+  "type": "journal-article",
+  "page": "440-448",
+  "title": "Variation In Accountable Care Organization Spending And Sensitivity To Risk Adjustment: Implications For Benchmarking",
+  "volume": "35",
+  "author": [
+   {
+    "given": "Sherri",
+    "family": "Rose",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Sherri Rose is an assistant professor of health care policy (biostatistics) in the Department of Health Care Policy at Harvard Medical School, in Boston, Massachusetts."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Alan M.",
+    "family": "Zaslavsky",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Alan M. Zaslavsky is a professor of health care policy (statistics) in the Department of Health Care Policy at Harvard Medical School."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "J. Michael",
+    "family": "McWilliams",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "J. Michael McWilliams (\r        ) is an associate professor of health care policy and medicine in the Department of Health Care Policy at Harvard Medical School."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Health Affairs",
+  "issued": {
+   "date-parts": [
+    [
+     2016,
+     3
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1377/hlthaff.2015.1026",
+  "id": "rose2016"
+ },
+ {
+  "publisher": "Health Affairs Publishing, LLC",
+  "issue": "5",
+  "DOI": "10.1377/hlthaff.2022.01061",
+  "type": "journal-article",
+  "page": "622-631",
+  "title": "Benchmarking Changes And Selective Participation In The Medicare Shared Savings Program: Study examines changes in Medicare Share Savings Program participation patterns",
+  "volume": "42",
+  "author": [
+   {
+    "given": "Peter F.",
+    "family": "Lyu",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Peter F. Lyu (), RTI International, Research Triangle Park, North Carolina."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael E.",
+    "family": "Chernew",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Michael E. Chernew, Harvard University, Boston, Massachusetts."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "J. Michael",
+    "family": "McWilliams",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "J. Michael McWilliams, Harvard University and Brigham and Women’s Hospital, Boston, Massachusetts."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Health Affairs",
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     5,
+     1
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1377/hlthaff.2022.01061",
+  "id": "lyu2023"
+ },
+ {
+  "publisher": "University of Chicago Press",
+  "issue": "1",
+  "DOI": "10.1086/726748",
+  "type": "journal-article",
+  "page": "38-62",
+  "title": "How Benchmark Changes Affect Participation in Accountable Care Organizations: Prospects for Voluntary Payment Models",
+  "volume": "11",
+  "author": [
+   {
+    "given": "Alice J.",
+    "family": "Chen",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "J. Michael",
+    "family": "McWilliams",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": "American Journal of Health Economics",
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     1,
+     1
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1086/726748",
+  "id": "chen2025"
+ },
+ {
+  "publisher": "American Medical Association (AMA)",
+  "issue": "2",
+  "DOI": "10.1001/jamanetworkopen.2026.0166",
+  "type": "journal-article",
+  "page": "e260166",
+  "title": "Accountable Care Organization Efficiency on Entry and Shared Savings Bonuses",
+  "volume": "9",
+  "author": [
+   {
+    "given": "Arnav",
+    "family": "Srivastava",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Dow Division of Health Services Research, Department of Urology, University of Michigan, Ann Arbor"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Addison",
+    "family": "Shay",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Dow Division of Health Services Research, Department of Urology, University of Michigan, Ann Arbor"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Samuel R.",
+    "family": "Kaufman",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Dow Division of Health Services Research, Department of Urology, University of Michigan, Ann Arbor"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Xiu",
+    "family": "Liu",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Urology, Massachusetts General Hospital, Boston"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Avinash",
+    "family": "Maganty",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Urology, Massachusetts General Hospital, Boston"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Mary K.",
+    "family": "Oerline",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Dow Division of Health Services Research, Department of Urology, University of Michigan, Ann Arbor"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Paula A.",
+    "family": "Guro",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Dow Division of Health Services Research, Department of Urology, University of Michigan, Ann Arbor"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Dawson",
+    "family": "Hill",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Dow Division of Health Services Research, Department of Urology, University of Michigan, Ann Arbor"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Christopher",
+    "family": "Dall",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Urology, Massachusetts General Hospital, Boston"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Kassem S.",
+    "family": "Faraj",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Dow Division of Health Services Research, Department of Urology, University of Michigan, Ann Arbor"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Meiling",
+    "family": "Ying",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Foundations of Medicine, New York University Grossman Long Island School of Medicine, New York, New York"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Vahakn B.",
+    "family": "Shahinian",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Dow Division of Health Services Research, Department of Urology, University of Michigan, Ann Arbor"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Brent K.",
+    "family": "Hollenbeck",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Dow Division of Health Services Research, Department of Urology, University of Michigan, Ann Arbor"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": "JAMA Network Open",
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     2,
+     26
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1001/jamanetworkopen.2026.0166",
+  "id": "srivastava2026"
+ },
+ {
+  "publisher": "Health Affairs Publishing, LLC",
+  "issue": "5",
+  "DOI": "10.1377/hlthaff.2018.05097",
+  "type": "journal-article",
+  "page": "794-803",
+  "title": "Why Do Accountable Care Organizations Leave The Medicare Shared Savings Program?",
+  "volume": "38",
+  "author": [
+   {
+    "given": "William K.",
+    "family": "Bleser",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "William K. Bleser () is a research associate at the Duke-Margolis Center for Health Policy, Duke University, in Washington, D.C."
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Robert S.",
+    "family": "Saunders",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Robert S. Saunders is a research director at the Duke-Margolis Center for Health Policy, Duke University, in Washington."
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "David B.",
+    "family": "Muhlestein",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "David B. Muhlestein is chief research officer at Leavitt Partners in Washington, D.C., and an adjunct assistant professor at the Dartmouth Institute, Geisel School of Medicine, Dartmouth College, in Hanover, New Hampshire."
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Mark",
+    "family": "McClellan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Mark McClellan is director of the Duke-Margolis Center for Health Policy in Washington and the Robert J. Margolis Professor of Business, Medicine, and Policy at Duke University in Durham, North Carolina."
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": "Health Affairs",
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     5
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1377/hlthaff.2018.05097",
+  "id": "bleser2019"
+ },
+ {
+  "publisher": "Wiley",
+  "issue": "1",
+  "DOI": "10.1111/jrh.12672",
+  "type": "journal-article",
+  "page": "302-308",
+  "title": "Medicare accountable care organization characteristics associated with participation in 2‐sided risk",
+  "volume": "39",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-2194-7327",
+    "authenticated-orcid": false,
+    "given": "Xi",
+    "family": "Zhu",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Health Policy and Management, Fielding School of Public Health University of California Los Angeles  Los Angeles California USA"
+     },
+     {
+      "name": "Department of Health Management and Policy, College of Public Health University of Iowa  Iowa City Iowa USA"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Huang",
+    "family": "Huang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Health Management and Policy, College of Public Health University of Iowa  Iowa City Iowa USA"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "A. Clinton",
+    "family": "MacKinney",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Health Management and Policy, College of Public Health University of Iowa  Iowa City Iowa USA"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-0726-1708",
+    "authenticated-orcid": false,
+    "given": "Fred",
+    "family": "Ullrich",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Health Management and Policy, College of Public Health University of Iowa  Iowa City Iowa USA"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-6533-3303",
+    "authenticated-orcid": false,
+    "given": "Keith",
+    "family": "Mueller",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Health Management and Policy, College of Public Health University of Iowa  Iowa City Iowa USA"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": "The Journal of Rural Health",
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     1
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1111/jrh.12672",
+  "id": "zhu2023"
+ },
+ {
+  "publisher": "Health Affairs Publishing, LLC",
+  "issue": "1",
+  "DOI": "10.1377/hlthaff.2020.01819",
+  "type": "journal-article",
+  "page": "138-146",
+  "title": "ACO Investment Model Produced Savings, But The Majority Of Participants Exited When Faced With Downside Risk: Study examines Medicare's Accountable Care Organization Investment Model which provided funds to small, rurally located ACOs.",
+  "volume": "41",
+  "author": [
+   {
+    "given": "Matthew J.",
+    "family": "Trombley",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Matthew J. Trombley (), Abt Associates Inc., Durham, North Carolina."
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "J. Michael",
+    "family": "McWilliams",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "J. Michael McWilliams, Harvard Medical School and Brigham and Women’s Hospital, Boston, Massachusetts."
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Betty",
+    "family": "Fout",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Betty Fout, Abt Associates Inc., Rockville, Maryland."
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Brant",
+    "family": "Morefield",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Brant Morefield, Aledade, Inc., Bethesda, Maryland."
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": "Health Affairs",
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     1,
+     1
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1377/hlthaff.2020.01819",
+  "id": "trombley2022"
+ },
+ {
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "7",
+  "DOI": "10.1007/s11606-022-07947-x",
+  "type": "journal-article",
+  "page": "1780-1782",
+  "title": "Changes in Shared Savings Program Participation After Launch of Pathways to Success",
+  "volume": "38",
+  "author": [
+   {
+    "given": "Meiling",
+    "family": "Ying",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Richard A.",
+    "family": "Hirth",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Phyllis",
+    "family": "Yan",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Addison",
+    "family": "Shay",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Sitara",
+    "family": "Murali",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Andrew",
+    "family": "Ryan",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "John M.",
+    "family": "Hollingsworth",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": "Journal of General Internal Medicine",
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     5
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1007/s11606-022-07947-x",
+  "id": "ying2023"
+ },
+ {
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "1",
+  "DOI": "10.1093/haschl/qxad093",
+  "type": "journal-article",
+  "title": "Factors affecting Accountable Care Organizations’ decisions to remain in or exit the Medicare Shared Savings Program following Pathways to Success",
+  "volume": "2",
+  "author": [
+   {
+    "given": "Meiling",
+    "family": "Ying",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Foundations of Medicine, New York University Langone Health , New York, NY 11501 , United States"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-0761-6348",
+    "authenticated-orcid": false,
+    "given": "Jane H",
+    "family": "Forman",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Center for Clinical Management Research, Veterans Affairs Ann Arbor Healthcare System , Ann Arbor, MI 48105 , United States"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0009-0005-3709-7648",
+    "authenticated-orcid": false,
+    "given": "Sitara",
+    "family": "Murali",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Internal Medicine, University of Michigan Medical School , Ann Arbor, MI 48109 , United States"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-6459-689X",
+    "authenticated-orcid": false,
+    "given": "Lauren E",
+    "family": "Gauntlett",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Center for Clinical Management Research, Veterans Affairs Ann Arbor Healthcare System , Ann Arbor, MI 48105 , United States"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2111-8131",
+    "authenticated-orcid": false,
+    "given": "Sarah L",
+    "family": "Krein",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Center for Clinical Management Research, Veterans Affairs Ann Arbor Healthcare System , Ann Arbor, MI 48105 , United States"
+     },
+     {
+      "name": "Department of Internal Medicine, University of Michigan Medical School , Ann Arbor, MI 48109 , United States"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-4840-1260",
+    "authenticated-orcid": false,
+    "given": "Brent K",
+    "family": "Hollenbeck",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Urology, Massachusetts General Hospital , Boston, MA 02114 , United States"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3372-9370",
+    "authenticated-orcid": false,
+    "given": "John M",
+    "family": "Hollingsworth",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Urology, NorthShore University HealthSystem , Chicago, IL 60201 , United States"
+     }
+    ],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": "Health Affairs Scholar",
+  "issued": {
+   "date-parts": [
+    [
+     2024,
+     1,
+     3
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1093/haschl/qxad093",
+  "id": "ying2024",
+  "page": "qxad093"
+ },
+ {
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "8",
+  "DOI": "10.1007/s11606-020-06424-7",
+  "type": "journal-article",
+  "page": "2490-2491",
+  "title": "Predicting Losses from Medicare Shared Savings Program Departures",
+  "volume": "36",
+  "author": [
+   {
+    "given": "Nicholas M.",
+    "family": "Moloci",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Yajuan",
+    "family": "Si",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Edward C.",
+    "family": "Norton",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Andrew M.",
+    "family": "Ryan",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3372-9370",
+    "authenticated-orcid": false,
+    "given": "John M.",
+    "family": "Hollingsworth",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "container-title": "Journal of General Internal Medicine",
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     8
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1007/s11606-020-06424-7",
+  "id": "moloci2021"
+ },
+ {
+  "publisher": "SAGE Publications",
+  "issue": "11",
+  "DOI": "10.1177/0956797611417632",
+  "type": "journal-article",
+  "page": "1359-1366",
+  "title": "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant",
+  "volume": "22",
+  "author": [
+   {
+    "given": "Joseph P.",
+    "family": "Simmons",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Wharton School, University of Pennsylvania"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Leif D.",
+    "family": "Nelson",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Haas School of Business, University of California, Berkeley"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Uri",
+    "family": "Simonsohn",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Wharton School, University of Pennsylvania"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Psychological Science",
+  "issued": {
+   "date-parts": [
+    [
+     2011,
+     11
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1177/0956797611417632",
+  "id": "simmons2011"
+ },
+ {
+  "publisher": "National Academy of Sciences",
+  "issue": "11",
+  "DOI": "10.1073/pnas.1708274114",
+  "type": "journal-article",
+  "page": "2600-2606",
+  "title": "The preregistration revolution",
+  "volume": "115",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-6797-5476",
+    "authenticated-orcid": false,
+    "given": "Brian A.",
+    "family": "Nosek",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Center for Open Science, Charlottesville, VA 22903;"
+     },
+     {
+      "name": "Department of Psychology, University of Virginia, Charlottesville, VA 22904"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-8607-2579",
+    "authenticated-orcid": false,
+    "given": "Charles R.",
+    "family": "Ebersole",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Psychology, University of Virginia, Charlottesville, VA 22904"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-2241-7259",
+    "authenticated-orcid": false,
+    "given": "Alexander C.",
+    "family": "DeHaven",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Center for Open Science, Charlottesville, VA 22903;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3125-5888",
+    "authenticated-orcid": false,
+    "given": "David T.",
+    "family": "Mellor",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Center for Open Science, Charlottesville, VA 22903;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Proceedings of the National Academy of Sciences",
+  "issued": {
+   "date-parts": [
+    [
+     2018,
+     3,
+     13
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1073/pnas.1708274114",
+  "id": "nosek2018"
+ },
+ {
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "10",
+  "DOI": "10.1371/journal.pmed.0040296",
+  "type": "journal-article",
+  "page": "e296",
+  "title": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: Guidelines for Reporting Observational Studies",
+  "volume": "4",
+  "author": [
+   {
+    "given": "Erik",
+    "family": "von Elm",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Douglas G",
+    "family": "Altman",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Matthias",
+    "family": "Egger",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Stuart J",
+    "family": "Pocock",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Peter C",
+    "family": "Gøtzsche",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jan P",
+    "family": "Vandenbroucke",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "name": "for the STROBE Initiative",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "PLoS Medicine",
+  "issued": {
+   "date-parts": [
+    [
+     2007,
+     10,
+     16
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pmed.0040296",
+  "id": "vonelm2007"
+ },
+ {
+  "publisher": "Institute of Mathematical Statistics",
+  "issue": "1",
+  "DOI": "10.1214/aos/1176345338",
+  "type": "journal-article",
+  "page": "130-134",
+  "title": "The Bayesian Bootstrap",
+  "volume": "9",
+  "author": [
+   {
+    "given": "Donald B.",
+    "family": "Rubin",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "The Annals of Statistics",
+  "issued": {
+   "date-parts": [
+    [
+     1981,
+     1,
+     1
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1214/aos/1176345338",
+  "id": "rubin1981"
+ },
+ {
+  "publisher": "Walter de Gruyter GmbH",
+  "issue": "1",
+  "DOI": "10.2202/1544-6115.1585",
+  "type": "journal-article",
+  "title": "Permutation P-values Should Never Be Zero: Calculating Exact P-values When Permutations Are Randomly Drawn",
+  "volume": "9",
+  "author": [
+   {
+    "given": "Belinda",
+    "family": "Phipson",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "The Walter and Eliza Hall Institute of Medical Research"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Gordon K",
+    "family": "Smyth",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "The Walter and Eliza Hall Institute of Medical Reseach"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Statistical Applications in Genetics and Molecular Biology",
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     10,
+     31
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.2202/1544-6115.1585",
+  "id": "phipson2010",
+  "page": "39"
+ },
+ {
+  "publisher": "Wiley",
+  "issue": "15",
+  "DOI": "10.1002/sim.3107",
+  "type": "journal-article",
+  "page": "2865-2873",
+  "title": "Scaling regression inputs by dividing by two standard deviations",
+  "volume": "27",
+  "author": [
+   {
+    "given": "Andrew",
+    "family": "Gelman",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Statistics in Medicine",
+  "issued": {
+   "date-parts": [
+    [
+     2008,
+     7,
+     10
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1002/sim.3107",
+  "id": "gelman2008"
+ },
+ {
+  "publisher": "Institute of Mathematical Statistics",
+  "issue": "4",
+  "DOI": "10.1214/08-aoas191",
+  "type": "journal-article",
+  "page": "1360-1383",
+  "title": "A weakly informative default prior distribution for logistic and other regression models",
+  "volume": "2",
+  "author": [
+   {
+    "given": "Andrew",
+    "family": "Gelman",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Aleks",
+    "family": "Jakulin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Maria Grazia",
+    "family": "Pittau",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yu-Sung",
+    "family": "Su",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "The Annals of Applied Statistics",
+  "issued": {
+   "date-parts": [
+    [
+     2008,
+     12,
+     1
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1214/08-AOAS191",
+  "id": "gelmanprior2008"
+ },
+ {
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "1",
+  "DOI": "10.1093/biomet/80.1.27",
+  "type": "journal-article",
+  "page": "27-38",
+  "title": "Bias reduction of maximum likelihood estimates",
+  "volume": "80",
+  "author": [
+   {
+    "given": "David",
+    "family": "Firth",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Biometrika",
+  "issued": {
+   "date-parts": [
+    [
+     1993
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1093/biomet/80.1.27",
+  "id": "firth1993"
+ },
+ {
+  "publisher": "Institute of Mathematical Statistics",
+  "issue": "2",
+  "DOI": "10.1214/20-ba1221",
+  "type": "journal-article",
+  "page": "667-718",
+  "title": "Rank-normalization, folding, and localization: an improved R-hat for assessing convergence of MCMC",
+  "volume": "16",
+  "author": [
+   {
+    "given": "Aki",
+    "family": "Vehtari",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Aalto University, Finland"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andrew",
+    "family": "Gelman",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Statistics, Columbia University, New York"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Daniel",
+    "family": "Simpson",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Statistical Sciences, University of Toronto, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Bob",
+    "family": "Carpenter",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Center for Computational Mathematics, Flatiron Institute, New York"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Paul-Christian",
+    "family": "Bürkner",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Aalto University, Finland"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Bayesian Analysis",
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     6,
+     1
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1214/20-BA1221",
+  "id": "vehtari2021"
+ },
+ {
+  "publisher": "SAGE Publications",
+  "issue": "6",
+  "DOI": "10.1177/1745691614551642",
+  "type": "journal-article",
+  "page": "641-651",
+  "title": "Beyond Power Calculations: Assessing Type S (Sign) and Type M (Magnitude) Errors",
+  "volume": "9",
+  "author": [
+   {
+    "given": "Andrew",
+    "family": "Gelman",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Statistics and Department of Political Science, Columbia University"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "John",
+    "family": "Carlin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Clinical Epidemiology and Biostatistics Unit, Murdoch Children’s Research Institute, Parkville, Victoria, Australia"
+     },
+     {
+      "name": "Department of Paediatrics and School of Population and Global Health, University of Melbourne"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Perspectives on Psychological Science",
+  "issued": {
+   "date-parts": [
+    [
+     2014,
+     11
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1177/1745691614551642",
+  "id": "gelmancarlin2014"
+ },
+ {
+  "publisher": "Elsevier BV",
+  "issue": "2",
+  "DOI": "10.1016/j.jeconom.2020.12.001",
+  "type": "journal-article",
+  "page": "200-230",
+  "title": "Difference-in-Differences with multiple time periods",
+  "volume": "225",
+  "author": [
+   {
+    "given": "Brantly",
+    "family": "Callaway",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Pedro H.C.",
+    "family": "Sant’Anna",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Journal of Econometrics",
+  "issued": {
+   "date-parts": [
+    [
+     2021,
+     12
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1016/j.jeconom.2020.12.001",
+  "id": "callaway2021"
+ },
+ {
+  "publisher": "American Economic Association",
+  "issue": "3",
+  "DOI": "10.1257/aeri.20210236",
+  "type": "journal-article",
+  "page": "305-322",
+  "title": "Pretest with Caution: Event-Study Estimates after Testing for Parallel Trends",
+  "volume": "4",
+  "author": [
+   {
+    "given": "Jonathan",
+    "family": "Roth",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Brown University (email: )"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "American Economic Review: Insights",
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     9,
+     1
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1257/aeri.20210236",
+  "id": "roth2022"
+ },
+ {
+  "publisher": "SAGE Publications",
+  "issue": "4",
+  "DOI": "10.1177/1948550617697177",
+  "type": "journal-article",
+  "page": "355-362",
+  "title": "Equivalence tests: a practical primer for t tests, correlations, and meta-analyses",
+  "volume": "8",
+  "author": [
+   {
+    "given": "Daniël",
+    "family": "Lakens",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Human Technology Interaction Group, Eindhoven University of Technology, Eindhoven, the Netherlands"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Social Psychological and Personality Science",
+  "issued": {
+   "date-parts": [
+    [
+     2017,
+     5
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1177/1948550617697177",
+  "id": "lakens2017"
+ },
+ {
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "5",
+  "DOI": "10.1093/restud/rdad018",
+  "type": "journal-article",
+  "page": "2555-2591",
+  "title": "A More Credible Approach to Parallel Trends",
+  "volume": "90",
+  "author": [
+   {
+    "given": "Ashesh",
+    "family": "Rambachan",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Microsoft Research New England and MIT"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jonathan",
+    "family": "Roth",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Brown University"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Review of Economic Studies",
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     9,
+     5
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1093/restud/rdad018",
+  "id": "rambachan2023"
+ },
+ {
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "1",
+  "DOI": "10.1093/biomet/70.1.41",
+  "type": "journal-article",
+  "page": "41-55",
+  "title": "The central role of the propensity score in observational studies for causal effects",
+  "volume": "70",
+  "author": [
+   {
+    "given": "Paul R.",
+    "family": "Rosenbaum",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Donald B.",
+    "family": "Rubin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Biometrika",
+  "issued": {
+   "date-parts": [
+    [
+     1983
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1093/biomet/70.1.41",
+  "id": "rosenbaum1983"
+ },
+ {
+  "publisher": "Oxford University Press (OUP)",
+  "issue": "1-2",
+  "DOI": "10.1093/biomet/34.1-2.28",
+  "type": "journal-article",
+  "page": "28-35",
+  "title": "The generalization of 'Student's' problem when several different population variances are involved",
+  "volume": "34",
+  "author": [
+   {
+    "given": "B. L.",
+    "family": "Welch",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Biometrika",
+  "issued": {
+   "date-parts": [
+    [
+     1947
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1093/biomet/34.1-2.28",
+  "id": "welch1947"
+ },
+ {
+  "publisher": "Elsevier BV",
+  "issue": "3",
+  "DOI": "10.1016/0304-4076(85)90158-7",
+  "type": "journal-article",
+  "page": "305-325",
+  "title": "Some heteroskedasticity-consistent covariance matrix estimators with improved finite sample properties",
+  "volume": "29",
+  "author": [
+   {
+    "given": "James G",
+    "family": "MacKinnon",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Halbert",
+    "family": "White",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Journal of Econometrics",
+  "issued": {
+   "date-parts": [
+    [
+     1985,
+     9
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1016/0304-4076(85)90158-7",
+  "id": "mackinnon1985"
+ },
+ {
+  "publisher": "PeerJ",
+  "DOI": "10.7717/peerj-cs.1516",
+  "type": "journal-article",
+  "page": "e1516",
+  "title": "PyMC: a modern, and comprehensive probabilistic programming framework in Python",
+  "volume": "9",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-1847-9481",
+    "authenticated-orcid": true,
+    "given": "Oriol",
+    "family": "Abril-Pla",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "ArviZ-Devs, Barcelona, Spain"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-2383-1478",
+    "authenticated-orcid": true,
+    "given": "Virgile",
+    "family": "Andreani",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Biomedical Engineering Department, Boston University, Boston, United States of America"
+     },
+     {
+      "name": "Biological Design Center, Boston University, Boston, United States of America"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Colin",
+    "family": "Carroll",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Google, Cambridge, MA, United States of America"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Larry",
+    "family": "Dong",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Dalla Lana School of Public Health, University of Toronto, Toronto, Canada"
+     },
+     {
+      "name": "Child Health Evaluative Sciences, The Hospital for Sick Children, Toronto, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Christopher J.",
+    "family": "Fonnesbeck",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Baseball Operations Research and Development, Philadelphia Phillies, Philadelphia, United States of America"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Maxim",
+    "family": "Kochurov",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "PyMC Labs, Berlin, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ravin",
+    "family": "Kumar",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Google, Mountain View, CA, United States of America"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6029-7510",
+    "authenticated-orcid": true,
+    "given": "Junpeng",
+    "family": "Lao",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Google, Zürich, Switzerland"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Christian C.",
+    "family": "Luhmann",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Psychology, Stony Brook University, Stony Brook, United States of America"
+     },
+     {
+      "name": "Institute for Advanced Computational Science, Stony Brook University, Stony Brook NY, United States of America"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7419-8978",
+    "authenticated-orcid": true,
+    "given": "Osvaldo A.",
+    "family": "Martin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "IMASL-CONICET, Universidad Nacional de San Luis, San Luis, Argentina"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael",
+    "family": "Osthege",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Forschungszentrum Jülich GmbH, Jülich, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ricardo",
+    "family": "Vieira",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "PyMC Labs, Berlin, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Thomas",
+    "family": "Wiecki",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "PyMC Labs, Berlin, Germany"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-8654-2235",
+    "authenticated-orcid": true,
+    "given": "Robert",
+    "family": "Zinkov",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Oxford University, Oxford, United Kingdom"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "PeerJ Computer Science",
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     9,
+     1
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.7717/peerj-cs.1516",
+  "id": "pymc2023"
+ },
+ {
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "7825",
+  "DOI": "10.1038/s41586-020-2649-2",
+  "type": "journal-article",
+  "page": "357-362",
+  "title": "Array programming with NumPy",
+  "volume": "585",
+  "author": [
+   {
+    "given": "Charles R.",
+    "family": "Harris",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5263-5070",
+    "authenticated-orcid": false,
+    "given": "K. Jarrod",
+    "family": "Millman",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-9276-1891",
+    "authenticated-orcid": false,
+    "given": "Stéfan J.",
+    "family": "van der Walt",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-0300-3333",
+    "authenticated-orcid": false,
+    "given": "Ralf",
+    "family": "Gommers",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Pauli",
+    "family": "Virtanen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "David",
+    "family": "Cournapeau",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Eric",
+    "family": "Wieser",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Julian",
+    "family": "Taylor",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sebastian",
+    "family": "Berg",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Nathaniel J.",
+    "family": "Smith",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Robert",
+    "family": "Kern",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1771-9949",
+    "authenticated-orcid": false,
+    "given": "Matti",
+    "family": "Picus",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5207-0380",
+    "authenticated-orcid": false,
+    "given": "Stephan",
+    "family": "Hoyer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Marten H.",
+    "family": "van Kerkwijk",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Matthew",
+    "family": "Brett",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Allan",
+    "family": "Haldane",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jaime Fernández",
+    "family": "del Río",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3603-8038",
+    "authenticated-orcid": false,
+    "given": "Mark",
+    "family": "Wiebe",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7328-4305",
+    "authenticated-orcid": false,
+    "given": "Pearu",
+    "family": "Peterson",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Pierre",
+    "family": "Gérard-Marchant",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8700-2292",
+    "authenticated-orcid": false,
+    "given": "Kevin",
+    "family": "Sheppard",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Tyler",
+    "family": "Reddy",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Warren",
+    "family": "Weckesser",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hameer",
+    "family": "Abbasi",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-8108-7707",
+    "authenticated-orcid": false,
+    "given": "Christoph",
+    "family": "Gohlke",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Travis E.",
+    "family": "Oliphant",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Nature",
+  "issued": {
+   "date-parts": [
+    [
+     2020,
+     9,
+     17
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1038/s41586-020-2649-2",
+  "id": "numpy2020"
+ },
+ {
+  "publisher": "ACM",
+  "DOI": "10.1145/3299869.3320212",
+  "type": "proceedings-article",
+  "page": "1981-1984",
+  "title": "DuckDB: an Embeddable Analytical Database",
+  "author": [
+   {
+    "given": "Mark",
+    "family": "Raasveldt",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "CWI, Amsterdam, Netherlands"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hannes",
+    "family": "Mühleisen",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "CWI, Amsterdam, Netherlands"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Proceedings of the 2019 International Conference on Management of Data",
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     6,
+     25
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.1145/3299869.3320212",
+  "id": "duckdb2019"
+ },
+ {
+  "publisher": "The Open Journal",
+  "issue": "33",
+  "DOI": "10.21105/joss.01143",
+  "type": "journal-article",
+  "page": "1143",
+  "title": "ArviZ a unified library for exploratory analysis of Bayesian models in Python",
+  "volume": "4",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-0501-6098",
+    "authenticated-orcid": false,
+    "given": "Ravin",
+    "family": "Kumar",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6977-0861",
+    "authenticated-orcid": false,
+    "given": "Colin",
+    "family": "Carroll",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-4569-569X",
+    "authenticated-orcid": false,
+    "given": "Ari",
+    "family": "Hartikainen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7419-8978",
+    "authenticated-orcid": false,
+    "given": "Osvaldo",
+    "family": "Martin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Journal of Open Source Software",
+  "issued": {
+   "date-parts": [
+    [
+     2019,
+     1,
+     15
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.21105/joss.01143",
+  "id": "arviz2019"
+ },
+ {
+  "publisher": "SciPy",
+  "DOI": "10.25080/majora-92bf1922-011",
+  "type": "proceedings-article",
+  "page": "92-96",
+  "title": "Statsmodels: Econometric and Statistical Modeling with Python",
+  "author": [
+   {
+    "given": "Skipper",
+    "family": "Seabold",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Josef",
+    "family": "Perktold",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "Proceedings of the Python in Science Conference",
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.25080/Majora-92bf1922-011",
+  "id": "statsmodels2010"
+ }
+]

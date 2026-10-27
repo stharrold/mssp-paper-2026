@@ -1,0 +1,823 @@
+1. Milbank Q. 2020 Sep;98(3):847-907. doi: 10.1111/1468-0009.12468. Epub 2020 Jul
+ 22.
+
+Savings or Selection? Initial Spending Reductions in the Medicare Shared Savings 
+Program and Considerations for Reform.
+
+McWILLIAMS JM(1)(2), Hatfield LA(1), Landon BE(1)(3), Chernew ME(1).
+
+Author information:
+(1)Harvard Medical School.
+(2)Brigham and Women's Hospital.
+(3)Beth Israel Deaconess Medical Center.
+
+Policy Points Concerns have been raised about risk selection in the Medicare 
+Shared Savings Program (MSSP). Specifically, turnover in accountable care 
+organization (ACO) physicians and patient panels has led to concerns that ACOs 
+may be earning shared-savings bonuses by selecting lower-risk patients or 
+providers with lower-risk panels. We find no evidence that changes in ACO 
+patient populations explain savings estimates from previous evaluations through 
+2015. We also find no evidence that ACOs systematically manipulated provider 
+composition or billing to earn bonuses. The modest savings and lack of risk 
+selection in the original MSSP design suggest opportunities to build on early 
+progress. Recent program changes provide ACOs with more opportunity to select 
+providers with lower-risk patients. Understanding the effect of these changes 
+will be important for guiding future payment policy.
+CONTEXT: The Medicare Shared Savings Program (MSSP) establishes incentives for 
+participating accountable care organizations (ACOs) to lower spending for their 
+attributed fee-for-service Medicare patients. Turnover in ACO physicians and 
+patient panels has raised concerns that ACOs may be earning shared-savings 
+bonuses by selecting lower-risk patients or providers with lower-risk panels.
+METHODS: We conducted three sets of analyses of Medicare claims data. First, we 
+estimated overall MSSP savings through 2015 using a difference-in-differences 
+approach and methods that eliminated selection bias from ACO program exit or 
+changes in the practices or physicians included in ACO contracts. We then 
+checked for residual risk selection at the patient level. Second, we reestimated 
+savings with methods that address undetected risk selection but could introduce 
+bias from other sources. These included patient fixed effects, baseline or 
+prospective assignment, and area-level MSSP exposure to hold patient populations 
+constant. Third, we tested for changes in provider composition or provider 
+billing that may have contributed to bonuses, even if they were eliminated as 
+sources of bias in the evaluation analyses.
+FINDINGS: MSSP participation was associated with modest and increasing annual 
+gross savings in the 2012-2013 entry cohorts of ACOs that reached $139 to $302 
+per patient by 2015. Savings in the 2014 entry cohort were small and not 
+statistically significant. Robustness checks revealed no evidence of residual 
+risk selection. Alternative methods to address risk selection produced results 
+that were substantively consistent with our primary analysis but varied somewhat 
+and were more sensitive to adjustment for patient characteristics, suggesting 
+the introduction of bias from within-patient changes in time-varying 
+characteristics. We found no evidence of ACO manipulation of provider 
+composition or billing to inflate savings. Finally, larger savings for physician 
+group ACOs were robust to consideration of differential changes in 
+organizational structure among non-ACO providers (eg, from consolidation).
+CONCLUSIONS: Participation in the original MSSP program was associated with 
+modest savings and not with favorable risk selection. These findings suggest an 
+opportunity to build on early progress. Understanding the effect of new 
+opportunities and incentives for risk selection in the revamped MSSP will be 
+important for guiding future program reforms.
+
+© 2020 Milbank Memorial Fund.
+
+DOI: 10.1111/1468-0009.12468
+PMCID: PMC7482384
+PMID: 32697004 [Indexed for MEDLINE]
+
+
+2. JAMA. 2025 Jun 3;333(21):1897-1905. doi: 10.1001/jama.2025.3870.
+
+Long-Term Spending of Accountable Care Organizations in the Medicare Shared 
+Savings Program.
+
+Bond AM(1)(2), Civelek Y(1)(2), Schpero WL(1)(2), Casalino LP(1)(3), Zhang M(1), 
+Pierre R(1), Khullar D(1)(2)(3)(4).
+
+Author information:
+(1)Division of Health Policy & Economics, Weill Cornell Medical College, New 
+York, New York.
+(2)Cornell Health Policy Center, New York, New York.
+(3)Physicians Foundation Center for the Study of Physician Practice & 
+Leadership, New York, New York.
+(4)Division of General Internal Medicine, Weill Cornell Medical College, New 
+York, New York.
+
+Comment in
+    JAMA. 2025 Jun 03;333(21):1874-1875. doi: 10.1001/jama.2025.6175.
+
+IMPORTANCE: Evidence from initial cohorts of accountable care organizations 
+(ACOs) participating in the Medicare Shared Savings Program (MSSP) found modest 
+reductions in health care spending. Little is known about whether these effects 
+have changed over time.
+OBJECTIVE: To determine long-term changes in spending for MSSP ACO participants.
+DESIGN, SETTING, AND PARTICIPANTS: Using 2010 to 2019 traditional Medicare data, 
+difference-in-differences analyses were performed to compare spending changes 
+for patients attributed to ACOs relative to changes for patients at non-ACO 
+organizations. Outcomes included total Medicare spending and spending by 
+category. Three- and 6-year effects and estimated differential changes overall 
+and by ACO characteristics were calculated, including size (small defined as 
+<10 000 patients), rurality, and whether an ACO included a hospital 
+(hospital-associated ACO) or not (physician-group ACO).
+EXPOSURE: Attribution to a medical group or clinic in an ACO during the first 2 
+years of ACO tenure.
+MAIN OUTCOMES AND MEASURES: Total annual per-patient Medicare spending.
+RESULTS: The sample included 41 973 272 Medicare patient-years. Baseline 
+characteristics for 2 719 406 ACO patients and 5 523 652 control patients were 
+similar (average age, 72 years; 58% female; and 82% to 84% White) prior to ACO 
+formation in 2010 and 2011, and unadjusted annual per-patient spending was 
+slightly lower in the ACO group vs control group ($12 147 vs $12 318; 
+difference, -$171 [95% CI, -$223 to -$118]) in the 2 years prior to ACO 
+formation. ACO formation was associated with a mean differential reduction of 
+$142 (95% CI, -$193 to -$92) in annual per-patient spending over 3 years and 
+$294 (95% CI, -$347 to -$241) over 6 years. Spending reductions associated with 
+ACO formation increased over time: compared with control patients, ACO patients 
+experienced a mean reduction of $234 (95% CI, -$298 to -$171) in year 3 and $584 
+(95% CI, -$680 to -$489) in year 6. Physician-group and small ACOs generated 
+larger spending reductions. Spending changes resulted in $4.1 billion to $8.1 
+billion in savings to Medicare between 2012 and 2019.
+CONCLUSIONS AND RELEVANCE: During the MSSP's first decade, ACOs generated 
+meaningful reductions in spending, with larger effects over time.
+
+DOI: 10.1001/jama.2025.3870
+PMCID: PMC12038717
+PMID: 40293760 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of Interest Disclosures: Dr Bond 
+reported receiving grants from Agency for Healthcare Research and Quality (AHRQ) 
+and Defense Health Agency outside the submitted work. Dr Schpero reported 
+receiving grants from Commonwealth Fund, Flatiron Health, Laura and John Arnold 
+Foundation, Milbank Memorial Fund, National Institute on Aging, National 
+Institute on Minority Health and Health Disparities, New York State Department 
+of Health, Patient-Centered Outcomes Research Institute, Robert Wood Johnson 
+Foundation, and United Hospital Fund outside the submitted work. Dr Casalino 
+reported receiving grants from Physicians Foundation outside the submitted work. 
+Dr Khullar reported receiving grants from AHRQ outside the submitted work. No 
+other disclosures were reported.
+
+
+3. N Engl J Med. 2018 Sep 20;379(12):1139-1149. doi: 10.1056/NEJMsa1803388. Epub 
+2018 Sep 5.
+
+Medicare Spending after 3 Years of the Medicare Shared Savings Program.
+
+McWilliams JM(1), Hatfield LA(1), Landon BE(1), Hamed P(1), Chernew ME(1).
+
+Author information:
+(1)From the Department of Health Care Policy, Harvard Medical School (J.M.M., 
+L.A.H., B.E.L., P.H., M.E.C.), the Division of General Internal Medicine and 
+Primary Care, Department of Medicine, Brigham and Women's Hospital and Harvard 
+Medical School (J.M.M.), and the Division of General Internal Medicine and 
+Primary Care, Department of Medicine, Beth Israel Deaconess Medical Center 
+(B.E.L.) - all in Boston.
+
+Comment in
+    J Urol. 2019 Mar;201(3):433. doi: 10.1097/01.JU.0000553685.25896.cf.
+
+BACKGROUND: Health care providers who participate as an accountable care 
+organization (ACO) in the voluntary Medicare Shared Savings Program (MSSP) have 
+incentives to lower spending for Medicare patients while achieving high 
+performance on a set of quality measures. Little is known about the extent to 
+which early savings achieved by ACOs in the program have grown and been 
+replicated by ACOs that entered the program in later years. ACOs that are 
+physician groups have stronger incentives to lower spending than 
+hospital-integrated ACOs.
+METHODS: Using fee-for-service Medicare claims from 2009 through 2015, we 
+performed difference-in-differences analyses to compare changes in Medicare 
+spending for patients in ACOs before and after entry into the MSSP with 
+concurrent changes in spending for local patients served by providers not 
+participating in the MSSP (control group). We estimated differential changes 
+(i.e., the between-group difference in the change from the pre-entry period) 
+separately for hospital-integrated ACOs and physician-group ACOs that entered 
+the MSSP in 2012, 2013, or 2014.
+RESULTS: MSSP participation was associated with differential spending reductions 
+in physician-group ACOs. These reductions grew with longer participation in the 
+program and were significantly greater than the reductions in 
+hospital-integrated ACOs. By 2015, the mean differential change in per-patient 
+Medicare spending was -$474 (-4.9% of the pre-entry mean, P<0.001) for 
+physician-group ACOs that entered in 2012, -$342 (-3.5% of the pre-entry mean, 
+P<0.001) for those that entered in 2013, and -$156 (-1.6% of the pre-entry mean, 
+P=0.009) for those that entered in 2014. The corresponding differential changes 
+for hospital-integrated ACOs were -$169 (P=0.005), -$18 (P=0.78), and $88 
+(P=0.14), which were significantly lower than for physician-group ACOs 
+(P<0.001). Spending reductions in physician-group ACOs constituted a net savings 
+to Medicare of $256.4 million in 2015, whereas spending reductions in 
+hospital-integrated ACOs were offset by bonus payments.
+CONCLUSIONS: After 3 years of the MSSP, participation in shared-savings 
+contracts by physician groups was associated with savings for Medicare that grew 
+over the study period, whereas hospital-integrated ACOs did not produce savings 
+(on average) during the same period. (Funded by the National Institute on 
+Aging.).
+
+DOI: 10.1056/NEJMsa1803388
+PMCID: PMC6269647
+PMID: 30183495 [Indexed for MEDLINE]
+
+
+4. N Engl J Med. 2016 Jun 16;374(24):2357-66. doi: 10.1056/NEJMsa1600142. Epub
+2016  Apr 13.
+
+Early Performance of Accountable Care Organizations in Medicare.
+
+McWilliams JM(1), Hatfield LA(1), Chernew ME(1), Landon BE(1), Schwartz AL(1).
+
+Author information:
+(1)From the Department of Health Care Policy, Harvard Medical School (J.M.M., 
+L.A.H., M.E.C., B.E.L., A.L.S.), the Division of General Internal Medicine and 
+Primary Care, Department of Medicine, Brigham and Women's Hospital and Harvard 
+Medical School (J.M.M.), and the Division of General Internal Medicine and 
+Primary Care, Department of Medicine, Beth Israel Deaconess Medical Center 
+(B.E.L.) - all in Boston.
+
+BACKGROUND: In the Medicare Shared Savings Program (MSSP), accountable care 
+organizations (ACOs) have financial incentives to lower spending and improve 
+quality. We used quasi-experimental methods to assess the early performance of 
+MSSP ACOs.
+METHODS: Using Medicare claims from 2009 through 2013 and a 
+difference-in-differences design, we compared changes in spending and in 
+performance on quality measures from before the start of ACO contracts to after 
+the start of the contracts between beneficiaries served by the 220 ACOs entering 
+the MSSP in mid-2012 (2012 ACO cohort) or January 2013 (2013 ACO cohort) and 
+those served by non-ACO providers (control group), with adjustment for 
+geographic area and beneficiary characteristics. We analyzed the 2012 and 2013 
+ACO cohorts separately because entry time could reflect the capacity of an ACO 
+to achieve savings. We compared ACO savings according to organizational 
+structure, baseline spending, and concurrent ACO contracting with commercial 
+insurers.
+RESULTS: Adjusted Medicare spending and spending trends were similar in the ACO 
+cohorts and the control group during the precontract period. In 2013, the 
+differential change (i.e., the between-group difference in the change from the 
+precontract period) in total adjusted annual spending was -$144 per beneficiary 
+in the 2012 ACO cohort as compared with the control group (P=0.02), consistent 
+with a 1.4% savings, but only -$3 per beneficiary in the 2013 ACO cohort as 
+compared with the control group (P=0.96). Estimated savings were consistently 
+greater in independent primary care groups than in hospital-integrated groups 
+among 2012 and 2013 MSSP entrants (P=0.005 for interaction). MSSP contracts were 
+associated with improved performance on some quality measures and unchanged 
+performance on others.
+CONCLUSIONS: The first full year of MSSP contracts was associated with early 
+reductions in Medicare spending among 2012 entrants but not among 2013 entrants. 
+Savings were greater in independent primary care groups than in 
+hospital-integrated groups.
+
+DOI: 10.1056/NEJMsa1600142
+PMCID: PMC4963149
+PMID: 27075832 [Indexed for MEDLINE]
+
+
+5. Health Aff (Millwood). 2022 Jan;41(1):138-146. doi:
+10.1377/hlthaff.2020.01819.
+
+ACO Investment Model Produced Savings, But The Majority Of Participants Exited 
+When Faced With Downside Risk.
+
+Trombley MJ(1), McWilliams JM(2), Fout B(3), Morefield B(4).
+
+Author information:
+(1)Matthew J. Trombley (matthew_trombley@abtassoc.com), Abt Associates Inc., 
+Durham, North Carolina.
+(2)J. Michael McWilliams, Harvard Medical School and Brigham and Women's 
+Hospital, Boston, Massachusetts.
+(3)Betty Fout, Abt Associates Inc., Rockville, Maryland.
+(4)Brant Morefield, Aledade, Inc., Bethesda, Maryland.
+
+Medicare's Accountable Care Organization (ACO) Investment Model (AIM) provided 
+up-front funding to forty-one small, rurally located ACOs to encourage their 
+participation in the Medicare Shared Savings Program. We estimate net savings to 
+Medicare of $381.5 million over three years, driven by utilization reductions in 
+inpatient and other institutional care and by the absence of shared risk for 
+potential increases in Medicare spending incurred by participants. These savings 
+suggest that population-based payment models can enable providers to better meet 
+the needs of rural populations through greater flexibility in care delivery. 
+However, nearly two-thirds of AIM ACOs exited the Medicare Shared Savings 
+Program when faced with the requirement to assume downside financial risk, 
+starting in year four of participation. As the Centers for Medicare and Medicaid 
+Services builds on AIM and rural hospital global payment models, our findings 
+suggest that new payment models can support more efficient use of resources to 
+meet the health care needs of rural populations. However, the findings also 
+caution against the vigorous pursuit of savings as a primary goal of payment 
+models in traditionally underserved communities.
+
+DOI: 10.1377/hlthaff.2020.01819
+PMID: 34982636 [Indexed for MEDLINE]
+
+
+6. Health Serv Res. 2025 Mar 13;60(4):e14597. doi: 10.1111/1475-6773.14597.
+Online  ahead of print.
+
+Early Effects of Pathways to Success on Utilization in Traditional Medicare.
+
+Ying M(1), Shay A(2), Hollingsworth JM(3), Shahinian VB(2), Hollenbeck BK(2).
+
+Author information:
+(1)Department of Foundations of Medicine, NYU Langone Health, Mineola, New York, 
+USA.
+(2)Dow Division of Health Services Research, Department of Urology, University 
+of Michigan, Ann Arbor, Michigan, USA.
+(3)Department of Urology, University of Florida, Gainesville, Florida, USA.
+
+OBJECTIVE: To evaluate the early effects of Pathways to Success implementation 
+on utilization, as measured by quarterly price-standardized Medicare spending 
+per beneficiary.
+STUDY SETTING AND DESIGN: This study was a nationwide retrospective cohort 
+analysis of Traditional Medicare beneficiaries. The primary outcome was overall 
+utilization, as measured by adjusted quarterly price standardized spending per 
+beneficiary. Secondary outcomes included adjusted quarterly price standardized 
+spending by component type (inpatient, outpatient institutional, Part B, and 
+skilled nursing facility). The primary independent variable is Pathways to 
+Success implementation on July 1, 2019.
+DATA SOURCES AND ANALYTIC SAMPLE: A 20% sample of national Medicare data from 
+January 1, 2018, through March 31, 2020, includes Traditional Medicare 
+beneficiaries managed in ACOs (n = 1,368,523) and outside of ACOs ("controls," 
+n = 1,476,982) prior to Pathways implementation.
+PRINCIPAL FINDINGS: Unadjusted quarterly spending among those in ACOs and 
+controls decreased over the study period by $13.5 (from $2614.8 before Pathways 
+implementation to $2601.3 after Pathways implementation) and $89.8 (from $2723.1 
+before Pathways implementation to $2633.3 after Pathways implementation), 
+respectively. Adjusted quarterly spending per beneficiary decreased more slowly 
+in ACOs compared to controls (differences-in-differences estimate +$46.8 (95% CI 
+$19.2, $74.4) in ACOs vs. controls). This difference was largely driven by a 
+more rapid decrease in the utilization of inpatient care. Adjusted quarterly 
+spending per beneficiary for inpatient care decreased more slowly in ACOs 
+compared to controls (differences-in-differences estimate +$43.6 [95% CI $27.2, 
+$60.0] in ACOs vs. controls).
+CONCLUSIONS: After Pathways, reductions in utilization, as measured by 
+price-standardized spending, by ACOs occurred less rapidly than for those 
+managed outside of the Shared Savings Program. This effect was driven by a more 
+rapid decrease in spending for inpatient care by nonparticipants.
+
+© 2025 Wiley Periodicals LLC.
+
+DOI: 10.1111/1475-6773.14597
+PMCID: PMC12277103
+PMID: 40083132
+
+Conflict of interest statement: The authors declare no conflicts of interest.
+
+
+7. Health Aff Sch. 2025 Apr 1;3(4):qxaf067. doi: 10.1093/haschl/qxaf067. 
+eCollection 2025 Apr.
+
+Participation and attrition in the Medicare Shared Savings Program.
+
+Markovitz AA(1)(2), Gozalo PL(3), Ryan AM(3).
+
+Author information:
+(1)Department of Internal Medicine, University of Michigan Medical School, Ann 
+Arbor, MI 48109, United States.
+(2)Institute for Healthcare Policy and Innovation, University of Michigan, Ann 
+Arbor, MI 48109, United States.
+(3)Department of Health Services, Policy, and Practice, Brown University School 
+of Public Health, Providence, RI 02903, United States.
+
+DOI: 10.1093/haschl/qxaf067
+PMCID: PMC11992558
+PMID: 40224396
+
+Conflict of interest statement: Conflicts of interest: Please see ICMJE form(s) 
+for author conflicts of interest. These have been provided as supplementary 
+materials. A.A.M. has no disclosures to make. The remaining author disclosures 
+are listed in the funding statement below.
+
+
+8. Healthc (Amst). 2021 Mar;9(1):100460. doi: 10.1016/j.hjdsi.2020.100460. Epub 
+2021 Jan 4.
+
+Estimates of ACO savings in the presence of provider and beneficiary selection.
+
+Ouayogodé MH(1), Meara E(2), Ho K(3), Snyder CM(4), Colla CH(5).
+
+Author information:
+(1)Department of Population Health Sciences, University of Wisconsin School of 
+Medicine and Public Health, 610 Walnut Street, Madison, WI, 53726, USA. 
+Electronic address: marietou.ouayogode@wisc.edu.
+(2)Harvard University, T.H. Chan School of Public Health, 677 Huntington Avenue 
+Kresge, 4th Floor, Boston, Massachussetts, 02115, USA. Electronic address: 
+emeara@hsph.harvard.edu.
+(3)Princeton University, Department of Economics, 285 Julis Romo Rabinowitz 
+Building, Princeton, NJ, 08544, USA. Electronic address: Kate.Ho@Princeton.edu.
+(4)Dartmouth College, Department of Economics, 301 Rockefeller Hall, Hanover, 
+NH, 03755, USA. Electronic address: Chris.Snyder@Dartmouth.edu.
+(5)The Dartmouth Institute for Health Policy & Clinical Practice, Geisel School 
+of Medicine at Dartmouth, Williamson Translational Research Building, Level 5, 1 
+Medical Center Drive, Lebanon, NH, 03756, USA. Electronic address: 
+Carrie.H.Colla@Dartmouth.edu.
+
+BACKGROUND: Medicare's accountable care organizations (ACOs)-designed to improve 
+quality and lower spending-were associated with growing savings in previous 
+studies. However, savings estimates may be biased by beneficiary sorting among 
+providers based on healthcare needs and by providers opting into the program 
+based on anticipated gains.
+METHODS: Using Medicare administrative claims (2009-2014), we compared annual 
+spending changes after provider organizations joined ACOs to changes in non-ACOs 
+(controls). To address provider selection, using novel data to identify non-ACO 
+organizations, we restricted controls to comparably large provider 
+organizations. To address beneficiary selection, we (a) estimated 
+within-organization (including non-ACO comparison organizations) spending 
+changes, (b) estimated within-beneficiary spending changes, (c) incorporated 
+beneficiaries without qualifying healthcare expenses, and (d) used a fixed 
+beneficiary ACO assignment using the pre-ACO period.
+RESULTS: Each year, 19% of Medicare beneficiaries switched provider 
+organizations. Spending was higher for switchers than stayers ($3163, p < .001) 
+and grew more the next year ($2004; p < .001). Starting from a baseline 
+regression modeled on previous ACO evaluations, estimated savings varied widely 
+as we sequentially introduced methods to address selection. Combining methods, 
+however, generated more stable estimated ACO savings of $46 (p = .022), averaged 
+across cohorts.
+CONCLUSIONS: When implementing a comprehensive suite of methods to adjust for 
+provider and beneficiary selection, we estimated ACO savings that grew over 
+time. Our estimates are in line with, but smaller than, previous estimates in 
+the literature. Implementing piecemeal adjustments produced misleading results.
+IMPLICATIONS: Our results confirm the importance of selection for savings 
+estimates and for provider organizations managing costs and quality. Attribution 
+rules that consider multiple years may help mitigate the impact of beneficiary 
+churn for providers and payers. Implementing payment reform by randomizing early 
+participants, or implementing fully across selected markets, may better serve 
+efforts to evaluate and improve payment models.
+LEVEL OF EVIDENCE: Level 3.
+
+Copyright © 2020 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.hjdsi.2020.100460
+PMCID: PMC7887069
+PMID: 33412439 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of Interest: The authors have no 
+conflicts of interest to report.
+
+
+9. Health Aff (Millwood). 2019 Feb;38(2):253-261. doi:
+10.1377/hlthaff.2018.05407.
+
+Risk Adjustment In Medicare ACO Program Deters Coding Increases But May Lead 
+ACOs To Drop High-Risk Beneficiaries.
+
+Markovitz AA(1), Hollingsworth JM(2), Ayanian JZ(3), Norton EC(4), Moloci NM(5), 
+Yan PL(6), Ryan AM(7).
+
+Author information:
+(1)Adam A. Markovitz is an MD-PhD candidate in the Department of Health 
+Management and Policy, University of Michigan School of Public Health, and the 
+University of Michigan Medical School, in Ann Arbor.
+(2)John M. Hollingsworth is an associate professor in the Dow Division of Health 
+Services Research, Department of Urology, University of Michigan Medical School, 
+in Ann Arbor.
+(3)John Z. Ayanian is the Alice Hamilton Collegiate Professor of Medicine in the 
+Department of Internal Medicine, University of Michigan Medical School.
+(4)Edward C. Norton is a professor in the Department of Health Management and 
+Policy in the University of Michigan School of Public Health, in Ann Arbor.
+(5)Nicholas M. Moloci is a senior statistician in the Dow Division of Health 
+Services Research, Department of Urology, University of Michigan Medical School.
+(6)Phyllis L. Yan is a statistician in the Dow Division of Health Services 
+Research, Department of Urology, University of Michigan Medical School.
+(7)Andrew M. Ryan ( amryan@umich.edu ) is the UnitedHealthcare Professor of 
+Health Care Management in the Department of Health Management and Policy, 
+University of Michigan School of Public Health.
+
+The Medicare Shared Savings Program (MSSP) adjusts savings benchmarks by 
+beneficiaries' baseline risk scores. To discourage increased coding intensity, 
+the benchmark is not adjusted upward if beneficiaries' risk scores rise while in 
+the MSSP. As a result, accountable care organizations (ACOs) have an incentive 
+to avoid increasingly sick or expensive beneficiaries. We examined whether 
+beneficiaries' exposure to the MSSP was associated with within-beneficiary 
+changes in risk scores and whether risk scores were associated with entry to or 
+exit from the MSSP. We found that the MSSP was not associated with consistent 
+changes in within-beneficiary risk scores. Conversely, beneficiaries at the 
+ninety-fifth percentile of risk score had a 21.6 percent chance of exiting the 
+MSSP, compared to a 16.0 percent chance among beneficiaries at the fiftieth 
+percentile. The decision not to upwardly adjust risk scores in the MSSP has 
+successfully deterred coding increases but might discourage ACOs to care for 
+high-risk beneficiaries in the MSSP .
+
+DOI: 10.1377/hlthaff.2018.05407
+PMCID: PMC6394223
+PMID: 30715995 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of Interest: The authors have no 
+conflict of interest regarding this work.
+
+
+10. J Rural Health. 2023 Jan;39(1):302-308. doi: 10.1111/jrh.12672. Epub 2022 May
+7.
+
+Medicare accountable care organization characteristics associated with 
+participation in 2-sided risk.
+
+Zhu X(1)(2), Huang H(2), MacKinney AC(2), Ullrich F(2), Mueller K(2).
+
+Author information:
+(1)Department of Health Policy and Management, Fielding School of Public Health, 
+University of California Los Angeles, Los Angeles, California, USA.
+(2)Department of Health Management and Policy, College of Public Health, 
+University of Iowa, Iowa City, Iowa, USA.
+
+PURPOSE: To examine the associations of accountable care organization (ACO) 
+characteristics with the likelihood of participation in 2-sided risk tracks in 
+the Medicare Shared Savings Program (SSP).
+METHODS: CMS ACO Public Use Files and Provider-Level Research Identifiable Files 
+were used to trace Medicare ACOs' participation in the SSP between 2012 and 2020 
+and measure ACO characteristics, including size, rurality of the service area, 
+affiliation with supporting organizations, program experience, and performance. 
+Logistic regression and survival analysis were used to test the associations 
+between ACO characteristics and the probability of ACOs initially participating 
+in or subsequently switching to 2-sided risk tracks.
+FINDINGS: Among the 624 Medicare SSP ACOs that started between 2012 and 2017, 26 
+participated in 2-sided risk tracks in their initial contracts and 95 switched 
+to 2-sided risk tracks subsequently. ACO characteristics were not significantly 
+associated with the probability of participating in 2-sided risk tracks in 
+initial contracts. ACO size, affiliation with supporting organizations, and 
+performance were positively associated with the likelihood of switching to 
+2-sided risk. Rural ACOs were less likely to switch to 2-sided risk than their 
+urban counterparts.
+CONCLUSIONS: Small and rural ACOs are less prepared to transition into 2-sided 
+risk swiftly.
+
+© 2022 National Rural Health Association.
+
+DOI: 10.1111/jrh.12672
+PMID: 35526082 [Indexed for MEDLINE]
+
+
+11. Health Aff (Millwood). 2019 May;38(5):794-803. doi:
+10.1377/hlthaff.2018.05097.
+
+Why Do Accountable Care Organizations Leave The Medicare Shared Savings Program?
+
+Bleser WK(1), Saunders RS(2), Muhlestein DB(3), McClellan M(4).
+
+Author information:
+(1)William K. Bleser ( william.bleser@duke.edu ) is a research associate at the 
+Duke-Margolis Center for Health Policy, Duke University, in Washington, D.C.
+(2)Robert S. Saunders is a research director at the Duke-Margolis Center for 
+Health Policy, Duke University, in Washington.
+(3)David B. Muhlestein is chief research officer at Leavitt Partners in 
+Washington, D.C., and an adjunct assistant professor at the Dartmouth Institute, 
+Geisel School of Medicine, Dartmouth College, in Hanover, New Hampshire.
+(4)Mark McClellan is director of the Duke-Margolis Center for Health Policy in 
+Washington and the Robert J. Margolis Professor of Business, Medicine, and 
+Policy at Duke University in Durham, North Carolina.
+
+The ability of accountable care organizations (ACOs) to continue reducing costs 
+and improving quality depends on understanding what affects their survival. We 
+examined such factors for survival in the Medicare Shared Savings Program (MSSP) 
+of 624 ACOs between performance years 2013 and 2017 (1,849 ACO-years). Overall, 
+ACO exits from the MSSP decreased after ACOs' third year. Shared-savings bonus 
+payment achievement, more care coordination, higher financial performance 
+benchmarks, market-level Medicare cost growth, lower-risk patients, and 
+contracts with upside-only risk were associated with longer survival. Quality 
+scores, postacute care spending, organizational traits, and most market-context 
+characteristics had no significant association with survival, which indicates 
+that diverse organizations and markets can be successful. Put in context with 
+the recently finalized MSSP rule from December 2018, our findings suggest that 
+while new flexibilities for low-revenue ACOs likely reduce uncertainty for some, 
+MSSP ACOs may need more than the new period of one to three years to prepare for 
+downside risk. Policy makers should offer more support to ACOs (especially those 
+with higher-risk patients) for building organizational competencies and should 
+consider how benchmarking policy can fairly assess ACOs from regions with 
+differing levels of cost growth.
+
+DOI: 10.1377/hlthaff.2018.05097
+PMID: 31059355 [Indexed for MEDLINE]
+
+
+12. Ann Intern Med. 2019 Jul 2;171(1):27-36. doi: 10.7326/M18-2539. Epub 2019 Jun
+ 18.
+
+Performance in the Medicare Shared Savings Program After Accounting for 
+Nonrandom Exit: An Instrumental Variable Analysis.
+
+Markovitz AA(1), Hollingsworth JM(2), Ayanian JZ(3), Norton EC(4), Yan PL(5), 
+Ryan AM(6).
+
+Author information:
+(1)University of Michigan Medical School and School of Public Health, Ann Arbor, 
+Michigan (A.A.M.).
+(2)University of Michigan Medical School and Institute for Healthcare Policy and 
+Innovation, Ann Arbor, Michigan (J.M.H.).
+(3)University of Michigan Medical School, School of Public Health, Gerald R. 
+Ford School of Public Policy, and Institute for Healthcare Policy and 
+Innovation, Ann Arbor, Michigan (J.Z.A.).
+(4)University of Michigan School of Public Health, and Institute for Healthcare 
+Policy and Innovation, Ann Arbor, Michigan, and National Bureau of Economic 
+Research, Cambridge, Massachusetts (E.C.N.).
+(5)University of Michigan Medical School, Ann Arbor, Michigan (P.L.Y.).
+(6)University of Michigan School of Public Health, Center for Evaluating Health 
+Reform, Institute for Healthcare Policy and Innovation, Ann Arbor, Michigan 
+(A.M.R.).
+
+BACKGROUND: Accountable care organizations (ACOs) in the Medicare Shared Savings 
+Program (MSSP) are associated with modest savings. However, prior research may 
+overstate this effect if high-cost clinicians exit ACOs.
+OBJECTIVE: To evaluate the effect of the MSSP on spending and quality while 
+accounting for clinicians' nonrandom exit.
+DESIGN: Similar to prior MSSP analyses, this study compared MSSP ACO 
+participants versus control beneficiaries using adjusted longitudinal models 
+that accounted for secular trends, market factors, and beneficiary 
+characteristics. To further account for selection effects, the share of nearby 
+clinicians in the MSSP was used as an instrumental variable. Hip fracture served 
+as a falsification outcome. The authors also tested for compositional changes 
+among MSSP participants.
+SETTING: Fee-for-service Medicare, 2008 through 2014.
+PATIENTS: A 20% sample (97 204 192 beneficiary-quarters).
+MEASUREMENTS: Total spending, 4 quality indicators, and hospitalization for hip 
+fracture.
+RESULTS: In adjusted longitudinal models, the MSSP was associated with spending 
+reductions (change, -$118 [95% CI, -$151 to -$85] per beneficiary-quarter) and 
+improvements in all 4 quality indicators. In instrumental variable models, the 
+MSSP was not associated with spending (change, $5 [CI, -$51 to $62] per 
+beneficiary-quarter) or quality. In falsification tests, the MSSP was associated 
+with hip fracture in the adjusted model (-0.24 hospitalizations for hip fracture 
+[CI, -0.32 to -0.16 hospitalizations] per 1000 beneficiary-quarters) but not in 
+the instrumental variable model (0.05 hospitalizations [CI, -0.10 to 0.20 
+hospitalizations] per 1000 beneficiary-quarters). Compositional changes were 
+driven by high-cost clinicians exiting ACOs: High-cost clinicians (99th 
+percentile) had a 30.4% chance of exiting the MSSP, compared with a 13.8% chance 
+among median-cost clinicians (50th percentile).
+LIMITATION: The study used an observational design and administrative data.
+CONCLUSION: After adjustment for clinicians' nonrandom exit, the MSSP was not 
+associated with improvements in spending or quality. Selection effects-including 
+exit of high-cost clinicians-may drive estimates of savings in the MSSP.
+PRIMARY FUNDING SOURCE: Horowitz Foundation for Social Policy, Agency for 
+Healthcare Research and Quality, and National Institute on Aging.
+
+DOI: 10.7326/M18-2539
+PMCID: PMC8757576
+PMID: 31207609 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of Interest Disclosures: Phyllis Yan, 
+John Ayanian, and Edward Norton have no disclosures to make. The remaining 
+author disclosures are listed in the funding statement below.
+
+
+13. JAMA Health Forum. 2022 Sep 2;3(9):e223398. doi: 
+10.1001/jamahealthforum.2022.3398.
+
+Exit Rates of Accountable Care Organizations That Serve High Proportions of 
+Beneficiaries of Racial and Ethnic Minority Groups.
+
+Lin SC(1)(2)(3), Maddox KEJ(3)(4), Ryan AM(5), Moloci N(6), Shay A(7), 
+Hollingsworth JM(7).
+
+Author information:
+(1)Division of General Medical Sciences, Department of Medicine, Washington 
+University School of Medicine in St. Louis, St Louis, Missouri.
+(2)Institute for Informatics, Washington University in St. Louis, St Louis, 
+Missouri.
+(3)Institute for Public Health, Washington University in St. Louis, St Louis, 
+Missouri.
+(4)Cardiovascular Division, Department of Medicine, Washington University School 
+of Medicine in St. Louis, St Louis, Missouri.
+(5)Health Management and Policy, University of Michigan School of Public Health, 
+Ann Arbor.
+(6)Department of Health Policy and Management, University of North Carolina, 
+Chapel Hill.
+(7)Dow Division of Health Services Research, Department of Urology, University 
+of Michigan, Ann Arbor.
+
+IMPORTANCE: The Medicare Shared Savings Program provides financial incentives 
+for accountable care organizations (ACOs) to reduce costs of care. The structure 
+of the shared savings program may not adequately adjust for challenges 
+associated with caring for patients with high medical complexity and social 
+needs, a population disproportionately made up of racial and ethnic minority 
+groups. If so, ACOs serving racial and ethnic minority groups may be more likely 
+to exit the program, raising concerns about the equitable distribution of 
+potential benefits from health care delivery reform efforts.
+OBJECTIVE: To evaluate whether ACOs with a high proportion of beneficaries of 
+racial and ethnic minority groups are more likely to exit the Medicare Shared 
+Savings Program and identify characteristics associated with this disparity.
+DESIGN, SETTING, AND PARTICIPANTS: This retrospective observational cohort study 
+used secondary data on Medicare Shared Savings Program ACOs from January 2012 
+through December 2018. Bivariate and multivariate cross-sectional regression 
+analyses were used to understand whether ACO racial and ethnic composition was 
+associated with program exit, and how ACOs with a high proportion of 
+beneficaries of racial and ethnic minority groups differed in characteristics 
+associated with program exit.
+EXPOSURES: Racial and ethnic composition of an ACO's beneficiaries.
+MAIN OUTCOMES AND MEASURES: Shared savings program exit before 2018.
+RESULTS: The study included 589 Medicare Shared Savings Program ACOs. The ACOs 
+in the highest quartile of proportion of beneficaries of racial and ethnic 
+minority groups were designated high-proportion ACOs (145 [25%]), and those in 
+the lowest 3 quartiles were designated low-proportion ACOs (444 [75%]). In 
+unadjusted analysis, a 10-percentage point increase in the proportion of 
+beneficiaries of racial and ethnic minority groups was associated with a 
+1.12-fold increase in the odds of an ACO exit (95% CI, 1.00-1.25; P = .04). In 
+adjusted analysis, there were significant associations among high-proportion 
+ACOs between characteristics such as patient comorbidities, disability, and 
+clinician composition and a higher likelihood of exit.
+CONCLUSIONS AND RELEVANCE: The study results suggest that ACOs that served a 
+higher proportion of beneficaries of racial and ethnic minority groups were more 
+likely to exit the Medicare Shared Savings Program, partially because of serving 
+patients with greater disease severity and complexity. These findings raise 
+concerns about how current payment reform efforts may differentially affect 
+racial and ethnic minority groups.
+
+DOI: 10.1001/jamahealthforum.2022.3398
+PMCID: PMC9526083
+PMID: 36218951 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of Interest Disclosures: Dr Joynt 
+Maddox reported grants from the National Institutes of Health (NIH)/National 
+Heart, Lung, and Blood Institute, NIH/National Institute on Aging, and 
+NIH/National Institute of Nursing Research and personal fees from Humana and the 
+Centene Corp Health Policy Advisory Council outside the submitted work. Dr 
+Hollingsworth reported grants from National Institute on Aging (R01AG068074) 
+during the conduct of the study. No other disclosures were reported.
+
+
+14. RETRACTED ARTICLE
+
+JAMA Health Forum. 2023 Dec 1;4(12):e234449. doi: 
+10.1001/jamahealthforum.2023.4449.
+
+Estimated Savings From the Medicare Shared Savings Program.
+
+Ryan AM(1), Markovitz AA(2).
+
+Author information:
+(1)Department of Health Services, Policy and Practice, Brown University School 
+of Public Health, Providence, Rhode Island.
+(2)Department of Internal Medicine, University of Michigan, Ann Arbor.
+
+Retracted and republished in
+    JAMA Health Forum. 2024 Apr 5;5(4):e240043. doi: 
+10.1001/jamahealthforum.2024.0043.
+
+IMPORTANCE: The Medicare Shared Savings Program (MSSP) is the largest and most 
+important alternative payment model that has been implemented by the Centers for 
+Medicare & Medicaid Services (CMS). Its budgetary impact to CMS is not well 
+understood.
+OBJECTIVE: To evaluate the association between the MSSP and net savings to CMS 
+for performance years 2013 to 2021.
+DESIGN, SETTING, AND PARTICIPANTS: The economic evaluation used publicly 
+reported data on the MSSP from April 1, 2012, to December 31, 2021, and 
+estimates extracted from 2 prior studies.
+MAIN OUTCOMES AND MEASURES: Net savings to CMS, calculated as the difference 
+between incentive payments to MSSP accountable care organizations and gross 
+spending reductions. Incentive payments were calculated using the publicly 
+reported data. The association of the MSSP with gross medical spending in 
+traditional Medicare was extracted from 2 prior studies. Spillovers of the MSSP 
+to Medicare Advantage (MA) were estimated by evaluating how gross spending 
+reductions from the MSSP impacted benchmark payments to MA plans. Savings from 
+traditional Medicare and MA were then combined.
+RESULTS: The MSSP was associated with net losses to traditional Medicare of 
+between $584 million and $1.423 billion over the study period. Savings from 
+MSSP-related reductions to MA benchmarks totaled between $4.480 billion and 
+$4.923 billion. Across traditional Medicare and MA, the MSSP was associated with 
+savings of between $3.057 billion and $4.339 billion. This represents 
+approximately 0.075% of combined spending for traditional Medicare and MA over 
+the study period.
+CONCLUSIONS AND RELEVANCE: This economic evaluation found that the MSSP was 
+associated with net losses to traditional Medicare, net savings to MA, and 
+overall net savings to CMS. The total budget impact of the MSSP to CMS was small 
+and continues to be uncertain due to challenges in estimating the effects of the 
+MSSP on gross spending, particularly in recent years.
+
+DOI: 10.1001/jamahealthforum.2023.4449
+PMCID: PMC10724775
+PMID: 38100095 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of Interest Disclosures: None reported.
+
+
+15. JAMA Netw Open. 2026 Feb 2;9(2):e260166. doi:
+10.1001/jamanetworkopen.2026.0166.
+
+Accountable Care Organization Efficiency on Entry and Shared Savings Bonuses.
+
+Srivastava A(1), Shay A(1), Kaufman SR(1), Liu X(2), Maganty A(2), Oerline 
+MK(1), Guro PA(1), Hill D(1), Dall C(2), Faraj KS(1), Ying M(3), Shahinian 
+VB(1), Hollenbeck BK(1).
+
+Author information:
+(1)Dow Division of Health Services Research, Department of Urology, University 
+of Michigan, Ann Arbor.
+(2)Department of Urology, Massachusetts General Hospital, Boston.
+(3)Department of Foundations of Medicine, New York University Grossman Long 
+Island School of Medicine, New York, New York.
+
+IMPORTANCE: Spending benchmarks in the Medicare Shared Savings Program 
+previously only considered an accountable care organization's (ACO) historical 
+spending, potentially disadvantaging efficient organizations in favor of 
+inefficient ones. To more sustainably reward efficient ACOs, benchmark 
+calculation has evolved, such as the incorporation of average regional spending 
+in 2017, but how benchmarking policy, and its changes, have affected the 
+financial performance of ACOs across the efficiency spectrum remains unclear.
+OBJECTIVE: To measure the association between ACO efficiency on entry (ie, the 
+ratio of observed to expected spending) with earning a shared savings bonus.
+DESIGN, SETTING, AND PARTICIPANTS: This cross-sectional study used a 20% 
+national sample of Medicare claims to identify ACOs that participated in the 
+Shared Savings Program for a minimum of 4 years between January 2013 and 
+December 2020. ACOs were sorted in quartiles based on their observed to expected 
+spending ratio in their first year of participants. Data analysis was conducted 
+from July 2024 to May 2025.
+EXPOSURE: Quartiles of ACO efficiency with a higher spending ratio denoting 
+lower efficiency.
+MAIN OUTCOMES AND MEASURES: The primary outcome was receipt of a shared savings 
+bonus in the second, third, and fourth agreement years. Multivariable logistic 
+regression was used to estimate the association between ACO efficiency quartiles 
+and earning a bonus and how the regional benchmark adjustment in 2017 affected 
+this association across measured agreement years.
+RESULTS: Across 402 ACOs, the median (IQR) spending ratio was 1.000 (0.993- 
+1.005). After adjustment, the most efficient ACOs (ie, lowest quartile of the 
+spending ratio) had an increased probability of earning a bonus from 24.4% (95% 
+CI, 15.3%-33.4%) to 45.2% (95% CI, 35.4%-55.0%) after the 2017 introduction of 
+the regional benchmark adjustment. However, the least efficient ACOs (ie, top 
+quartile of the spending ratio) were significantly more likely to earn bonuses 
+prior to (43.8%; 95% CI, 33.7%-53.9%) and after (60.7%; 95% CI, 51.3%-70.1%) the 
+benchmarking change, without evidence that this gap narrowed.
+CONCLUSIONS AND RELEVANCE: In this cross-sectional study, ACOs across the range 
+of efficiency on entry had greater odds of earning bonuses after the 
+introduction of the regional benchmark adjustment in 2017. However, less 
+efficient ACOs had significantly greater odds of earning bonuses compared with 
+more efficient ACOs, before and after the policy change.
+
+DOI: 10.1001/jamanetworkopen.2026.0166
+PMCID: PMC12947013
+PMID: 41746643
+
+Conflict of interest statement: Conflict of Interest Disclosures: Dr Kaufman 
+reported receiving grants from the National Institutes of Health during the 
+conduct of the study. Dr Shahinian reported receiving grant funding from the 
+American Cancer Society as well as the Agency for Healthcare Research and 
+Quality. Dr Hollenbeck reported receiving fees from Elsevier Publishing for 
+professional activities as well as grant funding from the American Cancer 
+Society and the Agency for Healthcare Research and Quality. No other disclosures 
+were reported.

@@ -1,0 +1,12 @@
+# value	reason (numbers in the prose that are not in the results files)
+4596	part of the author's ORCID iD, 0009-0008-4596-6921
+6921	part of the author's ORCID iD
+256	the hash algorithm's name, SHA-256
+145	ACOs in the 2020-01-01 cohort: 18 early renewers + 118 stayers + 9 leavers (exploratory.json who_renewed); figure 1 computes it
+6,702	median assigned beneficiaries, excluded early renewers: diagnostic query after the results, outside the registered pipeline (as in the post's Limitations)
+8,578	median assigned beneficiaries, excluded stayers: same diagnostic query
+10,757	median assigned beneficiaries, included early renewers: same diagnostic query
+15,649	median assigned beneficiaries, included stayers: same diagnostic query
+11,312	median PY2021 per-capita updated benchmark (UpdatedBnchmk) of the 332 of 334 base-population ACOs with a value (11,312.5), from the PY2021 results file in the snapshot, as in the post
+385	3.4% of 11,312 (384.6); a translation of the H2b estimate into dollars
+0.9 to 1.1	registered calibration range for the validation slope (plan section 4.4)

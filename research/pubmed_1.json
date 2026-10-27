@@ -1,0 +1,218 @@
+{
+ "query": "\"Shared Savings Program\"[tiab] AND (benchmark*[tiab] OR rebas*[tiab] OR \"regional adjustment\"[tiab])",
+ "searched": "2026-10-27T17:58:12Z",
+ "count": 18,
+ "records": [
+  {
+   "pmid": "38100095",
+   "year": "2023",
+   "first_author": "Ryan AM",
+   "title": "Estimated Savings From the Medicare Shared Savings Program.",
+   "journal": "JAMA Health Forum",
+   "doi": "10.1001/jamahealthforum.2023.4449",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "37126741",
+   "year": "2023",
+   "first_author": "Lyu PF",
+   "title": "Benchmarking Changes And Selective Participation In The Medicare Shared Savings Program.",
+   "journal": "Health Aff (Millwood)",
+   "doi": "10.1377/hlthaff.2022.01061",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, U.S. Gov't, P.H.S."
+   ]
+  },
+  {
+   "pmid": "28202052",
+   "year": "2017",
+   "first_author": "Herrel LA",
+   "title": "Primary care focus and utilization in the Medicare shared savings program accountable care organizations.",
+   "journal": "BMC Health Serv Res",
+   "doi": "10.1186/s12913-017-2092-8",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "26715151",
+   "year": "2015",
+   "first_author": "Hayen AP",
+   "title": "Incorporating shared savings programs into primary care: from theory to practice.",
+   "journal": "BMC Health Serv Res",
+   "doi": "10.1186/s12913-015-1250-0",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "27687917",
+   "year": "2017",
+   "first_author": "Ouayogod\u00e9 MH",
+   "title": "Determinants of success in Shared Savings Programs: An analysis of ACO and market characteristics.",
+   "journal": "Healthc (Amst)",
+   "doi": "10.1016/j.hjdsi.2016.08.002",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "31059355",
+   "year": "2019",
+   "first_author": "Bleser WK",
+   "title": "Why Do Accountable Care Organizations Leave The Medicare Shared Savings Program?",
+   "journal": "Health Aff (Millwood)",
+   "doi": "10.1377/hlthaff.2018.05097",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "27295736",
+   "year": "2016",
+   "first_author": "Centers for Medicare & Medicaid Services (CMS), HHS",
+   "title": "Medicare Program; Medicare Shared Savings Program; Accountable Care Organizations--Revised Benchmark Rebasing Methodology, Facilitating Transition to Performance-Based Risk, and Administrative Finality of Financial Calculations. Final rule.",
+   "journal": "Fed Regist",
+   "doi": null,
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "25561655",
+   "year": "2015",
+   "first_author": "Douven R",
+   "title": "Avoiding unintended incentives in ACO payment models.",
+   "journal": "Health Aff (Millwood)",
+   "doi": "10.1377/hlthaff.2014.0444",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "30596411",
+   "year": "2018",
+   "first_author": "Centers for Medicare & Medicaid Services (CMS), HHS",
+   "title": "Medicare Program; Medicare Shared Savings Program; Accountable Care Organizations--Pathways to Success and Extreme and Uncontrollable Circumstances Policies for Performance Year 2017. Final rules.",
+   "journal": "Fed Regist",
+   "doi": null,
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "30715995",
+   "year": "2019",
+   "first_author": "Markovitz AA",
+   "title": "Risk Adjustment In Medicare ACO Program Deters Coding Increases But May Lead ACOs To Drop High-Risk Beneficiaries.",
+   "journal": "Health Aff (Millwood)",
+   "doi": "10.1377/hlthaff.2018.05407",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "26953298",
+   "year": "2016",
+   "first_author": "Rose S",
+   "title": "Variation In Accountable Care Organization Spending And Sensitivity To Risk Adjustment: Implications For Benchmarking.",
+   "journal": "Health Aff (Millwood)",
+   "doi": "10.1377/hlthaff.2015.1026",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "35960735",
+   "year": "2022",
+   "first_author": "Yan BW",
+   "title": "Changes in spending, utilization, and quality of care among Medicare accountable care organizations during the COVID-19 pandemic.",
+   "journal": "PLoS One",
+   "doi": "10.1371/journal.pone.0272706",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "24360903",
+   "year": "2014",
+   "first_author": "Harvey HB",
+   "title": "The ephemeral accountable care organization-an unintended consequence of the Medicare shared savings program.",
+   "journal": "J Am Coll Radiol",
+   "doi": "10.1016/j.jacr.2013.07.012",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "41746643",
+   "year": "2026",
+   "first_author": "Srivastava A",
+   "title": "Accountable Care Organization Efficiency on Entry and Shared Savings Bonuses.",
+   "journal": "JAMA Netw Open",
+   "doi": "10.1001/jamanetworkopen.2026.0166",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "38313161",
+   "year": "2024",
+   "first_author": "Ying M",
+   "title": "Factors affecting Accountable Care Organizations' decisions to remain in or exit the Medicare Shared Savings Program following Pathways to Success.",
+   "journal": "Health Aff Sch",
+   "doi": "10.1093/haschl/qxad093",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "25126368",
+   "year": "2011",
+   "first_author": "Yeung W",
+   "title": "Are ACOs the Answer to High-Value Healthcare?",
+   "journal": "Am Health Drug Benefits",
+   "doi": null,
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  {
+   "pmid": "40895647",
+   "year": "2025",
+   "first_author": "Chen AJ",
+   "title": "How Benchmark Changes Affect Participation in Accountable Care Organizations: Prospects for Voluntary Payment Models.",
+   "journal": "Am J Health Econ",
+   "doi": "10.1086/726748",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "28854072",
+   "year": "2017",
+   "first_author": "Bensimon L",
+   "title": "Acclimating to the Increase in Statin Use in Accountable Care Organizations Based on Changes in Quality Measures: A Report from the Accountable Care Organization Research Network, Services, and Education.",
+   "journal": "J Manag Care Spec Pharm",
+   "doi": "10.18553/jmcp.2017.23.9.943",
+   "pubtype": [
+    "Journal Article"
+   ]
+  }
+ ]
+}

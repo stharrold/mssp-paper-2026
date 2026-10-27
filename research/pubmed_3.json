@@ -1,0 +1,674 @@
+{
+ "query": "\"Shared Savings Program\"[tiab] AND (spending[tiab] OR savings[tiab]) AND (difference-in-differences[tiab] OR \"Medicare spending\"[tiab])",
+ "searched": "2026-10-27T17:58:16Z",
+ "count": 55,
+ "records": [
+  {
+   "pmid": "30759657",
+   "year": "2019",
+   "first_author": "Resnick MJ",
+   "title": "Re: Medicare Spending after 3 Years of the Medicare Shared Savings Program.",
+   "journal": "J Urol",
+   "doi": "10.1097/01.JU.0000553685.25896.cf",
+   "pubtype": [
+    "Journal Article",
+    "Comment"
+   ]
+  },
+  {
+   "pmid": "32697004",
+   "year": "2020",
+   "first_author": "McWILLIAMS JM",
+   "title": "Savings or Selection? Initial Spending Reductions in the Medicare Shared Savings Program and Considerations for Reform.",
+   "journal": "Milbank Q",
+   "doi": "10.1111/1468-0009.12468",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "36108786",
+   "year": "2022",
+   "first_author": "Kim Y",
+   "title": "Post-Acute Care Use Associated with Medicare Shared Savings Program and Disparities.",
+   "journal": "J Am Med Dir Assoc",
+   "doi": "10.1016/j.jamda.2022.07.024",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "31452032",
+   "year": "2019",
+   "first_author": "Kaufman BG",
+   "title": "The Medicare Shared Savings Program and Outcomes for Ischemic Stroke Patients: a Retrospective Cohort Study.",
+   "journal": "J Gen Intern Med",
+   "doi": "10.1007/s11606-019-05283-1",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "30273040",
+   "year": "2018",
+   "first_author": "Gilstrap LG",
+   "title": "Changes In End-Of-Life Care In The Medicare Shared Savings Program.",
+   "journal": "Health Aff (Millwood)",
+   "doi": "10.1377/hlthaff.2018.0491",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "30835818",
+   "year": "2019",
+   "first_author": "Kaufman BG",
+   "title": "Medicare Shared Savings ACOs and Hospice Care for Ischemic Stroke Patients.",
+   "journal": "J Am Geriatr Soc",
+   "doi": "10.1111/jgs.15852",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "30980025",
+   "year": "2019",
+   "first_author": "Cole AP",
+   "title": "Prostate cancer in the medicare shared savings program: are Accountable Care Organizations associated with reduced expenditures for men with prostate cancer?",
+   "journal": "Prostate Cancer Prostatic Dis",
+   "doi": "10.1038/s41391-019-0138-1",
+   "pubtype": [
+    "Comparative Study",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, U.S. Gov't, Non-P.H.S."
+   ]
+  },
+  {
+   "pmid": "24800155",
+   "year": "2012",
+   "first_author": "DeLia D",
+   "title": "Statistical uncertainty in the Medicare shared savings program.",
+   "journal": "Medicare Medicaid Res Rev",
+   "doi": "10.5600/mmrr.002.04.a04",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, U.S. Gov't, P.H.S."
+   ]
+  },
+  {
+   "pmid": "33528235",
+   "year": "2021",
+   "first_author": "Kim Y",
+   "title": "The Effect of Medicare Shared Savings Program on Readmissions and Variations by Race/Ethnicity and Payer Status (December 9, 2020).",
+   "journal": "Med Care",
+   "doi": "10.1097/MLR.0000000000001513",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ]
+  },
+  {
+   "pmid": "33543782",
+   "year": "2021",
+   "first_author": "Acevedo A",
+   "title": "Impact of the Medicare Shared Savings Program on utilization of mental health and substance use services by eligibility and race/ethnicity.",
+   "journal": "Health Serv Res",
+   "doi": "10.1111/1475-6773.13625",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "41152699",
+   "year": "2026",
+   "first_author": "Huang H",
+   "title": "Effects of Nursing Home Participation in the Medicare Shared Savings Program on Staffing and Deficiency Citations.",
+   "journal": "J Appl Gerontol",
+   "doi": "10.1177/07334648251392996",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "33589170",
+   "year": "2021",
+   "first_author": "Hayen A",
+   "title": "Dutch shared savings program targeted at primary care: Reduced expenditures in its first year.",
+   "journal": "Health Policy",
+   "doi": "10.1016/j.healthpol.2021.01.013",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "42623073",
+   "year": "2026",
+   "first_author": "Bond AM",
+   "title": "Medicare Shared Savings Program and Disparities for Patients With Low Income.",
+   "journal": "JAMA Netw Open",
+   "doi": "10.1001/jamanetworkopen.2026.29369",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "40293760",
+   "year": "2025",
+   "first_author": "Bond AM",
+   "title": "Long-Term Spending of Accountable Care Organizations in the Medicare Shared Savings Program.",
+   "journal": "JAMA",
+   "doi": "10.1001/jama.2025.3870",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "29053177",
+   "year": "2018",
+   "first_author": "Borza T",
+   "title": "Early effect of Medicare Shared Savings Program accountable care organization participation on prostate cancer care.",
+   "journal": "Cancer",
+   "doi": "10.1002/cncr.31081",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "30998420",
+   "year": "2019",
+   "first_author": "Cole AP",
+   "title": "Recommended Cancer Screening in Accountable Care Organizations: Trends in Colonoscopy and Mammography in the Medicare Shared Savings Program.",
+   "journal": "J Oncol Pract",
+   "doi": "10.1200/JOP.18.00352",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, U.S. Gov't, Non-P.H.S."
+   ]
+  },
+  {
+   "pmid": "29771724",
+   "year": "2019",
+   "first_author": "Nathan H",
+   "title": "Early Impact of Medicare Accountable Care Organizations on Inpatient Surgical Spending.",
+   "journal": "Ann Surg",
+   "doi": "10.1097/SLA.0000000000002819",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, U.S. Gov't, P.H.S."
+   ]
+  },
+  {
+   "pmid": "33122038",
+   "year": "2021",
+   "first_author": "Modi PK",
+   "title": "Medicare Accountable Care Organizations and the Adoption of New Surgical Technology.",
+   "journal": "J Am Coll Surg",
+   "doi": "10.1016/j.jamcollsurg.2020.10.016",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, U.S. Gov't, P.H.S."
+   ]
+  },
+  {
+   "pmid": "29557880",
+   "year": "2019",
+   "first_author": "Borza T",
+   "title": "Association Between Hospital Participation in Medicare Shared Savings Program Accountable Care Organizations and Readmission Following Major Surgery.",
+   "journal": "Ann Surg",
+   "doi": "10.1097/SLA.0000000000002737",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, U.S. Gov't, P.H.S."
+   ]
+  },
+  {
+   "pmid": "35404547",
+   "year": "2022",
+   "first_author": "Gibbons JB",
+   "title": "Small practice participation and performance in Medicare accountable care organizations.",
+   "journal": "Am J Manag Care",
+   "doi": "10.37765/ajmc.2022.88839",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ]
+  },
+  {
+   "pmid": "40343716",
+   "year": "2025",
+   "first_author": "Zhang JJ",
+   "title": "End-of-Life Care and Health Care Spending for Medicare Beneficiaries With Dementia in Accountable Care Organizations.",
+   "journal": "JAMA Health Forum",
+   "doi": "10.1001/jamahealthforum.2025.0731",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "35772480",
+   "year": "2022",
+   "first_author": "Katragadda C",
+   "title": "Medicare Accountable Care Organizations: Post-acute Care Use and Post-surgical Outcomes in Urologic Cancer Surgery.",
+   "journal": "Urology",
+   "doi": "10.1016/j.urology.2022.06.018",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "29851445",
+   "year": "2018",
+   "first_author": "Barnett ML",
+   "title": "Changes in specialty care use and leakage in Medicare accountable care organizations.",
+   "journal": "Am J Manag Care",
+   "doi": null,
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "34767638",
+   "year": "2022",
+   "first_author": "Erfani P",
+   "title": "Spending outcomes among patients with cancer in accountable care organizations 4 years after implementation.",
+   "journal": "Cancer",
+   "doi": "10.1002/cncr.34022",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ]
+  },
+  {
+   "pmid": "30183495",
+   "year": "2018",
+   "first_author": "McWilliams JM",
+   "title": "Medicare Spending after 3 Years of the Medicare Shared Savings Program.",
+   "journal": "N Engl J Med",
+   "doi": "10.1056/NEJMsa1803388",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ]
+  },
+  {
+   "pmid": "29554179",
+   "year": "2018",
+   "first_author": "Resnick MJ",
+   "title": "Medicare Accountable Care Organization Enrollment and Appropriateness of Cancer Screening.",
+   "journal": "JAMA Intern Med",
+   "doi": "10.1001/jamainternmed.2017.8087",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "33315328",
+   "year": "2020",
+   "first_author": "Kaufman BG",
+   "title": "Prospective or retrospective ACO attribution matters for seriously ill patients.",
+   "journal": "Am J Manag Care",
+   "doi": "10.37765/ajmc.2020.88541",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "27075832",
+   "year": "2016",
+   "first_author": "McWilliams JM",
+   "title": "Early Performance of Accountable Care Organizations in Medicare.",
+   "journal": "N Engl J Med",
+   "doi": "10.1056/NEJMsa1600142",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "30412287",
+   "year": "2018",
+   "first_author": "Resnick MJ",
+   "title": "The association between Medicare accountable care organization enrollment and breast, colorectal, and prostate cancer screening.",
+   "journal": "Cancer",
+   "doi": "10.1002/cncr.31700",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "34982636",
+   "year": "2022",
+   "first_author": "Trombley MJ",
+   "title": "ACO Investment Model Produced Savings, But The Majority Of Participants Exited When Faced With Downside Risk.",
+   "journal": "Health Aff (Millwood)",
+   "doi": "10.1377/hlthaff.2020.01819",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, U.S. Gov't, P.H.S."
+   ]
+  },
+  {
+   "pmid": "35914206",
+   "year": "2022",
+   "first_author": "Figueroa JF",
+   "title": "ACO Participation Associated With Decreased Spending For Medicare Beneficiaries With Serious Mental Illness.",
+   "journal": "Health Aff (Millwood)",
+   "doi": "10.1377/hlthaff.2022.00096",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "31682493",
+   "year": "2019",
+   "first_author": "Kanter GP",
+   "title": "Changes In Physician Consolidation With The Spread Of Accountable Care Organizations.",
+   "journal": "Health Aff (Millwood)",
+   "doi": "10.1377/hlthaff.2018.05415",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "31298714",
+   "year": "2019",
+   "first_author": "Ouayogod\u00e9 MH",
+   "title": "Association Between Care Management and Outcomes Among Patients With Complex Needs in Medicare Accountable Care Organizations.",
+   "journal": "JAMA Netw Open",
+   "doi": "10.1001/jamanetworkopen.2019.6939",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, U.S. Gov't, P.H.S."
+   ]
+  },
+  {
+   "pmid": "35977188",
+   "year": "2021",
+   "first_author": "Navathe AS",
+   "title": "Association of Patient Outcomes With Bundled Payments Among Hospitalized Patients Attributed to Accountable Care Organizations.",
+   "journal": "JAMA Health Forum",
+   "doi": "10.1001/jamahealthforum.2021.2131",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, U.S. Gov't, P.H.S."
+   ]
+  },
+  {
+   "pmid": "38100460",
+   "year": "2024",
+   "first_author": "Singh P",
+   "title": "The Comprehensive Primary Care Plus Model and Health Care Spending, Service Use, and Quality.",
+   "journal": "JAMA",
+   "doi": "10.1001/jama.2023.24712",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "35977280",
+   "year": "2022",
+   "first_author": "Adler-Milstein J",
+   "title": "Association of Primary Care Engagement in Value-Based Reform Programs With Health Services Outcomes: Participation and Synergies.",
+   "journal": "JAMA Health Forum",
+   "doi": "10.1001/jamahealthforum.2022.0005",
+   "pubtype": [
+    "Journal Article",
+    "Observational Study",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, U.S. Gov't, P.H.S."
+   ]
+  },
+  {
+   "pmid": "30156985",
+   "year": "2018",
+   "first_author": "Lam MB",
+   "title": "Spending Among Patients With Cancer in the First 2 Years of Accountable Care Organization Participation.",
+   "journal": "J Clin Oncol",
+   "doi": "10.1200/JCO.18.00270",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39556394",
+   "year": "2024",
+   "first_author": "Li K",
+   "title": "Federally Qualified Health Centers and Performance of Medicare Accountable Care Organizations.",
+   "journal": "JAMA Netw Open",
+   "doi": "10.1001/jamanetworkopen.2024.45536",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "31291511",
+   "year": "2019",
+   "first_author": "Trombley MJ",
+   "title": "Early Effects of an Accountable Care Organization Model for Underserved Areas.",
+   "journal": "N Engl J Med",
+   "doi": "10.1056/NEJMsa1816660",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, U.S. Gov't, Non-P.H.S."
+   ]
+  },
+  {
+   "pmid": "25561655",
+   "year": "2015",
+   "first_author": "Douven R",
+   "title": "Avoiding unintended incentives in ACO payment models.",
+   "journal": "Health Aff (Millwood)",
+   "doi": "10.1377/hlthaff.2014.0444",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "27218198",
+   "year": "2016",
+   "first_author": "Herrel LA",
+   "title": "Early impact of Medicare accountable care organizations on cancer surgery outcomes.",
+   "journal": "Cancer",
+   "doi": "10.1002/cncr.30111",
+   "pubtype": [
+    "Comparative Study",
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "37300100",
+   "year": "2019",
+   "first_author": "Trinh QD",
+   "title": "Impact of Accountable Care Organizations on Prostate Cancer Screening and Biopsies in the United States.",
+   "journal": "Urol Pract",
+   "doi": "10.1016/j.urpr.2018.07.003",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "29912839",
+   "year": "2018",
+   "first_author": "Kim Y",
+   "title": "Greater Reductions in Readmission Rates Achieved by Urban Hospitals Participating in the Medicare Shared Savings Program.",
+   "journal": "Med Care",
+   "doi": "10.1097/MLR.0000000000000945",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39701605",
+   "year": "2025",
+   "first_author": "Ianni K",
+   "title": "Transporting difference-in-differences estimates to assess health equity impacts of payment and delivery models.",
+   "journal": "Health Serv Res",
+   "doi": "10.1111/1475-6773.14419",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "28700790",
+   "year": "2017",
+   "first_author": "McWilliams JM",
+   "title": "Association of Changes in Medication Use and Adherence With Accountable Care Organization Exposure in Patients With Cardiovascular Disease or Diabetes.",
+   "journal": "JAMA Cardiol",
+   "doi": "10.1001/jamacardio.2017.2172",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ]
+  },
+  {
+   "pmid": "40549354",
+   "year": "2025",
+   "first_author": "Walker B",
+   "title": "Utilization and costs among oncologists participating in a private insurance shared savings model.",
+   "journal": "Am J Manag Care",
+   "doi": "10.37765/ajmc.2025.89750",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "29520748",
+   "year": "2018",
+   "first_author": "Navathe AS",
+   "title": "Do Changes in Post-acute Care Use at Hospitals Participating in an Accountable Care Organization Spillover to All Medicare Beneficiaries?",
+   "journal": "J Gen Intern Med",
+   "doi": "10.1007/s11606-018-4368-z",
+   "pubtype": [
+    "Journal Article",
+    "Observational Study",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, U.S. Gov't, P.H.S."
+   ]
+  },
+  {
+   "pmid": "31560389",
+   "year": "2019",
+   "first_author": "Liao JM",
+   "title": "Association of Bundled Payments for Joint Replacement Surgery and Patient Outcomes With Simultaneous Hospital Participation in Accountable Care Organizations.",
+   "journal": "JAMA Netw Open",
+   "doi": "10.1001/jamanetworkopen.2019.12270",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  {
+   "pmid": "32383749",
+   "year": "2020",
+   "first_author": "Lee JT",
+   "title": "Proportion of Racial Minority Patients and Patients With Low Socioeconomic Status Cared for by Physician Groups After Joining Accountable Care Organizations.",
+   "journal": "JAMA Netw Open",
+   "doi": "10.1001/jamanetworkopen.2020.4439",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, U.S. Gov't, P.H.S."
+   ]
+  },
+  {
+   "pmid": "39976969",
+   "year": "2025",
+   "first_author": "Hou Y",
+   "title": "Spending Changes After Moving to Areas With Greater ACO Participation Among Nonattributed Medicare Beneficiaries.",
+   "journal": "JAMA Netw Open",
+   "doi": "10.1001/jamanetworkopen.2024.58311",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, N.I.H., Extramural"
+   ]
+  },
+  {
+   "pmid": "39999953",
+   "year": "2025",
+   "first_author": "Wang XJ",
+   "title": "Do Medicare Accountable Care Organizations Impact Health Care Utilization among Long-Stay Nursing Home Residents?",
+   "journal": "J Am Med Dir Assoc",
+   "doi": "10.1016/j.jamda.2025.105518",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, N.I.H., Extramural"
+   ]
+  },
+  {
+   "pmid": "40083132",
+   "year": "2025",
+   "first_author": "Ying M",
+   "title": "Early Effects of Pathways to Success on Utilization in Traditional Medicare.",
+   "journal": "Health Serv Res",
+   "doi": "10.1111/1475-6773.14597",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "27385241",
+   "year": "2016",
+   "first_author": "Busch AB",
+   "title": "Early Efforts By Medicare Accountable Care Organizations Have Limited Effect On Mental Illness Care And Management.",
+   "journal": "Health Aff (Millwood)",
+   "doi": "10.1377/hlthaff.2015.1669",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "39955210",
+   "year": "2025",
+   "first_author": "Worku E",
+   "title": "Impact of Medicare Accountable Care Organizations on surgical and postoperative expenditures among patients with gastrointestinal cancer.",
+   "journal": "Surgery",
+   "doi": "10.1016/j.surg.2025.109211",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  {
+   "pmid": "40746042",
+   "year": "2026",
+   "first_author": "Ying M",
+   "title": "Association of Pathways to Success Launch With Quality inBeneficiaries With Traditional Medicare.",
+   "journal": "Health Serv Res",
+   "doi": "10.1111/1475-6773.70024",
+   "pubtype": [
+    "Journal Article"
+   ]
+  }
+ ]
+}
