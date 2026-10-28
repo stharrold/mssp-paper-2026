@@ -1800,6 +1800,39 @@
   "id": "moloci2021"
  },
  {
+  "publisher": "JSTOR",
+  "issue": "1",
+  "DOI": "10.2307/3003414",
+  "type": "journal-article",
+  "page": "302",
+  "title": "The \"Ratchet Principle\" and Performance Incentives",
+  "volume": "11",
+  "author": [
+   {
+    "given": "Martin L.",
+    "family": "Weitzman",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "container-title": "The Bell Journal of Economics",
+  "issued": {
+   "date-parts": [
+    [
+     1980
+    ]
+   ]
+  },
+  "URL": "http://dx.doi.org/10.2307/3003414",
+  "id": "weitzman1980"
+ },
+ {
   "publisher": "SAGE Publications",
   "issue": "11",
   "DOI": "10.1177/0956797611417632",
