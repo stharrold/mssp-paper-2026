@@ -1,8 +1,9 @@
 # i-JMR submission package (Original Paper)
 
 Target: *Interactive Journal of Medical Research* (i-JMR), JMIR Publications, article type Original Paper. Submitted
-directly (not by medRxiv transfer), with the medRxiv preprint (MEDRXIV/2026/366643, submitted 2026-10-27) disclosed
-in the cover letter. The medRxiv version 1 source is the tag `medrxiv-v1`; this package is built from the branch
+directly (not by medRxiv transfer), with the medRxiv submission (MEDRXIV/2026/366643, submitted 2026-10-27) disclosed in the cover letter. medRxiv
+declined it on 2026-10-28, after the i-JMR submission, because it requires an organizational affiliation (see
+"After submission" below). The medRxiv version 1 source is the tag `medrxiv-v1`; this package is built from the branch
 `ijmr-submission`.
 
 The tooling and JMIR guidance come from `stharrold/yuimedi-paper-20250901`, the author's i-JMR article 96541
@@ -79,8 +80,9 @@ above.
 ## Not done here
 
 - No JMIR account work, personal data, attestations or submission: those are the author's.
-- The medRxiv DOI is not yet known; when the preprint posts, tell the editor by message if the paper is still in
-  review.
+- medRxiv declined the preprint on 2026-10-28 (organizational affiliation required), so the cover letter's
+  statement that it is in screening is out of date; the author is to correct it with the editor through the
+  submission's communication log. The preprint is the JMIR Preprints posting.
 
 ## Submitted (2026-10-28)
 
@@ -95,3 +97,10 @@ showed Claude proposed the topic and drafted the plan's question, hypotheses, de
 author chose among, revised and registered. No homepage (TOC) image: JMIR's TOC images may not contain text or
 diagrams; JMIR uses a default until one is supplied. The stored metadata was checked after submission: the abstract
 is plain ASCII and complete, and the trial registration and cover letter are intact.
+
+## After submission
+
+- 2026-10-28: medRxiv declined MEDRXIV/2026/366643 because it requires authors to have an organizational
+  affiliation that provides research oversight; it was never posted. The correction to the i-JMR editor (the cover
+  letter says the preprint is in screening) is the author's to send. JMIR's preprint, opted into at submission, will
+  be the only preprint.

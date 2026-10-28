@@ -1,7 +1,8 @@
 # Early renewal in the Medicare Shared Savings Program: preregistered retrospective cohort study
 
 Manuscript and multimedia appendices for the preregistered study of early renewal in the Medicare Shared Savings
-Program. Version 1 was posted to medRxiv in a journal-agnostic format (tag `medrxiv-v1`); the current source is
+Program. A first version was submitted to medRxiv in a journal-agnostic format (tag `medrxiv-v1`), which declined it
+because medRxiv requires an organizational affiliation; it was never posted. The current source is
 formatted as a JMIR Original Paper for the *Interactive Journal of Medical Research* (i-JMR): JMIR's structured
 abstract, IMRD headings, JMIR end sections, the supplement as Multimedia Appendix 1 and the STROBE checklist as
 Multimedia Appendix 2.
@@ -15,13 +16,13 @@ Multimedia Appendix 2.
 
 | Where | Version | Submitted | ID | Files (sha256) | Source |
 |---|---|---|---|---|---|
-| medRxiv | 1 | 2026-10-27 | MEDRXIV/2026/366643 (in screening) | `paper.pdf` 7d111cbdef3672f2..., `supplement.pdf` d65212577e6d9809... | `dcbad91` (tag `medrxiv-v1`) |
+| medRxiv | 1 | 2026-10-27 | MEDRXIV/2026/366643; **declined 2026-10-28** (medRxiv requires an organizational affiliation; not posted) | `paper.pdf` 7d111cbdef3672f2..., `supplement.pdf` d65212577e6d9809... | `dcbad91` (tag `medrxiv-v1`) |
 | i-JMR | 1 | 2026-10-28 | ms 115640 (Original Paper, Health Services Research; unassigned) | `paper.docx` cafcdb715483edb1..., `supplement.docx` 33f38d7d52d3da68..., `strobe.docx` 373b584c088bef1a... | release v1.2.0 ([doi:10.5281/zenodo.23740845](https://doi.org/10.5281/zenodo.23740845)) |
 
-A medRxiv version 2 is planned after outside review; medRxiv keeps earlier versions visible. Both forms' text fields
-are entered as plain ASCII. The i-JMR package and its checklist are in [`submission/ijmr/`](submission/ijmr/README.md).
+The preprint is the JMIR Preprints posting opted into at submission (DOI pending). Both forms' text fields were
+entered as plain ASCII. The i-JMR package and its checklist are in [`submission/ijmr/`](submission/ijmr/README.md).
 
-The JMIR version differs from medRxiv version 1 in form, in content added after review, and in how the results are
+The JMIR version differs from the medRxiv submission (tag `medrxiv-v1`) in form, in content added after review, and in how the results are
 read. Every registered result is unchanged.
 
 - **Form:** a descriptive title naming the design (JMIR's rule), JMIR's abstract headings and end sections, an
@@ -123,8 +124,7 @@ the AMA CSL style, `reference.docx`, the JMIR validator and the JMIR guidance in
 
 1. `uv run pytest` and `python3 scripts/check_numbers.py` pass; `scripts/build.sh` rebuilt the PDFs and DOCX files.
 2. Read the manuscript in full, including both appendices.
-3. i-JMR: follow [`submission/ijmr/README.md`](submission/ijmr/README.md). medRxiv (a later version): subject area
-   Health Policy; license CC BY 4.0; upload the PDFs; declarations to match the manuscript.
+3. i-JMR: follow [`submission/ijmr/README.md`](submission/ijmr/README.md) (a revision uses the same build).
 
 ## License
 
