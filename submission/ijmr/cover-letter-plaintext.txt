@@ -8,7 +8,7 @@ The study is a preregistered retrospective cohort study of public Centers for Me
 
 Preprint: the manuscript was submitted to medRxiv on October 27, 2026 (MEDRXIV/2026/366643) and is in screening. I am happy for the submitted version to be posted on JMIR Preprints as well. It has not been submitted to any other journal.
 
-Generative AI: I used Claude Code (Anthropic) to draft analysis code, the scripts that build the tables and figures, and most of the text, which I revised; separate instances of it reviewed the plan, the code and the manuscript before submission. These were AI-generated critical assessments, not peer reviews. The submission form's AI disclosure describes this use. I have not attached the complete session transcripts because the sessions also covered unrelated work and personal matters; I am glad to answer questions or provide relevant excerpts on request.
+Generative AI: I used Claude Code (Anthropic) to draft analysis code, the scripts that build the tables and figures, and most of the text, which I revised; separate instances of it reviewed the plan, the code and the manuscript before submission. The submission form's AI disclosure describes this use. I have not attached the complete session transcripts because the sessions also covered unrelated work and personal matters; I am glad to answer questions or provide relevant excerpts on request.
 
 Conflicts of interest: I am employed as a data scientist at Indiana University Health; the study was conducted independently of that employment with public data only, and the manuscript discloses this. I hold no editorial role at JMIR Publications.
 

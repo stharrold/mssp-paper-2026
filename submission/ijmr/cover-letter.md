@@ -34,7 +34,7 @@ journal.
 
 Generative AI: I used Claude Code (Anthropic) to draft analysis code, the scripts that build the tables and figures,
 and most of the text, which I revised; separate instances of it reviewed the plan, the code and the manuscript before submission.
-These were AI-generated critical assessments, not peer reviews. The submission form's AI disclosure describes this use.
+The submission form's AI disclosure describes this use.
 I have not attached the complete session transcripts because the sessions also covered unrelated work and personal
 matters; I am glad to answer questions or provide relevant excerpts on request.
 
