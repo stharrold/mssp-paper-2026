@@ -1,0 +1,1 @@
+Flow of ACOs into each analysis. Counts are early renewers vs stayers. The reason for the expected-gain exclusions comes from a diagnostic query run after the results, outside the registered pipeline. ACO, accountable care organization; ESRD, end-stage renal disease; PY, performance year.

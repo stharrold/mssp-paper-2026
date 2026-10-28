@@ -1,5 +1,5 @@
 # Pandoc metadata for the manuscript (paper.md) and the supplement (supplement.md); see scripts/build.sh.
-title: "Why did Medicare ACOs reset their benchmarks early? A pre-registered analysis of early renewal in the Medicare Shared Savings Program"
+title: "Early Renewal of Accountable Care Organization Agreements to Reset Benchmarks in the Medicare Shared Savings Program: Preregistered Retrospective Cohort Study"
 author: "Samuel Thomas Harrold"
 date: "October 2026"
 lang: en-US
@@ -43,7 +43,7 @@ titlepage: false
 include-before:
   - '`\maketitle`{=latex}'
 header-left: "Early renewal in the Medicare Shared Savings Program"
-header-right: "Preprint, October 2026"
+header-right: "October 2026"
 footer-left: "CC BY 4.0"
 footer-center: "\\thepage"
 footer-right: "\\hspace{0pt}"

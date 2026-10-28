@@ -4,3 +4,9 @@ build/
 .DS_Store
 *.aux
 *.log
+
+# JMIR help-center copies (JMIR copyright; see standards/jmir/SOURCES.md)
+standards/jmir/jmir_submission_*.md
+# Reviewer nominations name third parties: kept local, never published
+submission/ijmr/suggested-reviewers.md
+submission/ijmr/reviewer_candidates_pubmed.json

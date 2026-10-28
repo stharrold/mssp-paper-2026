@@ -1,0 +1,5 @@
+Multimedia Appendix 1 (upload supplement.docx, renamed <ms#>-Multimedia-Appendix-1.docx):
+Supplementary tables (eTables 1-13) and eMethods: validation of the rebuilt benchmark, power analysis, robustness checks, decision-model diagnostics, conventional counterparts, attrition, exploratory and post hoc analyses, and the registration record and deviations.
+
+Multimedia Appendix 2 (upload strobe.docx, renamed <ms#>-Multimedia-Appendix-2.docx):
+STROBE (Strengthening the Reporting of Observational Studies in Epidemiology) checklist for cohort studies.

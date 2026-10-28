@@ -1,6 +1,6 @@
 """Check every number in the manuscript's prose against the committed results.
 
-The tables are generated from the results files, but the prose of paper.md and supplement.md is typed. This script
+The tables are generated from the results files, but the prose of paper.md, supplement.md and strobe.md is typed. This script
 extracts each number from the prose and accepts it if it matches, at the precision written, some value in the
 results files (data/results/*.json and data/dashboard-data.json) under one of the reporting transforms: as is,
 x100 (fractions to percent or log points), or 100 x (exp(x) - 1) (log differences to percent), with either sign.
@@ -14,7 +14,7 @@ one transform, with signs. The review pass still checks that each number belongs
 
 Exit status 1 if any number or interval is unexplained. Standard library only.
 
-Usage: python3 scripts/check_numbers.py [paper.md supplement.md]
+Usage: python3 scripts/check_numbers.py [paper.md supplement.md strobe.md]
 """
 
 import json
@@ -34,9 +34,9 @@ SKIP = [
     re.compile(r"\{\{include [^}]*\}\}"),
     re.compile(r"\bPY\d{4}\b"),  # performance years
     re.compile(r"\b(?:19|20)\d{2}\b"),  # calendar years
-    re.compile(r"\b42 CFR\b|\b\d{3}\.\d{3}\b"),  # regulation citations
+    re.compile(r"\b4[25] CFR\b|\b\d{2,3}\.\d{3}\b"),  # regulation citations
     re.compile(r"\bH[1-4][ab]?\b"),  # hypothesis labels
-    re.compile(r"\b(?:e?Table|Figure|Supplement|STROBE item|section|item|step|Level)s? [\d.]+(?:-\d+)?", re.I),
+    re.compile(r"\b(?:e?Table|Figure|Supplement|Multimedia Appendix|Appendix|STROBE item|section|item|step|Level)s? [\d.]+(?:-\d+)?", re.I),
     re.compile(r"\b[0-9a-f]{7,64}\b"),  # commit and file hashes
     re.compile(r"\{[^}]*\}"),  # attributes and LaTeX groups
 ]
@@ -148,7 +148,7 @@ def prose(path: Path) -> list[tuple[int, str]]:
 
 
 def main() -> None:
-    files = [Path(a) for a in sys.argv[1:]] or [ROOT / "paper.md", ROOT / "supplement.md"]
+    files = [Path(a) for a in sys.argv[1:]] or [ROOT / "paper.md", ROOT / "supplement.md", ROOT / "strobe.md"]
     values = candidates()
     recs = records()
     allowed = allowlist()

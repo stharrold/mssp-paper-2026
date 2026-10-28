@@ -24,7 +24,7 @@ def test_tables_are_current():
 
 
 def test_every_included_table_exists():
-    for doc in ("paper.md", "supplement.md"):
+    for doc in ("paper.md", "supplement.md", "strobe.md"):
         for path in re.findall(r"\{\{include (\S+)\}\}", (ROOT / doc).read_text()):
             assert (ROOT / path).is_file(), path
 
@@ -34,7 +34,7 @@ def test_every_citation_is_defined():
 
     keys = {e["id"] for e in json.loads((ROOT / "references" / "doi.json").read_text())}
     keys |= set(re.findall(r"@\w+\{(\w+),", (ROOT / "references" / "other.bib").read_text()))
-    for doc in ("paper.md", "supplement.md"):
+    for doc in ("paper.md", "supplement.md", "strobe.md"):
         cited = set(re.findall(r"@([A-Za-z][\w]*)", " ".join(re.findall(r"\[@[^\]]*\]", (ROOT / doc).read_text()))))
         assert cited <= keys, cited - keys
 

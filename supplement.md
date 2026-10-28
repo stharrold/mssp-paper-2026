@@ -1,5 +1,5 @@
 ---
-title: "Supplement 1. Why did Medicare ACOs reset their benchmarks early? A pre-registered analysis of early renewal in the Medicare Shared Savings Program"
+title: "Multimedia Appendix 1. Early Renewal of Accountable Care Organization Agreements to Reset Benchmarks in the Medicare Shared Savings Program: Preregistered Retrospective Cohort Study"
 ---
 
 **Contents**
@@ -17,7 +17,6 @@ title: "Supplement 1. Why did Medicare ACOs reset their benchmarks early? A pre-
 - eTable 11. Per-capita spending by agreement year
 - eTable 12. Post hoc checks against CMS's published 2022 benchmarks (not registered)
 - eMethods. Registration record (eTable 13) and deviations
-- STROBE checklist
 
 All tables are generated from the committed results files by `scripts/make_tables.py` in the manuscript repository.
 Item and section numbers refer to the registered analysis plan (`PREREGISTRATION.md`, version 0.6).[@registration]
@@ -83,48 +82,6 @@ of the power stage, but not the simulated values exactly: H1's simulated power w
 table without a fixed row order, so seeded random draws fall on ACOs in a different order in each run, and every
 resampled or simulated value varies within simulation error (about 1.6 points for a detection share from 500
 datasets). No verdict is near a threshold at which that would matter.
-
-# STROBE checklist
-
-Items of the STROBE statement for cohort studies,[@vonelm2007] with the place each is reported. "Supplement" refers
-to this document.
-
-| Item | No. | Recommendation (abbreviated) | Where reported |
-|:------------|:----:|:--------------------|:------------------------|
-| Title and abstract | 1 | Indicate the design; give an informative, balanced summary | Title (pre-registered analysis); Abstract (retrospective cohort study) |
-| Background/rationale | 2 | Scientific background and rationale | Introduction, paragraphs 1-3 |
-| Objectives | 3 | Specific objectives and prespecified hypotheses | Introduction, paragraph 4; Methods, Hypotheses |
-| Study design | 4 | Key elements of the design | Methods, Study design and preregistration |
-| Setting | 5 | Setting, locations, dates of recruitment, exposure, follow-up, data collection | Methods, Data sources; Population and groups |
-| Participants | 6 | Eligibility criteria, sources and methods of selection; follow-up | Methods, Population and groups; Figure 1 |
-| Variables | 7 | Define outcomes, exposures, predictors, confounders, effect modifiers | Methods, Variables; Hypotheses |
-| Data sources/measurement | 8 | Sources and methods of measurement; comparability | Methods, Data sources; Variables (validation); eTable 1; eTable 12 (post hoc, change scale) |
-| Bias | 9 | Efforts to address potential sources of bias | Methods, Study design (preregistration, outcome lock), Statistical analysis (equivalence condition); Discussion, Limitations |
-| Study size | 10 | How the study size was arrived at | Methods, Population and groups (all eligible ACOs); Power; eTable 2 |
-| Quantitative variables | 11 | How quantitative variables were handled; groupings | Methods, Variables; Statistical analysis (scaling by 2 SD) |
-| Statistical methods | 12a | All statistical methods, including for confounding | Methods, Statistical analysis |
-| | 12b | Methods for subgroups and interactions | None registered; single-cohort restrictions in eTables 3-4 |
-| | 12c | How missing data were addressed | Methods, Variables (suppressed values); Results, Validation and sample |
-| | 12d | How loss to follow-up was addressed | Methods, Statistical analysis (not yet renewed; balanced panel); eTable 8 |
-| | 12e | Sensitivity analyses | Methods, Covariate-adjusted estimates, conventional methods and robustness; eTables 3-6 |
-| Participants | 13a | Numbers at each stage | Figure 1; Results, Validation and sample |
-| | 13b | Reasons for nonparticipation at each stage | Figure 1; Results, Validation and sample |
-| | 13c | Flow diagram | Figure 1 |
-| Descriptive data | 14a | Characteristics of participants; exposures and confounders | Table 1 (group, cohort, track, case mix, savings rate, constructed variables); the H3 adjustment factors (size, revenue category, assignment method, agreement number) are not in the results files and are not tabulated |
-| | 14b | Number with missing data for each variable | Table 1; Figure 1 |
-| | 14c | Follow-up time | eTable 8 (mean included post-period years by group) |
-| Outcome data | 15 | Numbers of outcome events or summary measures over time | Early renewal: 29 of 306 compared ACOs (Table 1), 24 of 206 in H3 (Table 3); spending over time: eTable 11 |
-| Main results | 16a | Unadjusted and adjusted estimates with precision | Tables 2-4; Figures 2-4; eTables 3, 6 |
-| | 16b | Category boundaries for continuous variables | Not applicable (continuous variables not categorized) |
-| | 16c | Translation of relative risk into absolute risk | Results (odds multiplier; dollar translation); eTable 5 (observed and predicted shares by decile) |
-| Other analyses | 17 | Subgroups, interactions and sensitivity analyses | Results, Robustness and conventional methods; eTables 3-11 |
-| Key results | 18 | Summarize key results with reference to objectives | Discussion, paragraph 1 |
-| Limitations | 19 | Sources of potential bias or imprecision; direction and magnitude | Discussion, Limitations |
-| Interpretation | 20 | Cautious overall interpretation | Discussion; Conclusions |
-| Generalisability | 21 | External validity | Discussion, Implications (2024 rules); Limitations |
-| Funding | 22 | Funding and role of funders | Declarations |
-
-: STROBE checklist
 
 # References
 

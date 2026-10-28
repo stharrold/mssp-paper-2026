@@ -1,0 +1,53 @@
+Samuel Thomas Harrold\
+Independent researcher\
+samuel.harrold@gmail.com
+
+October 2026
+
+The Editor\
+Interactive Journal of Medical Research\
+JMIR Publications
+
+Dear Editor,
+
+Please consider the manuscript "Early Renewal of Accountable Care Organization Agreements to Reset Benchmarks in the Medicare Shared Savings Program: Preregistered Retrospective Cohort Study" for publication in the *Interactive Journal of Medical Research* as an Original
+Paper.
+
+In the Medicare Shared Savings Program, an accountable care organization's benchmark is reset at each new agreement
+from its own recent spending, adjusted toward its region's. The 2019 rules let organizations end an agreement early to
+reset sooner, and 29 of 334 eligible organizations did so in 2022. To my knowledge, which organizations used this
+option has not been studied in the peer-reviewed literature, and it bears on how benchmark rules sort organizations
+into the program.
+
+The study is a preregistered retrospective cohort study of public Centers for Medicare & Medicaid Services files. The
+analysis plan, decision rules and code were registered on OSF Registries (osf.io/c53w9) before any outcome data were
+read. The reset benchmark was rebuilt from the regulation and validated against published benchmarks before use. Early
+renewers' regions spent more relative to their current benchmarks than stayers' regions did, and early renewers were
+more often at the higher, two-sided risk levels, for which renewal opened a 75% sharing rate. Because they were also
+beating their benchmarks by more, a reset would not on average have raised their benchmarks, and the benchmarks
+published for 2022 confirm this. Spending growth afterward did not differ detectably. These results describe selection
+under benchmark rules that were revised in 2024.
+
+Preprint: the manuscript was submitted to medRxiv on October 27, 2026 (MEDRXIV/2026/366643) and is in screening. I
+would prefer not to post a second preprint on JMIR Preprints. It has not been submitted to any other journal.
+
+Generative AI: I used Claude Code (Anthropic) to draft analysis code, the scripts that build the tables and figures,
+and parts of the text, and separate instances of it reviewed the plan, the code and the manuscript before submission.
+These were AI-generated critical assessments, not peer reviews. The submission form's AI disclosure describes this use.
+I have not attached the complete session transcripts because the sessions also covered unrelated work and personal
+matters; I am glad to answer questions or provide relevant excerpts on request.
+
+Conflicts of interest: I am employed as a data scientist at Indiana University Health; the study was conducted
+independently of that employment with public data only, and the manuscript discloses this. I hold no editorial role
+at JMIR Publications.
+
+All data are public, and the code, data snapshot and results are openly available (links in the Data Availability
+section). I acknowledge that the article processing fee of US $1985 is payable on acceptance and that I will pay it
+personally.
+If the manuscript is not accepted, I would welcome a transfer to JMIRx Med.
+
+Thank you for considering this work.
+
+Sincerely,
+
+Samuel Thomas Harrold

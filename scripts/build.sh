@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Build the manuscript and supplement from Markdown: PDF (Eisvogel + tectonic or xelatex) and DOCX.
+# Build the manuscript and its 2 multimedia appendices (supplement.md, strobe.md) from Markdown: PDF (Eisvogel + tectonic or xelatex) and DOCX.
 #
 # Usage:
-#   scripts/build.sh            # tables, figures, then paper.pdf, paper.docx, supplement.pdf, supplement.docx
+#   scripts/build.sh            # tables, figures, then PDF and DOCX of paper, supplement and strobe
 #   scripts/build.sh pdf        # PDFs only
 #   scripts/build.sh docx       # DOCX only
 #
@@ -44,7 +44,7 @@ common=(--from=markdown+smart --metadata-file=metadata.yaml --lua-filter=scripts
 uv run python scripts/make_tables.py
 uv run python scripts/make_figures.py
 
-for doc in paper supplement; do
+for doc in paper supplement strobe; do
   if [[ "$FORMAT" == all || "$FORMAT" == pdf ]]; then
     install_eisvogel
     pandoc "$doc.md" "${common[@]}" --template=eisvogel --pdf-engine="$(pdf_engine)" -o "$doc.pdf"
