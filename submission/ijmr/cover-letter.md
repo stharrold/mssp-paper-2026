@@ -29,7 +29,8 @@ published for 2022 confirm this. Spending growth afterward did not differ detect
 under benchmark rules that were revised in 2024.
 
 Preprint: the manuscript was submitted to medRxiv on October 27, 2026 (MEDRXIV/2026/366643) and is in screening. I
-would prefer not to post a second preprint on JMIR Preprints. It has not been submitted to any other journal.
+am happy for the submitted version to be posted on JMIR Preprints as well. It has not been submitted to any other
+journal.
 
 Generative AI: I used Claude Code (Anthropic) to draft analysis code, the scripts that build the tables and figures,
 and most of the text, which I revised; separate instances of it reviewed the plan, the code and the manuscript before submission.

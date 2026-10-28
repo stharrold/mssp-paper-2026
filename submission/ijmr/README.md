@@ -58,7 +58,8 @@ above.
    and the corresponding author's full address and phone; the author decides what to enter. Degrees: the author's
    highest degree. Title, abstract (Background, Objective, Methods, Results, Conclusions) and keywords from the
    plain-text files; the registration goes in the separate Trial Registration field (if the form has none, it is the
-   abstract's last line, as in the manuscript). Preprint: decline JMIR Preprints (one preprint, on medRxiv).
+   abstract's last line, as in the manuscript). Preprint: opt in to JMIR Preprints (the author's choice, 2026-10-28; the medRxiv preprint is
+   disclosed in the cover letter).
 3. **Upload submission.** `paper.docx`. AI usage declaration: Yes; tool Claude; acknowledgment text from
    `ai-disclosure-plaintext.txt`. Purposes, proposed, for the author to confirm:
    - tick: text generation; proofreading or editing; generating figures or tables; data collection, curation or
