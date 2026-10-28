@@ -37,8 +37,7 @@ and most of the text, which I revised; separate instances of it reviewed the pla
 The submission form's AI disclosure describes this use.
 
 Conflicts of interest: I am employed as a data scientist at Indiana University Health; the study was conducted
-independently of that employment with public data only, and the manuscript discloses this. I hold no editorial role
-at JMIR Publications.
+independently of that employment with public data only, and the manuscript discloses this.
 
 All data are public, and the code, data snapshot and results are openly available (links in the Data Availability
 section). I acknowledge that the article processing fee of US $1985 is payable on acceptance and that I will pay it
