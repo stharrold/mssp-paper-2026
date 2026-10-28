@@ -15,7 +15,7 @@ title: "Multimedia Appendix 1. Early Renewal of Accountable Care Organization Ag
 - eTable 9. Exploratory analyses
 - eTable 10. The 2 early renewers already in ENHANCED
 - eTable 11. Per-capita spending by agreement year
-- eTable 12. Post hoc checks against CMS's published 2022 benchmarks (not registered)
+- eTable 12. Post hoc checks against CMS's published 2022 benchmarks and of the regional pull against past savings (not registered)
 - eMethods. Registration record (eTable 13) and deviations
 
 All tables are generated from the committed results files by `scripts/make_tables.py` in the manuscript repository.

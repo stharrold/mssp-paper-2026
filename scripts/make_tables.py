@@ -15,6 +15,7 @@ from results import ROOT, dashboard, interval, load, num, pval
 OUT = ROOT / "tables"
 D = dashboard()
 POSTHOC = json.loads((ROOT / "data" / "posthoc" / "validation_change.json").read_text())
+PULL = json.loads((ROOT / "data" / "posthoc" / "pull_savings.json").read_text())
 VALIDATION, POWER, CONFIRM, ROBUST, DID, CONV, EXPL = (load(n) for n in ("validation", "power", "confirm", "robustness", "did", "conventional", "exploratory"))
 GROUPS = ("early", "stayer", "leaver")
 HEAD = ("Early renewers", "Stayers", "Left after PY2021")
@@ -593,6 +594,7 @@ def etable_posthoc() -> str:
         check("Early renewers: rebuilt gain vs realized reset", rv),
     ]
     a = er["all_with_hist_2022"]
+    pooled, stayers = PULL["pooled"]["correlations"], PULL["stayers"]["correlations"]
     notes = (
         "Post hoc and exploratory; not registered (stharrold.github.io, analysis/mssp-benchmark-ratchet/posthoc/). "
         "Changes are 100 x (2022 historical benchmark - PY2021 updated benchmark) / PY2021 updated benchmark, in "
@@ -602,12 +604,18 @@ def etable_posthoc() -> str:
         f"{num(100 * a['share_negative'], 0)}% below the PY2021 benchmark. Updated benchmark PY2021 to PY2022 (includes the "
         f"annual update for both groups): early renewers {num(upd['group_means']['early'], 1, sign=True)}% and stayers "
         f"{num(upd['group_means']['stayer'], 1, sign=True)}% on average; within-cohort difference "
-        f"{num(upd['posterior_mean'], 1, sign=True)} points (95% CrI, {interval(*upd['eti95'])}; *P* = {pval(upd['p_value'])})."
+        f"{num(upd['posterior_mean'], 1, sign=True)} points (95% CrI, {interval(*upd['eti95'])}; *P* = {pval(upd['p_value'])}). "
+        f"Regional pull and past savings ({pooled['sav_rate_2020']['n']} early renewers and stayers with the variable): "
+        f"Spearman $\\rho$ {num(pooled['sav_rate_2020']['spearman'], 2)} with the PY2020 savings rate, "
+        f"{num(pooled['sav_rate_2021']['spearman'], 2)} with the PY2021 savings rate and "
+        f"{num(pooled['own']['spearman'], 2, sign=True)} with the own-spending component "
+        f"(stayers alone: {num(stayers['sav_rate_2020']['spearman'], 2)}, {num(stayers['sav_rate_2021']['spearman'], 2)} and "
+        f"{num(stayers['own']['spearman'], 2, sign=True)})."
     )
     return table(
         ["Check", "ACOs, No.", "Spearman $\\rho$", "Median absolute error", "Mean error", "Same sign", "Mean rebuilt / actual"],
         rows,
-        "eTable 12. Post hoc checks of the expected gain against CMS's published 2022 benchmarks",
+        "eTable 12. Post hoc checks of the expected gain against CMS's published 2022 benchmarks, and of the regional pull against past savings",
         notes,
         align="lrrrrrr",
         widths=[10, 3, 3, 3, 3, 3, 4],
