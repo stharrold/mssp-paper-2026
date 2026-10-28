@@ -30,7 +30,7 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23737045
     description: Zenodo concept DOI (resolves to the latest version)
-version: 1.1.0
+version: 1.2.0
 date-released: 2026-10-28
 references:
   - type: generic

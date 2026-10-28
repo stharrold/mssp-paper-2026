@@ -16,7 +16,7 @@ Multimedia Appendix 2.
 | Where | Version | Submitted | ID | Files (sha256) | Source |
 |---|---|---|---|---|---|
 | medRxiv | 1 | 2026-10-27 | MEDRXIV/2026/366643 (in screening) | `paper.pdf` 7d111cbdef3672f2..., `supplement.pdf` d65212577e6d9809... | `dcbad91` (tag `medrxiv-v1`) |
-| i-JMR | 1 | not yet | | `paper.docx`, `supplement.docx`, `strobe.docx` | `main` (release v1.1.0) |
+| i-JMR | 1 | not yet | | `paper.docx`, `supplement.docx`, `strobe.docx` | release v1.2.0 |
 
 A medRxiv version 2 is planned after outside review; medRxiv keeps earlier versions visible. Both forms' text fields
 are entered as plain ASCII. The i-JMR package and its checklist are in [`submission/ijmr/`](submission/ijmr/README.md).
