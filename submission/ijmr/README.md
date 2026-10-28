@@ -35,7 +35,7 @@ references.
 | Title, abstract, keywords (step 2) | `title-plaintext.txt`, `abstract-plaintext.txt`, `keywords-plaintext.txt` |
 | Trial Registration (step 2, its own field) | `trial-registration-plaintext.txt` (JMIR format: registry, ID; URL) |
 | AI usage declaration (step 3) | `ai-disclosure-plaintext.txt`; checkbox choices below |
-| Comments to the editor (step 1) | `cover-letter-plaintext.txt` (472 words; limit 500); `cover-letter.docx` if a cover-letter upload slot exists |
+| Comments to the editor (step 1) | `cover-letter-plaintext.txt` (497 words; limit 500); `cover-letter.docx` if a cover-letter upload slot exists |
 | Suggested reviewers | `suggested-reviewers.md`, kept local and out of git because it names third parties (the author chooses and confirms no conflicts) |
 
 Every field file is ASCII (`rho`, hyphen-minus, straight quotes), because medRxiv's form turned other characters into
