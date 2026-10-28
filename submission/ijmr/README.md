@@ -102,5 +102,6 @@ is plain ASCII and complete, and the trial registration and cover letter are int
 
 - 2026-10-28: medRxiv declined MEDRXIV/2026/366643 because it requires authors to have an organizational
   affiliation that provides research oversight; it was never posted. The correction to the i-JMR editor (the cover
-  letter says the preprint is in screening) is the author's to send. JMIR's preprint, opted into at submission, will
+  letter says the preprint is in screening) is the author's to send; the author chose to send it once an academic
+  editor is assigned (a draft is ready). JMIR's preprint, opted into at submission, will
   be the only preprint.
