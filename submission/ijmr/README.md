@@ -36,7 +36,7 @@ references.
 | Trial Registration (step 2, its own field) | `trial-registration-plaintext.txt` (JMIR format: registry, ID; URL) |
 | AI usage declaration (step 3) | `ai-disclosure-plaintext.txt`; checkbox choices below |
 | Comments to the editor (step 1) | `cover-letter-plaintext.txt` (497 words; limit 500); `cover-letter.docx` if a cover-letter upload slot exists |
-| Suggested reviewers | `suggested-reviewers.md`, kept local and out of git because it names third parties (the author chooses and confirms no conflicts) |
+| Suggested reviewers | kept in the author's private records, not in this repository, because the list names third parties |
 
 Every field file is ASCII (`rho`, hyphen-minus, straight quotes), because medRxiv's form turned other characters into
 HTML entities.
@@ -89,7 +89,7 @@ and JMIR Preprints opted in; accepted manuscript PDF public. Uploaded: `paper.do
 (the `*.figure.png` copies), Multimedia Appendix 1 (`supplement.docx`) and 2 (`strobe.docx`), and
 `115640-ai-disclosure-for-editor.docx` as material for the editor, not for publication. JMIR renamed the uploads
 itself (for example `115640-1635539-1-SM.docx`), so `upload-115640/` (renamed copies) was not needed and is not kept.
-Suggested reviewers: 4 first authors of cited MSSP studies (list kept locally). AI declaration: Claude; every purpose
+Suggested reviewers: 4 first authors of cited MSSP studies (list kept in the author's private records). AI declaration: Claude; every purpose
 except translation, plus "Pre-submission critical assessment of the plan, code and manuscript"; the session logs
 showed Claude proposed the topic and drafted the plan's question, hypotheses, decision rules and methods, which the
 author chose among, revised and registered. No homepage (TOC) image: JMIR's TOC images may not contain text or
