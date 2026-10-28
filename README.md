@@ -21,11 +21,25 @@ Multimedia Appendix 2.
 A medRxiv version 2 is planned after outside review; medRxiv keeps earlier versions visible. Both forms' text fields
 are entered as plain ASCII. The i-JMR package and its checklist are in [`submission/ijmr/`](submission/ijmr/README.md).
 
-The JMIR version differs from medRxiv version 1 in form, not in results: the title (JMIR asks for a descriptive title
-naming the design and without abbreviations), the abstract headings, an "Ethical Considerations" section citing 45
-CFR 46.102, the end sections, no bold for emphasis, *P* values without spaces, URLs moved into the references, and
-the generative AI statement moved from the manuscript to JMIR's submission form, as JMIR's October 2026 policy
-requires. Every number is unchanged, and `scripts/check_numbers.py` checks them against the results.
+The JMIR version differs from medRxiv version 1 in form, in content added after review, and in how the results are
+read. Every registered result is unchanged.
+
+- **Form:** a descriptive title naming the design (JMIR's rule), JMIR's abstract headings and end sections, an
+  "Ethical Considerations" section citing 45 CFR 46.102, italics rather than bold, *P* values without spaces, URLs
+  moved into the references, access dates on online references, Word tables sized for the page, the generative AI
+  statement moved to JMIR's submission form (JMIR policy since October 2026), and the H4 spending table moved to
+  Multimedia Appendix 1 (eTable 8; later eTables renumbered).
+- **Added content:** a third post hoc check, not registered: the rank correlation of the regional pull with the PY2020
+  savings rate is 0.45 (eTable 13; `posthoc/pull_savings.py`). New sources: CMS's program figures for 2026, CMS's
+  2018 rationale for barring moves from BASIC to ENHANCED within an agreement, a 2026 dissertation on the ratchet
+  effect and regional selection (with its 40% and 70% estimates), Weitzman 1980 and Einav et al. 2022.
+- **Reading:** the manuscript now says that the registered H2b wording ("evidence for the reset motive beyond past
+  savings") overstates the result once the decomposition is known, and reads the pattern, as interpretation and not
+  as a test, as fitting the sharing-rate motive better than the reset motive. The introduction, contributions and
+  conclusions were rewritten around that reading after two critical reads.
+
+`scripts/check_numbers.py` checks every number in the text against the committed results files, and the cited
+figures that are not study results against `data/number-allowlist.tsv`, which gives each one's source.
 
 ## Files
 
