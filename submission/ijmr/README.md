@@ -20,7 +20,7 @@ uv run python scripts/validate_jmir_compliance.py --article-type original
 uv run pytest && uv run ruff check . && uv run ruff format --check .
 ```
 
-Recorded 2026-10-28: JMIR-method word count 8,702 (soft limit 10,000; tables included, references excluded);
+Recorded 2026-10-28: JMIR-method word count 8,710 (soft limit 10,000; tables included, references excluded);
 abstract 444/450 words; 7 keywords; 4 tables and 4 figures in the text (JMIR suggests at most 5 and 8); 65
 references.
 

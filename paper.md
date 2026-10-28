@@ -569,8 +569,8 @@ own and do not represent the official positions of Indiana University Health.
 All data are public CMS files.[@dataacos; @dataresults; @datacounty; @dataassigned] The list of the 40 files
 downloaded, with sizes, SHA-256 hashes and URLs, and a script that downloads and verifies them are in the study
 repository;[@code] an archived copy of the snapshot and the results notebook exports are in the OSF
-project.[@osfproject] The committed results files, from which every table and figure here is generated, are in the
-study repository and in this manuscript's repository.[@paperrepo] The registered
+project.[@osfproject] The committed results files, from which every table and figure here is generated, are in the study repository and in this manuscript's repository, archived on Zenodo with the post hoc
+scripts.[@paperrepo] The registered
 analysis code (commit a4064f5), its tests and step-by-step instructions to rerun and adapt the analysis are in the study repository.[@code] A longer account
 of the study for a general audience was published online.[@post]
 

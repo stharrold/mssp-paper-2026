@@ -16,7 +16,7 @@ Multimedia Appendix 2.
 | Where | Version | Submitted | ID | Files (sha256) | Source |
 |---|---|---|---|---|---|
 | medRxiv | 1 | 2026-10-27 | MEDRXIV/2026/366643 (in screening) | `paper.pdf` 7d111cbdef3672f2..., `supplement.pdf` d65212577e6d9809... | `dcbad91` (tag `medrxiv-v1`) |
-| i-JMR | 1 | not yet | | `paper.docx`, `supplement.docx`, `strobe.docx` | branch `ijmr-submission` |
+| i-JMR | 1 | not yet | | `paper.docx`, `supplement.docx`, `strobe.docx` | `main` (release v1.1.0) |
 
 A medRxiv version 2 is planned after outside review; medRxiv keeps earlier versions visible. Both forms' text fields
 are entered as plain ASCII. The i-JMR package and its checklist are in [`submission/ijmr/`](submission/ijmr/README.md).
@@ -48,7 +48,8 @@ requires. Every number is unchanged, and `scripts/check_numbers.py` checks them 
 
 ## Archive
 
-Each GitHub release of this repository is archived on Zenodo. The registered analysis plan and code are archived on
+Each GitHub release of this repository is archived on Zenodo: [doi:10.5281/zenodo.23737045](https://doi.org/10.5281/zenodo.23737045)
+(concept DOI, resolving to the latest version; cite this one). The registered analysis plan and code are archived on
 OSF Registries ([doi:10.17605/OSF.IO/C53W9](https://doi.org/10.17605/OSF.IO/C53W9)), and the data snapshot and
 results notebook in the OSF project ([doi:10.17605/OSF.IO/Z4AN5](https://doi.org/10.17605/OSF.IO/Z4AN5)).
 
