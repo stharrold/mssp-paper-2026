@@ -1,0 +1,29 @@
+{
+  "title": "Early Renewal of Accountable Care Organization Agreements to Reset Benchmarks in the Medicare Shared Savings Program: Preregistered Retrospective Cohort Study (manuscript, data and code)",
+  "description": "Manuscript, multimedia appendices, committed results files and the scripts that build every table and figure for a preregistered retrospective cohort study of Medicare Shared Savings Program accountable care organizations that renewed their agreements early in 2022, including the number check that compares every number in the text with the results, and the study's post hoc scripts. The registered analysis plan and code are archived on OSF Registries (doi:10.17605/OSF.IO/C53W9) and the data snapshot and results notebook in the OSF project (doi:10.17605/OSF.IO/Z4AN5). Text, tables and figures are CC BY 4.0; the scripts are MIT licensed (LICENSE).",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Harrold, Samuel Thomas",
+      "affiliation": "Independent researcher",
+      "orcid": "0009-0008-4596-6921"
+    }
+  ],
+  "keywords": [
+    "accountable care organizations",
+    "Medicare Shared Savings Program",
+    "benchmarks",
+    "alternative payment models",
+    "preregistration",
+    "difference-in-differences",
+    "Bayesian analysis"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {"relation": "isDerivedFrom", "identifier": "10.17605/OSF.IO/C53W9", "scheme": "doi", "resource_type": "other"},
+    {"relation": "references", "identifier": "10.17605/OSF.IO/Z4AN5", "scheme": "doi", "resource_type": "dataset"},
+    {"relation": "isSupplementTo", "identifier": "https://github.com/stharrold/stharrold.github.io/tree/a4064f592a492d971ce3c27e95afb3050e6bc01d/analysis/mssp-benchmark-ratchet", "scheme": "url", "resource_type": "software"}
+  ]
+}

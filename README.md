@@ -43,6 +43,14 @@ requires. Every number is unchanged, and `scripts/check_numbers.py` checks them 
 | `scripts/form_fields.py` | Writes the JMIR form's plain-text fields, figure uploads and captions into `submission/ijmr/` |
 | `standards/jmir/SOURCES.md` | The JMIR author-guidance articles followed (local copies are not in git) |
 | `submission/ijmr/` | The i-JMR package: cover letter, AI disclosure, suggested reviewers, figure uploads, checklist |
+| `posthoc/` | Byte-identical copies of the study's 2 post hoc scripts (not registered), with their source commits |
+| `CITATION.cff`, `.zenodo.json` | Citation metadata; Zenodo archives each GitHub release |
+
+## Archive
+
+Each GitHub release of this repository is archived on Zenodo. The registered analysis plan and code are archived on
+OSF Registries ([doi:10.17605/OSF.IO/C53W9](https://doi.org/10.17605/OSF.IO/C53W9)), and the data snapshot and
+results notebook in the OSF project ([doi:10.17605/OSF.IO/Z4AN5](https://doi.org/10.17605/OSF.IO/Z4AN5)).
 
 ## Build
 

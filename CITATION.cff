@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: "Early Renewal of Accountable Care Organization Agreements to Reset Benchmarks in the Medicare Shared Savings Program: Preregistered Retrospective Cohort Study (manuscript, data and code)"
+message: >-
+  If you use these materials, please cite them using the metadata from this file.
+type: software
+authors:
+  - given-names: Samuel Thomas
+    family-names: Harrold
+    email: samuel.harrold@gmail.com
+    affiliation: Independent researcher
+    orcid: 'https://orcid.org/0009-0008-4596-6921'
+repository-code: 'https://github.com/stharrold/mssp-paper-2026'
+url: 'https://github.com/stharrold/mssp-paper-2026'
+abstract: >-
+  Manuscript, multimedia appendices, committed results files and the scripts that build every table and figure for a
+  preregistered retrospective cohort study of Medicare Shared Savings Program accountable care organizations that
+  renewed their agreements early in 2022. The registered analysis plan and code are archived on OSF Registries
+  (doi:10.17605/OSF.IO/C53W9); the data snapshot and results notebook are in the OSF project
+  (doi:10.17605/OSF.IO/Z4AN5).
+keywords:
+  - accountable care organizations
+  - Medicare Shared Savings Program
+  - benchmarks
+  - alternative payment models
+  - preregistration
+  - difference-in-differences
+  - Bayesian analysis
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2026-10-28
+references:
+  - type: generic
+    title: "Registered analysis plan and code"
+    doi: 10.17605/OSF.IO/C53W9
+    authors:
+      - family-names: Harrold
+        given-names: Samuel Thomas
+  - type: data
+    title: "OSF project: data snapshot and results notebook"
+    doi: 10.17605/OSF.IO/Z4AN5
+    authors:
+      - family-names: Harrold
+        given-names: Samuel Thomas

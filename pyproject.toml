@@ -1,7 +1,7 @@
 [project]
 name = "mssp-paper-2026"
-version = "0.1.0"
-description = "Manuscript build for the pre-registered MSSP early-renewal study (medRxiv preprint)"
+version = "1.0.0"
+description = "Manuscript build for the preregistered MSSP early-renewal study (medRxiv preprint; i-JMR submission)"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = ["matplotlib==3.11.2"]
