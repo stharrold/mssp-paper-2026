@@ -61,6 +61,7 @@ figures that are not study results against `data/number-allowlist.tsv`, which gi
 | `submission/ijmr/` | The i-JMR package: cover letter, AI disclosure, suggested reviewers, figure uploads, checklist |
 | `posthoc/` | Byte-identical copies of the study's 2 post hoc scripts (not registered), with their source commits |
 | `CITATION.cff`, `.zenodo.json` | Citation metadata; Zenodo archives each GitHub release |
+| `CLAUDE.md` | Guidance for AI coding agents: rules, commands and the gotchas found while preparing the submission |
 
 ## Archive
 
