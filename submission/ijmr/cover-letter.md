@@ -35,8 +35,6 @@ journal.
 Generative AI: I used Claude Code (Anthropic) to draft analysis code, the scripts that build the tables and figures,
 and most of the text, which I revised; separate instances of it reviewed the plan, the code and the manuscript before submission.
 The submission form's AI disclosure describes this use.
-I have not attached the complete session transcripts because the sessions also covered unrelated work and personal
-matters; I am glad to answer questions or provide relevant excerpts on request.
 
 Conflicts of interest: I am employed as a data scientist at Indiana University Health; the study was conducted
 independently of that employment with public data only, and the manuscript discloses this. I hold no editorial role
