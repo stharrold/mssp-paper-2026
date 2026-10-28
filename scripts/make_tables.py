@@ -426,7 +426,7 @@ def etable_h3_checks() -> str:
         ],
         [
             "Overall test: largest absolute core coefficient (reduced sampler settings)",
-            f"{num(c['overall_test']['observed'], 2)}, *P* = {pval(c['overall_test']['p_value'])}",
+            f"{num(c['overall_test']['observed'], 2)}, *P*={pval(c['overall_test']['p_value'])}",
         ],
     ]
     return table(["Check", "Result"], rows, "eTable 5. Convergence and predictive checks of the decision model (H3)", align="lr")
@@ -604,7 +604,7 @@ def etable_posthoc() -> str:
         f"{num(100 * a['share_negative'], 0)}% below the PY2021 benchmark. Updated benchmark PY2021 to PY2022 (includes the "
         f"annual update for both groups): early renewers {num(upd['group_means']['early'], 1, sign=True)}% and stayers "
         f"{num(upd['group_means']['stayer'], 1, sign=True)}% on average; within-cohort difference "
-        f"{num(upd['posterior_mean'], 1, sign=True)} points (95% CrI, {interval(*upd['eti95'])}; *P* = {pval(upd['p_value'])}). "
+        f"{num(upd['posterior_mean'], 1, sign=True)} points (95% CrI, {interval(*upd['eti95'])}; *P*={pval(upd['p_value'])}). "
         f"Regional pull and past savings ({pooled['sav_rate_2020']['n']} early renewers and stayers with the variable): "
         f"Spearman $\\rho$ {num(pooled['sav_rate_2020']['spearman'], 2)} with the PY2020 savings rate, "
         f"{num(pooled['sav_rate_2021']['spearman'], 2)} with the PY2021 savings rate and "

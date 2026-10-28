@@ -31,7 +31,7 @@ regional spending relative to the current benchmark); the own-spending component
 BASIC risk level were also examined. Groups were compared by Bayesian bootstrap and permutation tests, and early renewal was modeled by Bayesian logistic regression. Spending growth in 2022-2024 was compared by
 difference-in-differences.
 
-**Results:** The rebuilt benchmark tracked CMS's (Spearman $\rho$ = 0.94). Relative to their current benchmarks,
+**Results:** The rebuilt benchmark tracked CMS's (Spearman $\rho$=0.94). Relative to their current benchmarks,
 early renewers' regional spending was 3.4 percentage points higher than stayers' (95% credible interval [CrI], 1.7
 to 5.4; *P*<.001), but they were also beating their benchmarks by more (own-spending component, −2.1 points; 95%
 CrI, −3.8 to −0.5), and the total expected gain did not differ (−0.5 points; 95% CrI, −2.0 to 0.8). Post hoc, CMS's
@@ -96,7 +96,7 @@ report found that ACOs rebasing early in 2022 had higher gross savings rates bef
 that the earlier incumbents among them moved from BASIC to ENHANCED,[@milliman2024] and consulting analyses model the
 choice for individual ACOs.[@milliman2025] These sources describe the early renewers but do not test why they renewed. To the author's knowledge, no
 peer-reviewed study has asked whether ACOs used the option to time resets for a higher benchmark or to reach ENHANCED.
-The question joins the two strands above, the incentive created by rebasing and selection by benchmark rules, and it
+The question joins the 2 strands above, the incentive created by rebasing and selection by benchmark rules, and it
 matters more now that the rules in force since 2024 make a reset cheaper for ACOs that have saved.[@cfr2024]
 
 Two motives predict early renewal. Under a *reset motive*, an ACO renews because its new benchmark would be
@@ -364,7 +364,7 @@ regional component itself, what a reset would add, was 1.6 points, about \$176.
 The own-spending component pointed the other way (−2.1 points; 95% CrI, −3.8 to −0.5; *P*=.003): early renewers'
 recent spending was lower relative to their benchmarks, contrary to the reset motive by the rule's wording. Early
 renewers also had higher savings rates in PY2020 (1.9 points; 95% CrI, 0.7 to 3.3) and PY2021 (1.6 points; 95% CrI,
-0.2 to 3.1). The two parts of the gain offset: the regional component was larger for early renewers (1.6 points;
+0.2 to 3.1). The 2 parts of the gain offset: the regional component was larger for early renewers (1.6 points;
 95% CrI, 0.9 to 2.2), the own-spending component smaller, and the total expected gain did not differ (−0.5 points;
 95% CrI, −2.0 to 0.8; *P*=.33). In unweighted means the own-spending and regional parts summed to −5.3 + 3.7 = −1.6
 points for early renewers and −3.2 + 2.2 = −1.0 for stayers: by the approximation, a reset would on average have
@@ -566,7 +566,8 @@ own and do not represent the official positions of Indiana University Health.
 
 # Data Availability
 
-All data are public CMS files.[@dataacos; @dataresults; @datacounty; @dataassigned] The list of the 40 files
+The datasets generated or analyzed during this study are available in the Zenodo repository[@paperrepo] and the
+OSF project.[@osfproject] All data are public CMS files.[@dataacos; @dataresults; @datacounty; @dataassigned] The list of the 40 files
 downloaded, with sizes, SHA-256 hashes and URLs, and a script that downloads and verifies them are in the study
 repository;[@code] an archived copy of the snapshot and the results notebook exports are in the OSF
 project.[@osfproject] The committed results files, from which every table and figure here is generated, are in the study repository and in this manuscript's repository, archived on Zenodo with the post hoc
