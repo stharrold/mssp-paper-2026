@@ -81,3 +81,17 @@ above.
 - No JMIR account work, personal data, attestations or submission: those are the author's.
 - The medRxiv DOI is not yet known; when the preprint posts, tell the editor by message if the paper is still in
   review.
+
+## Submitted (2026-10-28)
+
+Manuscript 115640, submitted as an Original Paper in the Health Services Research section; open participation review
+and JMIR Preprints opted in; accepted manuscript PDF public. Uploaded: `paper.docx` (Zenodo v1.2.0), Figures 1-4
+(the `*.figure.png` copies), Multimedia Appendix 1 (`supplement.docx`) and 2 (`strobe.docx`), and
+`115640-ai-disclosure-for-editor.docx` as material for the editor, not for publication. JMIR renamed the uploads
+itself (for example `115640-1635539-1-SM.docx`), so `upload-115640/` (renamed copies) was not needed and is not kept.
+Suggested reviewers: 4 first authors of cited MSSP studies (list kept locally). AI declaration: Claude; every purpose
+except translation, plus "Pre-submission critical assessment of the plan, code and manuscript"; the session logs
+showed Claude proposed the topic and drafted the plan's question, hypotheses, decision rules and methods, which the
+author chose among, revised and registered. No homepage (TOC) image: JMIR's TOC images may not contain text or
+diagrams; JMIR uses a default until one is supplied. The stored metadata was checked after submission: the abstract
+is plain ASCII and complete, and the trial registration and cover letter are intact.

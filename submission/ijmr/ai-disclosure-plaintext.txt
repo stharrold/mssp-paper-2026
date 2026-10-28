@@ -1,13 +1,14 @@
 Generative AI tool: Claude Code (Claude Opus 5.5; Anthropic), used from October 2026.
 
 How it was used:
+- Idea and design: proposed the topic (a preregistered causal study on public CMS Medicare Shared Savings Program data) and drafted the analysis plan, including the research question, hypotheses, decision rules and methods, offering alternatives; the author chose among them, revised the plan over several drafts and registered it.
 - Analysis code: drafted the analysis pipeline (dbt models, Python estimation and resampling code) and its tests under the author's direction, first against synthetic data with planted effects, before the plan and code were registered on OSF.
 - Manuscript production: drafted the scripts that generate every table and figure from the committed results files, and a script that checks every number in the text against those files.
 - Literature and references: ran PubMed and Google Scholar searches the author specified and retrieved the metadata of every reference that has a DOI from Crossref; the rest (regulations, CMS data files, reports, software) were entered from their source pages. The author checked the cited claims against the sources.
 - Writing: under the author's direction, drafted most of the text, which the author then revised, and formatted the manuscript for JMIR.
 - Review: separate instances of the same tool critically reviewed the analysis plan, the code and the manuscript; the author decided which comments to act on.
 
-What the author did: chose the research question, hypotheses and decision rules; approved and registered the analysis plan; ran the analysis; reviewed and edited all AI output; verified every reported number against the results files; and takes full responsibility for the content.
+What the author did: chose the research question, hypotheses, decision rules and the overall statistical approach (Bayesian estimates with resampling tests) from the options considered; revised, approved and registered the analysis plan; ran the analysis; reviewed and edited all AI output; verified every reported number against the results files; and takes full responsibility for the content.
 
 No AI image-generation tools were used. Figures are drawn by plotting code from the results files.
 

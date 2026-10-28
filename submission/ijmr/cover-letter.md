@@ -1,4 +1,4 @@
-Samuel Thomas Harrold\
+Samuel Harrold\
 Independent researcher\
 samuel.harrold@gmail.com
 
@@ -57,4 +57,4 @@ Thank you for your consideration.
 
 Sincerely,
 
-Samuel Thomas Harrold
+Samuel Harrold

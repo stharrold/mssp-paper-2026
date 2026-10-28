@@ -1,5 +1,5 @@
-Multimedia Appendix 1 (upload supplement.docx, renamed <ms#>-Multimedia-Appendix-1.docx):
-Supplementary tables (eTables 1-13) and eMethods: validation of the rebuilt benchmark, power analysis, robustness checks, decision-model diagnostics, conventional counterparts, attrition, exploratory and post hoc analyses, and the registration record and deviations.
+Multimedia Appendix 1 (supplement.docx; JMIR renames the upload, e.g. 115640-1635568-1-SP.docx):
+Supplementary tables (eTables 1-14) and eMethods: validation of the rebuilt benchmark, power analysis, robustness checks, decision-model diagnostics, conventional counterparts, the spending estimates and attrition, exploratory and post hoc analyses, and the registration record and deviations.
 
-Multimedia Appendix 2 (upload strobe.docx, renamed <ms#>-Multimedia-Appendix-2.docx):
+Multimedia Appendix 2 (strobe.docx):
 STROBE (Strengthening the Reporting of Observational Studies in Epidemiology) checklist for cohort studies.
