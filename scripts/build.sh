@@ -52,6 +52,7 @@ for doc in paper supplement strobe; do
   fi
   if [[ "$FORMAT" == all || "$FORMAT" == docx ]]; then
     pandoc "$doc.md" "${common[@]}" --reference-doc=reference.docx -o "$doc.docx"
+    python3 scripts/docx_tables.py "$doc.docx"
     echo "wrote $doc.docx"
   fi
 done

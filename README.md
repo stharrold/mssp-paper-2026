@@ -40,6 +40,7 @@ requires. Every number is unchanged, and `scripts/check_numbers.py` checks them 
 | `research/` | The PubMed literature search: script, queries, records and abstracts |
 | `scripts/check_numbers.py` | Checks every number and interval in the prose against the results |
 | `scripts/validate_jmir_compliance.py` | JMIR checks (abstract, keywords, IMRD, end sections, AI statement placement, abbreviations, word count); adapted from yuimedi-paper-20250901 |
+| `scripts/docx_tables.py` | Widens the DOCX tables to the full text width (pandoc sizes them to 5.5 in); column widths come from `scripts/include.lua` |
 | `scripts/form_fields.py` | Writes the JMIR form's plain-text fields, figure uploads and captions into `submission/ijmr/` |
 | `standards/jmir/SOURCES.md` | The JMIR author-guidance articles followed (local copies are not in git) |
 | `submission/ijmr/` | The i-JMR package: cover letter, AI disclosure, suggested reviewers, figure uploads, checklist |

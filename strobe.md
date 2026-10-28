@@ -7,13 +7,13 @@ Items of the STROBE statement for cohort studies,[@vonelm2007] with the place ea
 | Item | No. | Recommendation (abbreviated) | Where reported |
 |:------------|:----:|:--------------------|:------------------------|
 | Title and abstract | 1 | Indicate the design; give an informative, balanced summary | Title and Abstract (preregistered retrospective cohort study) |
-| Background/rationale | 2 | Scientific background and rationale | Introduction, paragraphs 1-3 |
-| Objectives | 3 | Specific objectives and prespecified hypotheses | Introduction, paragraph 4; Methods, Hypotheses |
+| Background/rationale | 2 | Scientific background and rationale | Introduction, paragraphs 1-4 |
+| Objectives | 3 | Specific objectives and prespecified hypotheses | Introduction, paragraph 5; Methods, Hypotheses |
 | Study design | 4 | Key elements of the design | Methods, Study Design and Preregistration |
 | Setting | 5 | Setting, locations, dates of recruitment, exposure, follow-up, data collection | Methods, Data Sources; Population and Groups |
 | Participants | 6 | Eligibility criteria, sources and methods of selection; follow-up | Methods, Population and Groups; Figure 1 |
 | Variables | 7 | Define outcomes, exposures, predictors, confounders, effect modifiers | Methods, Variables; Hypotheses |
-| Data Sources/measurement | 8 | Sources and methods of measurement; comparability | Methods, Data Sources; Variables (Validation Before Use); eTable 1; eTable 12 (post hoc, change scale) |
+| Data sources/measurement | 8 | Sources and methods of measurement; comparability | Methods, Data Sources; Variables (Validation Before Use); eTable 1; eTable 12 (post hoc, change scale) |
 | Bias | 9 | Efforts to address potential sources of bias | Methods, Study Design and Preregistration (outcome lock), Statistical Analysis (equivalence condition); Discussion, Strengths and Limitations |
 | Study size | 10 | How the study size was arrived at | Methods, Population and Groups (all eligible ACOs); Power; eTable 2 |
 | Quantitative variables | 11 | How quantitative variables were handled; groupings | Methods, Variables; Statistical Analysis (scaling by 2 SD) |
