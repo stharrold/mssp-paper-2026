@@ -40,7 +40,10 @@ def main() -> None:
     keywords = re.search(r"^\*\*Keywords:\*\* (.*?)\\?$", paper, re.M).group(1)
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "title-plaintext.txt").write_text(plain(title))
+    # JMIR's metadata form has its own Trial Registration field, so the registration line is written separately.
+    abstract, registration = abstract.split("**Trial Registration:**")
     (OUT / "abstract-plaintext.txt").write_text(plain(abstract))
+    (OUT / "trial-registration-plaintext.txt").write_text(plain(registration))
     (OUT / "keywords-plaintext.txt").write_text(plain(keywords))
     letter = (OUT / "cover-letter.md").read_text()
     (OUT / "cover-letter-plaintext.txt").write_text(plain(letter[letter.index("Dear Editor") :]))

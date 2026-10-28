@@ -33,6 +33,7 @@ references.
 | Multimedia Appendix 1 (step 4) | `../../supplement.docx`, renamed `<ms#>-Multimedia-Appendix-1.docx`; caption in `multimedia-appendix-captions.txt` |
 | Multimedia Appendix 2 (step 4) | `../../strobe.docx` (STROBE checklist), renamed `<ms#>-Multimedia-Appendix-2.docx` |
 | Title, abstract, keywords (step 2) | `title-plaintext.txt`, `abstract-plaintext.txt`, `keywords-plaintext.txt` |
+| Trial Registration (step 2, its own field) | `trial-registration-plaintext.txt` (JMIR format: registry, ID; URL) |
 | AI usage declaration (step 3) | `ai-disclosure-plaintext.txt`; checkbox choices below |
 | Comments to the editor (step 1) | `cover-letter-plaintext.txt` (472 words; limit 500); `cover-letter.docx` if a cover-letter upload slot exists |
 | Suggested reviewers | `suggested-reviewers.md`, kept local and out of git because it names third parties (the author chooses and confirms no conflicts) |
@@ -55,8 +56,9 @@ above.
 2. **Metadata.** The author, as entered on medRxiv: Samuel Thomas Harrold; ORCID 0009-0008-4596-6921; email
    samuel.harrold@gmail.com; affiliation "Independent researcher". JMIR asks for department, city, state and country
    and the corresponding author's full address and phone; the author decides what to enter. Degrees: the author's
-   highest degree. Title, abstract (Background, Objective, Methods, Results, Conclusions, Trial Registration) and
-   keywords from the plain-text files. Preprint: decline JMIR Preprints (one preprint, on medRxiv).
+   highest degree. Title, abstract (Background, Objective, Methods, Results, Conclusions) and keywords from the
+   plain-text files; the registration goes in the separate Trial Registration field (if the form has none, it is the
+   abstract's last line, as in the manuscript). Preprint: decline JMIR Preprints (one preprint, on medRxiv).
 3. **Upload submission.** `paper.docx`. AI usage declaration: Yes; tool Claude; acknowledgment text from
    `ai-disclosure-plaintext.txt`. Purposes, proposed, for the author to confirm:
    - tick: text generation; proofreading or editing; generating figures or tables; data collection, curation or
