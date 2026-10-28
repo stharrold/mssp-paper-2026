@@ -262,7 +262,7 @@ def table4() -> str:
     return table(
         ["Estimate", "Early / comparison, No.", "Difference, %", "95% CrI", "*P*"],
         rows,
-        "Table 4. Spending growth after early renewal (H4), with the pre-trend and robustness estimates",
+        "eTable 8. Spending growth after early renewal (H4), with the pre-trend and robustness estimates",
         notes,
         align="lrrrr",
         widths=[10, 4, 3, 4, 2],
@@ -499,7 +499,7 @@ def etable_attrition() -> str:
         f"{num(post['early'] / n_h4['early'], 2)} included post-period years per early renewer and "
         f"{num(post['stayer'] / n_h4['stayer'], 2)} per comparison ACO (of 3)."
     )
-    return table(["Group and status", "PY2022", "PY2023", "PY2024"], rows, "eTable 8. Attrition from the H4 spending panel, by group and year", notes, align="lrrr")
+    return table(["Group and status", "PY2022", "PY2023", "PY2024"], rows, "eTable 9. Attrition from the H4 spending panel, by group and year", notes, align="lrrr")
 
 
 def etable_exploratory() -> str:
@@ -523,7 +523,7 @@ def etable_exploratory() -> str:
         f"{region['excluded_no_region']} of the 334 ACOs have no census region; the region model's sample is "
         f"{region['sample']['n']} ACOs ({region['sample']['early']} early renewers), as in H3."
     )
-    return table(["Analysis", "Estimate", "95% CrI"], rows, "eTable 9. Exploratory analyses", notes, align="lrr")
+    return table(["Analysis", "Estimate", "95% CrI"], rows, "eTable 10. Exploratory analyses", notes, align="lrr")
 
 
 def etable_enhanced() -> str:
@@ -544,7 +544,7 @@ def etable_enhanced() -> str:
         "percentile in parentheses. Exploratory; no test."
     )
     header = ["Variable"] + [f"ACO {i + 1} ({a['cohort']} cohort)" for i, a in enumerate(acos)]
-    return table(header, rows, "eTable 10. The 2 early renewers already in ENHANCED", notes, align="lrr")
+    return table(header, rows, "eTable 11. The 2 early renewers already in ENHANCED", notes, align="lrr")
 
 
 def etable_spending() -> str:
@@ -568,7 +568,7 @@ def etable_spending() -> str:
     return table(
         ["Agreement start", "Agreement year", "Scheduled benchmark year", "Group", "ACOs, No.", "Mean spending, $"],
         rows,
-        "eTable 11. Per-capita spending by agreement year",
+        "eTable 12. Per-capita spending by agreement year",
         notes,
         align="rrllrr",
     )
@@ -615,7 +615,7 @@ def etable_posthoc() -> str:
     return table(
         ["Check", "ACOs, No.", "Spearman $\\rho$", "Median absolute error", "Mean error", "Same sign", "Mean rebuilt / actual"],
         rows,
-        "eTable 12. Post hoc checks of the expected gain against CMS's published 2022 benchmarks, and of the regional pull against past savings",
+        "eTable 13. Post hoc checks of the expected gain against CMS's published 2022 benchmarks, and of the regional pull against past savings",
         notes,
         align="lrrrrrr",
         widths=[10, 3, 3, 3, 3, 3, 4],
@@ -626,7 +626,6 @@ TABLES = {
     "table1": table1,
     "table2": table2,
     "table3": table3,
-    "table4": table4,
     "etable1-validation": etable_validation,
     "etable2-power": etable_power,
     "etable3-robustness-groups": etable_robust_groups,
@@ -634,11 +633,12 @@ TABLES = {
     "etable5-h3-checks": etable_h3_checks,
     "etable6-conventional": etable_conventional,
     "etable7-agreement": etable_agreement,
-    "etable8-attrition": etable_attrition,
-    "etable9-exploratory": etable_exploratory,
-    "etable10-enhanced": etable_enhanced,
-    "etable11-spending": etable_spending,
-    "etable12-posthoc": etable_posthoc,
+    "etable8-h4-spending": table4,
+    "etable9-attrition": etable_attrition,
+    "etable10-exploratory": etable_exploratory,
+    "etable11-enhanced": etable_enhanced,
+    "etable12-spending": etable_spending,
+    "etable13-posthoc": etable_posthoc,
 }
 
 

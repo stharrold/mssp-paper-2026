@@ -11,12 +11,13 @@ title: "Multimedia Appendix 1. Early Renewal of Accountable Care Organization Ag
 - eTable 5. Convergence and predictive checks of the decision model
 - eTable 6. Conventional (frequentist) counterparts
 - eTable 7. Agreement of registered and conventional verdicts
-- eTable 8. Attrition from the H4 spending panel
-- eTable 9. Exploratory analyses
-- eTable 10. The 2 early renewers already in ENHANCED
-- eTable 11. Per-capita spending by agreement year
-- eTable 12. Post hoc checks against CMS's published 2022 benchmarks and of the regional pull against past savings (not registered)
-- eMethods. Registration record (eTable 13) and deviations
+- eTable 8. Spending growth after early renewal (H4), with the pre-trend and robustness estimates
+- eTable 9. Attrition from the H4 spending panel
+- eTable 10. Exploratory analyses
+- eTable 11. The 2 early renewers already in ENHANCED
+- eTable 12. Per-capita spending by agreement year
+- eTable 13. Post hoc checks against CMS's published 2022 benchmarks and of the regional pull against past savings (not registered)
+- eMethods. Registration record (eTable 14) and deviations
 
 All tables are generated from the committed results files by `scripts/make_tables.py` in the manuscript repository.
 Item and section numbers refer to the registered analysis plan (`PREREGISTRATION.md`, version 0.6).[@registration]
@@ -35,15 +36,17 @@ Item and section numbers refer to the registered analysis plan (`PREREGISTRATION
 
 {{include tables/etable7-agreement.md}}
 
-{{include tables/etable8-attrition.md}}
+{{include tables/etable8-h4-spending.md}}
 
-{{include tables/etable9-exploratory.md}}
+{{include tables/etable9-attrition.md}}
 
-{{include tables/etable10-enhanced.md}}
+{{include tables/etable10-exploratory.md}}
 
-{{include tables/etable11-spending.md}}
+{{include tables/etable11-enhanced.md}}
 
-{{include tables/etable12-posthoc.md}}
+{{include tables/etable12-spending.md}}
+
+{{include tables/etable13-posthoc.md}}
 
 # eMethods. Registration record and deviations
 
@@ -55,7 +58,7 @@ Item and section numbers refer to the registered analysis plan (`PREREGISTRATION
 | Code | commit `a4064f5`, archive SHA-256 `4c98d76a586151ab608851c69217a5ddb6b394201643a3de89a839bb1f659cd4` |
 | Data | 40 CMS public use files downloaded October 22, 2026, each with its SHA-256 hash in `data-snapshot.tsv`; archived on OSF[@osfproject] |
 
-: eTable 13. Registration record
+: eTable 14. Registration record
 
 **Outcome lock.** Every data file is hashed before it is read. A file whose hash matches a performance-year results
 file, a county spending file or the county assignment file could not be opened until the registration record existed, and the code had no

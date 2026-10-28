@@ -14,7 +14,7 @@
 | 2022 | 3 | Yes | Other ACOs | 120 | 12,762 |
 | 2022 | 3 | Yes | Early renewers | 15 | 11,892 |
 
-: eTable 11. Per-capita spending by agreement year
+: eTable 12. Per-capita spending by agreement year
 
 ::: {.table-notes}
 Mean per-capita spending (US dollars) of assigned beneficiaries by agreement start year and agreement year (performance year - start year + 1), PY2020-PY2024 (plan section 5.6). Agreement years 3-5 are the scheduled benchmark years of the next agreement; early renewers out of a 2020 agreement are shown separately. Benchmark-year status cannot be separated from tenure here, so this is description only.

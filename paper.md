@@ -300,7 +300,7 @@ of savings and losses, whereas it shares 75% of savings and up to 75% of losses.
 
 ## Post Hoc Checks (Not Registered)
 
-After all registered results had been read, and in response to critical review of the draft, 3 checks were added (eTable 12 in Multimedia Appendix 1). They reuse the registered pipeline's tables and estimator,
+After all registered results had been read, and in response to critical review of the draft, 3 checks were added (eTable 13 in Multimedia Appendix 1). They reuse the registered pipeline's tables and estimator,
 change no registered file, and decide nothing. First, the validation was repeated on the change scale, the rebuilt
 against the actual change from the PY2021 benchmark, for the same 101 regular renewers. Second, early renewers'
 realized reset, their 2022 historical benchmark as CMS published it relative to their PY2021 benchmark, was compared
@@ -353,11 +353,11 @@ Relative to their current benchmarks, early renewers' case-mix-adjusted regional
 higher than stayers' (95% CrI, 1.7 to 5.4; *P*<.001), above the MDE of 2.5 computed for 29 vs 277 ACOs, which is
 slightly understated for the 26 vs 241 compared (Table 2 and Figure 2). By the registered rule, H2b was supported, which the plan worded as "evidence for the reset motive
 beyond past savings." The decomposition shows that this wording overstates the result. Weighted by the phase-in
-weight, the pull difference was 1.6 points (eTable 9), and the regional component differed by the same 1.6 points
+weight, the pull difference was 1.6 points (eTable 10), and the regional component differed by the same 1.6 points
 partly because a lower own-spending component also raises it; the total expected gain did not differ. The pull
 difference therefore indicates that early renewers were low-cost relative to their regions more than that they stood
 to gain a higher benchmark. The pull is related to past savings without restating it: post hoc, its rank correlation
-with the PY2020 savings rate was 0.45 among the 267 compared ACOs (eTable 12 in Multimedia Appendix 1). At the median PY2021 benchmark of the study's ACOs, \$11,312 per beneficiary per year, the difference of 3.35
+with the PY2020 savings rate was 0.45 among the 267 compared ACOs (eTable 13 in Multimedia Appendix 1). At the median PY2021 benchmark of the study's ACOs, \$11,312 per beneficiary per year, the difference of 3.35
 points is about \$379 per beneficiary-year of regional spending relative to the benchmark; the difference in the
 regional component itself, what a reset would add, was 1.6 points, about \$176.
 
@@ -372,7 +372,7 @@ lowered both groups' benchmarks. Post hoc, CMS's published 2022 benchmarks bear 
 reset historical benchmarks averaged 1.3% below their PY2021 benchmarks (median −1.5%; 66% of the 29 were lower), the
 rebuilt gain had predicted −1.6 points on average against −1.4 realized for the 26 with both values, and their
 updated benchmarks rose from PY2021 to PY2022 no more than stayers' (difference 0.0 points; 95% CrI, −2.0 to 2.2)
-(eTable 12 in Multimedia Appendix 1).
+(eTable 13 in Multimedia Appendix 1).
 
 {{include tables/table2.md}}
 
@@ -401,8 +401,7 @@ effects;[@gelmancarlin2014] the directions are the result, and coefficients near
 ## Spending After Renewal
 
 Spending growth from PY2020-PY2021 to PY2022-PY2024 did not differ detectably between 29 early renewers and 276
-comparison ACOs not yet renewed (−0.4%; 95% CrI, −4.0% to 2.5%; *P*=.78; MDE 3.8 log points) (Table 4 and Figure
-4). The pre-trend estimate was 0.7% (95% CrI, −2.3% to 4.9%; *P*=.58), not evidence against parallel trends, but
+comparison ACOs not yet renewed (−0.4%; 95% CrI, −4.0% to 2.5%; *P*=.78; MDE 3.8 log points) (Figure 4; eTable 8 in Multimedia Appendix 1). The pre-trend estimate was 0.7% (95% CrI, −2.3% to 4.9%; *P*=.58), not evidence against parallel trends, but
 the equivalence condition did not hold: the scaled pre-trend bound, 2.41 years times 4.8 log points, was 11.5 log
 points (about 12%), far above the absolute H4 estimate of 0.4 log points. The condition could have held only for an
 estimate above about 12% in absolute value, 3 times the MDE, so with one pre-period it could not support reading an
@@ -413,12 +412,12 @@ spending growth of more than about 4% or a rise of more than about 2.5%; the tre
 2.7%) is too wide to inform.
 
 Attrition was uneven: by PY2024, 115 of 277 stayers (42%) had left the spending panel (72 left the program, 42 renewed
-and 1 had no spending value), against 4 of 29 early renewers (14%) (eTable 8 in Multimedia Appendix 1). The balanced panel of
+and 1 had no spending value), against 4 of 29 early renewers (14%) (eTable 9 in Multimedia Appendix 1). The balanced panel of
 ACOs with all 5 years gave −1.6% (95% CrI, −5.6% to 1.6%; *P*=.30).
 
-{{include tables/table4.md}}
 
-![Figure 4. Spending after early renewal. A, Event study from the conventional 2-way fixed-effects model, in log points relative to PY2021, with 95% CIs clustered by ACO. B, The registered H4 estimate and the robustness and conventional estimates, as the percent difference in spending growth with 95% intervals (the propensity-weighted estimate has no interval); sample sizes are in Table 4. TWFE, 2-way fixed effects.](figures/figure4-spending.png){width=100%}
+
+![Figure 4. Spending after early renewal. A, Event study from the conventional 2-way fixed-effects model, in log points relative to PY2021, with 95% CIs clustered by ACO. B, The registered H4 estimate and the robustness and conventional estimates, as the percent difference in spending growth with 95% intervals (the propensity-weighted estimate has no interval); sample sizes are in eTable 8 in Multimedia Appendix 1. TWFE, 2-way fixed effects.](figures/figure4-spending.png){width=100%}
 
 ## Robustness and Conventional Methods
 
@@ -435,7 +434,7 @@ reached zero (H2a, −2.6 to 0.02; H1, −0.1 to 2.6). In H3 the BASIC-level int
 while the pull interval reached zero with the 2020 cohort alone (1.15; 95% CrI, −0.02 to 2.39) and with unadjusted
 county spending (0.75; 95% CrI, −0.02 to 1.56) (eTable 4 in Multimedia Appendix 1).
 
-Among the exploratory analyses (eTables 9-11 in Multimedia Appendix 1), the 28 ACOs that left after PY2021 had the lowest
+Among the exploratory analyses (eTables 10-12 in Multimedia Appendix 1), the 28 ACOs that left after PY2021 had the lowest
 PY2020 savings rates (mean 2.7 points, against 6.4 for early renewers and 4.6 for stayers) and, for the 20 with the
 variable, a mean regional pull similar to early renewers' (4.8 vs 5.0; medians 2.0 vs 3.5) (Table 1). The 2 early
 renewers already in ENHANCED, whose renewal could not raise the sharing rate, fell between the 26th and 68th

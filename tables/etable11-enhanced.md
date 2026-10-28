@@ -5,7 +5,7 @@
 | Own-spending component, pp | −3.8 (41) | −4.7 (29) |
 | Regional component, pp | +1.9 (44) | +3.0 (68) |
 
-: eTable 10. The 2 early renewers already in ENHANCED
+: eTable 11. The 2 early renewers already in ENHANCED
 
 ::: {.table-notes}
 The 2 early renewers already in ENHANCED in PY2021, for whom renewal could not raise the sharing rate, reported individually against the stayer distribution as the plan requires (section 5.6). Values with the stayers' percentile in parentheses. Exploratory; no test.
