@@ -40,9 +40,9 @@ Conflicts of interest: I am employed as a data scientist at Indiana University H
 independently of that employment with public data only, and the manuscript discloses this.
 
 All data are public, and the code, data snapshot and results are openly available (links in the Data Availability
-section). I acknowledge that the article processing fee of US $1985 is payable on acceptance and that I will pay it
+section). I acknowledge that the article processing fee is payable on acceptance and that I will pay it
 personally.
-If the manuscript is not accepted, I would welcome a transfer to JMIRx Med.
+If the manuscript is not accepted, I would welcome a transfer to another JMIR journal such as JMIRx Med.
 
 Thank you for considering this work.
 
