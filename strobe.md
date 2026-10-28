@@ -14,7 +14,7 @@ Items of the STROBE statement for cohort studies,[@vonelm2007] with the place ea
 | Participants | 6 | Eligibility criteria, sources and methods of selection; follow-up | Methods, Population and Groups; Figure 1 |
 | Variables | 7 | Define outcomes, exposures, predictors, confounders, effect modifiers | Methods, Variables; Hypotheses |
 | Data Sources/measurement | 8 | Sources and methods of measurement; comparability | Methods, Data Sources; Variables (Validation Before Use); eTable 1; eTable 12 (post hoc, change scale) |
-| Bias | 9 | Efforts to address potential sources of bias | Methods, Study Design and Preregistration (outcome lock), Statistical Analysis (equivalence condition); Discussion, Limitations |
+| Bias | 9 | Efforts to address potential sources of bias | Methods, Study Design and Preregistration (outcome lock), Statistical Analysis (equivalence condition); Discussion, Strengths and Limitations |
 | Study size | 10 | How the study size was arrived at | Methods, Population and Groups (all eligible ACOs); Power; eTable 2 |
 | Quantitative variables | 11 | How quantitative variables were handled; groupings | Methods, Variables; Statistical Analysis (scaling by 2 SD) |
 | Statistical methods | 12a | All statistical methods, including for confounding | Methods, Statistical Analysis |
@@ -34,9 +34,9 @@ Items of the STROBE statement for cohort studies,[@vonelm2007] with the place ea
 | | 16c | Translation of relative risk into absolute risk | Results (odds multiplier; dollar translation); eTable 5 (observed and predicted shares by decile) |
 | Other analyses | 17 | Subgroups, interactions and sensitivity analyses | Results, Robustness and Conventional Methods; eTables 3-11 |
 | Key results | 18 | Summarize key results with reference to objectives | Discussion, Principal Findings |
-| Limitations | 19 | Sources of potential bias or imprecision; direction and magnitude | Discussion, Limitations |
+| Limitations | 19 | Sources of potential bias or imprecision; direction and magnitude | Discussion, Strengths and Limitations |
 | Interpretation | 20 | Cautious overall interpretation | Discussion; Conclusions |
-| Generalisability | 21 | External validity | Discussion, Implications (2024 rules); Limitations |
+| Generalisability | 21 | External validity | Discussion, Implications (2024 rules); Strengths and Limitations |
 | Funding | 22 | Funding and role of funders | Funding |
 
 : STROBE checklist
