@@ -15,25 +15,27 @@ Paper.
 
 In the Medicare Shared Savings Program, benchmarks decide whether an accountable care organization earns shared
 savings and shape which organizations join, stay and save. Earlier studies found that regional
-benchmarking shifted participation toward providers with low spending relative to their regions, and that
+benchmarking shifted participation toward providers with low spending for their
+regions, and that
 organizations whose benchmarks fell were more likely to leave. The 2019 rules added a third choice: ending an
-agreement early to reset the benchmark sooner. Twenty-nine of 334 eligible organizations did so in 2022. An industry
-report has described them, but to my knowledge who used this option has not been studied in peer-reviewed work.
+agreement early to reset the benchmark sooner. Twenty-nine of 334 eligible organizations did so in 2022. An industry report described them, but to my knowledge no
+peer-reviewed study has examined who used the option.
 
-The study makes three contributions. First, it extends the evidence that participation follows the benchmark formula
-from whether organizations join or leave to when they reset: early renewers were already low-cost relative to their
-regions and, in the BASIC track, more often bearing two-sided risk, for whom renewal was the only route to a 75%
-sharing rate. Second, it finds that the intuitive account, renewing early to raise the
-benchmark, does not hold on average: the own-spending part of a reset offset its regional gain, and their 2022 benchmarks, examined post hoc, averaged 1.3% below the year before. Third, spending growth after renewal did not differ
-detectably. The findings also give a baseline for
-evaluating the 2024 rules, which credit prior savings.
+The study makes two substantive contributions. First, the intuitive account, renewing early to raise the benchmark,
+does not hold on average: early renewers were already beating their benchmarks, so the own-spending part of a reset
+offset its regional gain, and their 2022 benchmarks, examined post hoc, averaged 1.3% below the year before. For 26
+of 27 early renewers in the BASIC track, renewal was instead the move to a 75% sharing rate, the trade the rules were
+built around; the pattern fits that motive better, though the design cannot separate the two. Second, early renewers
+were sorted on the positions found for joining and staying, which extends that literature to the timing of resets.
+Spending growth afterward did not differ detectably. The findings give a baseline for the 2024 rules, which
+cheapen resets for organizations that have saved.
 
-The methods are part of the contribution. The plan, decision rules and code were registered on OSF Registries
+The methods are the third contribution. The plan, decision rules and code were registered on OSF Registries
 (osf.io/c53w9) before any outcome data were read, and the code enforced that order. The unpublished counterfactual benchmark was
-rebuilt from the regulation and validated before use. The registered estimates are Bayesian, with permutation and simulation tests and a decision model that carries
-the rebuilt benchmark's measurement error; every registered conclusion agreed with its conventional frequentist
+rebuilt from the regulation and validated before use. The registered estimates are Bayesian, with permutation and simulation tests, and every
+registered conclusion agreed with its conventional frequentist
 counterpart, so the conclusions do not depend on the
-inferential framework.
+framework.
 
 Preprint: the manuscript was submitted to medRxiv on October 27, 2026 (MEDRXIV/2026/366643) and is in screening. It may also
 be posted on JMIR Preprints. It has not been submitted to any other

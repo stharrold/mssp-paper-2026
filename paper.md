@@ -14,20 +14,22 @@ Corresponding Author: Samuel Thomas Harrold, [samuel.harrold@gmail.com](mailto:s
 
 **Background:** Medicare Shared Savings Program (MSSP) benchmarks are reset at each new agreement from an accountable
 care organization's (ACO's) recent spending, adjusted toward its region. ACOs could end an agreement early to reset
-sooner; which ACOs did so has not been studied in the peer-reviewed literature.
+sooner, which was also the only way for an ACO in the BASIC track to reach the ENHANCED track's 75% share of savings.
+Why ACOs renewed early has not been studied in
+peer-reviewed work.
 
-**Objective:** This study aimed to test whether ACOs that renewed early stood to gain more from the regional part of a
-reset, and whether their spending growth differed afterward.
+**Objective:** This study aimed to describe which ACOs renewed early, weighing a reset motive (a higher benchmark)
+against a sharing-rate motive (the move to ENHANCED), and to compare their spending growth afterward.
 
 **Methods:** This preregistered retrospective cohort study included the 334 MSSP ACOs whose agreements began July 1,
 2019 or January 1, 2020, using Centers for Medicare & Medicaid Services (CMS) public use files (2016-2024). The plan, decision rules and code were registered before
 outcome data were read. The reset benchmark was rebuilt from 42
-CFR 425.601 and validated against CMS's published benchmarks for 101 other ACOs before use. For early renewal into a
+CFR 425.601 and validated against published benchmarks for
+101 other ACOs before use. For early renewal into a
 January 1, 2022 agreement (29 ACOs vs 277 that stayed), the primary measure was the regional pull (case-mix-adjusted
 regional spending relative to the current benchmark); the own-spending component and
-BASIC risk level were also examined. Groups were compared by Bayesian bootstrap and permutation tests, and early renewal was modeled by
-Bayesian logistic regression with measurement error, tested by direct simulation. Per-capita spending growth in
-2022-2024 was compared by difference-in-differences with a preregistered equivalence condition on pre-trends.
+BASIC risk level were also examined. Groups were compared by Bayesian bootstrap and permutation tests, and early renewal was modeled by Bayesian logistic regression. Spending growth in 2022-2024 was compared by
+difference-in-differences.
 
 **Results:** The rebuilt benchmark tracked CMS's (Spearman $\rho$ = 0.94). Relative to their current benchmarks,
 early renewers' regional spending was 3.4 percentage points higher than stayers' (95% credible interval [CrI], 1.7
@@ -39,8 +41,8 @@ and a higher BASIC level (levels C-E; 1.34; 95% CrI, 0.38 to 2.31), and 26 of al
 ENHANCED. Spending growth did not differ detectably
 (−0.4%; 95% CrI, −4.0% to 2.5%), and a preregistered pre-trend condition did not hold.
 
-**Conclusions:** Early renewers were already beating their benchmarks, had more room under their regions' spending
-and, in the BASIC track, were at higher risk levels; for almost all, renewal was the
+**Conclusions:** Early renewers were already beating their benchmarks and had more room under
+their regions' spending; for almost all, renewal was the
 route to a 75% sharing rate, and the reset did not on average raise their benchmarks. The pattern fits the
 sharing-rate motive better than the reset motive, though the design cannot separate them. These are associations
 under rules that changed in 2024.
@@ -65,7 +67,7 @@ rules may lead ACOs to drop high-risk beneficiaries.[@markovitz2019risk]
 Benchmarks shape the program through 2 channels. The first is the incentive to save. Rebasing to an ACO's own
 recent spending weakens its incentive to save, and under earlier weights it rewarded higher spending just before a
 new agreement;[@douven2015] this is the ratchet effect that arises whenever targets are set from past
-performance.[@weitzman1980] In the MSSP, savings rates were higher in years whose spending did not enter a future
+performance.[@weitzman1980] In the MSSP, savings rates were 40% higher in years whose spending did not enter a future
 benchmark.[@cappello2026]
 
 The second channel is selection: benchmark rules change which ACOs join, stay and take on risk. ACOs' spending varies
@@ -83,7 +85,7 @@ Investment Model ACOs exited once downside risk was required.[@trombley2022] Thi
 rules sort ACOs into joining, staying, leaving and taking on risk, and how rebasing weakens the incentive to save
 within an agreement; it has not examined when ACOs choose to reset.
 
-The same rules allowed an ACO to end its agreement early and begin a new one, which resets the benchmark
+The 2019 rules also allowed an ACO to end its agreement early and begin a new one, which resets the benchmark
 early.[@cfr425] For an ACO in the BASIC track, renewal was also the only way into the ENHANCED track before its
 agreement ended, because the 2018 rule bars moving from BASIC to ENHANCED within an agreement period. CMS imposed that bar to guard
 against selective entry into its highest-reward track by an ACO "very confident of its ability to generate savings"
@@ -92,24 +94,22 @@ move.[@frpathways] ENHANCED shares 75% of savings, against at most 50% in BASIC.
 2019 or January 1, 2020, 29 ended them early and began new agreements on January 1, 2022.[@dataacos] An industry
 report found that ACOs rebasing early in 2022 had higher gross savings rates beforehand than ACOs that did not, and
 that the earlier incumbents among them moved from BASIC to ENHANCED,[@milliman2024] and consulting analyses model the
-choice for individual ACOs.[@milliman2025] These sources describe the early renewers but do not test why they
-renewed. Early renewal joins the two strands above: it is a choice of when rebasing happens, made under rules that
-reward ACOs whose regions spend more. To the author's knowledge, which ACOs used the option has not been studied in
-the peer-reviewed literature.
+choice for individual ACOs.[@milliman2025] These sources describe the early renewers but do not test why they renewed. To the author's knowledge, no
+peer-reviewed study has asked whether ACOs used the option to time resets for a higher benchmark or to reach ENHANCED.
+The question joins the two strands above, the incentive created by rebasing and selection by benchmark rules, and it
+matters more now that the rules in force since 2024 make a reset cheaper for ACOs that have saved.[@cfr2024]
 
 Two motives predict early renewal. Under a *reset motive*, an ACO renews because its new benchmark would be
-higher. Under a *sharing-rate motive*, a BASIC-track ACO renews to reach ENHANCED. The savings rate alone cannot show
-whether a reset would pay: an ACO beating its benchmark would lose on the own-spending part of a reset, yet may gain
-on the regional part if its region spends more. The primary measure was therefore the *regional pull*, how far an
-ACO's case-mix-adjusted regional spending sat above its current benchmark. It shows whether early renewers had room
-to gain on the regional side of a reset, which the savings rate does not capture; the own-spending component and the
-total expected gain then show whether that room would have raised their benchmarks. It asked whether early renewers stood to gain more from the regional part of a
-reset than ACOs that stayed, which characteristics were associated with early renewal, and whether early renewers'
-spending growth differed afterward. In doing so it tests whether the selection found for joining and leaving extends
-to when ACOs reset, and whether the intuitive account of early renewal, resetting to raise the benchmark, holds on
-average. The analysis plan, hypotheses, decision rules and code were registered before
-any outcome value was read.[@registration] These associations bear on the
-motives but cannot establish which one drove the choice.
+higher. Under a *sharing-rate motive*, a BASIC-track ACO renews to reach ENHANCED. Whether a reset would raise the
+benchmark is answered by the *total expected gain*, but its own-spending part is close to a restatement of the
+savings rate. The registered plan therefore made primary the *regional pull*, how far an ACO's case-mix-adjusted
+regional spending sat above its current benchmark: it has no term for the ACO's benchmark-year spending and shows
+whether an ACO had room to gain on the regional side of a reset, which the savings rate does not capture. The
+own-spending component and the total gain were read beside it. The study asked whether early renewers had more of
+that room than ACOs that stayed, which characteristics were associated with early renewal, and whether early
+renewers' spending growth differed afterward, as it might if a new benchmark or a higher sharing rate changed the
+incentive to save. The analysis plan, hypotheses, decision rules and code were registered before any outcome value
+was read.[@registration] These associations bear on the motives but cannot establish which one drove the choice.
 
 # Methods
 
@@ -454,34 +454,32 @@ published for 2022, examined post hoc, agree. Spending growth in the 3 years aft
 from that of ACOs not yet renewed.
 
 To the author's knowledge, this is the first peer-reviewed study of which ACOs used the early-renewal option. It adds
-3 things to the literature on how benchmark rules sort ACOs. First, the sorting on regional position and risk found
-for joining and leaving extends to when ACOs reset. Second, the intuitive account that ACOs renewed early to raise
-their benchmarks does not hold on average, by an approximation built from data the ACOs did not yet have when they
-decided and by the benchmarks CMS later published. Third, it bounds the spending response: under parallel trends,
-the interval rules out a drop in spending growth of more than about 4% or a rise of more than about 2.5%, though the
-design cannot exclude a continuation of a pre-period difference in trends.
+3 things. First, the intuitive account that ACOs renewed early to raise their benchmarks does not hold on average.
+This rests on a secondary decomposition, built from data the ACOs did not yet have when they decided, and on the
+benchmarks CMS later published, examined post hoc. Second, early renewers were sorted on the positions found for
+joining and staying, room under their regions' spending and greater risk, which extends that literature to when ACOs
+reset; the size of the regional difference depended on the estimator, and in the decision model its interval reached
+zero in 2 robustness checks. Third, the study provides a public, validated reconstruction of the reset benchmark and
+a preregistered, code-enforced analysis that can be rerun for later cohorts. Spending growth after renewal did not
+differ detectably; under parallel trends, which the single pre-period could not establish, the interval rules out a
+drop of more than about 4% or a rise of more than about 2.5%.
 
 ## Comparison With Prior Work
 
-The primary result extends to a new decision the pattern that participation follows the benchmark formula.
-Participation shifted toward providers whose spending was low relative to their region once regional spending entered
-benchmarks,[@lyu2023] and ACOs whose effective benchmarks fell were more likely to leave.[@chen2025] A dissertation modeling MSSP
-participation found both effects of the benchmark rules: savings rates were 40% higher in years whose spending did
-not enter rebasing, a ratchet effect, and ACOs with a positive regional adjustment were about 70% less likely to exit
-than those with a negative one.[@cappello2026] Here the choice is when to reset rather than whether to join or leave,
+The primary result extends to a new decision the selection described in the Introduction: providers with low
+spending for their region joining,[@lyu2023] ACOs whose benchmarks fell leaving,[@chen2025] and ACOs with a positive
+regional adjustment about 70% less likely to exit.[@cappello2026] Here the choice is when to reset rather than whether to join or leave,
 and early renewers had, on average, more room under their regions' spending, the position associated with joining and
 staying. In a voluntary Medicare bundled-payment program, hospitals that could gain without changing their behavior
 were more likely to join, which the authors called selection on levels;[@einav2022] early renewal shows selection on a
 similar position, though the gain that most early renewers took appears to have been the sharing rate rather than a
-higher benchmark. An industry analysis of the same rebasing cohort found that ACOs rebasing early in 2022 had higher gross
-savings rates beforehand and that the earlier incumbents among them moved to ENHANCED,[@milliman2024] consistent with
-the higher prior savings rates and the BASIC-level association here. Beyond that analysis, this study rebuilt the reset benchmark and validated it
+higher benchmark. The industry report on the same cohort[@milliman2024] is
+consistent with the higher prior savings rates and the BASIC-level association here. Beyond that report, this study rebuilt the reset benchmark and validated it
 against CMS's, separated its own-spending and regional parts, modeled the decision within the BASIC track and followed
 spending afterward, under a preregistered plan. The finding that early renewers were savers also fits reports that ACOs earning bonuses survived longer in the
 program[@bleser2019] and, with borderline precision, that ACOs that had achieved savings were more likely to stay
 after the 2019 rules.[@ying2023] The same success, however, meant that the own-spending part of a reset would
-have cut their benchmarks. The intuitive account that ACOs renewed early to get a higher benchmark therefore does not
-describe them on average.
+have cut their benchmarks.
 That the size of the regional difference doubled without case-mix adjustment is consistent with evidence that
 comparisons of ACOs with their regions depend heavily on risk adjustment.[@rose2016] The concern that rebasing rewards
 higher spending before a new agreement[@douven2015] could be neither confirmed nor excluded here, and the costs to
@@ -501,8 +499,8 @@ to weigh.
 
 ## Implications
 
-For program design, the results suggest that under the 2022 rules the early-renewal option worked as CMS described
-it: a route to the ENHANCED track for ACOs already beating their benchmarks, at the price of a reset that did not on
+For program design, the results suggest that under the 2022 rules the use of the early-renewal option is consistent with
+how CMS described it: a route to the ENHANCED track for ACOs already beating their benchmarks, at the price of a reset that did not on
 average raise those benchmarks. They do not suggest that ACOs used the option to time resets for a higher benchmark.
 The rules have since changed. For agreement periods beginning January 1, 2024 or later, an ACO that saved in its
 benchmark years can receive a prior savings adjustment, and its benchmark gets the higher of that adjustment and the
@@ -549,13 +547,11 @@ comparing early renewers only with stayers. Seventh, the results describe the ru
 
 ## Conclusions
 
-ACOs that renewed early into 2022 MSSP agreements were already beating their benchmarks, had more room under their
-regions' spending and, in the BASIC track, were more often at higher risk levels; for almost all of them renewal was
-the route to the ENHANCED track's 75% sharing rate. By the study's approximation and in the benchmarks CMS
-published, the reset did not on average raise their benchmarks, and spending growth afterward showed no detectable
-difference. These are associations, measured with public data under a preregistered plan. They extend the evidence
-that benchmark rules sort ACOs to the timing of resets, fit the sharing rate, more than the benchmark, as what drew ACOs to renew early under the 2022 rules, though the
-design cannot test it, and give a baseline for the rules in force since 2024.
+In this cohort, early renewal looks less like timing a reset for a higher benchmark than like the price of reaching
+ENHANCED's 75% sharing rate: the reset did not on average raise early renewers' benchmarks, and almost all moved to
+ENHANCED. Spending growth afterward showed no detectable difference. These are associations, measured with public
+data under a preregistered plan, and the design cannot separate the motives. They extend the evidence that benchmark
+rules sort ACOs to the timing of resets and give a baseline for the rules in force since 2024.
 
 # Funding
 
