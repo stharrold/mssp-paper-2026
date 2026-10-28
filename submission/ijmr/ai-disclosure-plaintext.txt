@@ -11,4 +11,4 @@ What the author did: chose the research question, hypotheses and decision rules;
 
 No AI image-generation tools were used. Figures are drawn by plotting code from the results files.
 
-Transcripts: the work ran in long Claude Code sessions that also covered unrelated work and personal matters, so complete transcripts are not submitted as a Multimedia Appendix. This summary is provided instead. The author will answer questions or provide relevant excerpts on the editor's request.
+Transcripts: the work ran in Claude Code sessions between October 22 and 28, 2026, whose logs total about 700,000 words; about 75,000 of these are conversation (about 8,000 words of the author's instructions and 55,000 of the tool's replies), and the rest is code, file contents and command output. The sessions also covered unrelated work and personal matters, so complete transcripts are not submitted as a Multimedia Appendix. This summary is provided instead. The author keeps the complete logs and will answer questions or provide relevant excerpts on the editor's request.
