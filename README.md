@@ -7,7 +7,7 @@ abstract, IMRD headings, JMIR end sections, the supplement as Multimedia Appendi
 Multimedia Appendix 2.
 
 - **Registration:** OSF Registries, [doi:10.17605/OSF.IO/C53W9](https://doi.org/10.17605/OSF.IO/C53W9)
-- **Analysis code and data snapshot:** [stharrold/stharrold.github.io, `analysis/mssp-benchmark-ratchet/`](https://github.com/stharrold/stharrold.github.io/tree/src_master/analysis/mssp-benchmark-ratchet)
+- **Analysis code and data snapshot:** [stharrold/stharrold.github.io, `analysis/mssp-benchmark-ratchet/`](https://github.com/stharrold/stharrold.github.io/tree/53b3a8f/analysis/mssp-benchmark-ratchet)
   and the OSF project [doi:10.17605/OSF.IO/Z4AN5](https://doi.org/10.17605/OSF.IO/Z4AN5)
 - **Post for a general audience:** [stharrold.github.io](https://stharrold.github.io/20261027-preregistered-mssp-early-renewal.html)
 
@@ -53,6 +53,39 @@ Each GitHub release of this repository is archived on Zenodo: [doi:10.5281/zenod
 (concept DOI, resolving to the latest version; cite this one). The registered analysis plan and code are archived on
 OSF Registries ([doi:10.17605/OSF.IO/C53W9](https://doi.org/10.17605/OSF.IO/C53W9)), and the data snapshot and
 results notebook in the OSF project ([doi:10.17605/OSF.IO/Z4AN5](https://doi.org/10.17605/OSF.IO/Z4AN5)).
+
+## Reproduce
+
+The study has 3 parts, kept in 3 places. This repository holds only the last: it builds the manuscript from copies
+of the committed results and never reruns the analysis.
+
+| Part | Where | Permanent archive |
+|---|---|---|
+| Analysis plan and the registered code (commit `a4064f5`) | [`analysis/mssp-benchmark-ratchet/`](https://github.com/stharrold/stharrold.github.io/tree/53b3a8f/analysis/mssp-benchmark-ratchet) in stharrold/stharrold.github.io | OSF Registries, [doi:10.17605/OSF.IO/C53W9](https://doi.org/10.17605/OSF.IO/C53W9) (plan, code zip and their sha256) |
+| The 40 CMS public use files | data.cms.gov, listed with sha256 in `data-snapshot.tsv` | OSF project, [doi:10.17605/OSF.IO/Z4AN5](https://doi.org/10.17605/OSF.IO/Z4AN5) (`mssp-snapshot-2026-10-22.zip`) |
+| Results files, post hoc scripts, manuscript build | the study folder and this repository | Zenodo, [doi:10.5281/zenodo.23737045](https://doi.org/10.5281/zenodo.23737045) |
+
+The helper scripts that download the data and compare a rerun (`fetch_snapshot.py`, `compare_results.py`) and the
+environment the post hoc scripts run in are only on GitHub; `posthoc/` here holds byte-identical copies of the
+post hoc scripts.
+
+To reproduce, follow the tested steps in the study's README, [Reproduce and adapt](https://github.com/stharrold/stharrold.github.io/blob/53b3a8f/analysis/mssp-benchmark-ratchet/README.md#reproduce-and-adapt)
+(git and uv; tested on macOS, and Linux should work the same way):
+
+1. Clone only the study folder (sparse checkout) and download the data with `fetch_snapshot.py`, which keeps each
+   file only if its sha256 matches and falls back to the OSF archive (about 40 MB, under a minute).
+2. Check the installation with the study's tests (about 8 minutes).
+3. Run the 7 registered stages in order with `ratchet/run.py ... --out-dir <dir>`. The confirm stage takes about 17
+   hours with 5 worker processes; to rerun only a later stage, copy the committed files it needs into `<dir>` first.
+4. Run the 2 post hoc scripts (step 4b there, under a minute).
+5. Compare with `compare_results.py <dir>` (and `git diff` for the post hoc output).
+
+What to expect: deterministic numbers (differences in means, validation metrics, correlations) reproduce exactly;
+resampled and simulated numbers (bootstrap intervals, permutation *P* values, power simulations, MCMC fits) move
+within simulation error, because the analysis table is read without a fixed row order. No registered verdict is
+near enough to its threshold to change. The manuscript reports the committed files, which `data/README.md` traces to
+their commits and sha256, and `scripts/check_numbers.py` checks every number in the text against them. To rebuild the
+manuscript itself, see Build below.
 
 ## Build
 
