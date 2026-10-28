@@ -60,7 +60,9 @@ rules may lead ACOs to drop high-risk beneficiaries.[@markovitz2019risk]
 Benchmarks are central to that selection. Rebasing to an ACO's own recent spending weakens its incentive to save,
 and under earlier weights it rewarded higher spending just before a new agreement.[@douven2015] ACOs' spending
 varies widely relative to their regions even after risk adjustment, so moving benchmarks toward regional averages
-shifts them unevenly.[@rose2016] After regional spending entered benchmarks in 2017, participation shifted toward
+shifts them unevenly.[@rose2016] A structural analysis of the program found evidence of both forces: savings rates
+were higher in years whose spending did not enter a future benchmark, and ACOs with a positive regional adjustment
+were less likely to exit.[@cappello2026] After regional spending entered benchmarks in 2017, participation shifted toward
 providers whose spending was low relative to their region,[@lyu2023] ACOs whose effective benchmarks fell became
 more likely to leave,[@chen2025] and bonuses rose for ACOs across the efficiency spectrum.[@srivastava2026] Survival in
 the program has been associated with earning bonuses, higher benchmarks and one-sided risk,[@bleser2019] and larger
@@ -68,7 +70,9 @@ ACOs, those with supporting organizations and better performers were more likely
 risk.[@zhu2023] The 2019 Pathways to Success rules, which shortened the time ACOs could stay in one-sided risk, were
 followed by more exits than entries,[@ying2023] by ACO leaders reassessing potential savings against
 losses,[@ying2024] and by departures with projected costs to Medicare.[@moloci2021] In a related model, most ACO
-Investment Model ACOs exited once downside risk was required.[@trombley2022]
+Investment Model ACOs exited once downside risk was required.[@trombley2022] This literature describes how benchmark
+rules sort ACOs into joining, staying, leaving and taking on risk, and how rebasing weakens the incentive to save
+within an agreement; it has not examined when ACOs choose to reset.
 
 The same rules allowed an ACO to end its agreement early and begin a new one, which resets the benchmark
 early.[@cfr425] For an ACO in the BASIC track, renewal was also the only way into the ENHANCED track before its
@@ -77,8 +81,10 @@ ENHANCED shares 75% of savings, against at most 50% in BASIC.[@cfr425] Of the 33
 2019 or January 1, 2020, 29 ended them early and began new agreements on January 1, 2022.[@dataacos] An industry
 report found that ACOs rebasing early in 2022 had higher gross savings rates beforehand than ACOs that did not, and
 that the earlier incumbents among them moved from BASIC to ENHANCED,[@milliman2024] and consulting analyses model the
-choice for individual ACOs.[@milliman2025] Which ACOs used the option bears on how benchmark rules sort ACOs, but to
-the author's knowledge it has not been studied in the peer-reviewed literature.
+choice for individual ACOs.[@milliman2025] These sources describe the early renewers but do not test why they
+renewed. Early renewal joins the two strands above: it is a choice of when rebasing happens, made under rules that
+reward ACOs whose regions spend more. To the author's knowledge, which ACOs used the option has not been studied in
+the peer-reviewed literature.
 
 Two motives predict early renewal. Under a *reset motive*, an ACO renews because its new benchmark would be
 higher. Under a *sharing-rate motive*, a BASIC-track ACO renews to reach ENHANCED. The savings rate cannot separate
@@ -441,9 +447,12 @@ benchmarks; and a preregistered estimate of spending after renewal, under rules 
 
 The primary result extends to a new decision the pattern that participation follows the benchmark formula.
 Participation shifted toward providers whose spending was low relative to their region once regional spending entered
-benchmarks,[@lyu2023] and ACOs whose effective benchmarks fell were more likely to leave.[@chen2025] Here the choice is
-when to reset rather than whether to join or leave, and early renewers had, on average, more room under their regions'
-spending. An industry analysis of the same rebasing cohort found that ACOs rebasing early in 2022 had higher gross
+benchmarks,[@lyu2023] and ACOs whose effective benchmarks fell were more likely to leave.[@chen2025] A dissertation modeling MSSP
+participation found both effects of the benchmark rules: savings rates were 40% higher in years whose spending did
+not enter rebasing, a ratchet effect, and ACOs with a positive regional adjustment were about 70% less likely to exit
+than those with a negative one.[@cappello2026] Here the choice is when to reset rather than whether to join or leave,
+and early renewers had, on average, more room under their regions' spending: the ACOs that chose an early reset were
+those the regional adjustment favored. An industry analysis of the same rebasing cohort found that ACOs rebasing early in 2022 had higher gross
 savings rates beforehand and that the earlier incumbents among them moved to ENHANCED,[@milliman2024] consistent with
 H1 and the BASIC-level association here. Beyond that analysis, this study rebuilt the reset benchmark and validated it
 against CMS's, separated its own-spending and regional parts, modeled the decision within the BASIC track and followed

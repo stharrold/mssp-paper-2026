@@ -36,5 +36,9 @@ early-renewal option", these searches looked for earlier work on early renewal i
 The only analyses of early renewal found are the industry reports already cited (Milliman 2024 and 2025). The
 nearest academic work is Cappello's dissertation, which by Scholar Labs' summary studies the ratchet: savings rates
 are higher in years whose spending does not enter future benchmarks, and it proposes tying the regional adjustment
-to realized savings. Its full text is not open (ProQuest preview only), so it was not read and is not cited; it is
-not peer reviewed, so it does not bear on the manuscript's "first peer-reviewed study" sentence.
+to realized savings. The author then obtained ProQuest's 24-page preview (front matter and the first pages of
+chapter 1), filed in the author's library as 2026_Cappello_BC-Dissertation_IO-Health-Economics-Preview. Chapter 1's
+introduction reports a ratchet effect (savings rates 40% higher in years whose spending does not enter rebasing) and
+selection under the regional adjustment (ACOs with a positive adjustment about 70% less likely to exit); it does not
+study early renewal. The manuscript cites it in the Introduction and in Comparison With Prior Work. It is not peer
+reviewed, so it does not bear on the "first peer-reviewed study" sentence.
