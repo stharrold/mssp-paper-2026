@@ -31,4 +31,10 @@ early-renewal option", these searches looked for earlier work on early renewal i
 | PubMed | "Shared Savings Program" AND benchmark*, 2022-2026 | 6 hits, all cited except the retracted 2023 JAMA Health Forum paper and an unrelated COVID-19 study |
 | Web (extended) | MSSP early renewal, rebasing and terminating agreements early; NBER and SSRN working papers on rebasing timing and the ratchet | CMS rules and specifications, MedPAC's 2021 benchmark-incentives presentation (no mention of early renewal), a Wakely 2024 consulting white paper on the 2024 rules, and the cited McWilliams NBER paper; no study of early renewal |
 
-The only analyses of early renewal found are the industry reports already cited (Milliman 2024 and 2025).
+| Google Scholar Labs (author's signed-in Chrome, 1 query) | "accountable care organizations renewing Medicare Shared Savings Program agreements early to rebase benchmarks" | 10 results: the 2016 rebasing rule (2 copies), Ying 2024 and Trombley 2022 (cited), commentary on the ratchet (McWilliams, Chen and Chernew 2021, Brookings; Chernew and Heath 2022, Am J Manag Care; Jacobs 2022, NEJM; Mostashari and Moore 2025, NEJM Catalyst; Ginsburg 2013, Health Aff), and a 2026 dissertation (Cappello, Boston College, ProQuest 32577467). No study of who renewed early |
+
+The only analyses of early renewal found are the industry reports already cited (Milliman 2024 and 2025). The
+nearest academic work is Cappello's dissertation, which by Scholar Labs' summary studies the ratchet: savings rates
+are higher in years whose spending does not enter future benchmarks, and it proposes tying the regional adjustment
+to realized savings. Its full text is not open (ProQuest preview only), so it was not read and is not cited; it is
+not peer reviewed, so it does not bear on the manuscript's "first peer-reviewed study" sentence.
