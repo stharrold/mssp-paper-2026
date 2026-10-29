@@ -5,7 +5,7 @@ Program. A first version was submitted to medRxiv in a journal-agnostic format (
 because medRxiv requires an organizational affiliation; it was never posted. The current source is
 formatted as a JMIR Original Paper for the *Interactive Journal of Medical Research* (i-JMR): JMIR's structured
 abstract, IMRD headings, JMIR end sections, the supplement as Multimedia Appendix 1 and the STROBE checklist as
-Multimedia Appendix 2.
+Multimedia Appendix 2. It was not accepted by i-JMR (2026-10-29).
 
 - **Registration:** OSF Registries, [doi:10.17605/OSF.IO/C53W9](https://doi.org/10.17605/OSF.IO/C53W9)
 - **Analysis code and data snapshot:** [stharrold/stharrold.github.io, `analysis/mssp-benchmark-ratchet/`](https://github.com/stharrold/stharrold.github.io/tree/53b3a8f/analysis/mssp-benchmark-ratchet)
@@ -17,9 +17,9 @@ Multimedia Appendix 2.
 | Where | Version | Submitted | ID | Files (sha256) | Source |
 |---|---|---|---|---|---|
 | medRxiv | 1 | 2026-10-27 | MEDRXIV/2026/366643; **declined 2026-10-28** (medRxiv requires an organizational affiliation; not posted) | `paper.pdf` 7d111cbdef3672f2..., `supplement.pdf` d65212577e6d9809... | `dcbad91` (tag `medrxiv-v1`) |
-| i-JMR | 1 | 2026-10-28 | ms 115640 (Original Paper, Health Services Research; unassigned) | `paper.docx` cafcdb715483edb1..., `supplement.docx` 33f38d7d52d3da68..., `strobe.docx` 373b584c088bef1a... | release v1.2.0 ([doi:10.5281/zenodo.23740845](https://doi.org/10.5281/zenodo.23740845)) |
+| i-JMR | 1 | 2026-10-28 | ms 115640 (Original Paper, Health Services Research); **not accepted 2026-10-29** | `paper.docx` cafcdb715483edb1..., `supplement.docx` 33f38d7d52d3da68..., `strobe.docx` 373b584c088bef1a... | release v1.2.0 ([doi:10.5281/zenodo.23740845](https://doi.org/10.5281/zenodo.23740845)) |
 
-The preprint is the JMIR Preprints posting opted into at submission (DOI pending). Both forms' text fields were
+JMIR Preprints was opted into at submission, but no preprint was posted, so the paper has no preprint. Both forms' text fields were
 entered as plain ASCII. The i-JMR package and its checklist are in [`submission/ijmr/`](submission/ijmr/README.md).
 
 The JMIR version differs from the medRxiv submission (tag `medrxiv-v1`) in form, in content added after review, and in how the results are
@@ -125,7 +125,7 @@ the AMA CSL style, `reference.docx`, the JMIR validator and the JMIR guidance in
 
 1. `uv run pytest` and `python3 scripts/check_numbers.py` pass; `scripts/build.sh` rebuilt the PDFs and DOCX files.
 2. Read the manuscript in full, including both appendices.
-3. i-JMR: follow [`submission/ijmr/README.md`](submission/ijmr/README.md) (a revision uses the same build).
+3. i-JMR: follow [`submission/ijmr/README.md`](submission/ijmr/README.md) (the record of what was submitted).
 
 ## License
 
