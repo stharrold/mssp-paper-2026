@@ -12,7 +12,8 @@ Guidance for AI coding agents working in this repository. Read `README.md` first
   to `data/posthoc/` with its sha256 in `data/README.md` and the script copied byte for byte to `posthoc/`.
 - **Stage explicit paths** (never `git add -A`); `main` is public.
 - **What was submitted is frozen by tag:** `medrxiv-v1` (declined by medRxiv 2026-10-28, never posted) and release
-  `v1.2.0` (i-JMR ms 115640, not accepted 2026-10-29). Later changes go in a new release.
+  `v1.2.0` (i-JMR ms 115640, not accepted 2026-10-29), and release `v1.3.0` (BMC Health Services Research, submitted
+  2026-10-30). Later changes go in a new release.
 - **Private material lives in `../mssp-paper-2026-private`** (local git only, no remote): journal correspondence as
   Markdown exports (`correspondence/YYYYMMDD_Email_<Venue>-<ms>_<Topic>.md`), peer reviews, and the suggested-reviewer
   list. Never commit reviewer names, reviews or emails here. A journal decision appears here only as its outcome
@@ -24,8 +25,9 @@ Guidance for AI coding agents working in this repository. Read `README.md` first
 ```bash
 scripts/build.sh                     # tables, figures, PDF and DOCX of paper, supplement, strobe
 uv run python scripts/check_numbers.py
-uv run python scripts/validate_jmir_compliance.py --article-type original
-uv run python scripts/form_fields.py # ASCII form fields, figure uploads (1200 px, no alpha) and captions
+uv run python scripts/validate_bmc_compliance.py
+uv run python scripts/bmc_fields.py  # plain-text fields, figure uploads, named additional files, cover-letter.docx
+uv run python scripts/validate_jmir_compliance.py --article-type original  # the frozen i-JMR format
 uv run pytest && uv run ruff check . && uv run ruff format --check .
 ```
 
@@ -41,6 +43,14 @@ uv run pytest && uv run ruff check . && uv run ruff format --check .
 - **Zenodo:** archives on a published GitHub release (`GITHUB_TOKEN= gh release create`), not on a tag push. Bump
   `CITATION.cff`, `pyproject.toml` and `uv lock` first; verify with the Zenodo API. Cite the concept DOI
   10.5281/zenodo.23737045. A DOI exists only after the first release, so citing it in the paper took a second release.
+- **BMC form (Springer Nature):** the pages are Files, Details, Authors, Declarations, Review. Figures go under "Upload
+  figure(s)", not supplementary material, and additional files keep the names they are uploaded with. Extraction from the
+  manuscript left the title empty and doubled the colon in "Trial registration::", so read Details back. "No affiliation"
+  is an option. Declaration text replaces the manuscript's and is what gets published, so paste the manuscript's wording.
+- **Reading the Word file:** Pages shows no line numbers, and neither Word nor LibreOffice is installed here, so inspect
+  `w:sectPr` too: `lnNumType` must follow `pgMar`, which `validate_bmc_compliance.py` checks.
+- **Reference audit:** `scripts/audit_references.py` (`references/AUDIT.md`) covers citing sentences only; check claims in
+  the abstract and cover letter by hand against the corrected body.
 - **JMIR form:** text fields as ASCII; the AI declaration is checkboxes only (no statement box), so the summary went in
   as editor-only material; the 11 checklist boxes must be ticked before "Add Another Reviewer" works; JMIR renames
   uploads itself; upload the `*.figure.png` copies, not `figures/*.png` (full size, transparent). "Contact Editor" is

@@ -1,11 +1,10 @@
 # Early renewal in the Medicare Shared Savings Program: preregistered retrospective cohort study
 
-Manuscript and multimedia appendices for the preregistered study of early renewal in the Medicare Shared Savings
-Program. A first version was submitted to medRxiv in a journal-agnostic format (tag `medrxiv-v1`), which declined it
-because medRxiv requires an organizational affiliation; it was never posted. The current source is
-formatted as a JMIR Original Paper for the *Interactive Journal of Medical Research* (i-JMR): JMIR's structured
-abstract, IMRD headings, JMIR end sections, the supplement as Multimedia Appendix 1 and the STROBE checklist as
-Multimedia Appendix 2. It was not accepted by i-JMR (2026-10-29).
+Manuscript and additional files for the preregistered study of early renewal in the Medicare Shared Savings Program.
+The current source is formatted as a Research article for *BMC Health Services Research*, where it was submitted on
+2026-10-30. Earlier versions went to medRxiv in a journal-agnostic format (tag `medrxiv-v1`), which declined it because
+medRxiv requires an organizational affiliation, so it was never posted, and to the *Interactive Journal of Medical
+Research* (i-JMR) as a JMIR Original Paper (release `v1.2.0`), which did not accept it (2026-10-29).
 
 - **Registration:** OSF Registries, [doi:10.17605/OSF.IO/C53W9](https://doi.org/10.17605/OSF.IO/C53W9)
 - **Analysis code and data snapshot:** [stharrold/stharrold.github.io, `analysis/mssp-benchmark-ratchet/`](https://github.com/stharrold/stharrold.github.io/tree/53b3a8f/analysis/mssp-benchmark-ratchet)
@@ -18,9 +17,18 @@ Multimedia Appendix 2. It was not accepted by i-JMR (2026-10-29).
 |---|---|---|---|---|---|
 | medRxiv | 1 | 2026-10-27 | MEDRXIV/2026/366643; **declined 2026-10-28** (medRxiv requires an organizational affiliation; not posted) | `paper.pdf` 7d111cbdef3672f2..., `supplement.pdf` d65212577e6d9809... | `dcbad91` (tag `medrxiv-v1`) |
 | i-JMR | 1 | 2026-10-28 | ms 115640 (Original Paper, Health Services Research); **not accepted 2026-10-29** | `paper.docx` cafcdb715483edb1..., `supplement.docx` 33f38d7d52d3da68..., `strobe.docx` 373b584c088bef1a... | release v1.2.0 ([doi:10.5281/zenodo.23740845](https://doi.org/10.5281/zenodo.23740845)) |
+| BMC Health Services Research | 1 | 2026-10-30 | Research article, collection "Implementing value-based care payment models in diverse health systems"; submission 4da9e43f-ce07-405e-b4d5-e76ae011bc7c; under consideration | `paper.docx` 60231bf5716cfb01..., Additional file 1 d3c7ca188b52cdff..., Additional file 2 c0eda0829c9dc1c3..., `cover-letter.docx` 21f4686ed6f1288c... | release `v1.3.0` |
 
-JMIR Preprints was opted into at submission, but no preprint was posted, so the paper has no preprint. Both forms' text fields were
-entered as plain ASCII. The i-JMR package and its checklist are in [`submission/ijmr/`](submission/ijmr/README.md).
+JMIR Preprints was opted into at the i-JMR submission, but no preprint was posted. At BMC the author opted into Research
+Square's In Review; a preprint is posted only after the journal's quality check and Research Square's screening, and none
+has been posted so far. The packages are in [`submission/bmc-hsr/`](submission/bmc-hsr/README.md) and
+[`submission/ijmr/`](submission/ijmr/README.md).
+
+The BMC version differs from the i-JMR submission in form and in how sources are cited. Every registered result is
+unchanged. The form follows BMC's research-article rules: its abstract sections, Declarations, double spacing with line
+and page numbers, the BMC reference style, and Additional files for the appendices. Every reference was then audited
+([`references/AUDIT.md`](references/AUDIT.md)): sentences that said more or less than their sources were corrected, and
+the use of a large language model is described in the Methods and figure legends, as Springer Nature's policy asks.
 
 The JMIR version differs from the medRxiv submission (tag `medrxiv-v1`) in form, in content added after review, and in how the results are
 read. Every registered result is unchanged.
@@ -46,7 +54,7 @@ figures that are not study results against `data/number-allowlist.tsv`, which gi
 
 | Path | What it is |
 |---|---|
-| `paper.md`, `supplement.md`, `strobe.md` | The manuscript, Multimedia Appendix 1 (eTables, eMethods) and Multimedia Appendix 2 (STROBE checklist) |
+| `paper.md`, `supplement.md`, `strobe.md` | The manuscript, Additional file 2 (eTables, eMethods) and Additional file 1 (STROBE checklist) |
 | `paper.docx`, `supplement.docx`, `strobe.docx` and the PDFs | Built outputs |
 | `data/` | The committed results files, copied unchanged with their hashes ([`data/README.md`](data/README.md)) |
 | `tables/`, `figures/` | Generated from `data/` by `scripts/make_tables.py` and `scripts/make_figures.py`; never edited by hand |
@@ -55,11 +63,14 @@ figures that are not study results against `data/number-allowlist.tsv`, which gi
 | `references/AUDIT.md` | Whether every reference resolves, is the named work and supports its citing sentences (evidence, made by `scripts/audit_references.py`, is not in git) |
 | `research/` | The PubMed literature search: script, queries, records and abstracts |
 | `scripts/check_numbers.py` | Checks every number and interval in the prose against the results |
+| `scripts/validate_bmc_compliance.py` | BMC research-article checks, including line and page numbers in `paper.docx` |
+| `scripts/bmc_fields.py` | Writes BMC's plain-text fields, figure uploads, named additional files and `cover-letter.docx` into `submission/bmc-hsr/` |
 | `scripts/validate_jmir_compliance.py` | JMIR checks (abstract, keywords, IMRD, end sections, AI statement placement, abbreviations, word count); adapted from yuimedi-paper-20250901 |
 | `scripts/docx_tables.py` | Widens the DOCX tables to the full text width (pandoc sizes them to 5.5 in); column widths come from `scripts/include.lua` |
 | `scripts/form_fields.py` | Writes the JMIR form's plain-text fields, figure uploads and captions into `submission/ijmr/` |
 | `standards/jmir/SOURCES.md` | The JMIR author-guidance articles followed (local copies are not in git) |
 | `standards/bmc-hsr/SOURCES.md` | The BMC and Springer Nature pages followed (local copies, made by `scripts/import_standards.py`, are not in git) |
+| `submission/bmc-hsr/` | The BMC Health Services Research package: cover letter, figures, additional files, plain-text fields, checklist |
 | `submission/ijmr/` | The i-JMR package: cover letter, AI disclosure, suggested reviewers, figure uploads, checklist |
 | `posthoc/` | Byte-identical copies of the study's 2 post hoc scripts (not registered), with their source commits |
 | `CITATION.cff`, `.zenodo.json` | Citation metadata; Zenodo archives each GitHub release |
@@ -113,10 +124,10 @@ installation with xelatex. The build installs the Eisvogel 3.3.0 template on fir
 ```bash
 uv sync
 scripts/build.sh          # tables, figures, PDFs and DOCX
-uv run pytest             # data hashes, tables current, citations defined, prose numbers, JMIR checks
+uv run pytest             # data hashes, tables current, citations defined, prose numbers, journal checks
 python3 scripts/check_numbers.py
-uv run python scripts/validate_jmir_compliance.py --article-type original
-uv run python scripts/form_fields.py
+uv run python scripts/validate_bmc_compliance.py
+uv run python scripts/bmc_fields.py
 ```
 
 The build and its tooling are adapted from
@@ -127,7 +138,7 @@ the AMA CSL style, `reference.docx`, the JMIR validator and the JMIR guidance in
 
 1. `uv run pytest` and `python3 scripts/check_numbers.py` pass; `scripts/build.sh` rebuilt the PDFs and DOCX files.
 2. Read the manuscript in full, including both appendices.
-3. i-JMR: follow [`submission/ijmr/README.md`](submission/ijmr/README.md) (the record of what was submitted).
+3. Follow the venue's checklist: [`submission/bmc-hsr/README.md`](submission/bmc-hsr/README.md); [`submission/ijmr/README.md`](submission/ijmr/README.md) is the record of the earlier submission.
 
 ## License
 

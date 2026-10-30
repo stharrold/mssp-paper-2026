@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+cff-version: 1.3.0
 title: "Early Renewal of Accountable Care Organization Agreements to Reset Benchmarks in the Medicare Shared Savings Program: Preregistered Retrospective Cohort Study (manuscript, data and code)"
 message: >-
   If you use these materials, please cite them using the metadata from this file.
@@ -12,7 +12,7 @@ authors:
 repository-code: 'https://github.com/stharrold/mssp-paper-2026'
 url: 'https://github.com/stharrold/mssp-paper-2026'
 abstract: >-
-  Manuscript, multimedia appendices, committed results files and the scripts that build every table and figure for a
+  Manuscript, additional files, committed results files and the scripts that build every table and figure for a
   preregistered retrospective cohort study of Medicare Shared Savings Program accountable care organizations that
   renewed their agreements early in 2022. The registered analysis plan and code are archived on OSF Registries
   (doi:10.17605/OSF.IO/C53W9); the data snapshot and results notebook are in the OSF project
@@ -30,8 +30,8 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23737045
     description: Zenodo concept DOI (resolves to the latest version)
-version: 1.2.0
-date-released: 2026-10-28
+version: 1.3.0
+date-released: 2026-10-30
 references:
   - type: generic
     title: "Registered analysis plan and code"
