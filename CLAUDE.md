@@ -29,19 +29,21 @@ uv run python scripts/validate_bmc_compliance.py
 uv run python scripts/bmc_fields.py  # plain-text fields, figure uploads, named additional files, cover-letter.docx
 uv run python scripts/validate_jmir_compliance.py --article-type original  # the frozen i-JMR format
 uv run pytest && uv run ruff check . && uv run ruff format --check .
+python3 scripts/audit_references.py  # evidence per reference in references/audit/ (git-ignored); outcome in references/AUDIT.md
 ```
 
 ## Gotchas
 
 - **Word tables:** pandoc sizes every DOCX table to 5.5 in and reuses the PDF widths, so short values broke across
   lines. `scripts/include.lua` (`Table`, docx only) sets content-based minimum widths and `scripts/docx_tables.py`
-  rescales grids to 6.5 in. Without Word, check layout by exporting through Pages (`osascript`: open, `export ... as
-  PDF`; the file must be under `~`, and the call needs the sandbox off), then `pdftoppm` the table pages. Pages ignores
+  rescales grids to 6.5 in. Without Word, check layout by exporting through Pages (`open -a Pages` first, then `osascript`: open, `export ... as
+  PDF`; the call needs the sandbox off), then `pdftoppm` the table pages. Pages ignores
   keep-with-next before a long table, so a stranded caption there is not a Word problem.
 - **Rebuilds change DOCX bytes but not content** (timestamps). Compare `word/document.xml` hashes, and restore the
   committed files before a release if only metadata changed.
 - **Zenodo:** archives on a published GitHub release (`GITHUB_TOKEN= gh release create`), not on a tag push. Bump
-  `CITATION.cff`, `pyproject.toml` and `uv lock` first; verify with the Zenodo API. Cite the concept DOI
+  `CITATION.cff`, `pyproject.toml` and `uv lock` first; verify with the Zenodo API (it may answer scripts with 403: `curl -L`
+  the concept DOI for the new record, then `fetch` the API from a Chrome tab). Cite the concept DOI
   10.5281/zenodo.23737045. A DOI exists only after the first release, so citing it in the paper took a second release.
 - **BMC form (Springer Nature):** the pages are Files, Details, Authors, Declarations, Review. Figures go under "Upload
   figure(s)", not supplementary material, and additional files keep the names they are uploaded with. Extraction from the
@@ -51,6 +53,8 @@ uv run pytest && uv run ruff check . && uv run ruff format --check .
   `w:sectPr` too: `lnNumType` must follow `pgMar`, which `validate_bmc_compliance.py` checks.
 - **Reference audit:** `scripts/audit_references.py` (`references/AUDIT.md`) covers citing sentences only; check claims in
   the abstract and cover letter by hand against the corrected body.
+- **Publisher copies stay mechanical:** full texts and screenshots become text by `pdftotext` or tesseract, never by
+  transcribing them, and stay out of git. Crop screenshots to the page first: they can show the browser's other tabs.
 - **JMIR form:** text fields as ASCII; the AI declaration is checkboxes only (no statement box), so the summary went in
   as editor-only material; the 11 checklist boxes must be ticked before "Add Another Reviewer" works; JMIR renames
   uploads itself; upload the `*.figure.png` copies, not `figures/*.png` (full size, transparent). "Contact Editor" is
