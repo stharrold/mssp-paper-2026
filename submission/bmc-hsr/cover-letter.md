@@ -21,8 +21,8 @@ organizations did so in 2022. An industry report described them; to my knowledge
 why they renewed early.
 
 The paper responds to the collection's call for work on the design, implementation, adaptation and evaluation of
-value-based care payment models, and to two of its topics: barriers and facilitators to implementing these models, and
-the policy reforms and governance that support implementation. It examines how participating organizations responded
+value-based care payment models, and to its topic of the policy reforms and governance that support implementation. It
+examines how participating organizations responded
 once a national program's redesigned rules were in force: few of those eligible took the early reset, and for most of
 those who did, renewal also meant moving to a higher share of savings. The study covers one program, in the United
 States, but the trade-off it documents applies to any shared-savings model that resets benchmarks on an organization's
