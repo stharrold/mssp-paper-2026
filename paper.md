@@ -8,7 +8,7 @@ Corresponding author: Samuel Thomas Harrold, [samuel.harrold@gmail.com](mailto:s
 
 **Background:** Medicare Shared Savings Program (MSSP) benchmarks are reset at each new agreement from an accountable
 care organization's (ACO's) recent spending, adjusted toward its region. Ending an agreement early reset the benchmark
-sooner and was the only way for a BASIC-track ACO to reach the ENHANCED track's 75% share of savings. No peer-reviewed
+sooner and was a BASIC-track ACO's only way to reach the ENHANCED track's 75% share of savings without leaving the program or waiting out its agreement. No peer-reviewed
 study has examined why. This study asked which ACOs renewed early, weighing a reset motive (a higher benchmark)
 against a sharing-rate motive, and whether spending then changed.
 
