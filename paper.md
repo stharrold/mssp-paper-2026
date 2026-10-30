@@ -304,7 +304,7 @@ Claude Code (Anthropic; model Claude Opus 5.5), a large language model tool, was
 the analysis plan, offering alternatives from which the author chose; the author revised the plan and registered it.
 Under the author's direction it drafted the analysis pipeline and its tests, first against synthetic data with
 planted effects; the scripts that generate every table and figure from the committed results and that check every
-number in the text against them; and most of the text, which the author revised. It ran the literature searches the
+number in the text against them; and, from the author's input, first drafts of most of the text, which the author revised and approved. It ran the literature searches the
 author specified and retrieved the metadata of references with a DOI from Crossref; the author checked the cited
 claims against the sources. Separate instances of the same tool critically reviewed the plan, the code and the
 manuscript, and the author decided which comments to act on. The author chose the research question, hypotheses,
