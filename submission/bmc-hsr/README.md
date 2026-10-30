@@ -15,7 +15,7 @@ uv run python scripts/validate_bmc_compliance.py      # BMC's research-article r
 uv run pytest && uv run ruff check . && uv run ruff format --check .
 ```
 
-Recorded 2026-10-29: abstract 350/350 words in BMC's 5 sections; 8 keywords (3 to 10); 3 tables and 4 figures, titles
+Recorded 2026-10-29: abstract 341/350 words in BMC's 5 sections; 8 keywords (3 to 10); 3 tables and 4 figures, titles
 within 15 words; 2 additional files numbered by first citation; references in BioMed Central (Vancouver) style with
 URLs and access dates; Word file double-spaced with line and page numbers. There is no word limit for research articles.
 

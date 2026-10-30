@@ -7,29 +7,29 @@ Corresponding author: Samuel Thomas Harrold, [samuel.harrold@gmail.com](mailto:s
 # Abstract
 
 **Background:** Medicare Shared Savings Program (MSSP) benchmarks are reset at each new agreement from an accountable
-care organization's (ACO's) recent spending, adjusted toward its region. Ending an agreement early reset the benchmark sooner and
-was the only way for a BASIC-track ACO to reach the ENHANCED track's 75% share of savings. This study asked which ACOs
-renewed early, weighing a reset motive (a higher benchmark) against a sharing-rate motive, and whether their spending
-then changed.
+care organization's (ACO's) recent spending, adjusted toward its region. Ending an agreement early reset the benchmark
+sooner and was the only way for a BASIC-track ACO to reach the ENHANCED track's 75% share of savings. No peer-reviewed
+study has examined why. This study asked which ACOs renewed early, weighing a reset motive (a higher benchmark)
+against a sharing-rate motive, and whether spending then changed.
 
 **Methods:** This preregistered retrospective cohort study included the 334 MSSP ACOs whose agreements began July 1,
 2019 or January 1, 2020, using public Medicare files (2016-2024). The plan and code were registered before outcome
-data were read. The reset benchmark was rebuilt from the regulation and validated on 101 other ACOs. The 29 ACOs that
-renewed early in January 2022 were compared with 277 that stayed on the regional pull (regional spending relative to
-the current benchmark; primary), the own-spending component and BASIC risk level, by Bayesian bootstrap, permutation
-tests and Bayesian logistic regression. Spending growth in 2022-2024 was compared by difference-in-differences.
+data were read. The reset benchmark was rebuilt from the regulation and validated on 101 other ACOs. 29 ACOs renewing
+early in January 2022 were compared with 277 stayers on the regional pull (primary), the own-spending component and
+BASIC risk level, by Bayesian bootstrap, permutation tests and logistic regression. Spending growth in 2022-2024 was
+compared by difference-in-differences.
 
-**Results:** The rebuilt benchmark tracked the published one (Spearman $\rho$=0.94). Early renewers' regional pull was
-3.4 percentage points higher than stayers' (95% credible interval [CrI], 1.7 to 5.4; *P*<.001), but they also beat
-their benchmarks by more (own-spending component, −2.1 points; 95% CrI, −3.8 to −0.5), and the total expected gain did
-not differ (−0.5 points; 95% CrI, −2.0 to 0.8). Post hoc, early renewers' published 2022 benchmarks averaged 1.3%
-below 2021. Among 206 BASIC-track ACOs, a higher regional pull and BASIC level were associated with early renewal; 26
-of all 27 BASIC-track early renewers moved to ENHANCED. Spending growth did not differ detectably (−0.4%; 95% CrI,
-−4.0% to 2.5%); a preregistered pre-trend condition failed.
+**Results:** The rebuilt benchmark tracked the published one ($\rho$=0.94). Early renewers' regional pull was 3.4
+percentage points higher than stayers' (95% credible interval [CrI], 1.7 to 5.4; *P*<.001), but they also beat their
+benchmarks by more (own-spending component, −2.1 points; 95% CrI, −3.8 to −0.5), and the total expected gain did not
+differ (−0.5 points; 95% CrI, −2.0 to 0.8). Post hoc, early renewers' published 2022 benchmarks averaged 1.3% below
+2021. Among 206 BASIC-track ACOs, a higher regional pull and BASIC level were associated with early renewal; 26 of all
+27 BASIC-track early renewers moved to ENHANCED. Spending growth did not differ detectably (−0.4%; 95% CrI, −4.0% to
+2.5%); a preregistered pre-trend condition failed.
 
 **Conclusions:** Early renewers were already beating their benchmarks; for almost all, renewal was the route to a 75%
-sharing rate, and the reset did not on average raise their benchmarks. The pattern fits the sharing-rate motive
-better, though the design cannot separate the motives; the rules changed in 2024.
+sharing rate, and the reset did not on average raise benchmarks. This fits the sharing-rate motive better, though the
+design cannot separate the motives; the rules changed in 2024.
 
 **Trial registration:** OSF Registries, doi:10.17605/OSF.IO/C53W9. Registered 26 October 2026.
 
@@ -50,9 +50,9 @@ beneficiaries or whole ACOs, shapes those estimates has been examined with diffe
 evidence of favorable risk selection in the original program,[@mcwilliams2020] while another found that accounting
 for the nonrandom exit of high-cost clinicians removed the estimated savings,[@markovitz2019exit] and risk-adjustment
 rules may lead ACOs to drop high-risk beneficiaries.[@markovitz2019risk] This study examines a choice the rules added
-in 2019, ending an agreement early to reset the benchmark sooner: an industry report has described the ACOs that did
-so in 2022,[@milliman2024] and this study tests, under a preregistered plan and with a validated reconstruction of the
-reset benchmark, why they renewed early.
+in 2019, ending an agreement early to reset the benchmark sooner, which no peer-reviewed study has examined: under a
+preregistered plan and with a validated reconstruction of the reset benchmark, it asks which ACOs used the option and
+what their choice suggests about why.
 
 Benchmarks shape the program through 2 channels. The first is the incentive to save. Rebasing to an ACO's own
 recent spending weakens its incentive to save, and under earlier weights it rewarded higher spending just before a
@@ -576,7 +576,7 @@ Not applicable.
 
 ## Availability of data and materials
 
-The datasets generated and analysed during the current study are available in the Zenodo repository[@paperrepo] and the
+The datasets generated and analyzed during the current study are available in the Zenodo repository[@paperrepo] and the
 OSF project.[@osfproject] All data are public CMS files.[@dataacos; @dataresults; @datacounty; @dataassigned] The list of the 40 files
 downloaded, with sizes, SHA-256 hashes and URLs, and a script that downloads and verifies them are in the study
 repository;[@code] an archived copy of the snapshot and the results notebook exports are in the OSF

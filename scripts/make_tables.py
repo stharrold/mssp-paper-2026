@@ -130,7 +130,7 @@ def table2() -> str:
         "Posterior means and 95% equal-tailed CrIs are from a Bayesian bootstrap (10,000 draws); P values are from "
         "stratified permutation (10,000 shuffles within cohort). Expected-gain variables are in percentage points of "
         "the current benchmark; savings rates in percentage points. Verdicts follow the registered decision rules; H1 "
-        "and the two descriptive rows carry none."
+        "and the two descriptive rows carry none. Bold: the primary hypothesis."
     )
     return table(
         ["Measure (role)", "Early / stayers, No.", "Difference (95% CrI)", "Pr(>0)", "*P*", "MDE", "Verdict"],
