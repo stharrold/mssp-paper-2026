@@ -49,7 +49,8 @@ may differ from this list.
 5. **Fee:** the APC is USD 3,450 on acceptance, paid by the author. A discretionary waiver or discount for financial
    need can only be requested now, at submission; requests during review or after acceptance are not considered.
    Whether to ask is the author's decision (a draft is kept in the private repository, not here).
-6. **Licence:** CC BY 4.0 matches the manuscript repository's licence (the journal also offers CC BY-NC-ND).
+6. **Licence:** CC BY 4.0, the author's choice; it matches the manuscript repository's licence (the journal also
+   offers CC BY-NC-ND).
 7. **Peer review:** transparent. If the article is published, the reviewers' reports are published with it,
    unsigned. That overrides, for this journal, the rule that reviews stay in the private repository.
 8. **Suggested reviewers** (optional): kept in the private repository, not here, because the list names third parties.
