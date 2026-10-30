@@ -127,6 +127,13 @@ def test_figure_titles_and_order():
     assert any("figures first cited" in p for p in problems(GOOD.replace("See Figure 1 and", "See Figure 2 and Figure 1 and")))
 
 
+def test_commas_in_table_numbers(tmp_path):
+    (tmp_path / "t.md").write_text("| n |\n|---|\n| 10,000 |\n")
+    assert any("comma" in p for p in v.check_figures_tables("{{include t.md}}\n", tmp_path))
+    (tmp_path / "t.md").write_text("| n |\n|---|\n| 10000 |\n")
+    assert not any("comma" in p for p in v.check_figures_tables("{{include t.md}}\n", tmp_path))
+
+
 def test_the_paper_meets_the_checks():
     text = (ROOT / "paper.md").read_text()
     docx = ROOT / "paper.docx"

@@ -1,1 +1,1 @@
-Early renewers minus stayers. A, Expected-gain variables, in percentage points of the current benchmark. B, Savings rates, in percentage points. Points are posterior means and lines 95% credible intervals from the Bayesian bootstrap.
+Early renewers minus stayers. A, Expected-gain variables, in percentage points of the current benchmark. B, Savings rates, in percentage points. Points are posterior means and lines 95% credible intervals from the Bayesian bootstrap. Drawn from the results files by code drafted with Claude Code (see Use of Large Language Models).

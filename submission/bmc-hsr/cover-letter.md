@@ -18,8 +18,15 @@ an accountable care organization earns shared savings. The study evaluates a des
 rules let an organization end its agreement early and reset its benchmark, which was also the only way for an
 organization in the BASIC track to reach the ENHANCED track's 75% share of savings. Twenty-nine of 334 eligible
 organizations did so in 2022. An industry report described them; to my knowledge no peer-reviewed study has examined
-why they renewed early. The paper fits the collection's interest in the design and evaluation of value-based payment
-models and in the policy that governs them.
+why they renewed early.
+
+The paper responds to the collection's call for work on the design, implementation, adaptation and evaluation of
+value-based care payment models, and to two of its topics: barriers and facilitators to implementing these models, and
+the policy reforms and governance that support implementation. It examines how participating organizations responded
+once a national program's redesigned rules were in force: few of those eligible took the early reset, and for most of
+those who did, renewal also meant moving to a higher share of savings. The study covers one program, in the United
+States, but the trade-off it documents applies to any shared-savings model that resets benchmarks on an organization's
+own past spending, whichever health system runs it.
 
 The findings bear on how the model's rules sort participants. The intuitive account, renewing early to raise the
 benchmark, does not hold on average: early renewers were already beating their benchmarks, so the own-spending part
@@ -38,9 +45,10 @@ conventional frequentist counterpart. The manuscript follows STROBE (Additional 
 Journal policies:
 
 - Prior dissemination: the manuscript and its code are archived in a public repository on Zenodo
-  (doi:10.5281/zenodo.23737045), and the study is described for a general audience in a post and a narrated video on
+  (doi:10.5281/zenodo.23737045; CC BY 4.0), and the study is described for a general audience in a post and a narrated video on
   the author's website. No preprint has been posted on a preprint server.
-- Large language model use is documented in the Methods, as the journal asks.
+- Large language model use, including the drafting of most of the text under my direction, is declared in the Methods
+  and in the figure legends, as Springer Nature's AI policy asks.
 - The study used only public, aggregate data on organizations and counties; it is not human subjects research
   (Declarations).
 - I understand that the journal operates transparent peer review.

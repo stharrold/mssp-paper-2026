@@ -6,18 +6,19 @@ as for the earlier forms (scripts/form_fields.py, which writes the frozen i-JMR 
 
 Usage: uv run python scripts/bmc_fields.py
   writes submission/bmc-hsr/*-plaintext.txt (including the cover letter), and submission/bmc-hsr/figures/FigureN.png
-  (figures/*.png flattened onto white, full size) with FigureN.caption.txt
+  (figures/*.png flattened onto white and closely cropped, as BMC asks) with FigureN.caption.txt
 """
 
 import re
 from pathlib import Path
 
 from form_fields import plain
-from PIL import Image
+from PIL import Image, ImageChops
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "submission" / "bmc-hsr"
 MAX_BYTES = 10 * 1024 * 1024
+CROP_MARGIN = 12  # pixels of white kept around each figure
 
 
 def main() -> None:
@@ -39,6 +40,8 @@ def main() -> None:
         image = Image.open(ROOT / "figures" / f"{name}.png").convert("RGBA")
         flat = Image.new("RGB", image.size, "white")
         flat.paste(image, mask=image.getchannel("A"))
+        left, top, right, bottom = ImageChops.difference(flat, Image.new("RGB", flat.size, "white")).getbbox()
+        flat = flat.crop((max(left - CROP_MARGIN, 0), max(top - CROP_MARGIN, 0), min(right + CROP_MARGIN, flat.width), min(bottom + CROP_MARGIN, flat.height)))
         path = OUT / "figures" / f"Figure{n}.png"
         flat.save(path, optimize=True)
         assert path.stat().st_size <= MAX_BYTES, f"{path.name} is over 10 MB"

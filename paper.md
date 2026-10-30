@@ -300,7 +300,7 @@ restates past savings.
 
 ## Use of Large Language Models
 
-Claude Code (Anthropic), a large language model tool, was used from October 2026. It proposed the topic and drafted
+Claude Code (Anthropic; model Claude Opus 5.5), a large language model tool, was used from October 2026. It proposed the topic and drafted
 the analysis plan, offering alternatives from which the author chose; the author revised the plan and registered it.
 Under the author's direction it drafted the analysis pipeline and its tests, first against synthetic data with
 planted effects; the scripts that generate every table and figure from the committed results and that check every
@@ -341,7 +341,7 @@ registered rules.
 
 {{include tables/table1.md}}
 
-![Figure 1. Flow of ACOs into each analysis. Counts are early renewers vs stayers. The reason for the expected-gain exclusions comes from a diagnostic query run after the results, outside the registered pipeline. ACO, accountable care organization; ESRD, end-stage renal disease; PY, performance year.](figures/figure1-flow.png){width=100%}
+![Figure 1. Flow of ACOs into each analysis. Counts are early renewers vs stayers. The reason for the expected-gain exclusions comes from a diagnostic query run after the results, outside the registered pipeline. ACO, accountable care organization; ESRD, end-stage renal disease; PY, performance year. Drawn from the results files by code drafted with Claude Code (see Use of Large Language Models).](figures/figure1-flow.png){width=100%}
 
 ## Who Renewed Early
 
@@ -372,7 +372,7 @@ updated benchmarks rose from PY2021 to PY2022 no more than stayers' (difference 
 
 {{include tables/table2.md}}
 
-![Figure 2. Early renewers minus stayers. A, Expected-gain variables, in percentage points of the current benchmark. B, Savings rates, in percentage points. Points are posterior means and lines 95% credible intervals from the Bayesian bootstrap.](figures/figure2-comparisons.png){width=100%}
+![Figure 2. Early renewers minus stayers. A, Expected-gain variables, in percentage points of the current benchmark. B, Savings rates, in percentage points. Points are posterior means and lines 95% credible intervals from the Bayesian bootstrap. Drawn from the results files by code drafted with Claude Code (see Use of Large Language Models).](figures/figure2-comparisons.png){width=100%}
 
 ## Decision Model
 
@@ -392,7 +392,7 @@ effects;[@gelmancarlin2014] the directions are the result, and coefficients near
 
 {{include tables/table3.md}}
 
-![Figure 3. Decision model of early renewal among BASIC-track ACOs (H3). Points are posterior means and lines 95% credible intervals; the shaded band is the Normal(0, 1) prior's central 95%. Bold labels mark the core predictors.](figures/figure3-decision-model.png){width=100%}
+![Figure 3. Decision model of early renewal among BASIC-track ACOs (H3). Points are posterior means and lines 95% credible intervals; the shaded band is the Normal(0, 1) prior's central 95%. Bold labels mark the core predictors. Drawn from the results files by code drafted with Claude Code (see Use of Large Language Models).](figures/figure3-decision-model.png){width=100%}
 
 ## Spending After Renewal
 
@@ -413,7 +413,7 @@ ACOs with all 5 years gave −1.6% (95% CrI, −5.6% to 1.6%; *P*=.30).
 
 
 
-![Figure 4. Spending after early renewal. A, Event study from the conventional 2-way fixed-effects model, in log points relative to PY2021, with 95% CIs clustered by ACO. B, The registered H4 estimate and the robustness and conventional estimates, as the percent difference in spending growth with 95% intervals (the propensity-weighted estimate has no interval); sample sizes are in eTable 8 in Additional file 2. TWFE, 2-way fixed effects.](figures/figure4-spending.png){width=100%}
+![Figure 4. Spending after early renewal. A, Event study from the conventional 2-way fixed-effects model, in log points relative to PY2021, with 95% CIs clustered by ACO. B, The registered H4 estimate and the robustness and conventional estimates, as the percent difference in spending growth with 95% intervals (the propensity-weighted estimate has no interval); sample sizes are in eTable 8 in Additional file 2. TWFE, 2-way fixed effects. Drawn from the results files by code drafted with Claude Code (see Use of Large Language Models).](figures/figure4-spending.png){width=100%}
 
 ## Robustness and Conventional Methods
 

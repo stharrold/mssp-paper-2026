@@ -12,8 +12,10 @@ Checks:
 - No web links in the text from Background to Conclusions (URLs belong in the reference list)
 - Figure and table titles (first sentence of the caption) at most 15 words; figures and additional files numbered in
   order of first mention; every additional file cited in the text is listed under "Additional files"
-- No "Multimedia Appendix" left over from the JMIR version; the BMC reference style in metadata.yaml
-- If paper.docx exists: line numbering and a footer (page numbers) in its section properties
+- No commas in numbers in the manuscript's tables; no "Multimedia Appendix" left over from the JMIR version; the BMC
+  reference style in metadata.yaml
+- If paper.docx exists: line numbering and a footer (page numbers) in its section properties; no page breaks or table
+  shading
 
 Usage: uv run python scripts/validate_bmc_compliance.py [paper.md]
 """
@@ -105,6 +107,8 @@ def check_figures_tables(text: str, root: Path) -> list[str]:
         if first_sentence_words(cap) > TITLE_MAX:
             problems.append(f"Figure {n} title is over {TITLE_MAX} words")
     included = "\n".join((root / f).read_text() for f in re.findall(r"\{\{include (\S+)\}\}", text) if (root / f).is_file())
+    if re.search(r"\d,\d{3}\b", included):
+        problems.append("a table uses a comma in a number")
     for n, cap in re.findall(r"^: Table (\d+)\. (.+)$", included + "\n" + text, re.M):
         if first_sentence_words(cap) > TITLE_MAX:
             problems.append(f"Table {n} title is over {TITLE_MAX} words")
@@ -139,6 +143,10 @@ def check_docx(path: Path) -> list[str]:
         problems.append(f"{path.name}: no line numbering (rebuild with reference-bmc.docx)")
     if not sect or "<w:footerReference" not in sect[-1]:
         problems.append(f"{path.name}: no footer with page numbers")
+    if re.search(r'w:type="page"|<w:pageBreakBefore', xml):
+        problems.append(f"{path.name}: has page breaks")
+    if "<w:shd " in xml:
+        problems.append(f"{path.name}: has shading")
     return problems
 
 

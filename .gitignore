@@ -7,6 +7,9 @@ build/
 
 # JMIR help-center copies (JMIR copyright; see standards/jmir/SOURCES.md)
 standards/jmir/jmir_submission_*.md
+# BMC and Springer Nature page copies (publishers' copyright; see standards/bmc-hsr/SOURCES.md)
+standards/bmc-hsr/*.md
+!standards/bmc-hsr/SOURCES.md
 # Reviewer nominations name third parties: kept local, never published
 submission/ijmr/suggested-reviewers.md
 submission/ijmr/reviewer_candidates_pubmed.json

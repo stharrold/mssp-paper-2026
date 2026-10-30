@@ -24,9 +24,9 @@ URLs and access dates; Word file double-spaced with line and page numbers. There
 | Upload or field | File |
 |---|---|
 | Manuscript (Word) | `../../paper.docx` (title page, abstract, text, declarations, references, table and figure titles and legends) |
-| Figures 1-4 (separate files) | `figures/Figure1.png` to `figures/Figure4.png` (flattened onto white, full size); titles and legends are in the manuscript, and in `figures/FigureN.caption.txt` |
-| Additional file 1 | `../../strobe.docx` (STROBE checklist) |
-| Additional file 2 | `../../supplement.docx` (eTables and eMethods) |
+| Figures 1-4 (separate files) | `figures/Figure1.png` to `figures/Figure4.png` (flattened onto white, closely cropped); titles and legends are in the manuscript, and in `figures/FigureN.caption.txt` |
+| Additional file 1 | `../../strobe.docx` (STROBE checklist), named "Additional file 1" on upload |
+| Additional file 2 | `../../supplement.docx` (eTables and eMethods), named "Additional file 2" on upload |
 | Cover letter | `cover-letter.md` (or `cover-letter-plaintext.txt` for a text box) |
 | Title, abstract, keywords | `title-plaintext.txt`, `abstract-plaintext.txt`, `keywords-plaintext.txt` |
 | Trial registration, if asked on its own | `trial-registration-plaintext.txt` |

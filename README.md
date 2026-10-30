@@ -58,6 +58,7 @@ figures that are not study results against `data/number-allowlist.tsv`, which gi
 | `scripts/docx_tables.py` | Widens the DOCX tables to the full text width (pandoc sizes them to 5.5 in); column widths come from `scripts/include.lua` |
 | `scripts/form_fields.py` | Writes the JMIR form's plain-text fields, figure uploads and captions into `submission/ijmr/` |
 | `standards/jmir/SOURCES.md` | The JMIR author-guidance articles followed (local copies are not in git) |
+| `standards/bmc-hsr/SOURCES.md` | The BMC and Springer Nature pages followed (local copies, made by `scripts/import_standards.py`, are not in git) |
 | `submission/ijmr/` | The i-JMR package: cover letter, AI disclosure, suggested reviewers, figure uploads, checklist |
 | `posthoc/` | Byte-identical copies of the study's 2 post hoc scripts (not registered), with their source commits |
 | `CITATION.cff`, `.zenodo.json` | Citation metadata; Zenodo archives each GitHub release |
