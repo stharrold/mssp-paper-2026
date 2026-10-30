@@ -46,5 +46,6 @@ with zipfile.ZipFile(SRC) as zin, zipfile.ZipFile(DST, "w", zipfile.ZIP_DEFLATED
             ct = '<Override PartName="/word/footer1.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml"/>'
             data = data.decode().replace("</Types>", ct + "</Types>").encode()
         zout.writestr(info, data)
-    zout.writestr("word/footer1.xml", FOOTER)
+    # a fixed timestamp, so rebuilding gives the same bytes
+    zout.writestr(zipfile.ZipInfo("word/footer1.xml", date_time=(2026, 10, 29, 0, 0, 0)), FOOTER, zipfile.ZIP_DEFLATED)
 print(f"wrote {DST.name}")
