@@ -308,7 +308,7 @@ number in the text against them; and most of the text, which the author revised.
 author specified and retrieved the metadata of references with a DOI from Crossref; the author checked the cited
 claims against the sources. Separate instances of the same tool critically reviewed the plan, the code and the
 manuscript, and the author decided which comments to act on. The author chose the research question, hypotheses,
-decision rules and statistical approach, ran the analysis, verified every reported number against the results files
+decision rules and statistical approach, led the interpretation and conclusions, ran the analysis, verified every reported number against the results files
 and takes full responsibility for the content. No image-generation tools were used; the figures are drawn by plotting
 code from the results files.
 

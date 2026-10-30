@@ -47,8 +47,8 @@ Journal policies:
 - Prior dissemination: the manuscript and its code are archived in a public repository on Zenodo
   (doi:10.5281/zenodo.23737045; CC BY 4.0), and the study is described for a general audience in a post and a narrated video on
   the author's website. No preprint has been posted on a preprint server.
-- Large language model use, including the drafting of most of the text under my direction, is declared in the Methods
-  and in the figure legends, as Springer Nature's AI policy asks.
+- I drafted the manuscript with the use of a large language model. How it was used is declared in the Methods and in
+  the figure legends, as Springer Nature's AI policy asks.
 - The study used only public, aggregate data on organizations and counties; it is not human subjects research
   (Declarations).
 - I understand that the journal operates transparent peer review.
