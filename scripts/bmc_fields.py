@@ -7,9 +7,11 @@ as for the earlier forms (scripts/form_fields.py, which writes the frozen i-JMR 
 Usage: uv run python scripts/bmc_fields.py
   writes submission/bmc-hsr/*-plaintext.txt (including the cover letter), and submission/bmc-hsr/figures/FigureN.png
   (figures/*.png flattened onto white and closely cropped, as BMC asks) with FigureN.caption.txt
+  and submission/bmc-hsr/additional-files/, copies of strobe.docx and supplement.docx under the names BMC requires
 """
 
 import re
+import shutil
 from pathlib import Path
 
 from form_fields import plain
@@ -45,6 +47,9 @@ def main() -> None:
         path = OUT / "figures" / f"Figure{n}.png"
         flat.save(path, optimize=True)
         assert path.stat().st_size <= MAX_BYTES, f"{path.name} is over 10 MB"
+    (OUT / "additional-files").mkdir(exist_ok=True)
+    for n, source in enumerate(["strobe.docx", "supplement.docx"], 1):
+        shutil.copyfile(ROOT / source, OUT / "additional-files" / f"Additional file {n}.docx")
     print("wrote", ", ".join(p.name for p in sorted(OUT.glob("*-plaintext.txt"))), "and", len(list((OUT / "figures").glob("Figure*.png"))), "figures")
 
 
