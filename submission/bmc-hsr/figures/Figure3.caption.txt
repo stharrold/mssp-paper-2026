@@ -1,0 +1,1 @@
+Decision model of early renewal among BASIC-track ACOs (H3). Points are posterior means and lines 95% credible intervals; the shaded band is the Normal(0, 1) prior's central 95%. Bold labels mark the core predictors.
