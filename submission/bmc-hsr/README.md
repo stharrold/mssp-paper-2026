@@ -27,7 +27,7 @@ URLs and access dates; Word file double-spaced with line and page numbers. There
 | Figures 1-4 (separate files) | `figures/Figure1.png` to `figures/Figure4.png` (flattened onto white, closely cropped); titles and legends are in the manuscript, and in `figures/FigureN.caption.txt` |
 | Additional file 1 | `additional-files/Additional file 1.docx`, a copy of `../../strobe.docx` (STROBE checklist) under the name BMC requires |
 | Additional file 2 | `additional-files/Additional file 2.docx`, a copy of `../../supplement.docx` (eTables and eMethods) under the name BMC requires |
-| Cover letter | `cover-letter.md` (or `cover-letter-plaintext.txt` for a text box) |
+| Cover letter | `cover-letter.docx`, made from `cover-letter.md` (or `cover-letter-plaintext.txt` for a text box) |
 | Title, abstract, keywords | `title-plaintext.txt`, `abstract-plaintext.txt`, `keywords-plaintext.txt` |
 | Trial registration, if asked on its own | `trial-registration-plaintext.txt` |
 
