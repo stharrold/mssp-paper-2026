@@ -1,5 +1,5 @@
 # Pandoc metadata for the manuscript (paper.md) and the supplement (supplement.md); see scripts/build.sh.
-title: "Early Renewal of Accountable Care Organization Agreements to Reset Benchmarks in the Medicare Shared Savings Program: Preregistered Retrospective Cohort Study"
+title: "Early renewal of accountable care organization agreements to reset benchmarks in the Medicare Shared Savings Program: a preregistered retrospective cohort study"
 author: "Samuel Thomas Harrold"
 date: "October 2026"
 lang: en-US
@@ -28,7 +28,7 @@ linestretch: 1.3
 toc: false
 numbersections: false
 
-csl: citation-style-ama.csl
+csl: citation-style-bmc.csl  # BioMed Central (Vancouver); standards/bmc-hsr/SOURCES.md
 link-citations: true
 link-bibliography: true
 

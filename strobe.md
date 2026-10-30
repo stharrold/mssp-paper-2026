@@ -1,14 +1,14 @@
 ---
-title: "Multimedia Appendix 2. STROBE checklist. Early Renewal of Accountable Care Organization Agreements to Reset Benchmarks in the Medicare Shared Savings Program: Preregistered Retrospective Cohort Study"
+title: "Additional file 1. STROBE checklist. Early renewal of accountable care organization agreements to reset benchmarks in the Medicare Shared Savings Program: a preregistered retrospective cohort study"
 ---
 
-Items of the STROBE statement for cohort studies,[@vonelm2007] with the place each is reported in the manuscript or in Multimedia Appendix 1 (eTables and eMethods).
+Items of the STROBE statement for cohort studies,[@vonelm2007] with the place each is reported in the manuscript or in Additional file 2 (eTables and eMethods).
 
 | Item | No. | Recommendation (abbreviated) | Where reported |
 |:------------|:----:|:--------------------|:------------------------|
 | Title and abstract | 1 | Indicate the design; give an informative, balanced summary | Title and Abstract (preregistered retrospective cohort study) |
-| Background/rationale | 2 | Scientific background and rationale | Introduction, paragraphs 1-4 |
-| Objectives | 3 | Specific objectives and prespecified hypotheses | Introduction, paragraph 5; Methods, Hypotheses |
+| Background/rationale | 2 | Scientific background and rationale | Background, paragraphs 1-4 |
+| Objectives | 3 | Specific objectives and prespecified hypotheses | Background, paragraph 5; Methods, Hypotheses |
 | Study design | 4 | Key elements of the design | Methods, Study Design and Preregistration |
 | Setting | 5 | Setting, locations, dates of recruitment, exposure, follow-up, data collection | Methods, Data Sources; Population and Groups |
 | Participants | 6 | Eligibility criteria, sources and methods of selection; follow-up | Methods, Population and Groups; Figure 1 |

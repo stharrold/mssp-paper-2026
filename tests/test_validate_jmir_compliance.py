@@ -962,6 +962,7 @@ Two words.
         assert result["max_words"] == 10
 
 
+@pytest.mark.skip(reason="paper.md now follows BMC Health Services Research (tests/test_validate_bmc_compliance.py); the JMIR version is frozen at tag v1.2.0")
 class TestWithRealPaper:
     """Integration tests using actual paper.md."""
 

@@ -1,5 +1,5 @@
 ---
-title: "Multimedia Appendix 1. Early Renewal of Accountable Care Organization Agreements to Reset Benchmarks in the Medicare Shared Savings Program: Preregistered Retrospective Cohort Study"
+title: "Additional file 2. Early renewal of accountable care organization agreements to reset benchmarks in the Medicare Shared Savings Program: a preregistered retrospective cohort study"
 ---
 
 **Contents**

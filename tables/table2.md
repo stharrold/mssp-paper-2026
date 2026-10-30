@@ -7,7 +7,7 @@
 | Total expected gain (descriptive) | 26 / 241 | −0.5 (−2.0 to 0.8) | 0.233 | .33 |  |  |
 | Regional component (descriptive) | 26 / 241 | +1.6 (0.9 to 2.2) | >0.999 | <.001 |  |  |
 
-: Table 2. Early renewers compared with stayers: regional pull (H2b), own-spending component (H2a), savings rates (H1) and the expected gain
+: Table 2. Early renewers compared with stayers on the hypothesis tests and the expected gain
 
 ::: {.table-notes}
 Abbreviations: CrI, credible interval; MDE, minimum detectable effect at 80% power, two-sided $\alpha$ = .05, computed before the tests for 29 vs 277 ACOs (for the 26 vs 241 compared on the expected-gain variables it is 2.6 for H2b and 1.9 for H2a); Pr(>0), posterior probability that the difference is positive; pp, percentage points; PY, performance year. Differences are early renewers minus stayers within agreement cohort, averaged with weights proportional to early renewers per cohort. Posterior means and 95% equal-tailed CrIs are from a Bayesian bootstrap (10,000 draws); P values are from stratified permutation (10,000 shuffles within cohort). Expected-gain variables are in percentage points of the current benchmark; savings rates in percentage points. Verdicts follow the registered decision rules; H1 and the two descriptive rows carry none.

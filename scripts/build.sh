@@ -42,6 +42,7 @@ common=(--from=markdown+smart --metadata-file=metadata.yaml --lua-filter=scripts
         --citeproc --bibliography=references/doi.json --bibliography=references/other.bib --resource-path=.)
 
 uv run python scripts/make_tables.py
+uv run python scripts/make_reference_bmc.py
 uv run python scripts/make_figures.py
 
 for doc in paper supplement strobe; do
@@ -51,7 +52,10 @@ for doc in paper supplement strobe; do
     echo "wrote $doc.pdf"
   fi
   if [[ "$FORMAT" == all || "$FORMAT" == docx ]]; then
-    pandoc "$doc.md" "${common[@]}" --reference-doc=reference.docx -o "$doc.docx"
+    # The manuscript gets BMC's line and page numbers (reference-bmc.docx); the additional files do not need them.
+    ref=reference.docx
+    [[ "$doc" == paper ]] && ref=reference-bmc.docx
+    pandoc "$doc.md" "${common[@]}" --reference-doc="$ref" -o "$doc.docx"
     python3 scripts/docx_tables.py "$doc.docx"
     echo "wrote $doc.docx"
   fi

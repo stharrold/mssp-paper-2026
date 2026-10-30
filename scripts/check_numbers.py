@@ -36,7 +36,7 @@ SKIP = [
     re.compile(r"\b(?:19|20)\d{2}\b"),  # calendar years
     re.compile(r"\b4[25] CFR\b|\b\d{2,3}\.\d{3}\b"),  # regulation citations
     re.compile(r"\bH[1-4][ab]?\b"),  # hypothesis labels
-    re.compile(r"\b(?:e?Table|Figure|Supplement|Multimedia Appendix|Appendix|STROBE item|section|item|step|Level)s? [\d.]+(?:-\d+)?", re.I),
+    re.compile(r"\b(?:e?Table|Figure|Supplement|Multimedia Appendix|Additional file|Appendix|STROBE item|section|item|step|Level)s? [\d.]+(?:-\d+)?", re.I),
     re.compile(r"\b[0-9a-f]{7,64}\b"),  # commit and file hashes
     re.compile(r"\{[^}]*\}"),  # attributes and LaTeX groups
 ]

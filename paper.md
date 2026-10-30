@@ -1,55 +1,42 @@
 ::: {.author-block}
-Original Paper
-
 Samuel Thomas Harrold, Independent researcher\
 ORCID: [0009-0008-4596-6921](https://orcid.org/0009-0008-4596-6921)\
-Corresponding Author: Samuel Thomas Harrold, [samuel.harrold@gmail.com](mailto:samuel.harrold@gmail.com)
-
-**Preregistration:** OSF Registries, [doi:10.17605/OSF.IO/C53W9](https://doi.org/10.17605/OSF.IO/C53W9), registered October 26, 2026, before any outcome data were read.\
-**Keywords:** accountable care organizations; Medicare Shared Savings Program; benchmarks; alternative payment models; preregistration; difference-in-differences; Bayesian analysis\
-**License:** CC BY 4.0
+Corresponding author: Samuel Thomas Harrold, [samuel.harrold@gmail.com](mailto:samuel.harrold@gmail.com)
 :::
 
 # Abstract
 
 **Background:** Medicare Shared Savings Program (MSSP) benchmarks are reset at each new agreement from an accountable
-care organization's (ACO's) recent spending, adjusted toward its region. ACOs could end an agreement early to reset
-sooner, which was also the only way for an ACO in the BASIC track to reach the ENHANCED track's 75% share of savings.
-Why ACOs renewed early has not been studied in
-peer-reviewed work.
-
-**Objective:** This study aimed to describe which ACOs renewed early, weighing a reset motive (a higher benchmark)
-against a sharing-rate motive (the move to ENHANCED), and to compare their spending growth afterward.
+care organization's (ACO's) recent spending, adjusted toward its region. Ending an agreement early reset the benchmark sooner and
+was the only way for a BASIC-track ACO to reach the ENHANCED track's 75% share of savings. This study asked which ACOs
+renewed early, weighing a reset motive (a higher benchmark) against a sharing-rate motive, and whether their spending
+then changed.
 
 **Methods:** This preregistered retrospective cohort study included the 334 MSSP ACOs whose agreements began July 1,
-2019 or January 1, 2020, using Centers for Medicare & Medicaid Services (CMS) public use files (2016-2024). The plan, decision rules and code were registered before
-outcome data were read. The reset benchmark was rebuilt from 42
-CFR 425.601 and validated against published benchmarks for
-101 other ACOs before use. For early renewal into a
-January 1, 2022 agreement (29 ACOs vs 277 that stayed), the primary measure was the regional pull (case-mix-adjusted
-regional spending relative to the current benchmark); the own-spending component and
-BASIC risk level were also examined. Groups were compared by Bayesian bootstrap and permutation tests, and early renewal was modeled by Bayesian logistic regression. Spending growth in 2022-2024 was compared by
-difference-in-differences.
+2019 or January 1, 2020, using public Medicare files (2016-2024). The plan and code were registered before outcome
+data were read. The reset benchmark was rebuilt from the regulation and validated on 101 other ACOs. The 29 ACOs that
+renewed early in January 2022 were compared with 277 that stayed on the regional pull (regional spending relative to
+the current benchmark; primary), the own-spending component and BASIC risk level, by Bayesian bootstrap, permutation
+tests and Bayesian logistic regression. Spending growth in 2022-2024 was compared by difference-in-differences.
 
-**Results:** The rebuilt benchmark tracked CMS's (Spearman $\rho$=0.94). Relative to their current benchmarks,
-early renewers' regional spending was 3.4 percentage points higher than stayers' (95% credible interval [CrI], 1.7
-to 5.4; *P*<.001), but they were also beating their benchmarks by more (own-spending component, −2.1 points; 95%
-CrI, −3.8 to −0.5), and the total expected gain did not differ (−0.5 points; 95% CrI, −2.0 to 0.8). Post hoc, CMS's
-published 2022 benchmarks for early renewers averaged 1.3% below their 2021 benchmarks. Among 206 BASIC-track ACOs,
-early renewal was associated with a higher regional pull (log-odds difference per 2 SD, 1.34; 95% CrI, 0.44 to 2.30)
-and a higher BASIC level (levels C-E; 1.34; 95% CrI, 0.38 to 2.31), and 26 of all 27 BASIC-track early renewers moved to
-ENHANCED. Spending growth did not differ detectably
-(−0.4%; 95% CrI, −4.0% to 2.5%), and a preregistered pre-trend condition did not hold.
+**Results:** The rebuilt benchmark tracked the published one (Spearman $\rho$=0.94). Early renewers' regional pull was
+3.4 percentage points higher than stayers' (95% credible interval [CrI], 1.7 to 5.4; *P*<.001), but they also beat
+their benchmarks by more (own-spending component, −2.1 points; 95% CrI, −3.8 to −0.5), and the total expected gain did
+not differ (−0.5 points; 95% CrI, −2.0 to 0.8). Post hoc, early renewers' published 2022 benchmarks averaged 1.3%
+below 2021. Among 206 BASIC-track ACOs, a higher regional pull and BASIC level were associated with early renewal; 26
+of all 27 BASIC-track early renewers moved to ENHANCED. Spending growth did not differ detectably (−0.4%; 95% CrI,
+−4.0% to 2.5%); a preregistered pre-trend condition failed.
 
-**Conclusions:** Early renewers were already beating their benchmarks and had more room under
-their regions' spending; for almost all, renewal was the
-route to a 75% sharing rate, and the reset did not on average raise their benchmarks. The pattern fits the
-sharing-rate motive better than the reset motive, though the design cannot separate them. These are associations
-under rules that changed in 2024.
+**Conclusions:** Early renewers were already beating their benchmarks; for almost all, renewal was the route to a 75%
+sharing rate, and the reset did not on average raise their benchmarks. The pattern fits the sharing-rate motive
+better, though the design cannot separate the motives; the rules changed in 2024.
 
-**Trial Registration:** OSF Registries osf.io/c53w9; https://osf.io/c53w9
+**Trial registration:** OSF Registries, doi:10.17605/OSF.IO/C53W9. Registered 26 October 2026.
 
-# Introduction
+**Keywords:** accountable care organizations; Medicare Shared Savings Program; benchmarks; alternative payment models;
+value-based payment; preregistration; difference-in-differences; Bayesian analysis
+
+# Background
 
 In the Medicare Shared Savings Program (MSSP), an accountable care organization (ACO) shares in savings when the
 spending of its assigned beneficiaries falls below a benchmark.[@cfr425] As of January 1, 2026, 511 ACOs served 12.6
@@ -62,7 +49,10 @@ larger in physician-group ACOs.[@mcwilliams2016; @mcwilliams2018; @bond2025] Whe
 beneficiaries or whole ACOs, shapes those estimates has been examined with differing results: one analysis found no
 evidence of favorable risk selection in the original program,[@mcwilliams2020] while another found that accounting
 for the nonrandom exit of high-cost clinicians removed the estimated savings,[@markovitz2019exit] and risk-adjustment
-rules may lead ACOs to drop high-risk beneficiaries.[@markovitz2019risk]
+rules may lead ACOs to drop high-risk beneficiaries.[@markovitz2019risk] This study examines a choice the rules added
+in 2019, ending an agreement early to reset the benchmark sooner: an industry report has described the ACOs that did
+so in 2022,[@milliman2024] and this study tests, under a preregistered plan and with a validated reconstruction of the
+reset benchmark, why they renewed early.
 
 Benchmarks shape the program through 2 channels. The first is the incentive to save. Rebasing to an ACO's own
 recent spending weakens its incentive to save, and under earlier weights it rewarded higher spending just before a
@@ -116,7 +106,7 @@ was read.[@registration] These associations bear on the motives but cannot estab
 ## Study Design and Preregistration
 
 This is a preregistered retrospective cohort study of ACO-level public data, reported following the Strengthening
-the Reporting of Observational Studies in Epidemiology (STROBE) guideline[@vonelm2007] (checklist in Multimedia Appendix 2). The analysis plan and the code commit that implements it were registered on OSF (Open Science Framework) Registries on October 26, 2026,
+the Reporting of Observational Studies in Epidemiology (STROBE) guideline[@vonelm2007] (checklist in Additional file 1). The analysis plan and the code commit that implements it were registered on OSF (Open Science Framework) Registries on October 26, 2026,
 13:22 UTC, with the plan's SHA-256 hash recorded.[@registration; @code] Before registration only the enrollment
 files, the Centers for Medicare & Medicaid Services (CMS) data dictionaries, the regulation text and the column names (not the values) of the outcome files
 were used. The enrollment files include each ACO's track and BASIC level, so the H3 prediction for the BASIC level
@@ -300,7 +290,7 @@ of savings and losses, whereas it shares 75% of savings and up to 75% of losses.
 
 ## Post Hoc Checks (Not Registered)
 
-After all registered results had been read, and in response to critical review of the draft, 3 checks were added (eTable 13 in Multimedia Appendix 1). They reuse the registered pipeline's tables and estimator,
+After all registered results had been read, and in response to critical review of the draft, 3 checks were added (eTable 13 in Additional file 2). They reuse the registered pipeline's tables and estimator,
 change no registered file, and decide nothing. First, the validation was repeated on the change scale, the rebuilt
 against the actual change from the PY2021 benchmark, for the same 101 regular renewers. Second, early renewers'
 realized reset, their 2022 historical benchmark as CMS published it relative to their PY2021 benchmark, was compared
@@ -308,19 +298,25 @@ with the rebuilt gain, and their PY2021-to-PY2022 change in updated benchmark wa
 with the PY2020 and PY2021 savings rates and the own-spending component was computed, to ask whether the pull
 restates past savings.
 
-## Ethical Considerations
+## Use of Large Language Models
 
-The study used only publicly available, aggregate data on organizations and counties published by CMS. It involved
-no intervention or interaction with individuals and no identifiable private information, so it was not human subjects
-research as defined by the US Federal Policy for the Protection of Human Subjects (45 CFR 46.102(e)(1)).[@cfr46102]
-Ethics review was therefore not sought, and informed consent, privacy protections for participants and compensation
-did not apply.
+Claude Code (Anthropic), a large language model tool, was used from October 2026. It proposed the topic and drafted
+the analysis plan, offering alternatives from which the author chose; the author revised the plan and registered it.
+Under the author's direction it drafted the analysis pipeline and its tests, first against synthetic data with
+planted effects; the scripts that generate every table and figure from the committed results and that check every
+number in the text against them; and most of the text, which the author revised. It ran the literature searches the
+author specified and retrieved the metadata of references with a DOI from Crossref; the author checked the cited
+claims against the sources. Separate instances of the same tool critically reviewed the plan, the code and the
+manuscript, and the author decided which comments to act on. The author chose the research question, hypotheses,
+decision rules and statistical approach, ran the analysis, verified every reported number against the results files
+and takes full responsibility for the content. No image-generation tools were used; the figures are drawn by plotting
+code from the results files.
 
 # Results
 
 ## Validation and Sample
 
-The rebuilt benchmark passed validation (eTable 1 in Multimedia Appendix 1). For 101 of the 111 eligible regular renewers, it
+The rebuilt benchmark passed validation (eTable 1 in Additional file 2). For 101 of the 111 eligible regular renewers, it
 had a Spearman correlation of 0.94 with the benchmark CMS published and a median absolute percentage error of 1.6%;
 the slope of actual on rebuilt was 0.944, inside the registered range, so no calibration was applied. The
 own-spending part agreed with CMS's benchmark-year spending (Spearman 0.95; median error 1.4%), and its error SD set
@@ -357,7 +353,7 @@ weight, the pull difference was 1.6 points (eTable 10), and the regional compone
 partly because a lower own-spending component also raises it; the total expected gain did not differ. The pull
 difference therefore indicates that early renewers were low-cost relative to their regions more than that they stood
 to gain a higher benchmark. The pull is related to past savings without restating it: post hoc, its rank correlation
-with the PY2020 savings rate was 0.45 among the 267 compared ACOs (eTable 13 in Multimedia Appendix 1). At the median PY2021 benchmark of the study's ACOs, \$11,312 per beneficiary per year, the difference of 3.35
+with the PY2020 savings rate was 0.45 among the 267 compared ACOs (eTable 13 in Additional file 2). At the median PY2021 benchmark of the study's ACOs, \$11,312 per beneficiary per year, the difference of 3.35
 points is about \$379 per beneficiary-year of regional spending relative to the benchmark; the difference in the
 regional component itself, what a reset would add, was 1.6 points, about \$176.
 
@@ -372,7 +368,7 @@ lowered both groups' benchmarks. Post hoc, CMS's published 2022 benchmarks bear 
 reset historical benchmarks averaged 1.3% below their PY2021 benchmarks (median −1.5%; 66% of the 29 were lower), the
 rebuilt gain had predicted −1.6 points on average against −1.4 realized for the 26 with both values, and their
 updated benchmarks rose from PY2021 to PY2022 no more than stayers' (difference 0.0 points; 95% CrI, −2.0 to 2.2)
-(eTable 13 in Multimedia Appendix 1).
+(eTable 13 in Additional file 2).
 
 {{include tables/table2.md}}
 
@@ -388,7 +384,7 @@ component was undetermined (−0.05; 95% CrI, −2.01 to 1.92; *P*=.19); its int
 because its measurement error exceeds its spread and the model could learn almost nothing about it. Without the
 measurement-error layer it was −0.64 (95% CrI, −1.51 to 0.23). The model converged on its first fit (largest
 $\hat{R}$ 1.001, no divergences), and the observed 24 early renewers fell inside the posterior predictive 95% range
-of 14 to 37 (eTable 5 in Multimedia Appendix 1). Under the Student-t prior, which converged on its registered rerun, the pull
+of 14 to 37 (eTable 5 in Additional file 2). Under the Student-t prior, which converged on its registered rerun, the pull
 (1.65; 95% CrI, 0.53 to 2.87) and BASIC-level (1.63; 95% CrI, 0.53 to 2.85) intervals also excluded zero, so no core
 conclusion differs between priors. The power analysis gave detection rates of only 17% (pull) and 14% (BASIC level)
 at a log-odds difference of 0.5, so estimates that pass the test are likely to overstate the true
@@ -401,7 +397,7 @@ effects;[@gelmancarlin2014] the directions are the result, and coefficients near
 ## Spending After Renewal
 
 Spending growth from PY2020-PY2021 to PY2022-PY2024 did not differ detectably between 29 early renewers and 276
-comparison ACOs not yet renewed (−0.4%; 95% CrI, −4.0% to 2.5%; *P*=.78; MDE 3.8 log points) (Figure 4; eTable 8 in Multimedia Appendix 1). The pre-trend estimate was 0.7% (95% CrI, −2.3% to 4.9%; *P*=.58), not evidence against parallel trends, but
+comparison ACOs not yet renewed (−0.4%; 95% CrI, −4.0% to 2.5%; *P*=.78; MDE 3.8 log points) (Figure 4; eTable 8 in Additional file 2). The pre-trend estimate was 0.7% (95% CrI, −2.3% to 4.9%; *P*=.58), not evidence against parallel trends, but
 the equivalence condition did not hold: the scaled pre-trend bound, 2.41 years times 4.8 log points, was 11.5 log
 points (about 12%), far above the absolute H4 estimate of 0.4 log points. The condition could have held only for an
 estimate above about 12% in absolute value, 3 times the MDE, so with one pre-period it could not support reading an
@@ -412,29 +408,29 @@ spending growth of more than about 4% or a rise of more than about 2.5%; the tre
 2.7%) is too wide to inform.
 
 Attrition was uneven: by PY2024, 115 of 277 stayers (42%) had left the spending panel (72 left the program, 42 renewed
-and 1 had no spending value), against 4 of 29 early renewers (14%) (eTable 9 in Multimedia Appendix 1). The balanced panel of
+and 1 had no spending value), against 4 of 29 early renewers (14%) (eTable 9 in Additional file 2). The balanced panel of
 ACOs with all 5 years gave −1.6% (95% CrI, −5.6% to 1.6%; *P*=.30).
 
 
 
-![Figure 4. Spending after early renewal. A, Event study from the conventional 2-way fixed-effects model, in log points relative to PY2021, with 95% CIs clustered by ACO. B, The registered H4 estimate and the robustness and conventional estimates, as the percent difference in spending growth with 95% intervals (the propensity-weighted estimate has no interval); sample sizes are in eTable 8 in Multimedia Appendix 1. TWFE, 2-way fixed effects.](figures/figure4-spending.png){width=100%}
+![Figure 4. Spending after early renewal. A, Event study from the conventional 2-way fixed-effects model, in log points relative to PY2021, with 95% CIs clustered by ACO. B, The registered H4 estimate and the robustness and conventional estimates, as the percent difference in spending growth with 95% intervals (the propensity-weighted estimate has no interval); sample sizes are in eTable 8 in Additional file 2. TWFE, 2-way fixed effects.](figures/figure4-spending.png){width=100%}
 
 ## Robustness and Conventional Methods
 
-Every registered verdict agreed with its conventional counterpart (eTable 7 in Multimedia Appendix 1). For H2b, ordinary
+Every registered verdict agreed with its conventional counterpart (eTable 7 in Additional file 2). For H2b, ordinary
 least squares with HC2 errors gave 3.3 points (95% CI, 1.3 to 5.4; *P*=.001), and for H3 the maximum-likelihood
 odds ratios were 4.0 (95% CI, 1.2 to 13.4) for the regional pull and 4.8 (95% CI, 1.5 to 15.6) for the BASIC level;
 2-way fixed effects gave −1.5% (95% CI, −5.4% to 2.4%) for H4. H2b kept its direction in every robustness check
-(eTable 3 in Multimedia Appendix 1), but its size depended on the estimator: the difference in medians was 2.8 points, and the
+(eTable 3 in Additional file 2), but its size depended on the estimator: the difference in medians was 2.8 points, and the
 robust (Student-t) regressions gave 2.1 (95% CrI, 0.5 to 3.8) with cohort and 2.2 (95% CrI, 0.7 to 3.8) with track,
 level and size added, below the MDE of 2.5, so a few large values among early renewers carry part of the difference
 in means; without the case-mix adjustment of regional spending the difference was 6.9. H2a and H1 kept their
 direction but were weaker by medians (H2a, *P*=.09; H1, *P*=.06) and in the adjusted regressions, whose intervals
 reached zero (H2a, −2.6 to 0.02; H1, −0.1 to 2.6). In H3 the BASIC-level interval stayed above zero in every check,
 while the pull interval reached zero with the 2020 cohort alone (1.15; 95% CrI, −0.02 to 2.39) and with unadjusted
-county spending (0.75; 95% CrI, −0.02 to 1.56) (eTable 4 in Multimedia Appendix 1).
+county spending (0.75; 95% CrI, −0.02 to 1.56) (eTable 4 in Additional file 2).
 
-Among the exploratory analyses (eTables 10-12 in Multimedia Appendix 1), the 28 ACOs that left after PY2021 had the lowest
+Among the exploratory analyses (eTables 10-12 in Additional file 2), the 28 ACOs that left after PY2021 had the lowest
 PY2020 savings rates (mean 2.7 points, against 6.4 for early renewers and 4.6 for stayers) and, for the 20 with the
 variable, a mean regional pull similar to early renewers' (4.8 vs 5.0; medians 2.0 vs 3.5) (Table 1). The 2 early
 renewers already in ENHANCED, whose renewal could not raise the sharing rate, fell between the 26th and 68th
@@ -465,7 +461,7 @@ drop of more than about 4% or a rise of more than about 2.5%.
 
 ## Comparison With Prior Work
 
-The primary result extends to a new decision the selection described in the Introduction: providers with low
+The primary result extends to a new decision the selection described in the Background: providers with low
 spending for their region joining,[@lyu2023] ACOs whose benchmarks fell leaving,[@chen2025] and ACOs with a positive
 regional adjustment about 70% less likely to exit.[@cappello2026] Here the choice is when to reset rather than whether to join or leave,
 and early renewers had, on average, more room under their regions' spending, the position associated with joining and
@@ -544,7 +540,7 @@ early renewers and 14 of 277 stayers) rather than through behavior. Sixth, the b
 time; and leavers, a third choice with a mean pull similar to early renewers', were set aside by
 comparing early renewers only with stayers. Seventh, the results describe the rules for agreements beginning in 2022.
 
-## Conclusions
+# Conclusions
 
 In this cohort, early renewal looks less like timing a reset for a higher benchmark than like the price of reaching
 ENHANCED's 75% sharing rate: the reset did not on average raise early renewers' benchmarks, and almost all moved to
@@ -552,35 +548,7 @@ ENHANCED. Spending growth afterward showed no detectable difference. These are a
 data under a preregistered plan, and the design cannot separate the motives. They extend the evidence that benchmark
 rules sort ACOs to the timing of resets and give a baseline for the rules in force since 2024.
 
-# Funding
-
-The author declared no financial support was received for this work.
-
-# Conflicts of Interest
-
-The author is employed as a data scientist at Indiana University Health. This study was conducted independently of
-that employment, using only public data, and Indiana University Health had no role in its design, analysis,
-interpretation or reporting. The author declares no other competing interests. The views expressed are the author's
-own and do not represent the official positions of Indiana University Health.
-
-# Data Availability
-
-The datasets generated or analyzed during this study are available in the Zenodo repository[@paperrepo] and the
-OSF project.[@osfproject] All data are public CMS files.[@dataacos; @dataresults; @datacounty; @dataassigned] The list of the 40 files
-downloaded, with sizes, SHA-256 hashes and URLs, and a script that downloads and verifies them are in the study
-repository;[@code] an archived copy of the snapshot and the results notebook exports are in the OSF
-project.[@osfproject] The committed results files, from which every table and figure here is generated, are in the study repository and in this manuscript's repository, archived on Zenodo with the post hoc
-scripts.[@paperrepo] The registered
-analysis code (commit a4064f5), its tests and step-by-step instructions to rerun and adapt the analysis are in the study repository.[@code] A longer account
-of the study for a general audience was published online.[@post]
-
-# Authors' Contributions
-
-STH: conceptualization, data curation, formal analysis, investigation, methodology, software, validation,
-visualization, writing (original draft) and writing (review and editing). STH is accountable for all aspects of the
-work.
-
-# Abbreviations
+# List of abbreviations
 
 ACO: accountable care organization\
 CFR: Code of Federal Regulations\
@@ -591,6 +559,59 @@ MDE: minimum detectable effect\
 MSSP: Medicare Shared Savings Program\
 OSF: Open Science Framework\
 PY: performance year
+
+# Declarations
+
+## Ethics approval and consent to participate
+
+The study used only publicly available, aggregate data on organizations and counties published by CMS. It involved
+no intervention or interaction with individuals and no identifiable private information, so it was not human subjects
+research as defined by the US Federal Policy for the Protection of Human Subjects (45 CFR 46.102(e)(1)).[@cfr46102]
+Ethics review was therefore not sought, and informed consent, privacy protections for participants and compensation
+did not apply.
+
+## Consent for publication
+
+Not applicable.
+
+## Availability of data and materials
+
+The datasets generated and analysed during the current study are available in the Zenodo repository[@paperrepo] and the
+OSF project.[@osfproject] All data are public CMS files.[@dataacos; @dataresults; @datacounty; @dataassigned] The list of the 40 files
+downloaded, with sizes, SHA-256 hashes and URLs, and a script that downloads and verifies them are in the study
+repository;[@code] an archived copy of the snapshot and the results notebook exports are in the OSF
+project.[@osfproject] The committed results files, from which every table and figure here is generated, are in the study repository and in this manuscript's repository, archived on Zenodo with the post hoc
+scripts.[@paperrepo] The registered
+analysis code (commit a4064f5), its tests and step-by-step instructions to rerun and adapt the analysis are in the study repository.[@code] A longer account
+of the study for a general audience was published online.[@post]
+
+## Competing interests
+
+STH is employed as a data scientist at Indiana University Health. This study was conducted independently of that
+employment, using only public data, and Indiana University Health had no role in its design, analysis,
+interpretation or reporting. The views expressed are the author's own and do not represent the official positions of
+Indiana University Health. The author declares no other competing interests.
+
+## Funding
+
+This work received no funding.
+
+## Authors' contributions
+
+STH: conceptualization, data curation, formal analysis, investigation, methodology, software, validation,
+visualization, writing (original draft) and writing (review and editing). STH read and approved the final manuscript
+and is accountable for all aspects of the work.
+
+## Acknowledgements
+
+Not applicable.
+
+# Additional files
+
+**Additional file 1** (.docx). STROBE checklist. Where each item of the STROBE statement for cohort studies is reported.
+
+**Additional file 2** (.docx). eTables and eMethods. Registration record and deviations, validation, power, robustness,
+conventional methods, exploratory analyses and post hoc checks (eTables 1-13).
 
 # References
 

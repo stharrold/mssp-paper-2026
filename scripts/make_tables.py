@@ -135,7 +135,7 @@ def table2() -> str:
     return table(
         ["Measure (role)", "Early / stayers, No.", "Difference (95% CrI)", "Pr(>0)", "*P*", "MDE", "Verdict"],
         rows,
-        "Table 2. Early renewers compared with stayers: regional pull (H2b), own-spending component (H2a), savings rates (H1) and the expected gain",
+        "Table 2. Early renewers compared with stayers on the hypothesis tests and the expected gain",
         notes,
         align="lrrrrrl",
         widths=[10, 4, 6, 2, 2, 2, 4],
