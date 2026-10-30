@@ -52,6 +52,7 @@ figures that are not study results against `data/number-allowlist.tsv`, which gi
 | `tables/`, `figures/` | Generated from `data/` by `scripts/make_tables.py` and `scripts/make_figures.py`; never edited by hand |
 | `references/doi.json` | Metadata of every DOI-cited reference, fetched from Crossref by `scripts/fetch_references.py` |
 | `references/other.bib` | References without a DOI (regulations, CMS datasets, software) |
+| `references/AUDIT.md` | Whether every reference resolves, is the named work and supports its citing sentences (evidence, made by `scripts/audit_references.py`, is not in git) |
 | `research/` | The PubMed literature search: script, queries, records and abstracts |
 | `scripts/check_numbers.py` | Checks every number and interval in the prose against the results |
 | `scripts/validate_jmir_compliance.py` | JMIR checks (abstract, keywords, IMRD, end sections, AI statement placement, abbreviations, word count); adapted from yuimedi-paper-20250901 |

@@ -16,7 +16,8 @@ Research*, for the collection "Implementing value-based care payment models in d
 The Medicare Shared Savings Program is Medicare's largest value-based payment model, and its benchmarks decide whether
 an accountable care organization earns shared savings. The study evaluates a design feature of that model: the 2019
 rules let an organization end its agreement early and reset its benchmark, which was also the only way for an
-organization in the BASIC track to reach the ENHANCED track's 75% share of savings. Twenty-nine of 334 eligible
+organization in the BASIC track to reach the ENHANCED track's 75% share of savings without waiting for its agreement
+to end or leaving the program. Twenty-nine of 334 eligible
 organizations did so in 2022. An industry report described them; to my knowledge no peer-reviewed study has examined
 why they renewed early.
 

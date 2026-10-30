@@ -41,4 +41,5 @@ chapter 1), filed in the author's library as 2026_Cappello_BC-Dissertation_IO-He
 introduction reports a ratchet effect (savings rates 40% higher in years whose spending does not enter rebasing) and
 selection under the regional adjustment (ACOs with a positive adjustment about 70% less likely to exit); it does not
 study early renewal. The manuscript cites it in the Introduction and in Comparison With Prior Work. It is not peer
-reviewed, so it does not bear on the "first peer-reviewed study" sentence.
+reviewed, so it does not bear on the "first peer-reviewed study" sentence. The author later obtained the full dissertation (2026-10-30), filed
+as 2026_Cappello_BC-Dissertation_IO-Health-Economics; its Tables 2 and 3 give both figures.

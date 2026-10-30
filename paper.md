@@ -44,8 +44,7 @@ million assigned Medicare beneficiaries, and ACOs earned \$4.1 billion in shared
 How benchmarks are set therefore determines both what Medicare pays and which provider organizations take part. At
 the start of each agreement period the
 benchmark is reset from the ACO's own spending in the 3 preceding years and adjusted part of the way toward the
-spending of its region.[@cfr425601] Evaluations have found modest savings from the program, growing with tenure and
-larger in physician-group ACOs.[@mcwilliams2016; @mcwilliams2018; @bond2025] Whether selection, of clinicians,
+spending of its region.[@cfr425601] Evaluations have found modest savings from the program,[@mcwilliams2016; @mcwilliams2018; @bond2025] growing with tenure[@mcwilliams2018; @bond2025] and larger in physician-group ACOs.[@mcwilliams2016; @mcwilliams2018; @bond2025] Whether selection, of clinicians,
 beneficiaries or whole ACOs, shapes those estimates has been examined with differing results: one analysis found no
 evidence of favorable risk selection in the original program,[@mcwilliams2020] while another found that accounting
 for the nonrandom exit of high-cost clinicians removed the estimated savings,[@markovitz2019exit] and risk-adjustment
@@ -63,9 +62,8 @@ benchmark.[@cappello2026]
 The second channel is selection: benchmark rules change which ACOs join, stay and take on risk. ACOs' spending varies
 widely relative to their regions even after risk adjustment, so moving benchmarks toward regional averages shifts them
 unevenly.[@rose2016] After regional spending entered benchmarks in 2017, participation shifted toward
-providers whose spending was low relative to their region,[@lyu2023] ACOs whose effective benchmarks fell became
-more likely to leave,[@chen2025] ACOs with a positive regional adjustment were less likely to exit,[@cappello2026]
-and bonuses rose for ACOs across the efficiency spectrum.[@srivastava2026] Survival in
+providers whose spending was low relative to their region,[@lyu2023] ACOs whose effective benchmarks fell because of a separate 2017 change in assignment rules became more likely to leave,[@chen2025] ACOs with a positive regional adjustment were less likely to exit,[@cappello2026]
+and the likelihood of earning a bonus rose for ACOs across the efficiency spectrum.[@srivastava2026] Survival in
 the program has been associated with earning bonuses, higher benchmarks and one-sided risk,[@bleser2019] and larger
 ACOs, those with supporting organizations and better performers were more likely to switch to two-sided
 risk.[@zhu2023] The 2019 Pathways to Success rules, which shortened the time ACOs could stay in one-sided risk, were
@@ -76,15 +74,13 @@ rules sort ACOs into joining, staying, leaving and taking on risk, and how rebas
 within an agreement; it has not examined when ACOs choose to reset.
 
 The 2019 rules also allowed an ACO to end its agreement early and begin a new one, which resets the benchmark
-early.[@cfr425] For an ACO in the BASIC track, renewal was also the only way into the ENHANCED track before its
-agreement ended, because the 2018 rule bars moving from BASIC to ENHANCED within an agreement period. CMS imposed that bar to guard
+early.[@cfr425] For an ACO in the BASIC track, renewal was also the only way into the ENHANCED track without waiting for its agreement to end or leaving the program, because the final rule published in 2018 bars moving from BASIC to ENHANCED within an agreement period. CMS imposed that bar to guard
 against selective entry into its highest-reward track by an ACO "very confident of its ability to generate savings"
 against its current benchmark, and named early renewal, with its rebased benchmark, as the way to make the
 move.[@frpathways] ENHANCED shares 75% of savings, against at most 50% in BASIC.[@cfr425] Of the 334 ACOs whose agreements began July 1,
 2019 or January 1, 2020, 29 ended them early and began new agreements on January 1, 2022.[@dataacos] An industry
 report found that ACOs rebasing early in 2022 had higher gross savings rates beforehand than ACOs that did not, and
-that the earlier incumbents among them moved from BASIC to ENHANCED,[@milliman2024] and consulting analyses model the
-choice for individual ACOs.[@milliman2025] These sources describe the early renewers but do not test why they renewed. To the author's knowledge, no
+that the earlier incumbents among them moved from BASIC to ENHANCED,[@milliman2024] and a consulting case study models the choice for a hypothetical ACO.[@milliman2025] Neither tests why ACOs renewed. To the author's knowledge, no
 peer-reviewed study has asked whether ACOs used the option to time resets for a higher benchmark or to reach ENHANCED.
 The question joins the 2 strands above, the incentive created by rebasing and selection by benchmark rules, and it
 matters more now that the rules in force since 2024 make a reset cheaper for ACOs that have saved.[@cfr2024]
@@ -123,13 +119,12 @@ estimates were read.
 
 ## Data Sources
 
-Four CMS public use files were used, all aggregate at the ACO or county level:[@dataacos; @dataresults; @datacounty;
+Four CMS public use datasets were used, all aggregate at the ACO or county level:[@dataacos; @dataresults; @datacounty;
 @dataassigned] MSSP ACO enrollment files for PY2016-PY2024, performance-year (PY) financial and quality results for
 PY2016-PY2024 (PY2023 and PY2024 only for the spending analysis), county-level expenditure and risk-score data on
 assignable beneficiaries for 2019-2021, and counts of ACO-assigned beneficiaries by county for 2021. The 40 files
 downloaded on October 22, 2026, each recorded with its size, SHA-256 hash and URL, also include files kept from the
-design stage that no analysis reads; an archived copy of the snapshot is on OSF.[@osfproject] Cells with counts of 1
-to 10 are suppressed in these files.[@suppression]
+design stage that no analysis reads; an archived copy of the snapshot is on OSF.[@osfproject] Values based on few beneficiaries are hidden in the results and county files, consistent with CMS's policy of suppressing counts of 1 to 10.[@suppression]
 
 ## Population and Groups
 
@@ -227,13 +222,11 @@ agreement) was fit in PyMC[@pymc2023] with the No-U-Turn sampler[@hoffman2014] (
 retained draws, target acceptance 0.95). Continuous predictors were centered and divided by 2 SD[@gelman2008] and binary
 predictors centered, so each coefficient is a log-odds difference per 2 SD or per category; coefficients had Normal(0,
 1) priors. The own-spending component entered as a latent true value observed with normal error, with the error SD
-fixed by the validation step. Convergence required $\hat{R} \le 1.01$, bulk and tail effective sample sizes of at
-least 400 and no divergences,[@vehtari2021] with one registered rerun; a Firth penalized regression[@firth1993;
+fixed by the validation step. Convergence required, for every coefficient, $\hat{R} \le 1.01$ and bulk and tail effective sample sizes of at least 400,[@vehtari2021] and no divergent transitions, with one registered rerun; a Firth penalized regression[@firth1993;
 @firthmodels] would have decided H3 had the model not converged. Because shuffling labels in a multi-predictor model
 tests the joint null, each core predictor was tested by direct simulation under the reduced model: the model without
 that predictor was fit, 10,000 outcome vectors were simulated from its posterior, the full model was refit to each,
-and the observed coefficient was compared with that null distribution. A fit with Student-t(3, 0, 2.5) priors, after
-Gelman and colleagues,[@gelmanprior2008] was the registered sensitivity analysis, with any differing core conclusion to
+and the observed coefficient was compared with that null distribution. A fit with Student-t(3, 0, 2.5) priors, the scale Gelman and colleagues recommend for scaled predictors but with 3 rather than 1 degree of freedom,[@gelmanprior2008] was the registered sensitivity analysis, with any differing core conclusion to
 be flagged.
 
 ### Spending After Renewal (H4)
@@ -247,8 +240,7 @@ and Sant'Anna.[@callaway2021] With one pre-period change (PY2020 to PY2021, both
 treated ACOs, a nonsignificant pre-trend test is weak evidence of parallel trends,[@roth2022] so the plan replaced it
 with an equivalence condition in the spirit of equivalence testing:[@lakens2017] H4 would be read as an effect only
 if the larger absolute bound of the pre-trend CrI, scaled by the mean distance between period midpoints, was smaller
-than the absolute H4 estimate. A trend-adjusted estimate (the pre-period slope carried forward, in the spirit of
-Rambachan and Roth[@rambachan2023]) and risk-adjusted, balanced-panel, propensity-weighted[@rosenbaum1983] and
+than the absolute H4 estimate. A trend-adjusted estimate (the pre-period slope carried forward, the exactly linear special case of the restrictions of Rambachan and Roth[@rambachan2023]) and risk-adjusted, balanced-panel, propensity-score-weighted[@rosenbaum1983; @callaway2021] and
 single-cohort estimates were reported beside it.
 
 ### Power
@@ -273,7 +265,7 @@ registered, there is one primary test, and the 3 H3 tests and the H4 test are no
 Reported beside the registered methods and not
 used for decisions: covariate-adjusted estimates for H1, H2a and H2b from robust Bayesian linear regressions
 (Student-t errors on the standardized variable, Normal(0, 1) priors) on early renewal and cohort, or cohort, track,
-level and size; Welch *t* tests,[@welch1947] ordinary least squares with HC2 errors[@mackinnon1985] and
+level and size; Welch *t* tests in SciPy;[@welch1947; @scipy2020] ordinary least squares with HC2 errors[@mackinnon1985] and
 maximum-likelihood logistic regression in statsmodels;[@statsmodels2010] 2-way fixed effects with an event study and
 errors clustered by ACO for H4; and the registered robustness checks: differences in medians, the January 1, 2020
 cohort alone, PY2021 savings rates, the Firth model, benchmark years 2-3 only, no measurement-error model, complete
@@ -462,21 +454,19 @@ drop of more than about 4% or a rise of more than about 2.5%.
 ## Comparison With Prior Work
 
 The primary result extends to a new decision the selection described in the Background: providers with low
-spending for their region joining,[@lyu2023] ACOs whose benchmarks fell leaving,[@chen2025] and ACOs with a positive
+spending for their region joining,[@lyu2023] ACOs whose effective benchmarks fell leaving,[@chen2025] and ACOs with a positive
 regional adjustment about 70% less likely to exit.[@cappello2026] Here the choice is when to reset rather than whether to join or leave,
 and early renewers had, on average, more room under their regions' spending, the position associated with joining and
-staying. In a voluntary Medicare bundled-payment program, hospitals that could gain without changing their behavior
-were more likely to join, which the authors called selection on levels;[@einav2022] early renewal shows selection on a
+staying. In a Medicare bundled-payment program made voluntary for half of its hospitals after 2 mandatory years, hospitals that could gain without changing their behavior were more likely to opt in, which the authors called selection on levels;[@einav2022] early renewal shows selection on a
 similar position, though the gain that most early renewers took appears to have been the sharing rate rather than a
-higher benchmark. The industry report on the same cohort[@milliman2024] is
-consistent with the higher prior savings rates and the BASIC-level association here. Beyond that report, this study rebuilt the reset benchmark and validated it
+higher benchmark. The industry report on the same cohort[@milliman2024] is consistent with the higher prior savings rates here; it places the earlier incumbents among the early renewers at BASIC levels C to E before they renewed but does not compare levels with stayers. Beyond that report, this study rebuilt the reset benchmark and validated it
 against CMS's, separated its own-spending and regional parts, modeled the decision within the BASIC track and followed
 spending afterward, under a preregistered plan. The finding that early renewers were savers also fits reports that ACOs earning bonuses survived longer in the
 program[@bleser2019] and, with borderline precision, that ACOs that had achieved savings were more likely to stay
 after the 2019 rules.[@ying2023] The same success, however, meant that the own-spending part of a reset would
 have cut their benchmarks.
 That the size of the regional difference doubled without case-mix adjustment is consistent with evidence that
-comparisons of ACOs with their regions depend heavily on risk adjustment.[@rose2016] The concern that rebasing rewards
+differences between ACOs and their regions are sensitive to risk adjustment.[@rose2016] The concern that rebasing rewards
 higher spending before a new agreement[@douven2015] could be neither confirmed nor excluded here, and the costs to
 Medicare of early renewal, which earlier work estimated for departures,[@moloci2021] were not estimated.
 
@@ -499,7 +489,7 @@ how CMS described it: a route to the ENHANCED track for ACOs already beating the
 average raise those benchmarks. They do not suggest that ACOs used the option to time resets for a higher benchmark.
 The rules have since changed. For agreement periods beginning January 1, 2024 or later, an ACO that saved in its
 benchmark years can receive a prior savings adjustment, and its benchmark gets the higher of that adjustment and the
-regional adjustment; negative regional adjustments are partly offset; and the annual update blends in a fixed
+regional adjustment; a regional adjustment that is negative overall is not applied, and negative amounts within a positive one are reduced for ACOs with more dually eligible or higher-risk beneficiaries; and the annual update blends in a fixed
 projected trend.[@cfr2024] A reset now costs a saving ACO less, and saving ACOs are the ones that renewed early, so
 the option may become more attractive to them and its cost to Medicare may change; its use is worth monitoring, and
 the 34 stayers that renewed early into 2024 agreements are a first sample. Two questions remain open: what early
@@ -578,11 +568,10 @@ Not applicable.
 
 The datasets generated and analyzed during the current study are available in the Zenodo repository[@paperrepo] and the
 OSF project.[@osfproject] All data are public CMS files.[@dataacos; @dataresults; @datacounty; @dataassigned] The list of the 40 files
-downloaded, with sizes, SHA-256 hashes and URLs, and a script that downloads and verifies them are in the study
-repository;[@code] an archived copy of the snapshot and the results notebook exports are in the OSF
+downloaded, with sizes, SHA-256 hashes and URLs, is in the study repository at the registered commit,[@code] and a script that downloads and verifies them is in the repository at a later commit;[@coderepo] an archived copy of the snapshot and the results notebook exports are in the OSF
 project.[@osfproject] The committed results files, from which every table and figure here is generated, are in the study repository and in this manuscript's repository, archived on Zenodo with the post hoc
 scripts.[@paperrepo] The registered
-analysis code (commit a4064f5), its tests and step-by-step instructions to rerun and adapt the analysis are in the study repository.[@code] A longer account
+analysis code (commit a4064f5) and its tests are in the study repository,[@code] and step-by-step instructions to rerun and adapt the analysis are in its README at the later commit.[@coderepo] A longer account
 of the study for a general audience was published online.[@post]
 
 ## Competing interests

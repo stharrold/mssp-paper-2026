@@ -58,6 +58,7 @@ DOIS = {
     # Software with a citable paper
     "pymc2023": "10.7717/peerj-cs.1516",
     "numpy2020": "10.1038/s41586-020-2649-2",
+    "scipy2020": "10.1038/s41592-019-0686-2",
     "duckdb2019": "10.1145/3299869.3320212",
     "arviz2019": "10.21105/joss.01143",
     "statsmodels2010": "10.25080/Majora-92bf1922-011",

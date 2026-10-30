@@ -13,3 +13,5 @@ standards/bmc-hsr/*.md
 # Reviewer nominations name third parties: kept local, never published
 submission/ijmr/suggested-reviewers.md
 submission/ijmr/reviewer_candidates_pubmed.json
+# Reference audit evidence: publishers' text, summarized in references/AUDIT.md
+references/audit/
