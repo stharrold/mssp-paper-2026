@@ -67,7 +67,9 @@ def curl(url: str, dest: Path | None = None, timeout: int = 45) -> tuple[int, st
     target = dest or OUT / ".last-fetch"
     target.parent.mkdir(parents=True, exist_ok=True)
     fmt = "%{http_code}\n%{url_effective}\n%{content_type}"
-    command = ["curl", "-s", "-L", "--compressed", "-A", USER_AGENT, "--max-time", str(timeout), "-o", str(target), "-w", fmt, url]
+    # URLs can come from third-party APIs: web schemes only, also on redirects, and never read as a curl option
+    protocols = ["--proto", "=http,https", "--proto-redir", "=http,https"]
+    command = ["curl", "-s", "-L", "--compressed", *protocols, "-A", USER_AGENT, "--max-time", str(timeout), "-o", str(target), "-w", fmt, "--url", url]
     out = subprocess.run(command, capture_output=True, text=True)
     parts = out.stdout.split("\n")
     status = int(parts[0]) if parts and parts[0].isdigit() else 0
