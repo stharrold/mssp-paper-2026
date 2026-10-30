@@ -2,7 +2,7 @@
 
 Read on 2026-10-29 and saved on 2026-10-30 in a browser, because Springer's pages refuse scripted downloads. Local
 Markdown copies are made by `scripts/import_standards.py` and kept out of git because the pages are the publishers'
-(`bmc-hsr_*.md`, `bmc_*.md`, `springernature_*.md` here; the saved bundles are in the private repository). What follows
+(`bmc-hsr_*.md`, `bmc_*.md`, `springernature_*.md` here, as for `standards/jmir/`; the saved bundles are also local). What follows
 is a summary in this repository's words of what the package relies on; the journal's pages are the authority.
 
 | Page | URL |

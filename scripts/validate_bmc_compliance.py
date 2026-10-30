@@ -12,7 +12,7 @@ Checks:
 - No web links in the text from Background to Conclusions (URLs belong in the reference list)
 - Figure and table titles (first sentence of the caption) at most 15 words; figures and additional files numbered in
   order of first mention; every additional file cited in the text is listed under "Additional files"
-- No commas in numbers in the manuscript's tables; no "Multimedia Appendix" left over from the JMIR version; the BMC
+- No decimal commas in the manuscript's tables; no "Multimedia Appendix" left over from the JMIR version; the BMC
   reference style in metadata.yaml
 - If paper.docx exists: line numbering and a footer (page numbers) in its section properties; no page breaks or table
   shading
@@ -107,8 +107,8 @@ def check_figures_tables(text: str, root: Path) -> list[str]:
         if first_sentence_words(cap) > TITLE_MAX:
             problems.append(f"Figure {n} title is over {TITLE_MAX} words")
     included = "\n".join((root / f).read_text() for f in re.findall(r"\{\{include (\S+)\}\}", text) if (root / f).is_file())
-    if re.search(r"\d,\d{3}\b", included):
-        problems.append("a table uses a comma in a number")
+    if re.search(r"\b\d+,\d{1,2}\b", included):  # BMC's rule on commas in numbers; thousands separators are kept, as in the text
+        problems.append("a table uses a decimal comma")
     for n, cap in re.findall(r"^: Table (\d+)\. (.+)$", included + "\n" + text, re.M):
         if first_sentence_words(cap) > TITLE_MAX:
             problems.append(f"Table {n} title is over {TITLE_MAX} words")
