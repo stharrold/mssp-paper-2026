@@ -28,7 +28,8 @@ def section(xml: str) -> str:
     """Continuous line numbers and the page-number footer in the (only) section."""
     sect = re.search(r"<w:sectPr>.*?</w:sectPr>", xml, re.S).group(0)
     new = sect.replace("<w:sectPr>", '<w:sectPr><w:footerReference w:type="default" r:id="rIdBmcFooter"/>', 1)
-    new = new.replace("<w:pgMar", '<w:lnNumType w:countBy="1" w:restart="continuous"/><w:pgMar', 1)
+    # CT_SectPr is an ordered sequence: lnNumType comes after pgMar, or Word may ignore it or refuse the file
+    new = re.sub(r"(<w:pgMar\b[^>]*/>)", r'\1<w:lnNumType w:countBy="1" w:restart="continuous"/>', new, count=1)
     if 'xmlns:r="' not in xml[:2000]:
         xml = xml.replace("<w:document ", f'<w:document xmlns:r="{R}" ', 1)
     return xml.replace(sect, new)

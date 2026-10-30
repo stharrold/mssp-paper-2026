@@ -141,6 +141,8 @@ def check_docx(path: Path) -> list[str]:
     problems = []
     if not sect or "<w:lnNumType" not in sect[-1]:
         problems.append(f"{path.name}: no line numbering (rebuild with reference-bmc.docx)")
+    elif sect[-1].index("<w:lnNumType") < sect[-1].index("<w:pgMar"):
+        problems.append(f"{path.name}: line numbering is before the page margins, out of order for Word")
     if not sect or "<w:footerReference" not in sect[-1]:
         problems.append(f"{path.name}: no footer with page numbers")
     if re.search(r'w:type="page"|<w:pageBreakBefore', xml):

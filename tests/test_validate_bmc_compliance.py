@@ -1,5 +1,6 @@
 """BMC Health Services Research checks (scripts/validate_bmc_compliance.py): on small synthetic manuscripts, then on paper.md."""
 
+import zipfile
 from pathlib import Path
 
 import validate_bmc_compliance as v
@@ -138,3 +139,17 @@ def test_the_paper_meets_the_checks():
     text = (ROOT / "paper.md").read_text()
     docx = ROOT / "paper.docx"
     assert v.validate(text, ROOT, docx) == []
+
+
+def test_docx_line_numbering_follows_page_margins(tmp_path):
+    def docx(sect):
+        path = tmp_path / "paper.docx"
+        with zipfile.ZipFile(path, "w") as z:
+            z.writestr("word/document.xml", f"<w:body><w:sectPr>{sect}</w:sectPr></w:body>")
+        return path
+
+    footer = '<w:footerReference w:type="default"/>'
+    good = docx(f'{footer}<w:pgMar w:top="1"/><w:lnNumType w:countBy="1"/>')
+    assert v.check_docx(good) == []
+    bad = docx(f'{footer}<w:lnNumType w:countBy="1"/><w:pgMar w:top="1"/>')
+    assert any("out of order" in p for p in v.check_docx(bad))
