@@ -66,7 +66,8 @@ may differ from this list.
   `v1.3.0` only in Availability of data and materials: the Zenodo record, the later repository commit and the post are
   linked inline, as the form's Data Availability text already had them, so those 3 entries leave the reference list (67
   to 64; no other number changes). In the form, the STROBE checklist moves to Related Files and the author's
-  institution changes from "No affiliation" to "Independent Researcher". Upload pending; cut a new release once
-  the upload is done. The additional files and the form's Data Availability text do not change.
+  institution changes from "No affiliation" to "Independent Researcher". Resubmitted 2026-11-01, frozen at release
+  `v1.3.1`. The additional files and the form's Data Availability text do not change. Related files are not published,
+  so the manuscript's "Additional file 1" may need changing at proofs.
 - A decision appears here only as its outcome; editors' reasons and reviews stay private until the journal publishes
   them.

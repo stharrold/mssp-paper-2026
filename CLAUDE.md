@@ -13,7 +13,7 @@ Guidance for AI coding agents working in this repository. Read `README.md` first
 - **Stage explicit paths** (never `git add -A`); `main` is public.
 - **What was submitted is frozen by tag:** `medrxiv-v1` (declined by medRxiv 2026-10-28, never posted) and release
   `v1.2.0` (i-JMR ms 115640, not accepted 2026-10-29), and release `v1.3.0` (BMC Health Services Research, submitted
-  2026-10-30). Later changes go in a new release.
+  2026-10-30), and release `v1.3.1` (the same submission with technical amendments, 2026-11-01). Later changes go in a new release.
 - **Private material lives in `../mssp-paper-2026-private`** (local git only, no remote): journal correspondence as
   Markdown exports (`correspondence/YYYYMMDD_Email_<Venue>-<ms>_<Topic>.md`), peer reviews, and the suggested-reviewer
   list. Never commit reviewer names, reviews or emails here. A journal decision appears here only as its outcome

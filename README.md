@@ -2,7 +2,7 @@
 
 Manuscript and additional files for the preregistered study of early renewal in the Medicare Shared Savings Program.
 The current source is formatted as a Research article for *BMC Health Services Research*, where it was submitted on
-2026-10-30. Earlier versions went to medRxiv in a journal-agnostic format (tag `medrxiv-v1`), which declined it because
+2026-10-30 and resubmitted with technical amendments on 2026-11-01. Earlier versions went to medRxiv in a journal-agnostic format (tag `medrxiv-v1`), which declined it because
 medRxiv requires an organizational affiliation, so it was never posted, and to the *Interactive Journal of Medical
 Research* (i-JMR) as a JMIR Original Paper (release `v1.2.0`), which did not accept it (2026-10-29).
 
@@ -17,7 +17,8 @@ Research* (i-JMR) as a JMIR Original Paper (release `v1.2.0`), which did not acc
 |---|---|---|---|---|---|
 | medRxiv | 1 | 2026-10-27 | MEDRXIV/2026/366643; **declined 2026-10-28** (medRxiv requires an organizational affiliation; not posted) | `paper.pdf` 7d111cbdef3672f2..., `supplement.pdf` d65212577e6d9809... | `dcbad91` (tag `medrxiv-v1`) |
 | i-JMR | 1 | 2026-10-28 | ms 115640 (Original Paper, Health Services Research); **not accepted 2026-10-29** | `paper.docx` cafcdb715483edb1..., `supplement.docx` 33f38d7d52d3da68..., `strobe.docx` 373b584c088bef1a... | release v1.2.0 ([doi:10.5281/zenodo.23740845](https://doi.org/10.5281/zenodo.23740845)) |
-| BMC Health Services Research | 1 | 2026-10-30 | Research article, collection "Implementing value-based care payment models in diverse health systems"; submission 4da9e43f-ce07-405e-b4d5-e76ae011bc7c; **technical amendments requested 2026-11-01**, amended `paper.docx` 723b0df08b3f4fae... prepared, upload pending | `paper.docx` 60231bf5716cfb01..., Additional file 1 d3c7ca188b52cdff..., Additional file 2 c0eda0829c9dc1c3..., `cover-letter.docx` 21f4686ed6f1288c... | release `v1.3.0` |
+| BMC Health Services Research | 1 | 2026-10-30 | Research article, collection "Implementing value-based care payment models in diverse health systems"; submission 4da9e43f-ce07-405e-b4d5-e76ae011bc7c; technical amendments requested 2026-11-01 | `paper.docx` 60231bf5716cfb01..., Additional file 1 d3c7ca188b52cdff..., Additional file 2 c0eda0829c9dc1c3..., `cover-letter.docx` 21f4686ed6f1288c... | release `v1.3.0` |
+| BMC Health Services Research | 1, amended | 2026-11-01 | the same submission, resubmitted with the technical amendments; under consideration | `paper.docx` 723b0df08b3f4fae...; the other files as above | release `v1.3.1` |
 
 JMIR Preprints was opted into at the i-JMR submission, but no preprint was posted. At BMC the author opted into Research
 Square's In Review; a preprint is posted only after the journal's quality check and Research Square's screening, and none
