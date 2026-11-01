@@ -34,3 +34,6 @@ methods), `paperrepo` (the Availability sentence is true of Zenodo and OSF read 
 only Level E or ENHANCED" is the outer limit; some ACOs had only ENHANCED).
 
 `registration`: "before any outcome value was read" is the author's attestation; the commit order is consistent with it.
+
+Since this audit (2026-11-01, BMC's technical amendments): `paperrepo`, `coderepo` and `post` are inline links in
+Availability of data and materials, not numbered references, so they are also no longer in the reference list.

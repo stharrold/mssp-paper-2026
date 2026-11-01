@@ -566,13 +566,13 @@ Not applicable.
 
 ## Availability of data and materials
 
-The datasets generated and analyzed during the current study are available in the Zenodo repository[@paperrepo] and the
+The datasets generated and analyzed during the current study are available in the Zenodo repository (<https://doi.org/10.5281/zenodo.23737045>) and the
 OSF project.[@osfproject] All data are public CMS files.[@dataacos; @dataresults; @datacounty; @dataassigned] The list of the 40 files
-downloaded, with sizes, SHA-256 hashes and URLs, is in the study repository at the registered commit,[@code] and a script that downloads and verifies them is in the repository at a later commit;[@coderepo] an archived copy of the snapshot and the results notebook exports are in the OSF
+downloaded, with sizes, SHA-256 hashes and URLs, is in the study repository at the registered commit,[@code] and a script that downloads and verifies them is in the repository at a later commit (<https://github.com/stharrold/stharrold.github.io/tree/a0ef82f5c63bf1c0f26e88597355e8d7afaa9095/analysis/mssp-benchmark-ratchet>); an archived copy of the snapshot and the results notebook exports are in the OSF
 project.[@osfproject] The committed results files, from which every table and figure here is generated, are in the study repository and in this manuscript's repository, archived on Zenodo with the post hoc
-scripts.[@paperrepo] The registered
-analysis code (commit a4064f5) and its tests are in the study repository,[@code] and step-by-step instructions to rerun and adapt the analysis are in its README at the later commit.[@coderepo] A longer account
-of the study for a general audience was published online.[@post]
+scripts. The registered
+analysis code (commit a4064f5) and its tests are in the study repository,[@code] and step-by-step instructions to rerun and adapt the analysis are in its README at the later commit. A longer account
+of the study for a general audience was published online (<https://stharrold.github.io/20261027-preregistered-mssp-early-renewal.html>).
 
 ## Competing interests
 

@@ -62,5 +62,11 @@ may differ from this list.
   confirmation email in `../mssp-paper-2026-private/correspondence/`. Add the manuscript number and the preprint DOI when
   they are assigned.
 - What was submitted is release `v1.3.0`, which Zenodo archives.
+- Technical amendments were requested on 2026-11-01. The amended `paper.docx` (sha256 723b0df08b3f4fae...) differs from
+  `v1.3.0` only in Availability of data and materials: the Zenodo record, the later repository commit and the post are
+  linked inline, as the form's Data Availability text already had them, so those 3 entries leave the reference list (67
+  to 64; no other number changes). In the form, the STROBE checklist moves to Related Files and the author's
+  institution changes from "No affiliation" to "Independent Researcher". Upload pending; cut a new release once
+  the upload is done. The additional files and the form's Data Availability text do not change.
 - A decision appears here only as its outcome; editors' reasons and reviews stay private until the journal publishes
   them.
