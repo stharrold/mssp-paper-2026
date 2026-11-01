@@ -13,7 +13,8 @@ Guidance for AI coding agents working in this repository. Read `README.md` first
 - **Stage explicit paths** (never `git add -A`); `main` is public.
 - **What was submitted is frozen by tag:** `medrxiv-v1` (declined by medRxiv 2026-10-28, never posted) and release
   `v1.2.0` (i-JMR ms 115640, not accepted 2026-10-29), and release `v1.3.0` (BMC Health Services Research, submitted
-  2026-10-30), and release `v1.3.1` (the same submission with technical amendments, 2026-11-01). Later changes go in a new release.
+  2026-10-30), and release `v1.3.1` (the same submission with technical amendments, 2026-11-01). Later changes go in a
+  new release.
 - **Private material lives in `../mssp-paper-2026-private`** (local git only, no remote): journal correspondence as
   Markdown exports (`correspondence/YYYYMMDD_Email_<Venue>-<ms>_<Topic>.md`), peer reviews, and the suggested-reviewer
   list. Never commit reviewer names, reviews or emails here. A journal decision appears here only as its outcome
@@ -40,15 +41,26 @@ python3 scripts/audit_references.py  # evidence per reference in references/audi
   PDF`; the call needs the sandbox off), then `pdftoppm` the table pages. Pages ignores
   keep-with-next before a long table, so a stranded caption there is not a Word problem.
 - **Rebuilds change DOCX bytes but not content** (timestamps). Compare `word/document.xml` hashes, and restore the
-  committed files before a release if only metadata changed.
+  committed files before a release if only metadata changed. To prove what an amendment touched, `diff` the
+  `pandoc <file>.docx -t plain --wrap=none` text of `git show <tag>:paper.docx` and the new file.
 - **Zenodo:** archives on a published GitHub release (`GITHUB_TOKEN= gh release create`), not on a tag push. Bump
-  `CITATION.cff`, `pyproject.toml` and `uv lock` first; verify with the Zenodo API (it may answer scripts with 403: `curl -L`
+  `CITATION.cff`, `pyproject.toml` and `uv lock` first, and run `uvx cffconvert --validate -i CITATION.cff` (`cff-version`
+  is the schema, 1.2.0, not the release; no test covers it). Verify with the Zenodo API (it may answer scripts with 403: `curl -L`
   the concept DOI for the new record, then `fetch` the API from a Chrome tab). Cite the concept DOI
   10.5281/zenodo.23737045. A DOI exists only after the first release, so citing it in the paper took a second release.
 - **BMC form (Springer Nature):** the pages are Files, Details, Authors, Declarations, Review. Figures go under "Upload
   figure(s)", not supplementary material, and additional files keep the names they are uploaded with. Extraction from the
-  manuscript left the title empty and doubled the colon in "Trial registration::", so read Details back. "No affiliation"
-  is an option. Declaration text replaces the manuscript's and is what gets published, so paste the manuscript's wording.
+  manuscript left the title empty and doubled the colon in "Trial registration::", so read Details back, also after
+  replacing the manuscript (intact on 2026-11-01). Declaration text replaces the manuscript's and is what gets published,
+  so paste the manuscript's wording. Supplementary material is published; Related files are not.
+- **BMC technical check:** "No affiliation" was refused: on Authors, add "Independent Researcher" as an institution (name,
+  country, city, Save), then pick it as Primary affiliation. The STROBE checklist belongs in Related files. References
+  cited only in Availability of data and materials count as uncited (one cited only under Ethics passed), so link
+  those inline there. Numbers follow first citation: dropping the last entries renumbers nothing, citing them earlier would.
+- **Checking the BMC form before Submit:** on Files, hash each `a[data-object="file-name"]` in the page (`fetch`,
+  `crypto.subtle`) against the local file. Other "Download file" links have empty hrefs and return the page, and the
+  figures' links sit in a hidden section; the cover letter's link is on Review. `javascript_tool` truncates at about
+  1,000 characters. Diff `pdftotext` of the saved Review page against the last one to catch unrequested changes.
 - **Reading the Word file:** Pages shows no line numbers, and neither Word nor LibreOffice is installed here, so inspect
   `w:sectPr` too: `lnNumType` must follow `pgMar`, which `validate_bmc_compliance.py` checks.
 - **Reference audit:** `scripts/audit_references.py` (`references/AUDIT.md`) covers citing sentences only; check claims in
