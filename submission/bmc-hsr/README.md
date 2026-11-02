@@ -70,5 +70,6 @@ may differ from this list.
   institution changes from "No affiliation" to "Independent Researcher". Resubmitted 2026-11-01, frozen at release
   `v1.3.1`. The additional files and the form's Data Availability text do not change. Related files are not published,
   so the manuscript's "Additional file 1" may need changing at proofs.
+- Technical check passed 2026-11-02; the manuscript is in peer review.
 - A decision appears here only as its outcome; editors' reasons and reviews stay private until the journal publishes
   them.
