@@ -63,6 +63,7 @@ figures that are not study results against `data/number-allowlist.tsv`, which gi
 | `references/other.bib` | References without a DOI (regulations, CMS datasets, software) |
 | `references/AUDIT.md` | Whether every reference resolves, is the named work and supports its citing sentences (evidence, made by `scripts/audit_references.py`, is not in git) |
 | `research/` | The PubMed literature search: script, queries, records and abstracts |
+| `reviews/` | Critical assessments of drafts that the author commissioned, and the responses to them (a journal's reviews are not kept here) |
 | `scripts/check_numbers.py` | Checks every number and interval in the prose against the results |
 | `scripts/validate_bmc_compliance.py` | BMC research-article checks, including line and page numbers in `paper.docx` |
 | `scripts/bmc_fields.py` | Writes BMC's plain-text fields, figure uploads, named additional files and `cover-letter.docx` into `submission/bmc-hsr/` |
