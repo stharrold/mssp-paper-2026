@@ -68,9 +68,10 @@ python3 scripts/audit_references.py  # evidence per reference in references/audi
 - **Independent assessments:** `reviews/YYYY-MM-DD-critical-assessment.md`, answered in `YYYY-MM-DD-response.md`. The
   author commissions them, so the rule against committing reviews (a journal's) does not cover them. Use a fresh agent,
   not a fork, and bar it from `reviews/`, `references/AUDIT.md`, `references/audit/`, the study's `BUILD-NOTES.md`, the
-  private repository and git history; it still sees recent commit subjects in its session context. An assessment is
-  committed with its response and the changes it led to (as on 2026-10-27), and every committed file enters the next
-  Zenodo release; until then it stays untracked. Numbers it recomputes are scratch until rerun as post hoc work.
+  private repository and git history; it still sees recent commit subjects in its session context. When to commit
+  one is the author's call, since every committed file enters the next Zenodo release: the 2026-10-27 assessment went in
+  with its response and the changes it led to, the 2026-11-10 one the same day with its revision plan, before any
+  response. Numbers it recomputes are scratch until rerun as post hoc work.
 - **Publisher copies stay mechanical:** full texts and screenshots become text by `pdftotext` or tesseract, never by
   transcribing them, and stay out of git. Crop screenshots to the page first: they can show the browser's other tabs.
 - **JMIR form:** text fields as ASCII; the AI declaration is checkboxes only (no statement box), so the summary went in
